@@ -1,0 +1,11 @@
+{
+	"title": "Boston Tea Party",
+	"desc": "Find out if you are related to someone who participated in the Boston Tea Party.",
+	"banner": "https://cousin.surge.sh/teaparty.webp",
+	"backgroundColor": "#FFFFFF",
+	"textColor": "#000000",
+	"people": [
+			{ "pid": "MT4Q-VSB", "name": "Phineas Stearns", "desc": "Participated in the Boston Tea Party. Soldier in the American Revolutionary Army at Lake George, and the leader of a company of militiamen at Dorchester Heights during the Siege of Boston. His efforts in the Battles of Lexington and Concord earned him the rank of captain." },
+			{ "pid": "LHL1-TRK", "name": "George Robert Twelves Hewes", "desc": "Participant in the political protests in Boston at the onset of the American Revolution, and one of the last survivors of the Boston Tea Party and the Boston Massacre. Later he fought in the American Revolutionary War as a militiaman and privateer." }
+	]
+}

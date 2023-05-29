@@ -1,0 +1,32 @@
+{
+	"title": "Mayflower Passengers",
+	"desc": "The Mayflower made its trans-Atlantic voyage of September 6 - November 9, 1620, the majority of them becoming the settlers of Plymouth Colony in Massachusetts. Find out if you are related to a passenger of the Mayflower. ",
+	"banner": "https://cousin.surge.sh/mayflower.webp",
+	"backgroundColor": "#FFFFFF",
+	"textColor": "#000000",
+	"people": [
+			{ "pid": "LQR9-JCJ", "name": "John Alden", "desc": "Responsible for maintaining the ship's barrels, known as hogsheads, which were critical to the passengers' survival and held the only source of food and drink while at sea. Age 21." },
+			{ "pid": "LY9K-M99", "name": "Isaac Allerton", "desc": "Signatory to the Mayflower Compact. Was censured by the colony government and ousted from the colony. He later became a well-to-do businessman." },
+			{ "pid": "LYTM-KVW", "name": "John Billington", "desc": "Signer of the Mayflower Compact." },
+			{ "pid": "9HCJ-14M", "name": "William Bradford", "desc": "Signatory to the Mayflower Compact and went on to serve as Governor of the Plymouth Colony." },
+			{ "pid": "LH2V-RD6", "name": "William Brewster", "desc": "He became senior elder and the leader of Plymouth Colony, by virtue of his education and existing stature." },
+			{ "pid": "LTF2-W8G", "name": "Peter Brown", "desc": "Signatory of the Mayflower Compact." },
+			{ "pid": "LYJD-72P", "name": "James Chilton", "desc": "Oldest person on board. Signer of the Mayflower Compact. One of the earliest to die that winter, perishing within the following month." },
+			{ "pid": "LZ2F-MM7", "name": "Francis Cooke", "desc": "Founding member of the Massachusetts Bay Colony, and a signer of the Mayflower Compact." },
+			{ "pid": "KH2Z-65D", "name": "Edward Doty", "desc": "Servant to Stephen Hopkins. Age 21." },
+			{ "pid": "LZPF-LR2", "name": "Francic Eaton", "desc": "Mayflower ship's carpenter." },
+			{ "pid": "LZLK-XYP", "name": "Edward Fuller", "desc": "Perished with his wife soon after the passengers came ashore to their new settlement at Plymouth." },
+			{ "pid": "LZV2-D62", "name": "Samuel Fuller", "desc": "Became a respected church deacon and the physician for Plymouth Colony." },
+			{ "pid": "LVQ1-FMH", "name": "Stephen Hopkins", "desc": "" },
+			{ "pid": "LZK8-1X7", "name": "John Howland", "desc": "" },
+			{ "pid": "LB5Q-Y42", "name": "Richard More", "desc": "" },
+			{ "pid": "LYXM-V3F", "name": "Degory Priest", "desc": "" },
+			{ "pid": "LZG9-SMC", "name": "Thomas Rogers", "desc": "" },
+			{ "pid": "LCJG-5B8", "name": "Henry Samson", "desc": "" },
+			{ "pid": "LVCG-3JV", "name": "Myles Standish", "desc": "" },
+			{ "pid": "KXML-7XC", "name": "Richard Warren", "desc": "" },
+			{ "pid": "D6XT-GJT", "name": "William White", "desc": "" },
+			{ "pid": "LYCF-NLK", "name": "Edward Winslow", "desc": "" },
+			{ "pid": "9V4Z-GD1", "name": "George Soule", "desc": "" }
+	]
+}

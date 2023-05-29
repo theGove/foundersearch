@@ -1,0 +1,38 @@
+{
+	"title": "Famous Actors",
+	"desc": "Find out if you are related to a famous actor.",
+	"banner": "https://cousin.surge.sh/actors.webp",
+	"backgroundColor": "#000000",
+	"textColor": "#CCCCCC",
+	"people": [
+			{ "pid": "KZSP-SKR", "name": "James Stewart", "desc": "" },
+			{ "pid": "LZTB-DMS", "name": "John Wayne", "desc": "" },
+			{ "pid": "KGC7-VSF", "name": "John Candy", "desc": "" },
+			{ "pid": "LNSV-WKS", "name": "Robin Williams", "desc": "" },
+			{ "pid": "L71K-6KZ", "name": "Lucille Ball", "desc": "" },
+			{ "pid": "LZ4K-B6H", "name": "Humphry Bogart", "desc": "" },
+			{ "pid": "LZV7-BTC", "name": "Bruce Lee", "desc": "" },
+			{ "pid": "G334-8CZ", "name": "Sean Connery", "desc": "" },
+			{ "pid": "LZNH-MKZ", "name": "Christofer Reeve", "desc": "" },
+			{ "pid": "LCC1-LQ3", "name": "Marilyn Monroe", "desc": "" },
+			{ "pid": "LVJH-S16", "name": "Judy Garland", "desc": "" },
+			{ "pid": "LRDY-GTC", "name": "Mary Tyler Moore", "desc": "" },
+			{ "pid": "LK6V-JTK", "name": "Farrah Fawcett", "desc": "" },
+			{ "pid": "LX3J-M1L", "name": "Andy Griffith", "desc": "" },
+			{ "pid": "L82N-H8V", "name": "Bob Hope", "desc": "" },
+			{ "pid": "LHG4-KWB", "name": "Don Knotts", "desc": "" },
+			{ "pid": "L4QL-VWQ", "name": "Bette Davis", "desc": "" },
+			{ "pid": "L66C-WGD", "name": "Shirley Temple", "desc": "" },
+			{ "pid": "LNSV-WKS", "name": "Robin Williams", "desc": "" },
+			{ "pid": "KPHM-W3W", "name": "Audrey Hepburn", "desc": "" },
+			{ "pid": "GNRT-MDJ", "name": "Raquel Welch", "desc": "" },
+			{ "pid": "L2TT-L7R", "name": "Patty Duke", "desc": "Mother of Sean Astin" },
+
+
+			{ "pid": "", "name": "Dick Van Dyke", "desc": "" },
+			{ "pid": "", "name": "Julie Andrews", "desc": "" },
+			{ "pid": "", "name": "James Earl Jones", "desc": "" },
+			{ "pid": "", "name": "Clinton Eastwood", "desc": "" },
+			{ "pid": "", "name": "Carol Burnett", "desc": "" }
+	]
+}
