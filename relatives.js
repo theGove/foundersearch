@@ -30,7 +30,7 @@ async function start_me_up() {
 
     const ancestors=get_remembered_ancestors()
     console.log("ancestors",ancestors)
-    if(!ancestors){
+    if(Object.keys(ancestors).length===0){
         location.href = `chf.html?set=${set}`
         return
     }
