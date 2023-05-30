@@ -29,11 +29,17 @@ async function start_me_up() {
         $('.search').hide();
     }
 
+    // list remembered
+    const ancestors=get_remembered_ancestors()
+
+
     // Tree Search
     $('.search').click(function() {
         $('.results, .related').empty();
-        $('.searchInstructions').show();
-
+        $('.result-list').empty();
+        $('').show();
+        $('.ancestor-list').html("Select your ancestor below");
+        const ancestors=get_remembered_ancestors()
         URL = "q.surname=" + $("[name='surname']").val();
         if ($("[name='given']").val() != "") URL += '&q.givenName=' + $("[name='given']").val();
         if ($("[name='birthLikeDateBegin']").val() != "") URL += "&q.birthLikeDate=" + $("[name='birthLikeDateBegin']").val();
@@ -51,27 +57,8 @@ async function start_me_up() {
             for (let i = 0; i < search.entries.length; i++) {
                 p = search.entries[i].content.gedcomx.persons[0].display;
                 p.id = search.entries[i].content.gedcomx.persons[0].id;
-                if (p.birthPlace == undefined) p.birthPlace = "";
-
-                let birthYear = (p.birthDate) ? new Date(p.birthDate).getUTCFullYear() : "";
-                let deathYear = (p.deathDate) ? new Date(p.deathDate).getUTCFullYear() : "";
-                let age = (birthYear && deathYear) ? "(Age " + Math.abs(deathYear - birthYear) + ")" : "";
-
-                // Check for NaN (Safari won't parse dates like "October 1893")
-                if (isNaN(birthYear)) birthYear = p.birthDate;
-                if (isNaN(deathYear)) deathYear = p.deathDate;
-
-                // Get gender portrait
-                let portrait = "https://cousin.surge.sh/male.svg";
-                if (p.gender == "Female") portrait = "https://cousin.surge.sh/female.svg";
-
-                // Can't get portraits with unauthenticated session :-(
-                $('.results').append('<li class="result" data-id="' + p.id + '">\
-        <div class="person"><div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/' + p.id + '/portrait?default=' + portrait + '&access_token=' + token2 + '"></div>\
-        <div><span class="name">' + p.name + ' ' + age + '</span>\
-        <br /><span class="lifespan">' + birthYear + ' -- ' + deathYear + '</span>\
-        </div></div>\
-        </li>');
+                place_ancestor(p, ancestors)
+               
             }
         });
     });
@@ -96,30 +83,110 @@ async function start_me_up() {
     obj = await  rsp.json()
     token2 = obj.token
     fill()
-
-    // if a pid was passed in, search immediately
-    if(pid){
-        find_relationships({currentTarget:{dataset:{id:pid}}})
-    }    
+    if(Object.keys(ancestors).length>0){
+        $('.remembered').css({ "display": ''});
+        $('.remembered').click(show_remembered_ancestors)
+        show_remembered_ancestors()
+    }
 
 }
+function show_remembered_ancestors() {
+    const ancestors=get_remembered_ancestors()
+    $('.ancestor-list').html("Your remembered ancestors");
+    $('.result-list').hide();
+    $('.results, .related').empty();
+    $('.ancestor-list').show();
+    console.log(ancestors)
+    for(const key of Object.keys(ancestors)){
+        console.log("entry", ancestors[key])
+        place_ancestor(ancestors[key], ancestors)
+    }
+}
+
+function place_ancestor(p, ancestors){
+    console.log("at place ancestors")
+    if (p.birthPlace == undefined) p.birthPlace = "";
+
+    let birthYear = (p.birthDate) ? new Date(p.birthDate).getUTCFullYear() : "";
+    let deathYear = (p.deathDate) ? new Date(p.deathDate).getUTCFullYear() : "";
+    let age = (birthYear && deathYear) ? "(Age " + Math.abs(deathYear - birthYear) + ")" : "";
+
+    // Check for NaN (Safari won't parse dates like "October 1893")
+    if (isNaN(birthYear)) birthYear = p.birthDate;
+    if (isNaN(deathYear)) deathYear = p.deathDate;
+
+    // Get gender portrait
+    let portrait = "https://cousin.surge.sh/male.svg";
+    if (p.gender == "Female") portrait = "https://cousin.surge.sh/female.svg";
+
+    // Can't get portraits with unauthenticated session :-(
+    $('.results').append(`<li class="result" data-record="${btoa(JSON.stringify(p))}" data-id="${p.id}" ${ancestors[p.id]?' style="background-color:#eee;padding:5px 10px;"':''}>
+<div class="person"><div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${token2}"></div>
+<div><span class="name">${p.name} ${age}</span>
+<br /><span class="lifespan">${birthYear} -- ${deathYear}</span>
+<br /><span  class="msg"${ancestors[p.id]?"":' style="display:none"'}>This ancestor has been remembered (<span style="text-decoration: underline;color:blue;" onclick="forget(event)" >forget</style>)</span>
+</div></div>
+</li>`);
+}
+
+
+function forget(evt){
+    evt.stopPropagation()
+    let elem = evt.currentTarget
+    elem.parentElement.style.display="none"
+    while(elem.tagName!=="LI"){
+        console.log(elem.tagName)
+        elem = elem.parentElement
+    }
+    elem.style.backgroundColor=""
+    elem.style.padding=""
+    console.log("e", elem.dataset.id)
+    const ancestors=get_remembered_ancestors()
+    delete ancestors[elem.dataset.id]
+    remember_ancestors(ancestors)
+}
+
+function get_remembered_ancestors(){
+    ancestors=localStorage.getItem("ancestors")||"{}"
+    return JSON.parse(ancestors)
+}
+
+function remember_ancestors(ancestors){
+    localStorage.setItem("ancestors",JSON.stringify(ancestors))
+}
+
+
 
 async function find_relationships(evt) {
-    
+
     console.log("clicked", data)
-    let id =  evt.currentTarget.dataset.id;
+    const li = evt.currentTarget
+    let p =  JSON.parse(atob(li.dataset.record))
+    let id=p.id
+    li.style.padding = "5px 10px"
+    li.style.backgroundColor = "#eee"
+    li.querySelector(".msg").style.display=""
+    console.log("record",p)
+    console.log("id",id)
     $('.relationInfo').show();
     $('.related').empty();
     $('.noRels').show();
+    $('.result-list').show();
+    $('.result-list').html(p.name + " " + " is realted to:")
+    ancestors=get_remembered_ancestors()
+    ancestors[id]=p
+    remember_ancestors(ancestors)
+
+
 
     // TODO: If a user object is found, use it instead and skip search form
     // Problem: Unauthenticated session, OR pid-to-pid doesn't support living people
-    let user = JSON.parse(localStorage.getItem('user'));
-    if (user) {
-     console.log("Found User: "+user.personId+", "+user.displayName+", "+user.jwt.sessionId);
-     id = user.personId;
-     token, token2 = user.jwt.sessionId;
-    }
+    // let user = JSON.parse(localStorage.getItem('user'));
+    // if (user) {
+    //  console.log("Found User: "+user.personId+", "+user.displayName+", "+user.jwt.sessionId);
+    //  id = user.personId;
+    //  token, token2 = user.jwt.sessionId;
+    // }
 
     // Iterate person list
     data.people.forEach(async function(key, idx, array) {
@@ -167,4 +234,8 @@ function fill(){
     document.getElementsByName("surname")[0].value="Allen"
     document.getElementsByName("birthLikeDateBegin")[0].value="1937"
     document.getElementsByName("deathLikeDateBegin")[0].value="1996"
+}
+
+function tag(id){
+  return document.getElementById(id)
 }

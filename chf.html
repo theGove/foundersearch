@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Cousin Connect</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="theme-color" content="#000000">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <link rel="apple-touch-icon" href="data:image/png;base64,">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="rel.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="chf.js"></script> 
+   </head>
+   <body onload="start_me_up()">
+      <div class="container main">
+         <header>
+            <div class="banner"></div>
+            <h1 class="title">Title</h1>
+            <p class="desc">Description</p>
+         </header>
+            <p>Find your nearest deceased ancestor.</p>
+            <div style="max-width:500px;">
+               <div class="row">
+                  <h5>Name</h5>
+                  <div class="col"> <input type="text" name="given" class="form-control" placeholder="First"> </div>
+                  <div class="col">
+                     <input type="text" class="form-control" name="surname" placeholder="Last" required> 
+                     <div class="invalid-feedback">Must supply a surname!</div>
+                  </div>
+               </div>
+               <div class="row">
+                  <h5 style="margin-top:20px !important;">Birth <span style="color:#5e5e5e;font-size:13px;">(optional)</span></h5>
+                  <div class="col"> <input type="text" class="form-control" name="birthLikePlace" placeholder="Place"> </div>
+                  <div class="col"> <input type="text" class="form-control" name="birthLikeDateBegin" placeholder="Date"> </div>
+               </div>
+               <div class="row">
+                  <h5 style="margin-top:20px !important;">Death <span style="color:#5e5e5e;font-size:13px;">(optional)</span></h5>
+                  <div class="col"> <input type="text" class="form-control" name="deathLikePlace" placeholder="Place"> </div>
+                  <div class="col"> <input type="text" class="form-control" name="deathLikeDateBegin" placeholder="Date"> </div>
+               </div>
+            </div>
+            <button class="btn btn-primary search" style="margin-top:15px;margin-bottom:40px;">Search</button> 
+            <button class="btn btn-primary remembered" style="margin-top:15px;margin-bottom:40px; display:none">Show Remembered Ancestors</button> 
+            <div class="container">
+               <div class="row align-items-start">
+                  <div class="col">
+                     <h3 class="searchInstructions ancestor-list" style="display:none;"></h3>
+                     <ul class="results"></ul>
+                  </div>
+                  <div class="col relationInfo" style="display:none;">
+                     <h3 class="searchInstructions result-list">You are related to</h3>
+                     <ul class="related"></ul>
+                     <span class="noRels" style="display:none;">No relationships :-(</span> 
+                  </div>
+               </div>
+            </div>
+            
+      </div>
+   </div>
+   </body>
+</html>

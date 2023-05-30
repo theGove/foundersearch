@@ -1,6 +1,6 @@
 function start_me_up(){
     var appKey = atob('YTAyajAwMDAwMEtUUmpwQUFI'),
-        redirect = "https://thegove.github.io/foundersearch",
+        redirect = "https://cousin.surge.sh",
         authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id=" + appKey + "&redirect_uri=" + redirect;
     document.getElementById("login").setAttribute("href", authUrl);
     var code = new URLSearchParams(window.location.search).get("code");
