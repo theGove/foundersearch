@@ -20,7 +20,7 @@ async function start_me_up() {
     const ancestors=get_remembered_ancestors()
     console.log("ancestors",ancestors)
     if(Object.keys(ancestors).length===0){
-        location.href = `chf.html?set=${set}`
+        location.href = `config.html?set=${set}`
         return
     }
 
@@ -31,7 +31,7 @@ async function start_me_up() {
             set=set.substring(5)
         }
         console.log("xxset",set)
-        location.href = `chf.html?set=${set}`
+        location.href = `config.html?set=${set}`
     })
 
     // Load data set meta
