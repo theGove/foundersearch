@@ -1,7 +1,7 @@
 let data = null;
 async function start_me_up() {
     // Get data set name
-    const set = new URLSearchParams(window.location.search).get('set');
+    let set = new URLSearchParams(window.location.search).get('set');
     let event = new URLSearchParams(window.location.search).get('event');
     if (set == null) {
         $('body').html('<center><h1 style="margin-top: 200px;">No Data :-(</h1><p>You must supply a data set to use.</p></center>');
@@ -17,7 +17,25 @@ async function start_me_up() {
 
     }    
 
+    const ancestors=get_remembered_ancestors()
+    console.log("ancestors",ancestors)
+    if(Object.keys(ancestors).length===0){
+        location.href = `chf.html?set=${set}`
+        return
+    }
+
+    $('.adj-ancestors').click(function() {
+        console.log("xset",set)
+
+        if(set.startsWith("sets/")){
+            set=set.substring(5)
+        }
+        console.log("xxset",set)
+        location.href = `chf.html?set=${set}`
+    })
+
     // Load data set meta
+    if(!set.startsWith("http")){set = "sets/"+set}
     let rsp = await fetch(set)
 
     if (rsp.status != 200) {
@@ -37,17 +55,8 @@ async function start_me_up() {
         $('.search').hide();
     }
 
-    const ancestors=get_remembered_ancestors()
-    console.log("ancestors",ancestors)
-    if(Object.keys(ancestors).length===0){
-        location.href = `chf.html?set=${set}`
-        return
-    }
 
 
-    $('.adj-ancestors').click(function() {
-        location.href = `chf.html?set=${set}`
-    })
 
 
     // Get unauthenticated access token

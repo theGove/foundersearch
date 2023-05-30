@@ -1,7 +1,7 @@
 let data = null;
 async function start_me_up() {
     // Get data set name
-    const set = new URLSearchParams(window.location.search).get('set');
+    let set = new URLSearchParams(window.location.search).get('set');
     const pid = new URLSearchParams(window.location.search).get('pid');
     
     if (set === null) {
@@ -20,6 +20,7 @@ async function start_me_up() {
     
 
     // Load data set meta
+    if(!set.startsWith("http")){set = "sets/"+set}
     let rsp = await fetch(set)
 
     if (rsp.status != 200) {
