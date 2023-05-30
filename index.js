@@ -1,10 +1,14 @@
 function start_me_up(){
-    var appKey = atob('YTAyajAwMDAwMEtUUmpwQUFI'),
-        redirect = "https://cousin.surge.sh",
-        authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id=" + appKey + "&redirect_uri=" + redirect;
+
     document.getElementById("login").setAttribute("href", authUrl);
     var code = new URLSearchParams(window.location.search).get("code");
-    code && fetch("https://ident.familysearch.org/cis-web/oauth2/v3/token?redirect_uri=" + redirect, {
+    if(code){
+        process_code(code) 
+    } 
+}
+
+function process_code(code){
+    fetch("https://ident.familysearch.org/cis-web/oauth2/v3/token?redirect_uri=" + redirect, {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded"

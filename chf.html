@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="rel.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="chf.js"></script> 
+      <script src="common.js"></script> 
    </head>
    <body onload="start_me_up()">
       <div class="container main">
@@ -19,7 +20,9 @@
             <h1 class="title">Title</h1>
             <p class="desc">Description</p>
          </header>
-            <p>Find your nearest deceased ancestor.<br> <span style="background-color: lemonchiffon;font-weight: bold;">If you need help, go to the "Founder Search" booth, it's #2 on the printed map.</span></p>
+         <p>If you have an account at familysearch.org, you can log in to search as yourself.</p>
+         <p><table><tr><td><a id="login" class="btn btn-primary" style="float:right;">Login</a></td><td>to familySearch.org.</td></tr></table></p>
+         <p>Or, you can find one or more of your deceased ancestors and search as them.<br> <span style="background-color: lemonchiffon;font-weight: bold;">If you need help, go to the "Founder Search" booth, it's #2 on the printed map.</span></p>
             <div style="max-width:500px;">
                <div class="row">
                   <h5>Name</h5>
@@ -41,7 +44,7 @@
                </div>
             </div>
             <button class="btn btn-primary search" style="margin-top:15px;margin-bottom:40px;">Search</button> 
-            <button class="btn btn-primary remembered" style="margin-top:15px;margin-bottom:40px; display:none">Show Remembered Ancestors</button> 
+            <button id="show-remembered-ancestors" class="btn btn-primary remembered" style="margin-top:15px;margin-bottom:40px; display:none">Show Remembered Ancestors</button> 
             <div class="container">
                <div class="row align-items-start">
                   <div class="col">

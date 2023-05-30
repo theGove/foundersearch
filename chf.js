@@ -3,6 +3,7 @@ async function start_me_up() {
     // Get data set name
     const set = new URLSearchParams(window.location.search).get('set');
     const pid = new URLSearchParams(window.location.search).get('pid');
+    
     if (set == null) {
         $('body').html('<center><h1 style="margin-top: 200px;">No Data :-(</h1><p>You must supply a data set to use.</p></center>');
         // throw new Error("No data set suplied!");
@@ -144,21 +145,16 @@ function forget(evt){
     const ancestors=get_remembered_ancestors()
     delete ancestors[elem.dataset.id]
     remember_ancestors(ancestors)
+    if(Object.keys(ancestors).length===0){
+        tag("show-remembered-ancestors").style.display="none"
+    }
 }
 
-function get_remembered_ancestors(){
-    ancestors=localStorage.getItem("ancestors")||"{}"
-    return JSON.parse(ancestors)
-}
-
-function remember_ancestors(ancestors){
-    localStorage.setItem("ancestors",JSON.stringify(ancestors))
-}
 
 
 
 async function find_relationships(evt) {
-
+    tag("show-remembered-ancestors").style.display=""
     console.log("clicked", data)
     const li = evt.currentTarget
     let p =  JSON.parse(atob(li.dataset.record))
@@ -236,6 +232,3 @@ function fill(){
     document.getElementsByName("deathLikeDateBegin")[0].value="1996"
 }
 
-function tag(id){
-  return document.getElementById(id)
-}

@@ -67,14 +67,7 @@ async function start_me_up() {
 
 }
 
-function get_remembered_ancestors(){
-    ancestors=localStorage.getItem("ancestors")||"{}"
-    return JSON.parse(ancestors)
-}
 
-// function remember_ancestors(ancestors){
-//     localStorage.setItem("ancestors",JSON.stringify(ancestors))
-// }
 
 async function find_relationships(ancestor) {
     const id=ancestor.id
@@ -120,10 +113,4 @@ async function find_relationships(ancestor) {
     </li>');
             });
     });
-}
-
-
-
-function tag(id){
-  return document.getElementById(id)
 }
