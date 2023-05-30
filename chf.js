@@ -15,9 +15,7 @@ async function start_me_up() {
         event_data=JSON.parse(event_data)
         tag("help-clause").innerHTML=event_data.help
         tag("help-clause").style.display=""
-    
     }
-    
 
     // Load data set meta
     if(!set.startsWith("http")){set = "sets/"+set}
@@ -83,6 +81,7 @@ async function start_me_up() {
     // Find relationships (Click on search result)
     console.log("data", data)
     $('.results').on('click', '.result', find_relationships);
+    $('#login').on('click', login);
 
     // Get unauthenticated access token
     rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
@@ -108,8 +107,11 @@ async function start_me_up() {
     }
 
 }
+function login() {
+    alert("not yet implemented")
+}
 function show_remembered_ancestors() {
-    const ancestors=get_remembered_ancestors()
+        const ancestors=get_remembered_ancestors()
     $('.ancestor-list').html("Your remembered ancestors");
     $('.result-list').hide();
     $('.results, .related').empty();
