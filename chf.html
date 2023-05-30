@@ -20,10 +20,23 @@
             <h1 class="title">Title</h1>
             <p class="desc">Description</p>
          </header>
-         <p>If you have an account at familysearch.org, you can log in to search as yourself.</p>
-         <p><table><tr><td><a id="login" class="btn btn-primary" style="float:right;">Login</a></td><td>to familySearch.org.</td></tr></table></p>
-         <p>Or, you can find one or more of your deceased ancestors and search as them.</p>
-         <p id="help-clause" style="display:none"></p>
+         <div>
+            <table cellpadding="10">
+               <tr><td><button onclick="show_panel('panel-myself');remember_search_method('myself')" class="btn btn-primary search" style="width:170px">Search as Myself</button></td><td>Requires login to FamilySearch.org account.</td></tr>
+
+               <tr><td><button onclick="show_panel('panel-ancestor');remember_search_method('ancestor')" class="btn btn-primary search" style="width:170px">Search as Ancestor</button></td><td>No login required.</td></tr>
+
+            </table>
+             
+         </div>   
+
+
+
+         <div id="panel-myself" class="panel" style="display:none">
+            <div style="text-align: center; margin-top:4rem"><a id="login" class="btn btn-primary" >Login</a><br />to FamilySearch.org.</div>
+         </div>
+         <div id="panel-ancestor" class="panel" style="display:none;margin-top: 2rem;">
+            <p id="help-clause" style="display:none"></p>
             <div style="max-width:500px;">
                <div class="row">
                   <h5>Name</h5>
@@ -59,7 +72,7 @@
                   </div>
                </div>
             </div>
-            
+         </div>   
       </div>
    </div>
    </body>

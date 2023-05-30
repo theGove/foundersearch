@@ -3,24 +3,19 @@ async function start_me_up() {
     // Get data set name
     const set = new URLSearchParams(window.location.search).get('set');
     const pid = new URLSearchParams(window.location.search).get('pid');
-    let event = new URLSearchParams(window.location.search).get('event');
     
     if (set === null) {
         $('body').html('<center><h1 style="margin-top: 200px;">No Data :-(</h1><p>You must supply a data set to use.</p></center>');
         // throw new Error("No data set suplied!");
     }
    
-    console.log("event", event)
    
-    if(event){ 
-        if(!event.startsWith("http")){event = "events/"+event}
-        fetch(event)
-        .then(response => response.json())
-        .then(event_data => {
-            console.log("event_data",event_data)
-            tag("help-clause").innerHTML=event_data.help
-            tag("help-clause").style.display=""
-        });
+    let event_data = localStorage.getItem("eventData")
+    if(event_data){ 
+        event_data=JSON.parse(event_data)
+        tag("help-clause").innerHTML=event_data.help
+        tag("help-clause").style.display=""
+    
     }
     
 
@@ -42,6 +37,12 @@ async function start_me_up() {
     if (data.people.length > 100) {
         alert("Data set too large! Must be fewer than 100 people :-(");
         $('.search').hide();
+    }
+
+    // search style
+    const search_method=localStorage.getItem("searchMethod")
+    if(search_method){
+        show_panel("panel-"+search_method)
     }
 
     // list remembered
@@ -98,6 +99,7 @@ async function start_me_up() {
     obj = await  rsp.json()
     token2 = obj.token
     fill()
+
     if(Object.keys(ancestors).length>0){
         $('.remembered').css({ "display": ''});
         $('.remembered').click(show_remembered_ancestors)
@@ -246,3 +248,11 @@ function fill(){
     document.getElementsByName("deathLikeDateBegin")[0].value="1996"
 }
 
+function show_panel(panel_id){
+    $(".panel").hide()
+    $("#"+panel_id).show()
+}
+
+function remember_search_method(search_method){
+    localStorage.setItem("searchMethod", search_method)
+}
