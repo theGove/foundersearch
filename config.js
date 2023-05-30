@@ -18,8 +18,13 @@ async function start_me_up() {
     }
 
     // Load data set meta
-    if(!set.startsWith("http")){set = "sets/"+set}
-    let rsp = await fetch(set)
+    let rsp=null
+    if(set.startsWith("http")){
+        rsp = await fetch(set)
+    }else{
+        rsp = await fetch("sets/"+set+".json")
+    }
+    
 
     if (rsp.status != 200) {
         $('body').html('<h1>Invalid data set :-(</h1>');

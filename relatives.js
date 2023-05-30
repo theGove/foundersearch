@@ -3,12 +3,11 @@ async function start_me_up() {
     // Get data set name
     let set = new URLSearchParams(window.location.search).get('set');
     let event = new URLSearchParams(window.location.search).get('event');
-    if (set == null) {
-        $('body').html('<center><h1 style="margin-top: 200px;">No Data :-(</h1><p>You must supply a data set to use.</p></center>');
-        // throw new Error("No data set suplied!");
+    if (set === null) {
+        set="mayflower"
     }
     if(event){
-        if(!event.startsWith("http")){event = "events/"+event}
+        if(!event.startsWith("http")){event = "events/"+event+".json"}
         fetch(event)
         .then(response => response.json())
         .then(event_data => {
@@ -30,14 +29,17 @@ async function start_me_up() {
         if(set.startsWith("sets/")){
             set=set.substring(5)
         }
-        console.log("xxset",set)
         location.href = `config.html?set=${set}`
     })
 
     // Load data set meta
-    if(!set.startsWith("http")){set = "sets/"+set}
-    let rsp = await fetch(set)
-
+    let rsp=null
+    if(set.startsWith("http")){
+        rsp = await fetch(set)
+    }else{
+        rsp = await fetch("sets/"+set+".json")
+    }
+    
     if (rsp.status != 200) {
         $('body').html('<h1>Invalid data set :-(</h1>');
     }
