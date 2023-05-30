@@ -3,10 +3,24 @@ async function start_me_up() {
     // Get data set name
     const set = new URLSearchParams(window.location.search).get('set');
     const pid = new URLSearchParams(window.location.search).get('pid');
+    let event = new URLSearchParams(window.location.search).get('event');
     
-    if (set == null) {
+    if (set === null) {
         $('body').html('<center><h1 style="margin-top: 200px;">No Data :-(</h1><p>You must supply a data set to use.</p></center>');
         // throw new Error("No data set suplied!");
+    }
+   
+    console.log("event", event)
+   
+    if(event){ 
+        if(!event.startsWith("http")){event = "events/"+event}
+        fetch(event)
+        .then(response => response.json())
+        .then(event_data => {
+            console.log("event_data",event_data)
+            tag("help-clause").innerHTML=event_data.help
+            tag("help-clause").style.display=""
+        });
     }
     
 
