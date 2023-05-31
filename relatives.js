@@ -3,9 +3,21 @@ async function start_me_up() {
     // Get data set name
     let set = new URLSearchParams(window.location.search).get('set');
     let event = new URLSearchParams(window.location.search).get('event');
-    if (set === null) {
-        set="mayflower"
+    if(set){  // as set was passed in, see if it needs adjusting
+        if(!set.startsWith("http")){
+            set = "sets/"+set+".json"
+        }
+    }else {  // no set was passed in, check local storage
+        set=localStorage.getItem("personSet")
+        if(!set){//no set in local storage.  Use default
+            set="/sets/mayflower.json"
+        }
+        
     }
+
+    // remember the set
+    localStorage.setItem("personSet",set)
+
     if(event){
         if(!event.startsWith("http")){event = "events/"+event+".json"}
         fetch(event)
@@ -18,8 +30,9 @@ async function start_me_up() {
 
     const ancestors=get_remembered_ancestors()
     console.log("ancestors",ancestors)
-    if(Object.keys(ancestors).length===0){
-        location.href = `config.html?set=${set}`
+    
+    if(!localStorage.getItem("searchMethod") || (localStorage.getItem("searchMethod")==='ancestor' && Object.keys(ancestors).length===0)){
+        location.href = `config.html`
         return
     }
 
@@ -29,16 +42,11 @@ async function start_me_up() {
         if(set.startsWith("sets/")){
             set=set.substring(5)
         }
-        location.href = `config.html?set=${set}`
+        location.href = `config.html`
     })
 
     // Load data set meta
-    let rsp=null
-    if(set.startsWith("http")){
-        rsp = await fetch(set)
-    }else{
-        rsp = await fetch("sets/"+set+".json")
-    }
+    let rsp = await fetch(set)
     
     if (rsp.status != 200) {
         $('body').html('<h1>Invalid data set :-(</h1>');
@@ -58,40 +66,19 @@ async function start_me_up() {
     }
 
 
-
-
-
-    // Get unauthenticated access token
-    rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
-            },
-            body: 'grant_type=unauthenticated_session&ip_address=127.0.0.1&client_id=' + atob('YTAyajAwMDAwMEtUUmpwQUFI')
-        })
-    obj=await  rsp.json()
-    token = obj.token;
-
-    // Get user session
-    rsp = await fetch('https://strategicsolutions.herokuapp.com/tree/api/fs')
-    obj = await  rsp.json()
-    token2 = obj.token
-    console.log("ancestors", ancestors)
-    for(const ancestor of Object.values(ancestors) ){
-        find_relationships(ancestor)
-        
+    if(localStorage.getItem("searchMethod")==="myself"){
+        const user=JSON.parse(sessionStorage.getItem("user"))
+        find_relationships(user.person)
+    }else{
+        for(const ancestor of Object.values(ancestors) ){
+            find_relationships(ancestor)
+        }
     }
-    
-    
-
-
 }
-
-
 
 async function find_relationships(ancestor) {
     const id=ancestor.id
-    console.log("clicked", data)
+    console.log("clicked", ancestor)
     $('.relationInfo').append(`<h3 class="searchInstructions">${ancestor.name} is related to</h3><ul id="${ancestor.id}" class="related"></ul>`);
     $('.noRels').show();
 
@@ -100,15 +87,20 @@ async function find_relationships(ancestor) {
         if (key.pid == "") return;
 
         // Calculate relationship
-        await fetch('https://api.familysearch.org/platform/tree/persons/' + id + '/relationships/' + key.pid, {
-                headers: {
-                    Authorization: 'Bearer ' + token
-                }
-            }).then(function(rsp) {
+        let url=null
+        if(localStorage.getItem("searchMethod")==="myself"){
+            url = 'https://api.familysearch.org/platform/tree/my-relationships?pid=' + key.pid
+        }else{
+            url = 'https://api.familysearch.org/platform/tree/persons/' + id + '/relationships/' + key.pid
+        }
+        
+        const options = {headers: {Authorization: 'Bearer ' + sessionStorage.getItem("accessToken")}}
+        console.log("checking relationship", url, options)
+        await fetch(url, options).then(function(rsp) {
                 // Handle no relationship case
-                if (rsp.status == 204) return {
-                    persons: []
-                };
+                if (rsp.status == 204){ 
+                    return {persons: []};
+                }
                 return rsp.json();
             })
             .then(function(rsp) {
@@ -125,7 +117,7 @@ async function find_relationships(ancestor) {
                 $('#'+id).append('<li data-id="' + key.pid + '">\
     <div class="person"><div>\
     <a href="https://ancestors.familysearch.org/en/' + key.pid + '" target="_blank">\
-    <img class="portrait" src="https://api.familysearch.org/platform/tree/persons/' + key.pid + '/portrait?default=' + portrait + '&access_token=' + token2 + '">\
+    <img class="portrait" src="https://api.familysearch.org/platform/tree/persons/' + key.pid + '/portrait?default=' + portrait + '&access_token=' + sessionStorage.getItem("accessToken") + '">\
     </div><div><span class="name">' + key.name + '</span>\
     <span> (' + type + ')</span>\
     <br /><span class="cousinDesc">' + key.desc + '</span>\
