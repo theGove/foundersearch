@@ -73,10 +73,10 @@ function start_me_up(){
     });
 
     // Find relationships (Click on search result)
-    console.log("data", data)
+    //console.log("data", data)
     
     $('.results').on('click', '.result', function () {
-        console.log("clicked", )
+        //console.log("clicked", )
     let id = $(this).attr("data-id");
     $('.relationInfo').show();
     $('.related').empty();
@@ -86,13 +86,13 @@ function start_me_up(){
     // Problem: Unauthenticated session, OR pid-to-pid doesn't support living people
     // let user = JSON.parse(localStorage.getItem('user'));
     // if (user) {
-    //  console.log("Found User: "+user.personId+", "+user.displayName+", "+user.jwt.sessionId);
+    //  //console.log("Found User: "+user.personId+", "+user.displayName+", "+user.jwt.sessionId);
     //  // id = user.personId;
     //  // token, token2 = user.jwt.sessionId;
     // }
 
     // Iterate person list
-    console.log("data", data)
+    //console.log("data", data)
     data.people.forEach( async function(key, idx, array) {
     if (key.pid == "") return;
 

@@ -7,8 +7,7 @@ async function start_me_up() {
     const code = new URLSearchParams(window.location.search).get('code');
       
 
-//   const redirect = 'https://foundersearch.colonialheritage.org/config.html'
-
+    
     const redirect = `${window.location.protocol}//${window.location.host}/config.html`;
     var authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id="+appKey+"&redirect_uri="+redirect;
 
@@ -30,7 +29,7 @@ async function start_me_up() {
         sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
         
 
-        console.log("obj",JSON.stringify(obj))
+        //console.log("obj",JSON.stringify(obj))
         const user = JSON.parse(atob(obj.id_token.split('.')[1]));
         // get the current user's PID 
 
@@ -40,14 +39,14 @@ async function start_me_up() {
         user.person=obj.users[0]
         user.person.id=user.person.personId
         user.person.name = user.person.displayName
-        console.log("user",user)
+        //console.log("user",user)
         sessionStorage.setItem("user", JSON.stringify(user))
-        console.log("ready to redirect")
-        console.log("obj",JSON.stringify(obj))    
+        //console.log("ready to redirect")
+        //console.log("obj",JSON.stringify(obj))    
         location.href = `relatives.html`
     }
 
-
+    refresh_unauthenticated_token()
 
 
     if (set === null) {
@@ -114,7 +113,7 @@ async function start_me_up() {
         if ($("[name='deathLikeDateBegin']").val() != "") URL += "&q.deathLikeDate=" + $("[name='deathLikeDateBegin']").val();
         if ($("[name='deathLikePlace']").val() != "") URL += "&q.deathLikePlace=" + $("[name='deathLikePlace']").val();
         const search=await api('platform/tree/search?' + URL + "&count=10","either", {headers:{Accept: "application/json"}})
-        console.log("search", search)
+        //console.log("search", search)
         for (let i = 0; i < search.entries.length; i++) {
             p = search.entries[i].content.gedcomx.persons[0].display;
             p.id = search.entries[i].content.gedcomx.persons[0].id;
@@ -124,7 +123,7 @@ async function start_me_up() {
     });
 
     // Find relationships (Click on search result)
-    console.log("data", data)
+    //console.log("data", data)
     $('.results').on('click', '.result', launch_relationships);
     //$('#login').on('click', login);
 
@@ -148,9 +147,9 @@ function show_remembered_ancestors() {
     $('.result-list').hide();
     $('.results, .related').empty();
     $('.ancestor-list').show();
-    console.log(ancestors)
+    //console.log(ancestors)
     for(const key of Object.keys(ancestors)){
-        console.log("entry", ancestors[key])
+        //console.log("entry", ancestors[key])
         place_ancestor(ancestors[key], ancestors)
     }
 }
@@ -158,7 +157,7 @@ function show_remembered_ancestors() {
 async function place_ancestor(p, ancestors){
     const access_token = await get_access_token()
     
-    console.log("at place ancestors")
+    //console.log("at place ancestors")
     if (p.birthPlace == undefined) p.birthPlace = "";
 
     let birthYear = (p.birthDate) ? new Date(p.birthDate).getUTCFullYear() : "";
@@ -196,12 +195,12 @@ function forget(evt){
     let elem = evt.currentTarget
     elem.parentElement.style.display="none"
     while(elem.tagName!=="LI"){
-        console.log(elem.tagName)
+        //console.log(elem.tagName)
         elem = elem.parentElement
     }
     elem.style.backgroundColor=""
     elem.style.padding=""
-    console.log("e", elem.dataset.id)
+    //console.log("e", elem.dataset.id)
     const ancestors=get_remembered_ancestors()
     delete ancestors[elem.dataset.id]
     remember_ancestors(ancestors)
@@ -228,12 +227,12 @@ async function launch_relationships(evt) {
     ancestors=get_remembered_ancestors()
     ancestors[p.id]=p
     remember_ancestors(ancestors)
-    console.log("p.id",p.id)
+    //console.log("p.id",p.id)
     find_relationships(p.id)
 }
 
 function fill(){
-    console.log("fill")
+    //console.log("fill")
     document.getElementsByName("given")[0].value="Gary"
     document.getElementsByName("surname")[0].value="Allen"
     document.getElementsByName("birthLikeDateBegin")[0].value="1937"
@@ -241,16 +240,16 @@ function fill(){
 }
 
 async function set_search_ancestor(clicked=true){
-    console.log(0)
+    //console.log(0)
 
     if(localStorage.getItem("searchMethod")==="ancestor" && 
        localStorage.getItem("ancestors") && 
        Object.keys(localStorage.getItem("ancestors")).length>0 &&
        tag("panel-ancestor").style.display===""
       ){
-        console.log(1)
+        //console.log(1)
         if(clicked){
-            console.log(2)
+            //console.log(2)
             location.href = 'relatives.html'
         }
     }else{
@@ -263,7 +262,7 @@ async function set_search_myself(clicked=true){
     // check to see if see we are logged in
     const access_token = sessionStorage.getItem("accessToken")
     if(await logged_in()){
-        console.log("logged in =============================")
+        //console.log("logged in =============================")
         if(localStorage.getItem("searchMethod")==="myself"){
             //we are logged in and we are searching as self, just search
             if(clicked){
@@ -276,7 +275,7 @@ async function set_search_myself(clicked=true){
             $("#myself-search").show()                    
         }
     }else{
-        console.log("============================ logged out")
+        //console.log("============================ logged out")
         show_panel('panel-myself');
     }
     remember_search_method('myself')
@@ -289,12 +288,12 @@ function show_panel(panel_id){
 }
 
 function remember_search_method(search_method){
-    console.log("setting search method", search_method)
+    //console.log("setting search method", search_method)
     localStorage.setItem("searchMethod", search_method)
 }
 
 function logout_from_familysearch(){
-    console.log("logging out")
+    //console.log("logging out")
     api("platform/logout","none",{method:"POST"})
     sessionStorage.setItem("unauthenticatedToken",sessionStorage.getItem("authenticatedToken"))
     sessionStorage.setItem("authenticatedToken",null)

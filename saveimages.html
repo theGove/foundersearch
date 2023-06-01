@@ -9,12 +9,12 @@
             let set_name = new URLSearchParams(window.location.search).get('set');
             const resp = await fetch(`/sets/${set_name}.json`)
             set = await resp.json()
-            console.log(set)
+            //console.log(set)
             let counter = 1
             for(const key of Object.keys(set.people)){
                 tag("counter").innerHTML = counter++
                 const person = set.people[key]
-                console.log(person)
+                //console.log(person)
                 let rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}/portrait?default=https://foundersearch.colonialheritage.org/images/male.svg&access_token=` + sessionStorage.getItem("authenticatedToken"))
                 tag("output").append(rsp.url + "\n")
                 if(!rsp.url.includes(sessionStorage.getItem("authenticatedToken")) &&

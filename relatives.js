@@ -28,8 +28,10 @@ async function start_me_up() {
 
     }    
 
+    refresh_unauthenticated_token()
+
     const ancestors=get_remembered_ancestors()
-    console.log("ancestors",ancestors)
+    //console.log("ancestors",ancestors)
     const search_method=localStorage.getItem("searchMethod")
     if(!search_method || 
       (search_method==='ancestor' && Object.keys(ancestors).length===0) ||
@@ -40,7 +42,7 @@ async function start_me_up() {
     }
 
     $('.adj-ancestors').click(function() {
-        console.log("xset",set)
+        //console.log("xset",set)
         if(set.startsWith("sets/")){
             set=set.substring(5)
         }
@@ -83,7 +85,7 @@ async function start_me_up() {
 }
 
 function launch_relationships(ancestor){
-    console.log("clicked", ancestor)
+    //console.log("clicked", ancestor)
     $('.relationInfo').append(`<h3 class="searchInstructions">${ancestor.name} is related to</h3><ul id="${ancestor.id}" class="related"></ul>`);
     $('.noRels').show();
     find_relationships(ancestor.id)

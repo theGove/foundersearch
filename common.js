@@ -19,12 +19,12 @@ async function logged_in(){
     // cannot use api function because api calls this
     const access_token = sessionStorage.getItem("authenticatedToken")
     if(!access_token){
-        console.log ("Not logged in: No Access Token")
+        //console.log ("Not logged in: No Access Token")
         return false
     }
     let user = sessionStorage.getItem("user")
     if(!user) {
-        console.log ("Not logged in: No user")
+        //console.log ("Not logged in: No user")
         return false
     }
     user=JSON.parse(user)
@@ -44,7 +44,7 @@ async function logged_in(){
         }
     }
     const rsp = await fetch(url, options)
-    console.log("rsp.status",rsp.status, rsp.status===200)
+    //console.log("rsp.status",rsp.status, rsp.status===200)
     if(rsp.status===200){
         sessionStorage.setItem("authenticatedTokenTime", new Date().valueOf())
         return true
@@ -132,7 +132,7 @@ async function unauthenticated_token_is_valid(){
     
     const access_token = sessionStorage.getItem("unauthenticatedToken")
     if(!access_token){
-        console.log ("Not Valid: No Access Token")
+        //console.log ("Not Valid: No Access Token")
         return false
     }
 
@@ -151,7 +151,7 @@ async function unauthenticated_token_is_valid(){
         }
     }
     const rsp = await fetch(url,options)
-    console.log("rsp",rsp)
+    //console.log("rsp",rsp)
     if(rsp.status===200){
         sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
         return true
@@ -164,11 +164,11 @@ async function unauthenticated_token_is_valid(){
 }
 
 async function find_relationships(id) {
-    console.log("find rels", id)
+    //console.log("find rels", id)
     // Iterate person list
     data.people.forEach(async function(key, idx, array) {
         if (key.pid == "") return;
-        console.log("key----->", key)
+        //console.log("key----->", key)
         // Calculate relationship
         let path=null
         let access_token=null
@@ -177,7 +177,7 @@ async function find_relationships(id) {
             access_token = await get_access_token(true)
             if(!access_token){
                     // not logged in
-                console.log("Not Logged In-------------")
+                //console.log("Not Logged In-------------")
                 return
 
             }
@@ -185,7 +185,7 @@ async function find_relationships(id) {
             path = 'platform/tree/persons/' + id + '/relationships/' + key.pid
             access_token = await get_access_token()
         }
-        console.log("source pid", id, access_token)
+        //console.log("source pid", id, access_token)
         const options = {headers: {Authorization: 'Bearer ' + access_token}}
         await fetch("https://api.familysearch.org/" + path, options).then(function(rsp) {
                 // Handle no relationship case
