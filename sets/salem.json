@@ -1,23 +1,100 @@
 {
 	"title": "Salem Witch Trials",
 	"desc": "Find out if you are related to anyone associated with the Salem Witch Trials, a series of hearings and prosecutions of people accused of witchcraft in colonial Massachusetts between March 1692 and May 1693. The trials resulted in the executions of twenty people, most of whom were women.",
-	"banner": "https://cousin.surge.sh/salem.webp",
+	"banner": "salem.webp",
 	"backgroundColor": "#fff",
 	"textColor": "#000",
 	"people": [
-			{ "pid": "LH8R-QQZ", "name": "Elizabeth Booth", "desc": "Accuser: When she was sixteen she was accused of being a witch. When she was eighteen, she began accusing people (ten people on record) of practicing witchcraft." },
-			{ "pid": "G8LH-4WF", "name": "Elizabeth Hubbard", "desc": "Accusser: Best known as the primary instigator of the Salem Witch Trials." },
-			{ "pid": "", "name": "Mercy Lewis", "desc": "Accusser" },
-			{ "pid": "LX79-SXN", "name": "Elizabeth \"Betty\" Parris", "desc": "The accusations made by Parris and her cousin Abigail Williams caused the direct death of 20 Salem residents: 19 were hanged, while another, Giles Corey, was pressed to death." },
-			{ "pid": "KPWT-58P", "name": "Anna Putnam", "desc": "An important witness at the Salem Witch Trials" },
-			{ "pid": "", "name": "Abigail Williams", "desc": "Accusser" },
-			{ "pid": "L41Z-R5Q", "name": "Deliverance Haseltine", "desc": "Confessed witch, and witch accuser. Escaped execution." },
-			{ "pid": "LZGT-3Q5", "name": "Thomas Putnam", "desc": "Significant accuser responsible for the accusations of 43 people." },
-			{ "pid": "LBCW-QF9", "name": "Bridget Magnus", "desc": "First person executed for witchcraft." },
-			{ "pid": "93SS-QRT", "name": "Sarah Solart", "desc": "One of the first three women to be accused of witchcraft." },
-			{ "pid": "9421-W84", "name": "Rebecca Towne", "desc": "Accused of witchcraft and executed by hanging. She was fully exonerated fewer than twenty years later." },
-			{ "pid": "LYCL-MSM", "name": "Elizabeth Jackson", "desc": "Accused a witch by a ten year old girl." },
-			{ "pid": "LZLN-7JJ", "name": "Susannah North", "desc": "One of fourteen women executed for witchcraft." },
-			{ "pid": "", "name": "", "desc": "" }
+	  {
+		"pid": "LH8R-QQZ",
+		"name": "Elizabeth Booth",
+		"desc": "Accuser: When she was sixteen she was accused of being a witch. When she was eighteen, she began accusing people (ten people on record) of practicing witchcraft.",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "G8LH-4WF",
+		"name": "Elizabeth Hubbard",
+		"desc": "Accusser: Best known as the primary instigator of the Salem Witch Trials.",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "",
+		"name": "Mercy Lewis",
+		"desc": "Accusser",
+		"gender": "Male"
+	  },
+	  {
+		"pid": "LX79-SXN",
+		"name": "Elizabeth \"Betty\" Parris",
+		"desc": "The accusations made by Parris and her cousin Abigail Williams caused the direct death of 20 Salem residents: 19 were hanged, while another, Giles Corey, was pressed to death.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r1cxf/thumb200s.jpg",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "KPWT-58P",
+		"name": "Anna Putnam",
+		"desc": "An important witness at the Salem Witch Trials",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "",
+		"name": "Abigail Williams",
+		"desc": "Accusser",
+		"gender": "Male"
+	  },
+	  {
+		"pid": "L41Z-R5Q",
+		"name": "Deliverance Haseltine",
+		"desc": "Confessed witch, and witch accuser. Escaped execution.",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "LZGT-3Q5",
+		"name": "Thomas Putnam",
+		"desc": "Significant accuser responsible for the accusations of 43 people.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u9erj/thumb200s.jpg",
+		"gender": "Male"
+	  },
+	  {
+		"pid": "LBCW-QF9",
+		"name": "Bridget Magnus",
+		"desc": "First person executed for witchcraft.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/95b9e/thumb200s.jpg",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "93SS-QRT",
+		"name": "Sarah Solart",
+		"desc": "One of the first three women to be accused of witchcraft.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1xq49/thumb200s.jpg",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "9421-W84",
+		"name": "Rebecca Towne",
+		"desc": "Accused of witchcraft and executed by hanging. She was fully exonerated fewer than twenty years later.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zovak/thumb200s.jpg",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "LYCL-MSM",
+		"name": "Elizabeth Jackson",
+		"desc": "Accused a witch by a ten year old girl.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8ecy9/thumb200s.jpg",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "LZLN-7JJ",
+		"name": "Susannah North",
+		"desc": "One of fourteen women executed for witchcraft.",
+		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5y3nj/thumb200s.jpg",
+		"gender": "Female"
+	  },
+	  {
+		"pid": "",
+		"name": "",
+		"desc": "",
+		"gender": "Male"
+	  }
 	]
-}
+  }

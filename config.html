@@ -24,14 +24,19 @@
          <div>
             <table cellpadding="10">
                <tr><td><button onclick="set_search_myself()" class="btn btn-primary" style="width:170px">Search as Myself</button></td><td>Requires login to FamilySearch.org account.</td></tr>
-
-               <tr><td><button onclick="show_panel('panel-ancestor');remember_search_method('ancestor')" class="btn btn-primary" style="width:170px">Search as Ancestor</button></td><td>No login required.</td></tr>
+            </table>
+            <div id="panel-myself" class="panel" style="display:none;margin-bottom:2rem;margin-top:.8rem">
+               <table cellpadding="10" style="margin-left:4rem">
+                  <tr id="myself-search" style="display:none;"><td><a id="self-search" class="btn btn-primary" style="width:80px" onclick="location.href = 'relatives.html'">Search</a></td><td>Find my relatives.</td></tr>
+                  <tr id="myself-login"                       ><td><a id="login"       class="btn btn-primary" style="width:80px"                                           >Login</a></td><td>Log in to FamilySearch.org.</td></tr>
+                  <tr id="myself-logout" style="display:none;"><td><a id="logout"      class="btn btn-primary" style="width:80px" onclick="logout_from_familysearch()"      >Logout</a></td><td>Log out from FamilySearch.org.</td></tr>
+               </table>
+            </div>
+               <table cellpadding="10">
+               <tr><td><button onclick="set_search_ancestor()" class="btn btn-primary" style="width:170px">Search as Ancestor</button></td><td>No login required.</td></tr>
             </table>
          </div>   
 
-         <div id="panel-myself" class="panel" style="display:none">
-            <div style="text-align: center; margin-top:4rem"><a id="login" class="btn btn-primary" >Login</a><br />to FamilySearch.org.</div>
-         </div>
          <div id="panel-ancestor" class="panel" style="display:none;margin-top: 2rem;">
             <p id="help-clause" style="display:none"></p>
             <div style="max-width:500px;">

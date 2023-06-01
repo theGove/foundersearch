@@ -30,15 +30,17 @@ async function start_me_up() {
 
     const ancestors=get_remembered_ancestors()
     console.log("ancestors",ancestors)
-    
-    if(!localStorage.getItem("searchMethod") || (localStorage.getItem("searchMethod")==='ancestor' && Object.keys(ancestors).length===0)){
+    const search_method=localStorage.getItem("searchMethod")
+    if(!search_method || 
+      (search_method==='ancestor' && Object.keys(ancestors).length===0) ||
+      (search_method==='myself' && !await logged_in()) 
+    ){
         location.href = `config.html`
         return
     }
 
     $('.adj-ancestors').click(function() {
         console.log("xset",set)
-
         if(set.startsWith("sets/")){
             set=set.substring(5)
         }
@@ -56,7 +58,11 @@ async function start_me_up() {
 
     $('.title').text(data.title);
     $('.desc').text(data.desc);
-    $('.banner').attr('style', 'background-image: url(' + data.banner + '); background-size: cover;');
+    let image_url=data.banner
+    if(!image_url.startsWith("http")){
+        image_url="/images/"+image_url
+    }
+    $('.banner').attr('style', 'background-image: url(' + image_url + '); background-size: cover;');
     $('body').attr('style', 'background-color: ' + data.backgroundColor + '; color: ' + data.textColor + ';');
 
     // Ensure smaller than 100 PIDs

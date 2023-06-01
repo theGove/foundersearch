@@ -1,7 +1,7 @@
 {
 	"title": "Boston Tea Party",
 	"desc": "Find out if you are related to someone who participated in the Boston Tea Party.",
-	"banner": "https://cousin.surge.sh/teaparty.webp",
+	"banner": "teaparty.jpg",
 	"backgroundColor": "#FFFFFF",
 	"textColor": "#000000",
 	"people": [

@@ -31,7 +31,7 @@ async function start_me_up() {
 
         // rsp = await fetch('https://api.familysearch.org/?access_token=' + obj.access_token)
         // obj = await rsp.json() 
-        obj = await api("platform/users/current",true)
+        obj = await api("platform/users/current",true,{method:"GET",headers:{authorization:"Bearer " + obj.access_token}})
         user.person=obj.users[0]
         user.person.id=user.person.personId
         user.person.name = user.person.displayName
@@ -70,7 +70,11 @@ async function start_me_up() {
 
     $('.title').text(data.title);
     $('.desc').text(data.desc);
-    $('.banner').attr('style', 'background-image: url(' + data.banner + '); background-size: cover;');
+    let image_url=data.banner
+    if(!image_url.startsWith("http")){
+        image_url="/images/"+image_url
+    }
+    $('.banner').attr('style', 'background-image: url(' + image_url + '); background-size: cover;');
     $('body').attr('style', 'background-color: ' + data.backgroundColor + '; color: ' + data.textColor + ';');
 
     // Ensure smaller than 100 PIDs
@@ -81,8 +85,10 @@ async function start_me_up() {
 
     // search style
     const search_method=localStorage.getItem("searchMethod")
-    if(search_method){
-        show_panel("panel-"+search_method)
+    if(search_method==="myself"){
+        set_search_myself(false)
+    }else if(search_method==="ancestor"){
+        set_search_ancestor(false)
     }
 
     // list remembered
@@ -229,20 +235,47 @@ function fill(){
     document.getElementsByName("deathLikeDateBegin")[0].value="1996"
 }
 
-async function set_search_myself(){
-    show_panel('panel-myself');
-    remember_search_method('myself')
+async function set_search_ancestor(clicked=true){
+    console.log(0)
+
+    if(localStorage.getItem("searchMethod")==="ancestor" && 
+       localStorage.getItem("ancestors") && 
+       Object.keys(localStorage.getItem("ancestors")).length>0 &&
+       tag("panel-ancestor").style.display===""
+      ){
+        console.log(1)
+        if(clicked){
+            console.log(2)
+            location.href = 'relatives.html'
+        }
+    }else{
+        show_panel('panel-ancestor')
+    }
+    remember_search_method('ancestor')
+}
+
+async function set_search_myself(clicked=true){
     // check to see if see we are logged in
     const access_token = sessionStorage.getItem("accessToken")
-    if(access_token){
-        rsp = await fetch('https://api.familysearch.org/platform/users/current?access_token=' + access_token)
-        if (rsp.status === 200) {
-            location.href = `relatives.html`
+    if(await logged_in()){
+        console.log("logged in =============================")
+        if(localStorage.getItem("searchMethod")==="myself"){
+            //we are logged in and we are searching as self, just search
+            if(clicked){
+                location.href = 'relatives.html'
+            }
+        }else{
+            show_panel('panel-myself');
+            $("#myself-login").hide()
+            $("#myself-logout").show()
+            $("#myself-search").show()                    
         }
-
-        
-
+    }else{
+        console.log("============================ logged out")
+        show_panel('panel-myself');
     }
+    remember_search_method('myself')
+
 }
 
 function show_panel(panel_id){
@@ -253,4 +286,14 @@ function show_panel(panel_id){
 function remember_search_method(search_method){
     console.log("setting search method", search_method)
     localStorage.setItem("searchMethod", search_method)
+}
+
+function logout_from_familysearch(){
+    console.log("logging out")
+    api("platform/logout","none",{method:"POST"})
+    sessionStorage.setItem("unauthenticatedToken",sessionStorage.getItem("authenticatedToken"))
+    sessionStorage.setItem("authenticatedToken",null)
+    $("#myself-login").show()
+    $("#myself-logout").hide()
+    $("#myself-search").hide()                    
 }

@@ -36,19 +36,23 @@ async function logged_in(){
         }
     }
     const rsp = await fetch(url, options)
+    console.log("rsp.status",rsp.status, rsp.status===200)
     return rsp.status===200
 }
 
 async function api(path, authenticated="either", options={method:"GET"}){
     // path is the part of the URL that goes after familysearch.org/
     
-    let access_token = await get_access_token(authenticated)
-    
     const url="https://api.familysearch.org/" + path
     if(!options.headers){
         options.headers={}
     }
-    options.headers.authorization = 'Bearer ' + access_token
+    if(!options.headers.authorization){// only set the authoriation if an authroization header is not passed in
+        let access_token = await get_access_token(authenticated)
+        console.log("get_access_token",get_access_token)
+        options.headers.authorization = 'Bearer ' + access_token
+    }
+    console.log(url,options)
     const  rsp = await fetch(url,options)
     console.log("response.status",rsp.status)
     if(rsp.status!=200){return{status:rsp.status}}
@@ -89,15 +93,10 @@ async function get_unauthenticated_token(){
 
 async function set_unauthenticated_token(){
     // Get unauthenticated access token
-    rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
-        method: "POST",
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: 'grant_type=unauthenticated_session&ip_address=127.0.0.1&client_id=' + atob('YTAyajAwMDAwMEtUUmpwQUFI')
-    })
-    obj=await  rsp.json()
-    sessionStorage.setItem("unauthenticatedToken", obj.token)
+    // google cloud function owned by gove@colonialherirage.org
+    const rsp = await fetch("https://founder-search-access-token-ec7zr7o4nq-uw.a.run.app/")
+    const token = await rsp.text()
+    sessionStorage.setItem("unauthenticatedToken", token)
 }
 
 async function find_relationships(id) {
@@ -105,7 +104,7 @@ async function find_relationships(id) {
     // Iterate person list
     data.people.forEach(async function(key, idx, array) {
         if (key.pid == "") return;
-
+        console.log("key----->", key)
         // Calculate relationship
         let path=null
         let access_token=null
@@ -148,7 +147,12 @@ async function find_relationships(id) {
                    image_clause = `<img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${key.pid}/portrait?default=${portrait}&access_token=${access_token}">`
                 }else{
                     // here we need to build the link to the local copy of the ancestor picture
-                    image_clause = `<img class="portrait" src="${portrait}">`
+                    if(key.imageURL){
+                        image_clause = `<img class="portrait" src="${key.imageURL}">`
+                    }else{
+                        image_clause = `<img class="portrait" src="${portrait}">`
+                    }
+                    
                 }
             
 
