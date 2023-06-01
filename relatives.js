@@ -68,61 +68,17 @@ async function start_me_up() {
 
     if(localStorage.getItem("searchMethod")==="myself"){
         const user=JSON.parse(sessionStorage.getItem("user"))
-        find_relationships(user.person)
+        launch_relationships(user.person)
     }else{
         for(const ancestor of Object.values(ancestors) ){
-            find_relationships(ancestor)
+            launch_relationships(ancestor)
         }
     }
 }
 
-async function find_relationships(ancestor) {
-    const id=ancestor.id
+function launch_relationships(ancestor){
     console.log("clicked", ancestor)
     $('.relationInfo').append(`<h3 class="searchInstructions">${ancestor.name} is related to</h3><ul id="${ancestor.id}" class="related"></ul>`);
     $('.noRels').show();
-
-    // Iterate person list
-    data.people.forEach(async function(key, idx, array) {
-        if (key.pid == "") return;
-
-        // Calculate relationship
-        let url=null
-        if(localStorage.getItem("searchMethod")==="myself"){
-            url = 'https://api.familysearch.org/platform/tree/my-relationships?pid=' + key.pid
-        }else{
-            url = 'https://api.familysearch.org/platform/tree/persons/' + id + '/relationships/' + key.pid
-        }
-        
-        const options = {headers: {Authorization: 'Bearer ' + sessionStorage.getItem("accessToken")}}
-        console.log("checking relationship", url, options)
-        await fetch(url, options).then(function(rsp) {
-                // Handle no relationship case
-                if (rsp.status == 204){ 
-                    return {persons: []};
-                }
-                return rsp.json();
-            })
-            .then(function(rsp) {
-                if (rsp.persons.length == 0) return;
-                $('.noRels').hide();
-
-                // Get relationship title
-                let type = rsp.persons[rsp.persons.length - 1].display.relationshipDescription.split("My ")[1];
-
-                // Get gender portrait
-                let portrait = "https://cousin.surge.sh/male.svg";
-                // if (p.gender == "Female") portrait = "https://cousin.surge.sh/female.svg";
-
-                $('#'+id).append('<li data-id="' + key.pid + '">\
-    <div class="person"><div>\
-    <a href="https://ancestors.familysearch.org/en/' + key.pid + '" target="_blank">\
-    <img class="portrait" src="https://api.familysearch.org/platform/tree/persons/' + key.pid + '/portrait?default=' + portrait + '&access_token=' + sessionStorage.getItem("accessToken") + '">\
-    </div><div><span class="name">' + key.name + '</span>\
-    <span> (' + type + ')</span>\
-    <br /><span class="cousinDesc">' + key.desc + '</span>\
-    </div></div></a>\
-    </li>');
-            });
-    });
+    find_relationships(ancestor.id)
 }

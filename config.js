@@ -16,19 +16,22 @@ async function start_me_up() {
 
     // Get the JWT
     if (code) {
+        // cannot use api function because it is an anauthenticated request
         let rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token?redirect_uri='+redirect, {
                 method: "POST",
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 body: 'grant_type=authorization_code&code='+code+'&client_id='+appKey
             })
         let obj = await rsp.json() 
-        sessionStorage.setItem("accessToken", obj.access_token)
+        sessionStorage.setItem("authenticatedToken", obj.access_token)
 
         console.log("obj",JSON.stringify(obj))
         const user = JSON.parse(atob(obj.id_token.split('.')[1]));
         // get the current user's PID 
-        rsp = await fetch('https://api.familysearch.org/platform/users/current?access_token=' + obj.access_token)
-        obj = await rsp.json() 
+
+        // rsp = await fetch('https://api.familysearch.org/?access_token=' + obj.access_token)
+        // obj = await rsp.json() 
+        obj = await api("platform/users/current",true)
         user.person=obj.users[0]
         user.person.id=user.person.personId
         user.person.name = user.person.displayName
@@ -87,7 +90,7 @@ async function start_me_up() {
 
 
     // Tree Search
-    $('.search').click(function() {
+    $('.search').click(async function() {
         $('.results, .related').empty();
         $('.result-list').empty();
         $('').show();
@@ -99,38 +102,22 @@ async function start_me_up() {
         if ($("[name='birthLikePlace']").val() != "") URL += "&q.birthLikePlace=" + $("[name='birthLikePlace']").val();
         if ($("[name='deathLikeDateBegin']").val() != "") URL += "&q.deathLikeDate=" + $("[name='deathLikeDateBegin']").val();
         if ($("[name='deathLikePlace']").val() != "") URL += "&q.deathLikePlace=" + $("[name='deathLikePlace']").val();
-        fetch('https://api.familysearch.org/platform/tree/search?' + URL + "&count=10", {
-            headers: {
-                Authorization: "Bearer " + sessionStorage.getItem("accessToken"),
-                Accept: "application/json"
-            }
-        }).then(function(rsp) {
-            return rsp.json()
-        }).then(function(search) {
-            for (let i = 0; i < search.entries.length; i++) {
-                p = search.entries[i].content.gedcomx.persons[0].display;
-                p.id = search.entries[i].content.gedcomx.persons[0].id;
-                place_ancestor(p, ancestors)
-               
-            }
-        });
+        const search=await api('platform/tree/search?' + URL + "&count=10","either", {headers:{Accept: "application/json"}})
+        console.log("search", search)
+        for (let i = 0; i < search.entries.length; i++) {
+            p = search.entries[i].content.gedcomx.persons[0].display;
+            p.id = search.entries[i].content.gedcomx.persons[0].id;
+            place_ancestor(p, ancestors)
+           
+        }
     });
 
     // Find relationships (Click on search result)
     console.log("data", data)
-    $('.results').on('click', '.result', find_relationships);
+    $('.results').on('click', '.result', launch_relationships);
     //$('#login').on('click', login);
 
-    // Get unauthenticated access token
-    rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
-            },
-            body: 'grant_type=unauthenticated_session&ip_address=127.0.0.1&client_id=' + atob('YTAyajAwMDAwMEtUUmpwQUFI')
-        })
-    obj=await  rsp.json()
-    sessionStorage.setItem("accessToken", obj.token)
+    await set_unauthenticated_token()
     
 
     fill()
@@ -157,7 +144,9 @@ function show_remembered_ancestors() {
     }
 }
 
-function place_ancestor(p, ancestors){
+async function place_ancestor(p, ancestors){
+    const access_token = await get_access_token()
+    
     console.log("at place ancestors")
     if (p.birthPlace == undefined) p.birthPlace = "";
 
@@ -170,12 +159,19 @@ function place_ancestor(p, ancestors){
     if (isNaN(deathYear)) deathYear = p.deathDate;
 
     // Get gender portrait
-    let portrait = "https://cousin.surge.sh/male.svg";
-    if (p.gender == "Female") portrait = "https://cousin.surge.sh/female.svg";
+    let portrait = "https://foundersearch.colonialheritage.org/images/male.svg";
+    if (p.gender == "Female") portrait = "https://foundersearch.colonialheritage.org/images/female.svg";
 
-    // Can't get portraits with unauthenticated session :-(
+    let image_clause = null
+    if(await logged_in()){
+       image_clause = `<div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${access_token}"></div>`
+    }else{
+        image_clause = `<div><img class="portrait" src="${portrait}"></div>`
+    }
+
+
     $('.results').append(`<li class="result" data-record="${btoa(JSON.stringify(p))}" data-id="${p.id}" ${ancestors[p.id]?' style="background-color:#eee;padding:5px 10px;"':''}>
-<div class="person">
+<div class="person">${image_clause}
 <div><span class="name">${p.name} ${age}</span>
 <br /><span class="lifespan">${birthYear} -- ${deathYear}</span>
 <br /><span  class="msg"${ancestors[p.id]?"":' style="display:none"'}>This ancestor has been remembered (<span style="text-decoration: underline;color:blue;" onclick="forget(event)" >forget</style>)</span>
@@ -206,75 +202,23 @@ function forget(evt){
 
 
 
-async function find_relationships(evt) {
+async function launch_relationships(evt) {
     tag("show-remembered-ancestors").style.display=""
-    console.log("clicked", data)
     const li = evt.currentTarget
     let p =  JSON.parse(atob(li.dataset.record))
-    let id=p.id
     li.style.padding = "5px 10px"
     li.style.backgroundColor = "#eee"
     li.querySelector(".msg").style.display=""
-    console.log("record",p)
-    console.log("id",id)
     $('.relationInfo').show();
-    $('.related').empty();
+    $('.relationInfo').html(`<h3 class="searchInstructions">${p.name} is related to</h3><ul id="${p.id}" class="related"></ul>`);
     $('.noRels').show();
     $('.result-list').show();
     $('.result-list').html(p.name + " " + " is realted to:")
     ancestors=get_remembered_ancestors()
-    ancestors[id]=p
+    ancestors[p.id]=p
     remember_ancestors(ancestors)
-
-
-
-    // TODO: If a user object is found, use it instead and skip search form
-    // Problem: Unauthenticated session, OR pid-to-pid doesn't support living people
-    // let user = JSON.parse(localStorage.getItem('user'));
-    // if (user) {
-    //  console.log("Found User: "+user.personId+", "+user.displayName+", "+user.jwt.sessionId);
-    //  id = user.personId;
-    //  token, token2 = user.jwt.sessionId;
-    // }
-
-    // Iterate person list
-    data.people.forEach(async function(key, idx, array) {
-        if (key.pid == "") return;
-
-        // Calculate relationship
-        
-        await fetch('https://api.familysearch.org/platform/tree/persons/' + id + '/relationships/' + key.pid, {
-                headers: {
-                    Authorization: 'Bearer ' + sessionStorage.getItem("accessToken")
-                }
-            }).then(function(rsp) {
-                // Handle no relationship case
-                if (rsp.status == 204) return {
-                    persons: []
-                };
-                return rsp.json();
-            })
-            .then(function(rsp) {
-                if (rsp.persons.length == 0) return;
-                $('.noRels').hide();
-
-                // Get relationship title
-                let type = rsp.persons[rsp.persons.length - 1].display.relationshipDescription.split("My ")[1];
-
-                // Get gender portrait
-                let portrait = "https://cousin.surge.sh/male.svg";
-                // if (p.gender == "Female") portrait = "https://cousin.surge.sh/female.svg";
-
-                $('.related').append('<li data-id="' + key.pid + '">\
-    <div class="person"><div>\
-    <a href="https://ancestors.familysearch.org/en/' + key.pid + '" target="_blank">\
-    </div><div><span class="name">' + key.name + '</span>\
-    <span> (' + type + ')</span>\
-    <br /><span class="cousinDesc">' + key.desc + '</span>\
-    </div></div></a>\
-    </li>');
-            });
-    });
+    console.log("p.id",p.id)
+    find_relationships(p.id)
 }
 
 function fill(){
@@ -307,5 +251,6 @@ function show_panel(panel_id){
 }
 
 function remember_search_method(search_method){
+    console.log("setting search method", search_method)
     localStorage.setItem("searchMethod", search_method)
 }
