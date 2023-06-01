@@ -75,7 +75,7 @@ async function start_me_up() {
 
 
     if(localStorage.getItem("searchMethod")==="myself"){
-        const user=JSON.parse(sessionStorage.getItem("user"))
+        const user=JSON.parse(localStorage.getItem("user"))
         launch_relationships(user.person)
     }else{
         for(const ancestor of Object.values(ancestors) ){

@@ -23,10 +23,10 @@ async function start_me_up() {
                 body: 'grant_type=authorization_code&code='+code+'&client_id='+appKey
             })
         let obj = await rsp.json() 
-        sessionStorage.setItem("authenticatedToken", obj.access_token)
-        sessionStorage.setItem("unauthenticatedToken", obj.access_token)
-        sessionStorage.setItem("authenticatedTokenTime", new Date().valueOf())
-        sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+        localStorage.setItem("authenticatedToken", obj.access_token)
+        localStorage.setItem("unauthenticatedToken", obj.access_token)
+        localStorage.setItem("authenticatedTokenTime", new Date().valueOf())
+        localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
         
 
         //console.log("obj",JSON.stringify(obj))
@@ -40,7 +40,7 @@ async function start_me_up() {
         user.person.id=user.person.personId
         user.person.name = user.person.displayName
         //console.log("user",user)
-        sessionStorage.setItem("user", JSON.stringify(user))
+        localStorage.setItem("user", JSON.stringify(user))
         //console.log("ready to redirect")
         //console.log("obj",JSON.stringify(obj))    
         location.href = `relatives.html`
@@ -260,7 +260,7 @@ async function set_search_ancestor(clicked=true){
 
 async function set_search_myself(clicked=true){
     // check to see if see we are logged in
-    const access_token = sessionStorage.getItem("accessToken")
+    const access_token = localStorage.getItem("accessToken")
     if(await logged_in()){
         //console.log("logged in =============================")
         if(localStorage.getItem("searchMethod")==="myself"){
@@ -295,8 +295,8 @@ function remember_search_method(search_method){
 function logout_from_familysearch(){
     //console.log("logging out")
     api("platform/logout","none",{method:"POST"})
-    sessionStorage.setItem("unauthenticatedToken",sessionStorage.getItem("authenticatedToken"))
-    sessionStorage.setItem("authenticatedToken",null)
+    localStorage.setItem("unauthenticatedToken",localStorage.getItem("authenticatedToken"))
+    localStorage.setItem("authenticatedToken",null)
     $("#myself-login").show()
     $("#myself-logout").hide()
     $("#myself-search").hide()                    

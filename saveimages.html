@@ -15,15 +15,15 @@
                 tag("counter").innerHTML = counter++
                 const person = set.people[key]
                 //console.log(person)
-                let rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}/portrait?default=https://foundersearch.colonialheritage.org/images/male.svg&access_token=` + sessionStorage.getItem("authenticatedToken"))
+                let rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}/portrait?default=https://foundersearch.colonialheritage.org/images/male.svg&access_token=` + localStorage.getItem("authenticatedToken"))
                 tag("output").append(rsp.url + "\n")
-                if(!rsp.url.includes(sessionStorage.getItem("authenticatedToken")) &&
+                if(!rsp.url.includes(localStorage.getItem("authenticatedToken")) &&
                   !rsp.url.includes("foundersearch.colonialheritage.org")
                 ){
                     set.people[key].imageURL=rsp.url
                 }
                 
-                rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}`,{headers:{authorization:"Bearer " + sessionStorage.getItem("authenticatedToken")}})
+                rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}`,{headers:{authorization:"Bearer " + localStorage.getItem("authenticatedToken")}})
                 let text = await rsp.text()
                 if(text.includes("<gender>Female</gender>")){
                     set.people[key].gender="Female"

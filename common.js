@@ -17,12 +17,12 @@ function tag(id){
 
 async function logged_in(){
     // cannot use api function because api calls this
-    const access_token = sessionStorage.getItem("authenticatedToken")
+    const access_token = localStorage.getItem("authenticatedToken")
     if(!access_token){
         //console.log ("Not logged in: No Access Token")
         return false
     }
-    let user = sessionStorage.getItem("user")
+    let user = localStorage.getItem("user")
     if(!user) {
         //console.log ("Not logged in: No user")
         return false
@@ -30,7 +30,7 @@ async function logged_in(){
     user=JSON.parse(user)
 
     //check the age of the token
-    if(new Date().valueOf() - sessionStorage.getItem("authenticatedTokenTime") < 36000000){
+    if(new Date().valueOf() - localStorage.getItem("authenticatedTokenTime") < 36000000){
         // it's been less than an hour since checking
         return true
     }
@@ -46,10 +46,10 @@ async function logged_in(){
     const rsp = await fetch(url, options)
     //console.log("rsp.status",rsp.status, rsp.status===200)
     if(rsp.status===200){
-        sessionStorage.setItem("authenticatedTokenTime", new Date().valueOf())
+        localStorage.setItem("authenticatedTokenTime", new Date().valueOf())
         return true
     }else{
-        sessionStorage.setItem("authenticatedToken", null)
+        localStorage.setItem("authenticatedToken", null)
         return false
     }
     
@@ -82,13 +82,13 @@ async function get_access_token( authenticated="either"){
     let token = null
     if(authenticated===true){
         if(await logged_in()){
-            token = sessionStorage.getItem("authenticatedToken")  
+            token = localStorage.getItem("authenticatedToken")  
         }else{
             return false
         }
     }else if(authenticated==="either"){
         if(await logged_in()){
-            token = sessionStorage.getItem("authenticatedToken")  
+            token = localStorage.getItem("authenticatedToken")  
         }else{
             token =await get_unauthenticated_token()
         }
@@ -99,12 +99,12 @@ async function get_access_token( authenticated="either"){
 }
 
 async function get_unauthenticated_token(){
-    let token = sessionStorage.getItem("unauthenticatedToken") 
+    let token = localStorage.getItem("unauthenticatedToken") 
     if(unauthenticated_token_is_valid()){
         return token
     }
 
-    token = await sessionStorage.getItem("unauthenticatedToken") 
+    token = await localStorage.getItem("unauthenticatedToken") 
     return token
 
 }
@@ -114,8 +114,8 @@ async function set_unauthenticated_token(){
     // google cloud function owned by gove@colonialherirage.org
     const rsp = await fetch("https://founder-search-access-token-ec7zr7o4nq-uw.a.run.app/")
     const token = await rsp.text()
-    sessionStorage.setItem("unauthenticatedToken", token)
-    sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+    localStorage.setItem("unauthenticatedToken", token)
+    localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
 }
 
 
@@ -130,14 +130,14 @@ async function refresh_unauthenticated_token(){
 
 async function unauthenticated_token_is_valid(){
     
-    const access_token = sessionStorage.getItem("unauthenticatedToken")
+    const access_token = localStorage.getItem("unauthenticatedToken")
     if(!access_token){
         //console.log ("Not Valid: No Access Token")
         return false
     }
 
     //check the age of the token
-    if(new Date().valueOf() - sessionStorage.getItem("unauthenticatedTokenTime") < 36000000){
+    if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36000000){
         // it's been less than an hour since checking
         return true
     }
@@ -153,10 +153,10 @@ async function unauthenticated_token_is_valid(){
     const rsp = await fetch(url,options)
     //console.log("rsp",rsp)
     if(rsp.status===200){
-        sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+        localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
         return true
     }else{
-        sessionStorage.setItem("unauthenticatedToken", null)
+        localStorage.setItem("unauthenticatedToken", null)
         return false
     }
     
