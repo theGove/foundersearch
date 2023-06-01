@@ -1,6 +1,6 @@
 const  appKey = atob("YjBLN1JXUVNKVUQ4QQ")
-const redirect = "https://cousin.surge.sh"
-const authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id=" + appKey + "&redirect_uri=" + redirect;
+const redirect = `${window.location.protocol}//${window.location.host}/config.html`;
+var authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&client_id="+appKey+"&redirect_uri="+redirect;
 
 function get_remembered_ancestors(){
     ancestors=localStorage.getItem("ancestors")||"{}"
@@ -18,6 +18,7 @@ function tag(id){
 async function logged_in(){
     // cannot use api function because api calls this
     const access_token = localStorage.getItem("authenticatedToken")
+    //console.log("access_token",access_token)
     if(!access_token){
         //console.log ("Not logged in: No Access Token")
         return false
@@ -49,7 +50,7 @@ async function logged_in(){
         localStorage.setItem("authenticatedTokenTime", new Date().valueOf())
         return true
     }else{
-        localStorage.setItem("authenticatedToken", null)
+        localStorage.removeItem("authenticatedToken")
         return false
     }
     
@@ -112,9 +113,17 @@ async function get_unauthenticated_token(){
 async function set_unauthenticated_token(){
     // Get unauthenticated access token
     // google cloud function owned by gove@colonialherirage.org
-    const rsp = await fetch("https://founder-search-access-token-ec7zr7o4nq-uw.a.run.app/")
-    const token = await rsp.text()
-    localStorage.setItem("unauthenticatedToken", token)
+
+    const rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: 'grant_type=unauthenticated_session&ip_address=127.0.0.1&client_id=' + atob('YTAyajAwMDAwMEtUUmpwQUFI')
+    })
+    obj=await  rsp.json()
+
+    localStorage.setItem("unauthenticatedToken", obj.token)
     localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
 }
 

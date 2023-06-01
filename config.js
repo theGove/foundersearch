@@ -8,8 +8,6 @@ async function start_me_up() {
       
 
     
-    const redirect = `${window.location.protocol}//${window.location.host}/config.html`;
-    var authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id="+appKey+"&redirect_uri="+redirect;
 
     // Set Login link
     document.getElementById("login").setAttribute("href", authUrl);
@@ -30,7 +28,8 @@ async function start_me_up() {
         
 
         //console.log("obj",JSON.stringify(obj))
-        const user = JSON.parse(atob(obj.id_token.split('.')[1]));
+        //const user = JSON.parse(atob(obj.id_token.split('.')[1]));
+        const user={}
         // get the current user's PID 
 
         // rsp = await fetch('https://api.familysearch.org/?access_token=' + obj.access_token)
@@ -296,7 +295,7 @@ function logout_from_familysearch(){
     //console.log("logging out")
     api("platform/logout","none",{method:"POST"})
     localStorage.setItem("unauthenticatedToken",localStorage.getItem("authenticatedToken"))
-    localStorage.setItem("authenticatedToken",null)
+    localStorage.removeItem("authenticatedToken")
     $("#myself-login").show()
     $("#myself-logout").hide()
     $("#myself-search").hide()                    
