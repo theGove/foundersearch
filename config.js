@@ -8,7 +8,8 @@ async function start_me_up() {
       
 
 //   const redirect = 'https://foundersearch.colonialheritage.org/config.html'
-    const redirect = 'http://localhost:5501/config.html';
+
+    const redirect = `${window.location.protocol}//${window.location.host}/config.html`;
     var authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id="+appKey+"&redirect_uri="+redirect;
 
     // Set Login link
