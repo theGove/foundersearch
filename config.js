@@ -25,6 +25,10 @@ async function start_me_up() {
             })
         let obj = await rsp.json() 
         sessionStorage.setItem("authenticatedToken", obj.access_token)
+        sessionStorage.setItem("unauthenticatedToken", obj.access_token)
+        sessionStorage.setItem("authenticatedTokenTime", new Date().valueOf())
+        sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+        
 
         console.log("obj",JSON.stringify(obj))
         const user = JSON.parse(atob(obj.id_token.split('.')[1]));
@@ -124,7 +128,7 @@ async function start_me_up() {
     $('.results').on('click', '.result', launch_relationships);
     //$('#login').on('click', login);
 
-    await set_unauthenticated_token()
+    //await set_unauthenticated_token()
     
 
     fill()

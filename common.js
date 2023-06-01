@@ -1,6 +1,6 @@
-var appKey = atob("YjBLN1JXUVNKVUQ4QQ"),
-redirect = "https://cousin.surge.sh",
-authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id=" + appKey + "&redirect_uri=" + redirect;
+const  appKey = atob("YjBLN1JXUVNKVUQ4QQ")
+const redirect = "https://cousin.surge.sh"
+const authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&scope=openid%20profile%20email%20qualifies_for_affiliate_account%20country&client_id=" + appKey + "&redirect_uri=" + redirect;
 
 function get_remembered_ancestors(){
     ancestors=localStorage.getItem("ancestors")||"{}"
@@ -28,6 +28,14 @@ async function logged_in(){
         return false
     }
     user=JSON.parse(user)
+
+    //check the age of the token
+    if(new Date().valueOf() - sessionStorage.getItem("authenticatedTokenTime") < 36000000){
+        // it's been less than an hour since checking
+        return true
+    }
+    
+    // it's been more than an hour since checking, check again
     const url="https://api.familysearch.org/platform/tree/persons/" + user.person.id
     const options={
         method:"head",
@@ -37,7 +45,14 @@ async function logged_in(){
     }
     const rsp = await fetch(url, options)
     console.log("rsp.status",rsp.status, rsp.status===200)
-    return rsp.status===200
+    if(rsp.status===200){
+        sessionStorage.setItem("authenticatedTokenTime", new Date().valueOf())
+        return true
+    }else{
+        sessionStorage.setItem("authenticatedToken", null)
+        return false
+    }
+    
 }
 
 async function api(path, authenticated="either", options={method:"GET"}){
@@ -49,15 +64,16 @@ async function api(path, authenticated="either", options={method:"GET"}){
     }
     if(!options.headers.authorization){// only set the authoriation if an authroization header is not passed in
         let access_token = await get_access_token(authenticated)
-        console.log("get_access_token",get_access_token)
+        //console.log("get_access_token",get_access_token)
         options.headers.authorization = 'Bearer ' + access_token
     }
-    console.log(url,options)
+    //console.log(url,options)
     const  rsp = await fetch(url,options)
-    console.log("response.status",rsp.status)
+    //console.log("response.status",rsp.status)
     if(rsp.status!=200){return{status:rsp.status}}
-    const data = rsp.json() 
+    const data = await rsp.json() 
     data.status=200
+    //console.log("data", data)
     return await data
     
 }
@@ -84,11 +100,13 @@ async function get_access_token( authenticated="either"){
 
 async function get_unauthenticated_token(){
     let token = sessionStorage.getItem("unauthenticatedToken") 
-    if(!token){
-        await set_unauthenticated_token()
-        token = sessionStorage.getItem("unauthenticatedToken") 
-    } 
+    if(unauthenticated_token_is_valid()){
+        return token
+    }
+
+    token = await sessionStorage.getItem("unauthenticatedToken") 
     return token
+
 }
 
 async function set_unauthenticated_token(){
@@ -97,6 +115,52 @@ async function set_unauthenticated_token(){
     const rsp = await fetch("https://founder-search-access-token-ec7zr7o4nq-uw.a.run.app/")
     const token = await rsp.text()
     sessionStorage.setItem("unauthenticatedToken", token)
+    sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+}
+
+
+
+async function refresh_unauthenticated_token(){
+    if(!await unauthenticated_token_is_valid()){
+        await set_unauthenticated_token()
+    }
+}
+
+
+
+async function unauthenticated_token_is_valid(){
+    
+    const access_token = sessionStorage.getItem("unauthenticatedToken")
+    if(!access_token){
+        console.log ("Not Valid: No Access Token")
+        return false
+    }
+
+    //check the age of the token
+    if(new Date().valueOf() - sessionStorage.getItem("unauthenticatedTokenTime") < 36000000){
+        // it's been less than an hour since checking
+        return true
+    }
+
+    // its been more than an hour since we last checked  
+    const url="https://api.familysearch.org/platform/collections/dates" + user.person.id
+    const options={
+        method:"head",
+        headers:{
+            authorization:'Bearer ' + access_token
+        }
+    }
+    const rsp = await fetch(url,options)
+    console.log("rsp",rsp)
+    if(rsp.status===200){
+        sessionStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+        return true
+    }else{
+        sessionStorage.setItem("unauthenticatedToken", null)
+        return false
+    }
+    
+
 }
 
 async function find_relationships(id) {
