@@ -152,6 +152,7 @@ async function unauthenticated_token_is_valid(){
     }
 
     // its been more than an hour since we last checked  
+    const user = JSON.parse(localStorage.getItem("user"))
     const url="https://api.familysearch.org/platform/collections/dates" + user.person.id
     const options={
         method:"head",
