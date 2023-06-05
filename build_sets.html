@@ -9,7 +9,8 @@
 
         async function start_me_up(){
             let set_name = new URLSearchParams(window.location.search).get('set');
-            if(!sessionStorage.getItem("group")){
+            let load = new URLSearchParams(window.location.search).get('load');
+            if(!sessionStorage.getItem("group") || load==="true"){
                 await get_data()
             }
             const person = JSON.parse(sessionStorage.getItem("person"))
@@ -43,7 +44,8 @@
                         report.people.push({
                             pid: pid[person[member].fields.pid[0]].fields.pid,
                             name: person[member].fields.full_name,
-                            desc: person[member].fields.blurb 
+                            desc: person[member].fields.blurb,
+                            url: person[member].fields.url,
                         })
                         //console.log(person[member].fields.full_name, pid[person[member].fields.pid].fields.pid, person[member].fields.blurb)
                     }
@@ -65,7 +67,7 @@
                 const result = await get_table(key)
                 console.log("key",key)
                 console.log("data",result)
-                tag(key).innerHTML =result.length
+                tag(key).innerHTML = Object.keys(result).length
             }
 
         }

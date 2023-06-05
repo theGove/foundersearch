@@ -281,14 +281,12 @@ async function find_relationships(id) {
                     }
                     
                 }
-            
-
-
+                const image_url = "https://ancestors.familysearch.org/en/" + key.pid
 
                 $('#'+id).append(`<li data-id="${key.pid}">
     <div class="person"><div>
-    <a href="https://ancestors.familysearch.org/en/${key.pid}" target="_blank">
-    ${image_clause}
+    <a href="${key.url?key.url:image_url}" target="_blank">
+    ${image_clause}</a><a href="https://ancestors.familysearch.org/en/${key.pid}" target="_blank">
     </div><div><div><span class="name">${key.name}</span></a>
     <span onclick="show_path(this)" class="show-tree"> (${type})</span></div>
     <div class="tree" style="display:none">${get_path(rsp)}</div>
