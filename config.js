@@ -81,7 +81,7 @@ async function start_me_up() {
     $('body').attr('style', 'background-color: ' + data.backgroundColor + '; color: ' + data.textColor + ';');
 
     // Ensure smaller than 100 PIDs
-    if (data.people.length > 100) {
+    if (data.people.length > 400) {
         alert("Data set too large! Must be fewer than 100 people :-(");
         $('.search').hide();
     }

@@ -16,21 +16,27 @@
             const pid = JSON.parse(sessionStorage.getItem("pid"))
             const group = JSON.parse(sessionStorage.getItem("group"))
 
-            console.log("person", person)
+            
             for(const [id, grp] of Object.entries(group)){
+              console.log(grp.fields.shortname,set_name)  
+              if(grp.fields.shortname===set_name){   
+                let image_url=grp.fields.image_url
+                if(!image_url){
+                    image_url=set_name + ".png"
+                }
                 
                 const report={
                     title: grp.fields.group_name,
                     desc: grp.fields.description,
-                    banner: grp.fields.image_url,
-                    backgroundColor: "#000000",
-                    textColor: "#CCCCCC",
+                    banner: image_url,
+                    backgroundColor: "#fff",
+                    textColor: "#000",
                     people:[]
                 }
                 const data = grp.fields
                 console.log(data.group_name, grp.id, data.members.length)
                 for(const member of data.members){
-                    if(person[member].fields.pid){
+                    if(person[member].fields.pid && pid[person[member].fields.pid[0]].fields.pid.toUpperCase()!=="SKIP"){
 
                         console.log("member", pid[person[member].fields.pid[0]].fields.pid)
 
@@ -43,8 +49,8 @@
                     }
 
                 }
-                tag("output").innerHTML="<pre>"+JSON.stringify(report, null, 2)+"</pre>"
-            break
+               document.body.innerHTML="<pre>"+JSON.stringify(report, null, 2)+"</pre>"
+              }
             }
             //document.body.innerHTML = "<pre>" + JSON.stringify(data,null,2) + "</pre>"
         }

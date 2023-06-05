@@ -1,9 +1,9 @@
 {
     "title": "Signers of the Declaration of Independence",
     "desc": "A group of Signers of the Declaration of Independence",
-    "banner": "/images/declaration.png",
-    "backgroundColor": "#000000",
-    "textColor": "#CCCCCC",
+    "banner": "declaration.png",
+    "backgroundColor": "#fff",
+    "textColor": "#000",
     "people": [
       {
         "pid": "MKNQ-TSF",
