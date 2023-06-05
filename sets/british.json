@@ -6,11 +6,6 @@
   "textColor": "#000",
   "people": [
     {
-      "pid": "skip",
-      "name": "Thomas Preston",
-      "desc": "Captain Thomas Preston (c.1722—c. 1798) was an Irish military officer who served in Boston, Massachusetts. He commanded the troops involved in the Boston Massacre in 1770 and was tried for murder, but was acquitted. Historians have never settled whether he ordered his men to fire on the colonists. Preston was originally from Ireland; his people were among the Protestants settled there."
-    },
-    {
       "pid": "K2W9-2WG",
       "name": "Benedict Arnold",
       "desc": "Benedict Arnold (14 January 1741  – June 14, 1801) was an American-born military officer who served during the Revolutionary War. He fought with distinction for the American Continental Army and rose to the rank of major general before defecting to the British side of the conflict in 1780. General George Washington had given him his fullest trust and had placed him in command of West Point in New York. Arnold was planning to surrender the fort there to British forces, but the plot was discovered in September 1780, whereupon he fled to the British lines. In the later part of the conflict, Arnold was commissioned as a brigadier general in the British Army, and placed in command of the American Legion. He led the British army in battle against the soldiers whom he had once commanded, after which his name became, and has remained, synonymous with treason and betrayal in the United States."
@@ -64,11 +59,6 @@
       "pid": "MX94-F6Z",
       "name": "Mariot Arbuthnot",
       "desc": "Admiral Mariot Arbuthnot (1711 – 31 January 1794) was a British admiral, who commanded the Royal Navy's North American station during the American War for Independence."
-    },
-    {
-      "pid": "skip",
-      "name": "Robert Boyd",
-      "desc": "Lieutenant-General Sir Robert Boyd KB (c. 1710 – 13 May 1794) was a British Army officer."
     },
     {
       "pid": "LHRT-6KM",
@@ -171,11 +161,6 @@
       "desc": "The Honourable Major General Alexander Leslie (1731 – 27 December 1794) was a major general in the British Army during the American Revolutionary War. He was the commander of the British troops at the Battle of Harlem Heights. He replaced Cornwallis as commander in the South in 1782."
     },
     {
-      "pid": "skip",
-      "name": "William Medows",
-      "desc": "General Sir William Medows KB (31 December 1738 – 14 November 1813) was an Englishman and a general in the British Army. He entered the army in 1756 and saw action in North America, the Cape, and India. In 1788 he was appointed Governor of Bombay, transferring to become Governor of Madras in 1790."
-    },
-    {
       "pid": "L8RM-4VM",
       "name": "Hector Munro",
       "desc": "General Sir Hector Munro, 8th Laird of Novar, KB (1726 – 27 December 1805) was a Scottish army officer and politician who served as the ninth Commander-in-Chief of Bengal from 1764 to 1765."
@@ -186,18 +171,9 @@
       "desc": "William Phillips (1731 – 13 May 1781) was a renowned artilleryman and general officer in the British Army who served as a major-general in the American War of Independence."
     },
     {
-      "pid": "skip",
-      "name": "William Picton"
-    },
-    {
       "pid": "LZZW-MYB",
       "name": "George Brydges Rodney",
       "desc": "Admiral George Brydges Rodney, 1st Baron Rodney, KB (bap. 13 February 1718 – 24 May 1792), was a British naval officer. He is best known for his commands in the American War of Independence, particularly his victory over the French at the Battle of the Saintes in 1782. It is often claimed that he was the commander to have pioneered the tactic of breaking the line."
-    },
-    {
-      "pid": "skip",
-      "name": "Francis Smith",
-      "desc": "Major General Francis Smith (1723–1791) was a British Army officer. Although Smith had a lengthy and varied career, he is best known as the British commander during most of the Battle of Lexington and Concord, Massachusetts on 19 April 1775. The fighting ignited the American War of Independence that would see thirteen of Britain's American Colonies become a separate nation."
     },
     {
       "pid": "LBF2-KY3",
@@ -223,11 +199,6 @@
       "pid": "L8GT-LHM",
       "name": "John Johnson",
       "desc": "Brigadier General Sir John Johnson, 2nd Baronet (5 November 1741 – 4 January 1830) was an American-born military officer, magistrate, landowner and colonial official in the British Indian Department who fought as a Loyalist during the American Revolutionary War. He was the son of Sir William Johnson, 1st Baronet, who was the first British Superintendent of Indian Affairs."
-    },
-    {
-      "pid": "skip",
-      "name": "Francis McLean",
-      "desc": "Brigadier General Francis McLean (c.1717 – 4 May 1781) was a British army officer, one of two sons of Captain William Maclean and Anne Kinloch. He became famous for defending New Ireland (Maine) against the Penobscot Expedition during the American Revolution. The defeat of the Expedition was a noted British victory of the American Revolution. He was in command of the 74th Regiment of (Highland) Foot and 82nd Regiment of Foot (1778). He died 4 May 1781 at Halifax, Nova Scotia and is buried in the crypt of St. Paul's Church (Halifax). McLean never married."
     },
     {
       "pid": "GZNY-2GL",

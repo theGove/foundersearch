@@ -44,3 +44,26 @@ ul{
 .related li{
     margin-bottom:20px;
 }
+
+.tree td{
+    text-align: center;
+    
+}
+.female{
+    background-color: pink;
+    border-radius: 20px;
+    padding: 0 10px
+}
+
+.male{
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 0 10px
+}
+
+.show-tree{
+    cursor:pointer;
+    color:blue;
+    text-decoration: underline;
+
+}

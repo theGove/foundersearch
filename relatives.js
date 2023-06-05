@@ -69,7 +69,7 @@ async function start_me_up() {
 
     // Ensure smaller than 100 PIDs
     if (data.people.length > 400) {
-        alert("Data set too large! Must be fewer than 100 people :-(");
+        alert("Data set too large! Must be fewer than 400 people :-(");
         $('.search').hide();
     }
 

@@ -173,6 +173,56 @@ async function unauthenticated_token_is_valid(){
 
 }
 
+function get_path(elem){ 
+    const rels=elem.relationships
+    const lines=[[],[]]
+    //console.log(elem)
+    let workingon=0
+    for(let x=0;x<rels.length-1;x++){
+        lines[workingon].push(elem.persons[x])
+        if(rels[x].person1.resourceId===rels[x+1].person1.resourceId){
+            // the common ancestor
+            //console.log(x, rels[x].person1.resourceId, elem.persons[x] )
+            //lines[workingon].push(elem.persons[x+1])
+            workingon=1
+        }
+    }
+    lines[1].push(elem.persons[rels.length-1])
+    lines[1].push(elem.persons[elem.persons.length-1])
+    //console.log(lines)
+    const pappy=lines[1].shift()
+    const table=[`<table class="tree" style="margin:1rem 0"><tr><td class="${pappy.gender.type.endsWith("Female")?"female":"male"}" colspan="3" style="text-align:center"><a target="_blank" href="https://ancestors.familysearch.org/en/${pappy.id}">${pappy.display.name}</a></td></tr>`]
+    for(let x=0;x<lines[0].length;x++){
+        table.push(`<tr><td>|</td><td>&nbsp;</td><td>${x<lines[1].length?"|":""}</td></tr>`)
+        table.push(`<tr><td class="${lines[0][lines[0].length-1-x].gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${lines[0][lines[0].length-1-x].id}">${lines[0][lines[0].length-1-x].display.name}</a></td><td>&nbsp;</td>`)
+        if(x<lines[1].length){
+            table.push(`<td class="${lines[1][x].gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${lines[1][x].id}">${lines[1][x].display.name}</a>`)
+        }else{
+            table.push("<td>")
+        }
+        table.push("</td></tr>")
+
+    }
+    table.push("</table>")
+    return table.join("")
+}
+
+function show_path(span){ 
+    let elem=span
+    while(elem.className !== "person"){
+        elem=elem.parentElement
+    }
+    const tree_div=elem.querySelector(".tree")
+    //console.log(tree_div.style.display, tree_div.style.display==="none")
+    if(tree_div.style.display==="none"){
+        //console.log("changing")
+        tree_div.style.display="block"
+    }else{
+        tree_div.style.display="none"
+    }
+    
+}
+
 async function find_relationships(id) {
     //console.log("find rels", id)
     // Iterate person list
@@ -205,6 +255,9 @@ async function find_relationships(id) {
                 return rsp.json();
             })
             .then(async function(rsp) {
+                //console.log("---------------------------")
+                //console.log(rsp)
+                
                 if (rsp.persons.length == 0) return;
                 $('.noRels').hide();
 
@@ -236,10 +289,11 @@ async function find_relationships(id) {
     <div class="person"><div>
     <a href="https://ancestors.familysearch.org/en/${key.pid}" target="_blank">
     ${image_clause}
-    </div><div><span class="name">${key.name}</span>
-    <span> (${type})</span>
-    <br /><span class="cousinDesc">${key.desc}</span>
-    </div></div></a>
+    </div><div><div><span class="name">${key.name}</span></a>
+    <span onclick="show_path(this)" class="show-tree"> (${type})</span></div>
+    <div class="tree" style="display:none">${get_path(rsp)}</div>
+    <div><span class="cousinDesc">${key.desc}</span></div>
+    </div></div>
     </li>`);
             });
     });
