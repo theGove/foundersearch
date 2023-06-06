@@ -19,7 +19,7 @@
 
             
             for(const [id, grp] of Object.entries(group)){
-              console.log(grp.fields.shortname,set_name)  
+              //console.log(grp.fields.shortname,set_name)  
               if(grp.fields.shortname===set_name){   
                 let image_url=grp.fields.image_url
                 if(!image_url){
@@ -35,11 +35,11 @@
                     people:[]
                 }
                 const data = grp.fields
-                console.log(data.group_name, grp.id, data.members.length)
+                //console.log(data.group_name, grp.id, data.members.length)
                 for(const member of data.members){
                     if(person[member].fields.pid && pid[person[member].fields.pid[0]].fields.pid.toUpperCase()!=="SKIP"){
 
-                        console.log("member", pid[person[member].fields.pid[0]].fields.pid)
+                        //console.log("member", pid[person[member].fields.pid[0]].fields.pid)
 
                         report.people.push({
                             pid: pid[person[member].fields.pid[0]].fields.pid,
@@ -65,8 +65,8 @@
             }
             for(const key of Object.keys(data)){
                 const result = await get_table(key)
-                console.log("key",key)
-                console.log("data",result)
+                //console.log("key",key)
+                //console.log("data",result)
                 tag(key).innerHTML = Object.keys(result).length
             }
 
@@ -74,7 +74,7 @@
 
         async function get_table(tablename){
             const url= endpoint+"?mode=table&name=" + tablename
-            console.log(url)
+            //console.log(url)
             const response  = await fetch(url)
             const text = await response.text();
             const table = {}

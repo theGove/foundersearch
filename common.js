@@ -1,7 +1,9 @@
 const  appKey = atob("YjBLN1JXUVNKVUQ4QQ")
 const redirect = `${window.location.protocol}//${window.location.host}/config.html`;
 var authUrl = "https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&client_id="+appKey+"&redirect_uri="+redirect;
-
+let searches_started = 0
+let searches_complete = 0
+let relatives_found = 0
 function get_remembered_ancestors(){
     ancestors=localStorage.getItem("ancestors")||"{}"
     return JSON.parse(ancestors)
@@ -31,7 +33,7 @@ async function logged_in(){
     user=JSON.parse(user)
 
     //check the age of the token
-    if(new Date().valueOf() - localStorage.getItem("authenticatedTokenTime") < 36000000){
+    if(new Date().valueOf() - localStorage.getItem("authenticatedTokenTime") < 36000000){ //
         // it's been less than an hour since checking
         return true
     }
@@ -80,6 +82,7 @@ async function api(path, authenticated="either", options={method:"GET"}){
 }
 
 async function get_access_token( authenticated="either"){
+    //console.log("authenticated",authenticated)
     let token = null
     if(authenticated===true){
         if(await logged_in()){
@@ -104,22 +107,20 @@ async function get_unauthenticated_token(){
     if(unauthenticated_token_is_valid()){
         return token
     }
-
-    token = await localStorage.getItem("unauthenticatedToken") 
-    return token
+    await set_unauthenticated_token()
+    
+    return localStorage.getItem("unauthenticatedToken") 
 
 }
 
 async function set_unauthenticated_token(){
-    // Get unauthenticated access token
-    // google cloud function owned by gove@colonialherirage.org
 
     const rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
         method: "POST",
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: 'grant_type=unauthenticated_session&ip_address=127.0.0.1&client_id=' + atob('YTAyajAwMDAwMEtUUmpwQUFI')
+        body: `grant_type=unauthenticated_session&ip_address=${window.location.host}&client_id=` + atob('YTAyajAwMDAwMEtUUmpwQUFI')
     })
     obj=await  rsp.json()
 
@@ -144,16 +145,17 @@ async function unauthenticated_token_is_valid(){
         //console.log ("Not Valid: No Access Token")
         return false
     }
-
+    
     //check the age of the token
-    if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36000000){
+    if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36){
         // it's been less than an hour since checking
+        //console.log("less than an hour")
         return true
     }
 
     // its been more than an hour since we last checked  
     const user = JSON.parse(localStorage.getItem("user"))
-    const url="https://api.familysearch.org/platform/collections/dates" + user.person.id
+    const url="https://api.familysearch.org/platform/tree/persons/KWHM-PDN"// + user.person.id
     const options={
         method:"head",
         headers:{
@@ -162,10 +164,12 @@ async function unauthenticated_token_is_valid(){
     }
     const rsp = await fetch(url,options)
     //console.log("rsp",rsp)
+    
     if(rsp.status===200){
         localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
         return true
     }else{
+        localStorage.setItem("unauthenticatedTokenTime", 0)
         localStorage.setItem("unauthenticatedToken", null)
         return false
     }
@@ -173,10 +177,27 @@ async function unauthenticated_token_is_valid(){
 
 }
 
-function get_path(elem){ 
+function get_path_direct(elem){ 
+
+    const table=[`<table class="tree" style="margin:1rem 0">`]
+    
+    for(let x=elem.persons.length-1;x>0;x--){
+        const person = elem.persons[x]
+        //console.log("person", person.display.name)
+        table.push(`<tr><td class="${person.gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${person.id}">${person.display.name}</a></td></tr>`)
+        table.push(`<tr><td>|</td></tr>`)
+
+    }
+    table.pop()
+    table.push("</table>")
+    return table.join("")
+
+}
+
+function get_path_cousin(elem){ 
+
     const rels=elem.relationships
     const lines=[[],[]]
-    //console.log(elem)
     let workingon=0
     for(let x=0;x<rels.length-1;x++){
         lines[workingon].push(elem.persons[x])
@@ -205,6 +226,18 @@ function get_path(elem){
     }
     table.push("</table>")
     return table.join("")
+
+}
+
+
+function get_path(elem){ 
+    const rel_name = elem.persons[elem.persons.length-1].display.relationshipDescription 
+    if(rel_name.endsWith("father") || rel_name.endsWith("mother")){
+        return get_path_direct(elem)
+    }else{
+        return get_path_cousin(elem)
+    }
+
 }
 
 function show_path(span){ 
@@ -226,38 +259,80 @@ function show_path(span){
 async function find_relationships(id) {
     //console.log("find rels", id)
     // Iterate person list
+    searches_started=0
+    searches_complete=0
+    relatives_found=0
+    
+
+    let access_token=null
+    if(localStorage.getItem("searchMethod")==="myself"){
+        access_token = await get_access_token(true)
+        if(!access_token){
+            return
+        }
+    }else{
+        
+        access_token = await get_access_token()
+    }
+
+
     data.people.forEach(async function(key, idx, array) {
         if (key.pid == "") return;
-        //console.log("key----->", key)
-        // Calculate relationship
+
         let path=null
-        let access_token=null
         if(localStorage.getItem("searchMethod")==="myself"){
             path = 'platform/tree/my-relationships?pid=' + key.pid
-            access_token = await get_access_token(true)
-            if(!access_token){
-                    // not logged in
-                //console.log("Not Logged In-------------")
-                return
-
-            }
         }else{
             path = 'platform/tree/persons/' + id + '/relationships/' + key.pid
-            access_token = await get_access_token()
         }
+
+
+
+        //console.log("key----->", key)
+        // Calculate relationship
         //console.log("source pid", id, access_token)
         const options = {headers: {Authorization: 'Bearer ' + access_token}}
+        searches_started++
         await fetch("https://api.familysearch.org/" + path, options).then(function(rsp) {
-                // Handle no relationship case
-                if (rsp.status == 204){ 
-                    return {persons: []};
+            searches_complete++
+
+            if(searches_complete===searches_started){
+                // we are done
+                
+                if(relatives_found===0){
+                    let message="<p>Well, we did not findy any relatoinships.  But don't feel too bad; here in America, we care more about what you have done with your life that what your ancestors have done.</p><p>Be someone great.</p>"
+                    let event_data = localStorage.getItem("eventData")
+                    if(event_data){ 
+                        event_data=JSON.parse(event_data)
+                        if(event_data.notFound){
+                            message += event_data.notFound 
+                        }
+                    }
+                    $('.noRels').html(message)    
+                    $('.searchInstructions').hide()    
                 }
+            }
+                // Handle no relationship case
+                if (rsp.status === 204){ 
+                    return {persons: []};
+                }else if(rsp.status === 401){
+                    //console.log("========================unauthorized====================")
+                    if(localStorage.getItem("searchMethod")==="myself"){
+                        localStorage.removeItem("authenticatedToken")
+                        localStorage.removeItem("authenticatedTokenTime")
+                    }else{
+                        localStorage.removeItem("unauthenticatedToken")
+                        localStorage.removeItem("unauthenticatedTokenTime")
+                    }
+                    location.reload()
+                }
+                
                 return rsp.json();
             })
             .then(async function(rsp) {
                 //console.log("---------------------------")
                 //console.log(rsp)
-                
+                relatives_found++
                 if (rsp.persons.length == 0) return;
                 $('.noRels').hide();
 
