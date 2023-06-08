@@ -9,13 +9,15 @@
       "pid": "MKNQ-TSF",
       "name": "John Adams",
       "desc": "John Adams October 30, 1735 – July 4, 1826 was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States from 1797 to 1801.",
+      "url": "https://en.wikipedia.org/wiki/John_Adams",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uan/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LZP1-7YB",
       "name": "Samuel Adams",
-      "desc": "Samuel Adams September 27  1722 – October 2, 1803 was an American statesman, political philosopher, and a Founding Father of the United States. He was a politician in colonial Massachusetts, a leader of the movement that became the American Revolution, and one of the architects of the principles of American republicanism that shaped the political culture of the United States. He was a second cousin to his fellow Founding Father, President John Adams.",
+      "desc": "Samuel Adams September 27  1722 – October 2, 1803 was an American statesman, political philosopher, and a Founding Father of the United States. He was a politician in colonial Massachusetts, a leader of the movement that became the American Revolution, and one of the architects of the principles of American republicanism that shaped the political culture of the United States. He was a second cousin to his fellow Founding Father, President John Adams.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Adams",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dlvpe/thumb200s.jpg",
       "gender": "Male"
     },
@@ -23,26 +25,23 @@
       "pid": "LZFS-HYD",
       "name": "Josiah Bartlett",
       "desc": "Josiah Bartlett December 2, 1729 – May 19, 1795 was an American Founding Father, physician, statesman, a delegate to the Continental Congress for New Hampshire, and a signatory to the Declaration of Independence and Articles of Confederation. He served as the first governor of New Hampshire and chief justice of the New Hampshire Superior Court of Judicature.",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Bartlett",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mc8g/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LTD9-366",
       "name": "Carter Braxton",
-      "desc": "Carter Braxton September 10, 1736 – October 10, 1797 was a Founding Father of the United States, signer of the Declaration of Independence, merchant, and Virginia planter.",
+      "desc": "Carter Braxton September 10, 1736 – October 10, 1797 was a Founding Father of the United States, signer of the Declaration of Independence, merchant, and Virginia planter.",
+      "url": "https://en.wikipedia.org/wiki/Carter_Braxton",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qa8g/thumb200s.jpg",
-      "gender": "Male"
-    },
-    {
-      "pid": "skip",
-      "name": "Charles of Carrollton Carroll",
-      "desc": "Charles Cotesworth Pinckney February 25, 1746 – August 16, 1825 was a Founding Father of the United States, military officer during the Revolutionary War, attorney, planter, and slave owner. A delegate to the Constitutional Convention, Pinckney was a signer of the U.S. Constitution and later served as U.S. Minister to France.",
       "gender": "Male"
     },
     {
       "pid": "2YGW-2F4",
       "name": "Samuel Chase",
       "desc": "Samuel Chase April 17, 1741 – June 19, 1811 was a Founding Father of the United States, signer of the Continental Association and United States Declaration of Independence as a representative of Maryland, and Associate Justice of the United States Supreme Court. Chase was impeached by the House of Representatives on grounds of letting his partisan leanings affect his court decisions but was acquitted by the Senate and remained in office.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Chase",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/sb8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -50,13 +49,15 @@
       "pid": "L5GM-BGB",
       "name": "Abraham Clark",
       "desc": "Abraham Clark February 15, 1726 – September 15, 1794 was an American Founding Father, politician, and Revolutionary War figure. Clark was a delegate for New Jersey to the Continental Congress where he signed the Declaration of Independence and later served in the United States House of Representatives in both the Second and Third United States Congress, from March 4, 1791, until his death in 1794.",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Clark",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5a8g/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "K4P1-K1S",
       "name": "George Clymer",
-      "desc": "George Clymer March 16, 1739 – January 23, 1813 was an American politician, abolitionist and Founding Father of the United States, one of only six founders who signed both the Declaration of Independence and U.S. Constitution. Clymer was among the earliest patriots to advocate for complete independence from Britain.",
+      "desc": "George Clymer March 16, 1739 – January 23, 1813 was an American politician, abolitionist and Founding Father of the United States, one of only six founders who signed both the Declaration of Independence and U.S. Constitution. Clymer was among the earliest patriots to advocate for complete independence from Britain.",
+      "url": "https://en.wikipedia.org/wiki/George_Clymer",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/a98g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -64,6 +65,7 @@
       "pid": "MXH3-4KX",
       "name": "William Ellery",
       "desc": "William Ellery December 22, 1727 – February 15, 1820 was a Founding Father of the United States, one of the 56 signers of the United States Declaration of Independence, and a signer of the Articles of Confederation as a representative of Rhode Island.",
+      "url": "https://en.wikipedia.org/wiki/William_Ellery",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odl49/thumb200s.jpg",
       "gender": "Male"
     },
@@ -71,13 +73,15 @@
       "pid": "LHK4-VDH",
       "name": "William Floyd",
       "desc": "William Floyd December 17, 1734 – August 4, 1821 was an American Founding Father, wealthy farmer, and political leader from New York. Floyd served as a delegate to the Continental Congress and was a signer of the Continental Association and Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Floyd",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/109g/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LJLQ-WRC",
       "name": "Benjamin Franklin",
-      "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
+      "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg",
       "gender": "Male"
     },
@@ -85,6 +89,7 @@
       "pid": "L43W-65X",
       "name": "Elbridge Gerry",
       "desc": "Elbridge Gerry /ˈɡɛri/; July 17, 1744 – November 23, 1814 was an American Founding Father, merchant, politician, and diplomat who served as the fifth vice president of the United States under President James Madison from 1813 until his death in 1814. The political practice of gerrymandering is named after him.",
+      "url": "https://en.wikipedia.org/wiki/Elbridge_Gerry",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ca9g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -92,6 +97,7 @@
       "pid": "KG17-2K9",
       "name": "Button Gwinnett",
       "desc": "Button Gwinnett March 3, 1735 – May 19, 1777 was a British-born American Founding Father who, as a representative of Georgia to the Continental Congress, was one of the signers first signature on the left of the United States Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/Button_Gwinnett",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/x59g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -99,6 +105,7 @@
       "pid": "KLBC-XSK",
       "name": "Lyman Hall",
       "desc": "Lyman Hall April 12, 1724 – October 19, 1790 was an American Founding Father, physician, clergyman, and statesman who signed the United States Declaration of Independence as a representative of Georgia. Hall County is named after him. He was one of four physicians to sign the Declaration, along with Benjamin Rush, Josiah Bartlett, and Matthew Thornton.",
+      "url": "https://en.wikipedia.org/wiki/Lyman_Hall",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k69g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -106,20 +113,23 @@
       "pid": "LVN9-NPL",
       "name": "John Hancock",
       "desc": "John Hancock January 23, 1737 – October 8, 1793 was an American Founding Father, merchant, statesman, and prominent Patriot of the American Revolution. He served as president of the Second Continental Congress and was the first and third Governor of the Commonwealth of Massachusetts. He is remembered for his large and stylish signature on the United States Declaration of Independence, so much so that the term John Hancock or Hancock has become a nickname in the United States for one's signature.",
+      "url": "https://en.wikipedia.org/wiki/John_Hancock",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ij841/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LTNY-8PT",
       "name": "Benjamin Harrison",
-      "desc": "Benjamin Harrison V April 5, 1726 – April 24, 1791 was an American planter, merchant, and politician who served as a legislator in colonial Virginia, following his namesakes' tradition of public service. He was a signer of the Continental Association, as well as the United States Declaration of Independence, and was one of the nation's Founding Fathers. He served as Virginia's governor from 1781 to 1784.",
+      "desc": "Benjamin Harrison V April 5, 1726 – April 24, 1791 was an American planter, merchant, and politician who served as a legislator in colonial Virginia, following his namesakes' tradition of public service. He was a signer of the Continental Association, as well as the United States Declaration of Independence, and was one of the nation's Founding Fathers. He served as Virginia's governor from 1781 to 1784.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Harrison_V",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/brt4/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "L6TY-GZX",
       "name": "John Hart",
-      "desc": "John Hart circa 1713 – May 11, 1779 was an American Founding Father and politician in colonial New Jersey. As a delegate to the Continental Congress, Hart signed the Declaration of Independence. He died several years before the end of the Revolutionary War while still active in patriotic efforts.",
+      "desc": "John Hart circa 1713 – May 11, 1779 was an American Founding Father and politician in colonial New Jersey. As a delegate to the Continental Congress, Hart signed the Declaration of Independence. He died several years before the end of the Revolutionary War while still active in patriotic efforts.",
+      "url": "https://en.wikipedia.org/wiki/John_Hart_(New_Jersey_politician)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ywe7j/thumb200s.jpg",
       "gender": "Male"
     },
@@ -127,6 +137,7 @@
       "pid": "LCYM-ZXW",
       "name": "Joseph Hewes",
       "desc": "Joseph Hewes July 9, 1730– November 10, 1779 was an American Founding Father and a signer of the Continental Association and U.S. Declaration of Independence. Hewes was a native of Princeton, New Jersey, where he was born in 1730. His parents were members of the Society of Friends, commonly known as Quakers.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Hewes",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lgs6/thumb200s.jpg",
       "gender": "Male"
     },
@@ -134,6 +145,7 @@
       "pid": "LHGD-JSL",
       "name": "Thomas Heyward Jr.",
       "desc": "Thomas Heyward Jr. July 28, 1746 – March 6, 1809 was an American Founding Father, lawyer, jurist, and politician. Heyward was active politically during the Revolutionary Era. As a member of the Continental Congress representing South Carolina, he signed the Declaration of Independence and Articles of Confederation.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Heyward,_Jr.",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/o59g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -141,6 +153,7 @@
       "pid": "L6D8-6XZ",
       "name": "William Hooper",
       "desc": "William Hooper June 28, 1742 – October 14, 1790 was an American Founding Father, lawyer, and politician. As a member of the Continental Congress representing North Carolina, Hooper signed the Continental Association and the Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Hooper",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/68b37/thumb200s.jpg",
       "gender": "Male"
     },
@@ -148,6 +161,7 @@
       "pid": "L13C-CMX",
       "name": "Stephen Hopkins",
       "desc": "Stephen Hopkins March 7, 1707 – July 13, 1785 was a Founding Father of the United States, a governor of the Colony of Rhode Island and Providence Plantations, a chief justice of the Rhode Island Supreme Court, and a signer of the Continental Association and Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Hopkins_(politician)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/oc8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -155,13 +169,15 @@
       "pid": "M5FX-VDM",
       "name": "Francis Hopkinson",
       "desc": "Francis Hopkinson October 2, 1737 – May 9, 1791 was an American Founding Father, lawyer, jurist, author, and composer. He designed Continental paper money and two early versions of flags, one for the United States and one for the United States Navy. He was a signer of the Declaration of Independence in July 1776 as a delegate from New Jersey.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Hopkinson",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/avsj7/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "2ZVG-NTV",
       "name": "Samuel Huntington",
-      "desc": "Samuel Huntington July 16, 1731  – January 5, 1796 was a Founding Father of the United States and a lawyer, jurist, statesman, and Patriot in the American Revolution from Connecticut. As a delegate to the Continental Congress, he signed the Declaration of Independence and the Articles of Confederation.",
+      "desc": "Samuel Huntington July 16, 1731  – January 5, 1796 was a Founding Father of the United States and a lawyer, jurist, statesman, and Patriot in the American Revolution from Connecticut. As a delegate to the Continental Congress, he signed the Declaration of Independence and the Articles of Confederation.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Huntington_(statesman)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cn8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -169,19 +185,22 @@
       "pid": "GKYQ-QMS",
       "name": "Thomas Jefferson",
       "desc": "Thomas Jefferson April 13, 1743 – July 4, 1826 was an American statesman, diplomat, lawyer, architect, philosopher, and Founding Father who served as the third president of the United States from 1801 to 1809. Among the Committee of Five charged by the Second Continental Congress with authoring the Declaration of Independence, Jefferson was the document's primary author.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
       "gender": "Male"
     },
     {
       "pid": "LZXZ-JM1",
       "name": "Francis Lightfoot Lee",
       "desc": "Francis Lightfoot Lee October 14, 1734 – January 11, 1797 was a Founding Father of the United States and a member of the House of Burgesses in the Colony of Virginia. As an active protester regarding issues such as the Stamp Act of 1765, Lee helped move the colony in the direction of independence from Britain. Lee was a delegate to the Virginia Conventions and the Continental Congress. He was a signer of the Declaration of Independence and Articles of Confederation as a representative of Virginia.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Lightfoot_Lee",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hn8g/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LD8H-15M",
       "name": "Richard Henry Lee",
-      "desc": "Richard Henry Lee January 20, 1732 – June 19, 1794 was an American statesman and Founding Father from Virginia, best known for the June 1776 Lee Resolution, the motion in the Second Continental Congress calling for the colonies' independence from Great Britain leading to the United States Declaration of Independence, which he signed.",
+      "desc": "Richard Henry Lee January 20, 1732 – June 19, 1794 was an American statesman and Founding Father from Virginia, best known for the June 1776 Lee Resolution, the motion in the Second Continental Congress calling for the colonies' independence from Great Britain leading to the United States Declaration of Independence, which he signed.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Henry_Lee",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wm8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -189,6 +208,7 @@
       "pid": "LC3Q-879",
       "name": "Francis Lewis",
       "desc": "Francis Lewis March 21, 1713 – December 31, 1802 was an American merchant and a Founding Father of the United States. He was a signatory of the United States Declaration of Independence and Articles of Confederation as a representative of New York in the Continental Congress.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Lewis",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fk8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -196,6 +216,7 @@
       "pid": "L4WJ-NPW",
       "name": "Philip Livingston",
       "desc": "Philip Livingston January 15, 1716 – June 12, 1778 was an American merchant, politician and slave trader from New York City. He represented New York at the October 1774 First Continental Congress, where he favored imposing economic sanctions upon Great Britain as a way of pressuring the British Parliament to repeal the Intolerable Acts. Livingston was also a delegate to the Second Continental Congress from 1775 to 1778, and signed the Declaration of Independence, thus becoming one of the Founding Fathers of the United States.",
+      "url": "https://en.wikipedia.org/wiki/Philip_Livingston",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nv8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -203,13 +224,15 @@
       "pid": "L44Q-GW7",
       "name": "Thomas Lynch Jr.",
       "desc": "Thomas Lynch Jr. August 5, 1749 – December 17, 1779 was a signer of the United States Declaration of Independence as a representative of South Carolina and a Founding Father of the United States. His father was a member of the Continental Congress who had signed the 1774 Continental Association, and when he stepped down because of illness Lynch Jr. was selected to fill his post.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Lynch,_Jr.",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7w8g/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LZSS-X3Y",
       "name": "Thomas McKean",
-      "desc": "Thomas McKean pronounced mc-Kane March 19, 1734 – June 24, 1817 was an American lawyer, politician, and Founding Father. During the American Revolution, he was a Delaware delegate to the Continental Congress in Philadelphia, where he signed the Continental Association, the Declaration of Independence, and the Articles of Confederation. McKean served as a President of Congress.",
+      "desc": "Thomas McKean pronounced mc-Kane March 19, 1734 – June 24, 1817 was an American lawyer, politician, and Founding Father. During the American Revolution, he was a Delaware delegate to the Continental Congress in Philadelphia, where he signed the Continental Association, the Declaration of Independence, and the Articles of Confederation. McKean served as a President of Congress.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_McKean",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/woc1/thumb200s.jpg",
       "gender": "Male"
     },
@@ -217,6 +240,7 @@
       "pid": "LHLJ-4B8",
       "name": "Arthur Middleton",
       "desc": "Arthur Middleton June 26, 1742 – January 1, 1787 was a Founding Father of the United States, signer of the United States Declaration of Independence, and a representative from South Carolina in the Second Continental Congress. While a member of Congress, he helped frame the Articles of Confederation, but resigned his seat before signing.",
+      "url": "https://en.wikipedia.org/wiki/Arthur_Middleton",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1u8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -224,12 +248,14 @@
       "pid": "G9B6-6TH",
       "name": "Lewis Morris",
       "desc": "Lewis Morris April 8, 1726 – January 22, 1798 was an American Founding Father, landowner, and developer from Morrisania, New York, presently part of Bronx County. He signed the U.S. Declaration of Independence as a delegate to the Continental Congress from New York.",
+      "url": "https://en.wikipedia.org/wiki/Lewis_Morris",
       "gender": "Male"
     },
     {
       "pid": "LJYV-FLC",
       "name": "Robert Morris",
-      "desc": "Robert Morris Jr. January 20, 1734 – May 8, 1806 was an English-born merchant and a Founding Father of the United States. He served as a member of the Pennsylvania legislature, the Second Continental Congress, and the United States Senate, and he was a signer of the Declaration of Independence, the Articles of Confederation, and the United States Constitution.",
+      "desc": "Robert Morris Jr. January 20, 1734 – May 8, 1806 was an English-born merchant and a Founding Father of the United States. He served as a member of the Pennsylvania legislature, the Second Continental Congress, and the United States Senate, and he was a signer of the Declaration of Independence, the Articles of Confederation, and the United States Constitution.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Morris_(financier)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/449g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -237,6 +263,7 @@
       "pid": "LTM4-KSJ",
       "name": "John Morton",
       "desc": "John Morton 1725 – April 1, 1777 was an American farmer, surveyor, and jurist from the Province of Pennsylvania and a Founding Father of the United States. As a delegate to the Continental Congress during the American Revolution, he was a signatory to the Continental Association and Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/John_Morton_(American_politician)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/829g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -244,12 +271,14 @@
       "pid": "GN22-XH7",
       "name": "Thomas Nelson Jr.",
       "desc": "Thomas Nelson Jr. December 26, 1738 – January 4, 1789 was a Founding Father of the United States, general in the Revolutionary War, member of the Continental Congress, and a Virginia planter and slave owner. In addition to serving many terms in the Virginia General Assembly, he twice represented Virginia in the Congress, where he signed the Declaration of Independence in 1776.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Nelson,_Jr.",
       "gender": "Male"
     },
     {
       "pid": "LWJT-H92",
       "name": "William Paca",
       "desc": "William Paca October 31, 1740 – October 13, 1799 was a Founding Father of the United States who was a signatory to the Continental Association and the United States Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Paca",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/939g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -257,6 +286,7 @@
       "pid": "LHVX-16Z",
       "name": "Robert Treat Paine",
       "desc": "Robert Treat Paine March 11, 1731 – May 11, 1814 was a lawyer, politician and Founding Father of the United States who signed the Continental Association and Declaration of Independence as a representative of Massachusetts. He served as the state's first attorney general and as an associate justice of the Massachusetts Supreme Judicial Court, the state's highest court.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Treat_Paine",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xhih7/thumb200s.jpg",
       "gender": "Male"
     },
@@ -264,6 +294,7 @@
       "pid": "LDQL-FY3",
       "name": "John Penn",
       "desc": "John Penn May 17, 1741 – September 14, 1788 was an American Founding Father who served multiple terms in the Continental Congress, and who signed both the Declaration of Independence and Articles of Confederation as a delegate of North Carolina.",
+      "url": "https://en.wikipedia.org/wiki/John_Penn_(Continental_Congress)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/geia/thumb200s.jpg",
       "gender": "Male"
     },
@@ -271,6 +302,7 @@
       "pid": "97H5-JS5",
       "name": "George Read",
       "desc": "George Read September 18, 1733 – September 21, 1798 was an American politician from New Castle in New Castle County, Delaware. He was a Continental Congressman from Delaware, a delegate to the U.S. Constitutional Convention of 1787, president of Delaware, and a member of the Federalist Party. In addition, Read served as U.S. Senator from Delaware and chief justice of Delaware.",
+      "url": "https://en.wikipedia.org/wiki/George_Read_(signer)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9rcvh/thumb200s.jpg",
       "gender": "Male"
     },
@@ -278,6 +310,7 @@
       "pid": "KP4N-DZV",
       "name": "Caesar Rodney",
       "desc": "Caesar Rodney October 7, 1728 – June 26, 1784 was an American Founding Father, lawyer, and politician from St. Jones Neck in Dover Hundred, Kent County, Delaware. He was an officer of the Delaware militia during the French and Indian War and the American Revolutionary War, a Continental Congressman from Delaware, a signer of the Continental Association and Declaration of Independence, and president of Delaware during most of the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Caesar_Rodney",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/eo7wh/thumb200s.jpg",
       "gender": "Male"
     },
@@ -285,13 +318,15 @@
       "pid": "LKTZ-T5H",
       "name": "George Ross",
       "desc": "George Ross Jr May 10, 1730 – July 14, 1779 was a Founding Father of the United States who signed the Continental Association and the United States Declaration of Independence as a representative of Pennsylvania. He was also the uncle of the man who married Betsy Griscom in 1773, more famous under her married name, Betsy Ross. In 1952, Ross, George Washington, and Robert Morris appeared on a three-cent stamp commemorating Betsy Ross.",
+      "url": "https://en.wikipedia.org/wiki/George_Ross_(delegate)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/x18g/thumb200s.jpg",
       "gender": "Male"
     },
     {
       "pid": "LVMM-S2V",
       "name": "Benjamin Rush",
-      "desc": "Benjamin Rush January 4, 1746  – April 19, 1813 was an American revolutionary, a Founding Father of the United States and signatory to the U.S. Declaration of Independence, and a civic leader in Philadelphia, where he was a physician, politician, social reformer, humanitarian, educator, and the founder of Dickinson College.",
+      "desc": "Benjamin Rush January 4, 1746  – April 19, 1813 was an American revolutionary, a Founding Father of the United States and signatory to the U.S. Declaration of Independence, and a civic leader in Philadelphia, where he was a physician, politician, social reformer, humanitarian, educator, and the founder of Dickinson College.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Rush",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ueke/thumb200s.jpg",
       "gender": "Male"
     },
@@ -299,6 +334,7 @@
       "pid": "MZT8-Q72",
       "name": "Edward Rutledge",
       "desc": "Edward Rutledge November 23, 1749 – January 23, 1800 was an American Founding Father and politician who signed the Continental Association and was the youngest signatory of the Declaration of Independence. He later served as the 39th governor of South Carolina.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Rutledge",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9z7g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -306,6 +342,7 @@
       "pid": "LZXD-7S2",
       "name": "Roger Sherman",
       "desc": "Roger Sherman April 19, 1721 – July 23, 1793 was an American statesman, lawyer, and a Founding Father of the United States. He is the only person to sign four of the great state papers of the United States related to the founding: the Continental Association, Declaration of Independence, Articles of Confederation, and U.S. Constitution. He also signed the 1774 Petition to the King and 1775 Olive Branch Petition.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Sherman",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqh9/thumb200s.jpg",
       "gender": "Male"
     },
@@ -313,6 +350,7 @@
       "pid": "MZL8-TVK",
       "name": "James Smith",
       "desc": "James Smith September 17, 1719 – July 11, 1806, a Founding Father of the United States, was an Irish/American lawyer and a signer to the United States Declaration of Independence as a representative of Pennsylvania.",
+      "url": "https://en.wikipedia.org/wiki/James_Smith_(delegate)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1z7g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -320,6 +358,7 @@
       "pid": "K6MS-FST",
       "name": "Richard Stockton",
       "desc": "Richard Stockton October 1, 1730 – February 28, 1781 was an American Founding Father, lawyer, jurist, legislator, and signer of the Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Stockton_(Continental_Congressman)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2z6b/thumb200s.jpg",
       "gender": "Male"
     },
@@ -327,6 +366,7 @@
       "pid": "LZFC-Z3H",
       "name": "Thomas Stone",
       "desc": "Thomas Stone 1743 – October 5, 1787 was an American Founding Father, planter, politician, and lawyer who signed the United States Declaration of Independence as a delegate for Maryland. He later worked on the committee that formed the Articles of Confederation in 1777. He acted as president of Congress for a short time in 1784. Stone was a member of the Maryland Senate from 1777 to 1780 and again from 1781 to 1787.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Stone",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/he8g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -334,6 +374,7 @@
       "pid": "LZJ9-YDT",
       "name": "George Taylor",
       "desc": "George Taylor c. 1716 – February 23, 1781 was an American ironmaster and politician who was a Founding Father of the United States and a signer of the United States Declaration of Independence as a representative of Pennsylvania. His former home, the George Taylor House in Catasauqua, Pennsylvania, was named a National Historic Landmark in 1971.",
+      "url": "https://en.wikipedia.org/wiki/George_Taylor_(Pennsylvania_politician)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b38g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -341,6 +382,7 @@
       "pid": "L4HH-689",
       "name": "Matthew Thornton",
       "desc": "Matthew Thornton March 3, 1714 – June 24, 1803 was an Irish-born Founding Father of the United States who signed the United States Declaration of Independence as a representative of New Hampshire.",
+      "url": "https://en.wikipedia.org/wiki/Matthew_Thornton",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/a28g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -348,6 +390,7 @@
       "pid": "LDMD-RZS",
       "name": "George Walton",
       "desc": "George Walton c. 1749 – February 2, 1804, a Founding Father of the United States, signed the United States Declaration of Independence while representing Georgia in the Continental Congress. Walton also served briefly as the second chief executive of Georgia in 1779 and was again named governor in 1789–1790.",
+      "url": "https://en.wikipedia.org/wiki/George_Walton",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ytd93/thumb200s.jpg",
       "gender": "Male"
     },
@@ -355,6 +398,7 @@
       "pid": "LC1D-SKS",
       "name": "William Whipple",
       "desc": "William Whipple Jr. January 25, 1731 NS – November 28, 1785 was an American Founding Father and signatory of the United States Declaration of Independence. He represented New Hampshire as a member of the Continental Congress from 1776 through 1779. He worked as both a ship's captain and a merchant, and he studied in college to become a judge.",
+      "url": "https://en.wikipedia.org/wiki/William_Whipple",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mvd93/thumb200s.jpg",
       "gender": "Male"
     },
@@ -362,6 +406,7 @@
       "pid": "9QCJ-LGP",
       "name": "William Williams",
       "desc": "William Williams April 8, 1731 – August 2, 1811 was an American Founding Father, merchant, a delegate for Connecticut to the Continental Congress in 1776, and a signatory to the United States Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Williams_(signer)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f9jk7/thumb200s.jpg",
       "gender": "Male"
     },
@@ -369,6 +414,7 @@
       "pid": "LZFH-5RP",
       "name": "James Wilson",
       "desc": "James Wilson September 14, 1742 – August 21, 1798 was a Scottish-born American Founding Father, legal scholar, jurist, and statesman who served as an associate justice of the United States Supreme Court from 1789 to 1798. Wilson was elected twice to the Continental Congress, was a signatory of the Declaration of Independence, and was a major participant in drafting the U.S. Constitution. A",
+      "url": "https://en.wikipedia.org/wiki/James_Wilson_(Founding_Father)",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jg7g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -376,6 +422,7 @@
       "pid": "LRH1-LMP",
       "name": "John Witherspoon",
       "desc": "John Witherspoon February 5, 1723 – November 15, 1794 was a Scottish-American Presbyterian minister, educator, farmer, slaveholder, and a Founding Father of the United States. Witherspoon embraced the concepts of Scottish common sense realism, and while president of the College of New Jersey 1768–1794; now Princeton University became an influential figure in the development of the United States' national character. Politically active, Witherspoon was a delegate from New Jersey to the Second Continental Congress and a signatory to the July 4, 1776, Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/John_Witherspoon",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jj7g/thumb200s.jpg",
       "gender": "Male"
     },
@@ -383,6 +430,7 @@
       "pid": "LVK7-BR1",
       "name": "Oliver Wolcott",
       "desc": "Oliver Wolcott Sr. /ˈwʊlkət/ WUUL-kət; November 20, 1726 – December 1, 1797 was an American Founding Father and politician. He was a signer of the United States Declaration of Independence and the Articles of Confederation as a representative of Connecticut, and the nineteenth governor of Connecticut. Wolcott was a major general for the Connecticut militia in the Revolutionary War serving under George Washington.",
+      "url": "https://en.wikipedia.org/wiki/Oliver_Wolcott",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yfi8/thumb200s.jpg",
       "gender": "Male"
     },
@@ -390,13 +438,8 @@
       "pid": "LZRY-LGV",
       "name": "George Wythe",
       "desc": "George Wythe /wɪθ/; 1726 – June 8, 1806 was an American academic, scholar and judge who was one of the Founding Fathers of the United States. The first of the seven signatories of the United States Declaration of Independence from Virginia, Wythe served as one of Virginia's representatives to the Continental Congress and the Philadelphia Convention and served on a committee that established the convention's rules and procedures.",
+      "url": "https://en.wikipedia.org/wiki/George_Wythe",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/tnt29/thumb200s.jpg",
-      "gender": "Male"
-    },
-    {
-      "pid": "skip",
-      "name": "Charles Thomson",
-      "desc": "Charles Thomson November 29, 1729 – August 16, 1824 was an Irish-born patriot leader in Philadelphia during the American Revolution and the secretary of the Continental Congress 1774–1789 throughout its existence. As secretary, Thomson, a Founding Father of the United States, prepared the Journals of the Continental Congress, and his and John Hancock's names were the only two to appear on the first printing of the United States Declaration of Independence.",
       "gender": "Male"
     }
   ]
