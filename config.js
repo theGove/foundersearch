@@ -100,30 +100,77 @@ async function start_me_up() {
 
     // Tree Search
     $('.search').click(async function() {
+
+
+         $(".invalid-feedback").hide()
+
+        const ancestors=get_remembered_ancestors()
+
+        //if form is empty and we have a remembered ancestor, then search
+        if(
+            $("[name='given']").val() === ""  &&
+            $("[name='birthLikeDateBegin']").val() === ""  &&
+            $("[name='birthLikePlace']").val() === ""  &&
+            $("[name='deathLikeDateBegin']").val() === ""  &&
+            $("[name='deathLikePlace']").val() === ""  &&
+            $("[name='surname']").val() === ""  &&
+            ancestors &&
+            Object.keys(ancestors).length>0
+        
+        ){
+            location.href="/relatives.html"
+        }
+
+
+        //validate
+        let invalid_count=0
+        if( $("[name='surname']").val() === "" ){
+            $("#surname-missing").show()
+            invalid_count++
+        }
+        if(isNaN($("[name='birthLikeDateBegin']").val())){
+            $("#birth-year-invalid").show()
+            invalid_count++
+        }
+        if(isNaN($("[name='deathLikeDateBegin']").val())){
+            $("#death-year-invalid").show()
+            invalid_count++
+        }
+
+        if(invalid_count>0){
+            return
+        }
+
         $('.results, .related').empty();
         $('.result-list').empty();
         $('').show();
         $('.ancestor-list').html("Select your ancestor below");
-        const ancestors=get_remembered_ancestors()
         URL = "q.surname=" + $("[name='surname']").val();
         if ($("[name='given']").val() != "") URL += '&q.givenName=' + $("[name='given']").val();
         if ($("[name='birthLikeDateBegin']").val() != "") URL += "&q.birthLikeDate=" + $("[name='birthLikeDateBegin']").val();
         if ($("[name='birthLikePlace']").val() != "") URL += "&q.birthLikePlace=" + $("[name='birthLikePlace']").val();
         if ($("[name='deathLikeDateBegin']").val() != "") URL += "&q.deathLikeDate=" + $("[name='deathLikeDateBegin']").val();
         if ($("[name='deathLikePlace']").val() != "") URL += "&q.deathLikePlace=" + $("[name='deathLikePlace']").val();
-        const search=await api('platform/tree/search?' + URL + "&count=10","either", {headers:{Accept: "application/json"}})
+
+
+        let  autheticated=false
+        if(await logged_in()){
+            autheticated = localStorage.getItem("authenticatedToken")
+        }
+
+        const search=await api('platform/tree/search?' + URL + "&count=20",autheticated, {headers:{Accept: "application/json"}})
         //console.log("search", search)
         for (let i = 0; i < search.entries.length; i++) {
             p = search.entries[i].content.gedcomx.persons[0].display;
             p.id = search.entries[i].content.gedcomx.persons[0].id;
-            place_ancestor(p, ancestors)
+            place_ancestor(p, ancestors, autheticated)
            
         }
     });
 
     // Find relationships (Click on search result)
     //console.log("data", data)
-    $('.results').on('click', '.result', launch_relationships);
+    $('.results').on('click', '.result', go_to_relatives)//launch_relationships);
     //$('#login').on('click', login);
 
     //await set_unauthenticated_token()
@@ -153,7 +200,7 @@ function show_remembered_ancestors() {
     }
 }
 
-async function place_ancestor(p, ancestors){
+async function place_ancestor(p, ancestors, authenticated){
     const access_token = await get_access_token()
     
     //console.log("at place ancestors")
@@ -168,12 +215,14 @@ async function place_ancestor(p, ancestors){
     if (isNaN(deathYear)) deathYear = p.deathDate;
 
     // Get gender portrait
-    let portrait = "https://foundersearch.colonialheritage.org/images/male.svg";
-    if (p.gender == "Female") portrait = "https://foundersearch.colonialheritage.org/images/female.svg";
+    let portrait = "/images/male.svg";
+    if (p.gender == "Female") portrait = "/images/female.svg";
 
     let image_clause = null
-    if(await logged_in()){
+    if(authenticated===true){
        image_clause = `<div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${access_token}"></div>`
+    }else if(authenticated){
+        image_clause = `<div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${authenticated}"></div>`
     }else{
         image_clause = `<div><img class="portrait" src="${portrait}"></div>`
     }
@@ -182,8 +231,9 @@ async function place_ancestor(p, ancestors){
     $('.results').append(`<li class="result" data-record="${btoa(JSON.stringify(p))}" data-id="${p.id}" ${ancestors[p.id]?' style="background-color:#eee;padding:5px 10px;"':''}>
 <div class="person">${image_clause}
 <div><span class="name">${p.name} ${age}</span>
-<br /><span class="lifespan">${birthYear} -- ${deathYear}</span>
-<br /><span  class="msg"${ancestors[p.id]?"":' style="display:none"'}>This ancestor has been remembered (<span style="text-decoration: underline;color:blue;" onclick="forget(event)" >forget</style>)</span>
+<br /><span class="lifespan"><u>Born:</u> ${p.birthDate||""}${p.birthPlace?", ":""}${p.birthPlace||""}</span>
+<br /><span class="lifespan"><u>Died:</u> ${p.deathDate||""}${p.deathPlace?", ":""}${p.deathPlace||""}</span>
+<br /><br /><span  class="msg"${ancestors[p.id]?"":' style="display:none"'}>This ancestor has been remembered (<span style="text-decoration: underline;color:blue;" onclick="forget(event)" >forget</style>)</span>
 </div></div>
 </li>`);
 }
@@ -204,14 +254,23 @@ function forget(evt){
     delete ancestors[elem.dataset.id]
     remember_ancestors(ancestors)
     if(Object.keys(ancestors).length===0){
-        tag("show-remembered-ancestors").style.display="none"
+        //tag("show-remembered-ancestors").style.display="none"
     }
 }
 
 
-
+function go_to_relatives(evt){
+    const ancestors=get_remembered_ancestors()
+    const li = evt.currentTarget
+    let p =  JSON.parse(atob(li.dataset.record))
+    ancestors[p.id]=p
+    remember_ancestors(ancestors)
+    //console.log("ancestore",ancestors)
+    location.href="relatives.html"
+}
 
 async function launch_relationships(evt) {
+    // show the relationships on the config page.    
     tag("show-remembered-ancestors").style.display=""
     const li = evt.currentTarget
     let p =  JSON.parse(atob(li.dataset.record))
@@ -223,6 +282,7 @@ async function launch_relationships(evt) {
     $('.noRels').show();
     $('.result-list').show();
     $('.result-list').html(p.name + " " + " is realted to:")
+
     ancestors=get_remembered_ancestors()
     ancestors[p.id]=p
     remember_ancestors(ancestors)
@@ -231,6 +291,7 @@ async function launch_relationships(evt) {
 }
 
 function fill(){
+    return
     //console.log("fill")
     document.getElementsByName("given")[0].value="Gary"
     document.getElementsByName("surname")[0].value="Allen"

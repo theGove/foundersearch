@@ -1,554 +1,2031 @@
 {
-    "title": "Colonial Governors",
-    "desc": "A group of Colonial Governors",
-    "banner": "governors.png",
-    "backgroundColor": "#fff",
-    "textColor": "#000",
-    "people": [
-      {
-        "pid": "LZVY-95D",
-        "name": "Alexander Rigby",
-        "desc": "Alexander Rigby (1594 – 18 August 1650) was an English lawyer and politician who sat in the House of Commons between 1640 and 1650. He was a colonel in the Parliamentary army in the English Civil War."
-      },
-      {
-        "pid": "M8QH-S4S",
-        "name": "Alexander Spotswood",
-        "desc": "Alexander Spotswood 12 December 1676 – 7 June 1740 was a British Army officer, explorer and lieutenant governor of Colonial Virginia; he is regarded as one of the most significant historical figures in British North American colonial history."
-      },
-      {
-        "pid": "LDRF-3NN",
-        "name": "Andrew Bowne",
-        "desc": "Captain Andrew Bowne c. 1638 - c. 1708 was an American colonial politician and jurist, who served in various capacities in both New York and New Jersey."
-      },
-      {
-        "pid": "LCTM-W14",
-        "name": "Andrew Elliot",
-        "desc": "Andrew Elliot November 1728 – 25 May 1797 was a British merchant and official who served as the Acting and last British Governor of New York in 1783."
-      },
-      {
-        "pid": "LZS3-CBZ",
-        "name": "Andrew Hamilton",
-        "desc": "Andrew Hamilton died 1703 was the colonial governor of East and West New Jersey from 1692 to 1697 and again from 1699 to 1703. He also served as Deputy Governor of the neighboring Province of Pennsylvania."
-      },
-      {
-        "pid": "LZL1-PM2",
-        "name": "Anthony Brockholls",
-        "desc": "Major Anthony Brockholls or Brockholst c. 1656 – August 29, 1723 was and English born Commander-in-Chief 1677-8 and then acting Governor 1681-2 of New York."
-      },
-      {
-        "pid": "skip",
-        "name": "Anthony Colve",
-        "desc": "Anthony or Anthonij Colve fl. 1667-1695 was a Dutch naval captain and the Director-General of New Netherland during a brief restoration of Dutch rule in New Netherland roughly present-day New York and New Jersey."
-      },
-      {
-        "pid": "G8FL-WRX",
-        "name": "Archibald Campbell",
-        "desc": "Sir Archibald Campbell KB 21 August 1739 – 31 March 1791 served as governor of Georgia, Jamaica, and Madras. He was a major Scottish landowner, Heritable Usher of the White Rod for Scotland and politician who sat in the House of Commons between 1774 and 1791."
-      },
-      {
-        "pid": "LDYY-8LC",
-        "name": "Arthur Middleton",
-        "desc": "Arthur Middleton October 29, 1681 – September 17, 1737 was a South Carolina planter and Acting Governor of the Province of South Carolina from May 7, 1725, to December 1730."
-      },
-      {
-        "pid": "LBW4-N7J",
-        "name": "Benedict Arnold",
-        "desc": "Benedict Arnold December 21, 1615 – June 19, 1678 was president and then governor of the Colony of Rhode Island and Providence Plantations, serving for a total of 11 years in these roles"
-      },
-      {
-        "pid": "LCTS-1Q9",
-        "name": "Benedict Calvert",
-        "desc": "Benedict Leonard Calvert, 4th Baron Baltimore 21 March 1679 – 16 April 1715 was an English nobleman and politician."
-      },
-      {
-        "pid": "LHPJ-DLL",
-        "name": "Benedict Leonard Calvert",
-        "desc": "Benedict Leonard Calvert September 20, 1700 – June 1, 1732 was the 15th Proprietary Governor of Maryland from 1727 through 1731, appointed by his older brother, Charles Calvert, 5th Baron Baltimore 1699–1751."
-      },
-      {
-        "pid": "LC3W-Z3D",
-        "name": "Benjamin Fletcher",
-        "desc": "Benjamin Fletcher 14 May 1640 – 28 May 1703 was colonial governor of New York from 1692 to 1697. Fletcher was known for the Ministry Act of 1693, which secured the place of Anglicans as the official religion in New York. He also built the first Trinity Church in 1698."
-      },
-      {
-        "pid": "LK4G-M1V",
-        "name": "Benjamin Tasker",
-        "desc": "Benjamin Tasker Sr. c. 1690 – June 19, 1768 was the 21st Proprietary Governor of Maryland from 1752 to 1753. He also occupied a number of other significant colonial offices, including, on various occasions, being elected Mayor of Annapolis."
-      },
-      {
-        "pid": "GQF6-67M",
-        "name": "Benning Wentworth",
-        "desc": "Benning Wentworth July 24, 1696 – October 14, 1770 was an American merchant and colonial administrator who served as the governor of New Hampshire from 1741 to 1766."
-      },
-      {
-        "pid": "MD5B-3ZR",
-        "name": "Beverley Robinson",
-        "desc": "Beverley Robinson 11 January 1721 – 9 April 1792, was a Virginia-born soldier who became a wealthy colonist of the Province of New York and is best known as a Loyalist during the American Revolutionary War. Robinson married Susanna Philipse, heiress to a significant share of the roughly 250 square miles 650 km2 Highland Patent on the lower Hudson River in the Province of New York."
-      },
-      {
-        "pid": "LHPP-2KC",
-        "name": "Cadwallader Colden",
-        "desc": "Cadwallader Colden 7 February 1688 – 28 September 1776 was a physician, natural scientist, a lieutenant governor and acting Governor for the Province of New York."
-      },
-      {
-        "pid": "L6LN-RDY",
-        "name": "Caleb Carr",
-        "desc": "Caleb Carr 1616 - 17 December 1695 was a governor of the Colony of Rhode Island and Providence Plantations, serving a very short term prior to his death. In 1635, at the age of 19, he sailed from England on the ship Elizabeth and Ann with his older brother Robert."
-      },
-      {
-        "pid": "9N51-NLB",
-        "name": "Charles Calvert",
-        "desc": "Captain Charles Calvert 1688 – February 2, 1734 was the 14th Proprietary Governor of Maryland in 1720, at a time when the Calvert family had recently regained control of their proprietary colony."
-      },
-      {
-        "pid": "LB8Z-KW8",
-        "name": "Charles Calvert",
-        "desc": "Charles Calvert, 3rd Baron Baltimore August 27, 1637 – February 21, 1715, inherited the colony of Maryland in 1675 upon the death of his father, Cecil Calvert, 2nd Baron Baltimore, 1605–1675."
-      },
-      {
-        "pid": "LCZW-MZ2",
-        "name": "Charles Calvert",
-        "desc": "Charles Calvert, 5th Baron Baltimore, FRS 29 September 1699 – 24 April 1751 was a British nobleman and Proprietary Governor of the Province of Maryland."
-      },
-      {
-        "pid": "9W1R-JD8",
-        "name": "Charles Craven",
-        "desc": "Charles Craven 1682 – 27 December 1754 was the son of Sir William Craven and Margaret Clapham. He held the office of Governor of Carolina between 1711 and 1716."
-      },
-      {
-        "pid": "LYS4-JF2",
-        "name": "Charles Gookin",
-        "desc": "Charles Gookin c. 1660–c. 1723 was a deputy governor of colonial Pennsylvania."
-      },
-      {
-        "pid": "LWXT-RZP",
-        "name": "Charles Hardy",
-        "desc": "Sir Charles Hardy c. 1714 – 18 May 1780 was a Royal Navy officer and politician who sat in the House of Commons between 1764 and 1780. He served as colonial governor of New York from 1755 to 1757."
-      },
-      {
-        "pid": "LH6N-MRX",
-        "name": "Cornelius Jacobsen May",
-        "desc": "Cornelis Jacobsen Mey, often spelled Cornelius Jacobsz May in Dutch, was a Dutch explorer, captain, and fur trader. Cape May, New Jersey and Cape May County, New Jersey are both named after him."
-      },
-      {
-        "pid": "945V-6KK",
-        "name": "Dr. Daniel Coxe",
-        "desc": "Daniel Coxe III c. 1640 – 19 January 1730 FRS was an English physician and governor of West Jersey from 1687 to 1688 and 1689 to 1692."
-      },
-      {
-        "pid": "L7GJ-ZDB",
-        "name": "Edmund Andros",
-        "desc": "Sir Edmund Andros 6 December 1637 – 24 February 1714 was an English colonial administrator in British America. He was the governor of the Dominion of New England during most of its three-year existence. At other times, Andros served as governor of the provinces of New York, East and West Jersey, Virginia, and Maryland."
-      },
-      {
-        "pid": "LK74-FP2",
-        "name": "Edmund Jenings",
-        "desc": "Edmund Jenings 1659-1727 was a British politician and lawyer who held important posts in the Colony of Virginia including as the attorney general, on the Governor's Council and as acting governor, but encountered controversy and experienced financial problems in his final years."
-      },
-      {
-        "pid": "GHMN-X9K",
-        "name": "Edward Byllynge",
-        "desc": "Edward Byllynge was a British colonial administrator and governor of West New Jersey from 1680 to 1687, until his death in England. Byllynge owned a large section of land in New Jersey with the Quakers."
-      },
-      {
-        "pid": "skip",
-        "name": "Edward Cranfield",
-        "desc": "Edward Cranfield fl. 1680–1696 was an English colonial administrator. Cranfield was governor of the Province of New Hampshire from 1682 to 1685, in an administration that was marked by hostility between Cranfield and the colonists."
-      },
-      {
-        "pid": "LVN2-B9D",
-        "name": "Edward Digges",
-        "desc": "Edward Digges 14 February 1620 – 15 March 1674/75 was an English barrister and colonist who became a premium tobacco planter and official in the Virginia colony."
-      },
-      {
-        "pid": "LYZZ-NWK",
-        "name": "Edward Godfrey",
-        "desc": "Edward Godfrey about 1584 – after 1663 was the first governor of the Province of Maine."
-      },
-      {
-        "pid": "KZL2-JHK",
-        "name": "Edward Hopkins",
-        "desc": "Edward Hopkins 1600 – March 1657 was an English colonist and politician and 2nd Governor of the Connecticut Colony. Active on both sides of the Atlantic, he was a founder of the New Haven and Connecticut colonies, serving seven one-year terms as Governor of Connecticut."
-      },
-      {
-        "pid": "L9HQ-K6V",
-        "name": "Edward Hyde",
-        "desc": "Edward Hyde, 3rd Earl of Clarendon 28 November 1661 – 31 March 1723, styled Viscount Cornbury between 1674 and 1709, was an English aristocrat and politician. Better known by his noble title Lord Cornbury, he was propelled into the forefront of English politics when he and part of his army defected from the Catholic King James II to support the newly arrived Protestant contender, William III of Orange. These actions were part of the beginning of the Glorious Revolution of 1688. Cornbury's choice to support his cousin Anne instead of William after the rebellion cost him his military commission. However, Cornbury's support of King William's reign eventually earned him the governorship of the provinces of New York and New Jersey; he served between 1701 and 1708."
-      },
-      {
-        "pid": "LCZX-4CV",
-        "name": "Edward Lloyd",
-        "desc": "Major General Edward Lloyd II February 7, 1671 – March 20, 1719 was the 11th Royal Governor of Maryland from 1709 to 1714."
-      },
-      {
-        "pid": "9CVN-5BN",
-        "name": "Edward Maria Wingfield",
-        "desc": "Edward Maria Wingfield, sometimes hyphenated as Edward-Maria Wingfield 1550 in Stonely Priory, near Kimbolton – 1631 was a soldier, Member of Parliament, 1593 and English colonist in America. He was the son of Thomas Maria Wingfield, and the grandson of Richard Wingfield."
-      },
-      {
-        "pid": "KH7P-V9P",
-        "name": "Edward Nott",
-        "desc": "Colonel Edward Nott 1657 – August 23, 1706 was an English Colonial Governor of Virginia. He was appointed by Queen Anne on either April 25, 1705 or August 15, 1705. His administration lasted only one year, as he died in 1706 at the age of 49. He is interred at Bruton Parish Church in Williamsburg, Virginia. He is noted as having been a \"mild, benevolent man.\""
-      },
-      {
-        "pid": "LRVS-SWX",
-        "name": "Edward Shippen",
-        "desc": "Edward Shippen 1639, Methley, West Yorkshire, England – October 2, 1712, Philadelphia, Pennsylvania was the second mayor of Philadelphia, although under William Penn's charter of 1701, he was considered the first."
-      },
-      {
-        "pid": "LCR8-TZ9",
-        "name": "Edward Winslow",
-        "desc": "Edward Winslow 18 October 1595 – 8 May 1655 was a Separatist and New England political leader who traveled on the Mayflower in 1620."
-      },
-      {
-        "pid": "9XN9-Z7C",
-        "name": "Ferdinando Gorges",
-        "desc": "Sir Ferdinando Gorges c. 1565-1568 – 24 May 1647 was a naval and military commander and governor of the important port of Plymouth in England. He was involved in Essex's Rebellion against the Queen, but escaped punishment by testifying against the main conspirators. His early involvement in English trade with and settlement of North America as well as his efforts in founding the Province of Maine in 1622 earned him the title of the \"Father of English Colonization in North America,\" even though Gorges himself never set foot in the New World."
-      },
-      {
-        "pid": "2X5Q-6NY",
-        "name": "Fitz-John Winthrop",
-        "desc": "Fitz-John Winthrop March 14, 1637 – November 27, 1707, was the governor of the Colony of Connecticut from 1698 until his death on November 27, 1707."
-      },
-      {
-        "pid": "LWP7-8KM",
-        "name": "Francis Fauquier",
-        "desc": "Francis Fauquier 1703 – 3 March 1768 was a lieutenant governor of Virginia Colony in what is today the United States, and served as acting governor from 1758 until his death in 1768."
-      },
-      {
-        "pid": "LWZD-9K8",
-        "name": "Francis Howard",
-        "desc": "Francis Howard, 5th Baron Howard of Effingham c. 1643 – 30 March 1694 O.S./95 N.S. was a member of the Howard family, descended from noted naval commander Lord High Admiral Howard, and a Crown Governor of Virginia 1683-1692."
-      },
-      {
-        "pid": "LDMX-FL2",
-        "name": "Francis Lovelace",
-        "desc": "Francis Lovelace c. 1621–1675 was an English Royalist and the second Governor of New York colony."
-      },
-      {
-        "pid": "skip",
-        "name": "Francis Moryson",
-        "desc": "Francis Moryson bef. 1628–1680/81 was an English soldier who became a Virginia colonial official and agent. A Royalist in the English Civil War, he emigrated to the Virginia Colony, where he held several posts before returning to England and becoming the colony's agent, and finally briefly served on the commission investigating Bacon's Rebellion."
-      },
-      {
-        "pid": "943X-PBL",
-        "name": "Francis Newman",
-        "desc": "Francis Newman circa 1605 – 18 November 1660 was an English colonist in America. He served as Governor of the New Haven Colony from 1658 to 1659."
-      },
-      {
-        "pid": "L7GF-W4D",
-        "name": "Francis Nicholson",
-        "desc": "Lieutenant-General Francis Nicholson 12 November 1655 – 16 March, 1728 was a British Army general and colonial official who served as the governor of South Carolina from 1721 to 1725. He previously was the Governor of Nova Scotia from 1712 to 1715, the Governor of Virginia from 1698 to 1705, the Governor of Maryland from 1694 to 1698, the Lieutenant Governor of Virginia from 1690 to 1692, and the Lieutenant Governor of the Dominion of New England from 1688 to 1689."
-      },
-      {
-        "pid": "GKXM-KTV",
-        "name": "Francis West",
-        "desc": "Francis West 28 October 1586 – February 1633/1634 was a Deputy Governor of the Colony and Dominion of Virginia."
-      },
-      {
-        "pid": "MS8Y-L5B",
-        "name": "Francis Wyatt",
-        "desc": "Sir Francis Wyatt 1588–1644 was an English nobleman, knight, politician, and government official. He was the first English royal governor of Virginia. He sailed for America on 1 August 1621 on board the George. He became governor shortly after his arrival in October, taking with him the first written constitution for an English colony. Also sailing with him on this voyage was his second cousin Henry Fleete Sr., who helped found colonies in both Virginia and Maryland. In 1622 he rallied the defence of Jamestown which was attacked by Native Americans, during which the lives of some 400 settlers were lost and he then oversaw the contraction of the colony from scattered outposts into a defensive core."
-      },
-      {
-        "pid": "K4P9-RVX",
-        "name": "George Burdett",
-        "desc": "George Burdett c. 1602–1671 was the second colonial governor of the Upper Plantation of New Hampshire, later to become the Province of New Hampshire, between 1637 and 1640. He returned to England and was a chaplain to Parliamentary regiments during the English Civil War. After the Restoration he served as a minister in Ireland."
-      },
-      {
-        "pid": "LW7T-CQM",
-        "name": "George Clarke",
-        "desc": "George Clarke 1676 – 12 January 1760 was a colonial governor of New York."
-      },
-      {
-        "pid": "LCQM-N2N",
-        "name": "George Cleeve",
-        "desc": "George Cleeve c. 1586–after November 1666 was an early settler and founder of today's Portland, Maine. He was Deputy President of the Province of Lygonia from 1643 until the final submission of its Maine towns to Massachusetts authority in 1658."
-      },
-      {
-        "pid": "L78S-DTG",
-        "name": "George Clinton",
-        "desc": "Admiral of the Fleet The Hon. George Clinton c. 1686 – 10 July 1761 was a Royal Navy officer and politician. Benefiting from the patronage of Thomas Pelham-Holles, 1st Duke of Newcastle, he served as a naval captain during the 1720s and 1730s."
-      },
-      {
-        "pid": "LZDB-JXV",
-        "name": "George Fenwick",
-        "desc": "George Fenwick 1603?–1657, was an English Parliamentarian, and a leading colonist in the short-lived Saybrook Colony."
-      },
-      {
-        "pid": "KG8T-TSZ",
-        "name": "George Hamilton",
-        "desc": "Field Marshal George Hamilton, 1st Earl of Orkney, KT 9 February 1666 – 29 January 1737, styled Lord George Hamilton from 1666 to 1696, was a British soldier and Scottish nobleman and the first British Army officer to be promoted to the rank of field marshal"
-      },
-      {
-        "pid": "KN43-459",
-        "name": "George Percy",
-        "desc": "The Honourable George Percy 4 September 1580 – 1632 was an English explorer, author, and early Colonial Governor of Virginia."
-      },
-      {
-        "pid": "GK4R-CP9",
-        "name": "George Popham",
-        "desc": "George Popham 1550–1608 was a pioneering colonist from Maine, born in the southwestern regions of England. He was an associate of English colonist Sir Ferdinando Gorges in a colonization scheme for a part of Maine."
-      },
-      {
-        "pid": "LB8G-GHT",
-        "name": "George Reade",
-        "desc": "George Reade October 25, 1608 – November 21, 1671 was a prominent landowner, military officer, judge, and politician who served as a member of the House of Burgesses and as Acting Governor of Virginia Colony. He is the great-great-grandfather of the first President of the United States, George Washington."
-      },
-      {
-        "pid": "KN6C-KCN",
-        "name": "George Wyllys",
-        "desc": "George Wyllys or Wyllis 1590 – 9 March 1645 served for a year 1642–1643 as one of the early governors of the Connecticut Colony."
-      },
-      {
-        "pid": "LV94-JSK",
-        "name": "George Yeardley",
-        "desc": "Sir George Yeardley 1587 – November 13, 1627 was a planter and colonial governor of the colony of Virginia. He was also among the first slaveowners in Colonial America. A survivor of the Virginia Company of London's ill-fated Third Supply Mission, whose flagship, the Sea Venture, was shipwrecked on Bermuda for ten months from 1609 to 1610, he is best remembered for presiding over the initial session of the first representative legislative body in Virginia in 1619"
-      },
-      {
-        "pid": "LVQW-L9S",
-        "name": "Gerardus Beekman",
-        "desc": "Gerardus Willemse Beekman c. August 1653 – October 10, 1723 was a wealthy physician, land owner, and colonial governor of the Province of New York."
-      },
-      {
-        "pid": "K26T-N22",
-        "name": "Gideon Wanton",
-        "desc": "Gideon Wanton October 20, 1693 – September 12, 1767 was a governor of the Colony of Rhode Island and Providence Plantations who served for two separate one-year terms. His father was Joseph Wanton, a shipbuilder in Tiverton, and his mother was Sarah Freeborn, the daughter of Gideon and Sarah Brownell Freeborn."
-      },
-      {
-        "pid": "9KBK-86J",
-        "name": "Gregory Dexter",
-        "desc": "Gregory Dexter 1610 – c. 1700 was a renowned printer of important and controversial books and pamphlets in London. In New England, he assumed various roles including serving as a consultant to printers, a Baptist minister, an owner of a limestone quarry, and a political figure elected as president of the combined towns of Providence and Warwick in colonial Rhode Island. He is best known as the printer of Roger Williams's book A Key into the Language of America in 1643, the first English translation of a Native American language."
-      },
-      {
-        "pid": "MGFX-WN8",
-        "name": "Gurdon Saltonstall",
-        "desc": "Gurdon Saltonstall 27 March 1666 – 20 September 1724 was governor of the Colony of Connecticut from 1708 to 1724. Born into a distinguished family, Saltonstall became an accomplished and eminent Connecticut pastor. A close associate of Governor Fitz-John Winthrop, Saltonstall was appointed the colony's governor after Winthrop's death in 1707, and then reelected to the office annually until his own death."
-      },
-      {
-        "pid": "K2YD-VS7",
-        "name": "Henderson Walker",
-        "desc": "Henderson Walker 1659-1704 was the Acting Deputy Governor of North Carolina from 1699 to 1704. He is better known for his contribution in the founding of the Church of England in the Albemarle Sound region."
-      },
-      {
-        "pid": "LC2W-GWG",
-        "name": "Henry Bull",
-        "desc": "Henry Bull 1610–1694 was an early colonial Governor of Rhode Island, serving for two separate terms, one before and one after the tenure of Edmund Andros under the Dominion of New England"
-      },
-      {
-        "pid": "LH88-KH1",
-        "name": "Henry Chicheley",
-        "desc": "Rosegill, Virginia, U.S."
-      },
-      {
-        "pid": "G75K-X46",
-        "name": "Henry Ellis",
-        "desc": "Henry Ellis August 29, 1721 – January 21, 1806 was an Irish explorer, author and slave trader who served as the governor of the colonies of Georgia and Nova Scotia."
-      },
-      {
-        "pid": "LZDY-3KR",
-        "name": "Henry Jocelyn",
-        "desc": "Henry Josselyn also spelled Jocelyn; died ca. 1683 was an early settler of northern New England. He was first retained by John Mason, the proprietor of the territory that later became New Hampshire, to administer his holdings. Arriving at the Piscataqua River in 1634, he administered Mason's settlement roughly including present-day Portsmouth and some nearby communities until Mason's death in 1635."
-      },
-      {
-        "pid": "KFVN-L12",
-        "name": "Henry Laurens",
-        "desc": "Henry Laurens March 6, 1724  – December 8, 1792 was an American Founding Father, merchant, slave trader, and rice planter from South Carolina who became a political leader during the Revolutionary War. A delegate to the Second Continental Congress, Laurens succeeded John Hancock as its president. He was a signatory to the Articles of Confederation and, as president, presided over its passage."
-      },
-      {
-        "pid": "KN43-459",
-        "name": "Henry Parker",
-        "desc": "Henry Parker born near Savannah, Georgia, about 1690; died Isle of Hope, Georgia, about 1777 was secretary to the governor of Georgia 1750 until 1751. He was Colonial Governor of the state of Georgia from 1751 until 1752."
-      },
-      {
-        "pid": "skip",
-        "name": "Henry Sloughter",
-        "desc": "Henry Sloughter died July 23, 1691 was briefly colonial governor of New York in 1691. Sloughter was the governor who put down Leisler's Rebellion, which had installed Jacob Leisler as de facto governor in 1689. He died suddenly in July 1691. Lieutenant Governor Richard Ingoldesby, who had served against Leisler's rebels, took over after Sloughter's death until the arrival of Benjamin Fletcher."
-      },
-      {
-        "pid": "MF9V-TWC",
-        "name": "Henry Vane",
-        "desc": "Sir Henry Vane baptised 26 March 1613 – 14 June 1662, often referred to as Harry Vane and Henry Vane the Younger to distinguish him from his father, Henry Vane the Elder, was an English politician, statesman, and colonial governor. He was briefly present in North America, serving one term as the governor of the Massachusetts Bay Colony, and supported the creation of Roger Williams' Rhode Island Colony and Harvard College"
-      },
-      {
-        "pid": "skip",
-        "name": "Herbert Jeffreys",
-        "desc": "Sir Herbert Jeffreys b. around 1620–1625 – d. 17 December 1678 was a British military officer and lieutenant governor of Virginia Colony who served as acting governor in the immediate aftermath of Bacon's Rebellion. Historians have described Jeffreys as a \"chief troubleshooter\" and as \"the most active and expert guardsman in the political police function of the courtier army.\""
-      },
-      {
-        "pid": "GK5K-QVG",
-        "name": "Horatio Sharpe",
-        "desc": "Horatio Sharpe 1718 – November 9, 1790 was the 22nd proprietary governor of Maryland from 1753 to 1768 under the restored proprietary government of Maryland."
-      },
-      {
-        "pid": "GNXG-Y5D",
-        "name": "Hugh Drysdale",
-        "desc": "Colonel Hugh Drysdale died 22 July 1726 was an American governor of colonial Virginia. He was educated at Kilkenny College and Trinity College Dublin. More officially, his title was Lieutenant Governor and Commander in Chief of the Colony and Dominion of Virginia. He served as governor from September 1722, until his death in July 1726."
-      },
-      {
-        "pid": "LZN6-S7B",
-        "name": "Jacob Leisler",
-        "desc": "Jacob Leisler c. 1640 – May 16, 1691 was a German-born colonist who served as a politician in the Province of New York. He gained wealth in New Amsterdam later New York City in the fur trade and tobacco business. In what became known as Leisler's Rebellion following the English Revolution of 1688, he took control of the city, and ultimately the entire province, from appointees of deposed King James II, in the name of the Protestant accession of William III and Mary II."
-      },
-      {
-        "pid": "M5X3-F5R",
-        "name": "Jacques Prevost",
-        "desc": "James Marcus or Mark Prevost born Jacques-Marc Prevost; 1736 – 1781 was a British Army officer. After being commissioned in Europe, he commanded troops of the British Army in North America and the West Indies, including during the French and Indian War, the North American front of the Seven Years' War."
-      },
-      {
-        "pid": "KN84-VWV",
-        "name": "James Blair",
-        "desc": "James Blair 1656 – 18 April 1743 was a Scottish-born clergyman in the Church of England. He was also a missionary and an educator, best known as the founder of the College of William & Mary in Williamsburg, Virginia."
-      },
-      {
-        "pid": "G6ZJ-QQX",
-        "name": "James Colleton",
-        "desc": "James Colleton d. c. 1706 was a governor of the English proprietary Province of Carolina from 1686 to 1690."
-      },
-      {
-        "pid": "KNSF-3CL",
-        "name": "James De Lancey",
-        "desc": "James De Lancey November 27, 1703 – July 30, 1760 served as chief justice, lieutenant governor, and acting colonial governor of the Province of New York."
-      },
-      {
-        "pid": "LL46-CNQ",
-        "name": "James Glen",
-        "desc": "James Glen 1701 – July 18, 1777 was a politician in the Province of South Carolina. He was appointed Royal Governor of South Carolina in 1738, but did not arrive in the province until December 17, 1743. He served as governor until June 1, 1756 and was succeeded by William Henry Lyttelton. On June 21, 1761, Glen returned to Europe and died in London. He is buried in St Michael's Parish Church, Linlithgow, Scotland."
-      },
-      {
-        "pid": "GZXF-5XL",
-        "name": "James Hamilton",
-        "desc": "James Hamilton 1710 – August 14, 1783, son of the well-known American lawyer Andrew Hamilton, was a prominent lawyer and governmental figure in colonial Philadelphia and Pennsylvania. He served as Deputy Governor of the Province from 1748 to 1754, and again from 1759 to 1763."
-      },
-      {
-        "pid": "L5G3-ZZ8",
-        "name": "James Logan",
-        "desc": "James Logan October 20, 1674 – October 31, 1751 was a Scots-Irish colonial American statesman, administrator, and scholar who served as the fourteenth mayor of Philadelphia and held a number of other public offices."
-      },
-      {
-        "pid": "L7YJ-PXQ",
-        "name": "James Moore Jr.",
-        "desc": "James Moore Jr. was c. 1682–March 3, 1724 was the governor of South Carolina from 1719 to 1721."
-      },
-      {
-        "pid": "G8P5-GD3",
-        "name": "James Moore Sr.",
-        "desc": "James Moore Sr. c. 1650 – 1706 was a senior officer of militia who served as the governor of Carolina from 1700 to 1703. He is best known for leading several invasions of Spanish Florida during Queen Anne's War, including attacks in 1704 and 1706 which wiped out most of the Spanish missions in Florida. He captured and brought back to Carolina as slaves thousands of Apalachee Indians."
-      },
-      {
-        "pid": "L7BD-ZQ7",
-        "name": "James Oglethorpe",
-        "desc": "James Edward Oglethorpe 22 December 1696 – 30 June 1785 was a British soldier, Member of Parliament, and philanthropist, as well as the founder of the colony of Georgia in what was then British America. As a social reformer, he hoped to resettle Britain's \"worthy poor\" in the New World, initially focusing on those in debtors' prisons."
-      },
-      {
-        "pid": "27S4-8RZ",
-        "name": "James Wright",
-        "desc": "James Wright 8 May 1716 – 20 November 1785 was a colonial lawyer and jurist who was the last British Royal Governor of the Province of Georgia. He was the only Royal Governor of the Thirteen Colonies to regain control of his colony during the American Revolutionary War."
-      },
-      {
-        "pid": "GHQT-K3S",
-        "name": "Jeremiah Basse",
-        "desc": "Jeremiah Basse died 1725 was a governor of both West Jersey and East Jersey. He became governor of West Jersey in 1697, and became governor of East Jersey in 1697."
-      },
-      {
-        "pid": "KHGM-DCT",
-        "name": "Jesse Wharton",
-        "desc": "Jesse Wharton died 1676 was the 7th Proprietary Governor of Maryland during a brief period in 1676. He was appointed by the royally chartered proprietor of Maryland, Charles Calvert, 3rd Baron Baltimore. Following his death, Wharton was briefly succeeded by Cecil Calvert, infant son of Charles Calvert, before the next Governor, Thomas Notley, was appointed."
-      },
-      {
-        "pid": "MLZH-SSP",
-        "name": "Johan Björnsson Printz",
-        "desc": "Johan Björnsson Printz July 20, 1592 – May 3, 1663 was governor from 1643 until 1653 of the Swedish colony of New Sweden on the Delaware River in North America."
-      },
-      {
-        "pid": "LZK6-DXL",
-        "name": "John Blair",
-        "desc": "John Blair c. 1687 – November 5, 1771 was a merchant and politician of the colony of Virginia. He served in both houses of the Virginia General Assembly."
-      },
-      {
-        "pid": "LQRB-XJZ",
-        "name": "John Campbell",
-        "desc": "General John Campbell, 4th Earl of Loudoun 5 May 1705 – 27 April 1782 was a Scottish nobleman and British army officer."
-      },
-      {
-        "pid": "LQRK-95S",
-        "name": "John Carver",
-        "desc": "John Carver before 1584–1621 was one of the Pilgrims who braved the Mayflower voyage in 1620 which resulted in the creation of Plymouth Colony in America. He is credited with writing the Mayflower Compact and was its first signer, and he was also the first governor of Plymouth Colony."
-      },
-      {
-        "pid": "LBK8-DLF",
-        "name": "John Coggeshall",
-        "desc": "John Coggeshall Sr. 2 December 1599 – 27 November 1647 was one of the founders of the Colony of Rhode Island and Providence Plantations and the first President of all four towns in the Colony."
-      },
-      {
-        "pid": "LCZX-QCC",
-        "name": "John Coode",
-        "desc": "John Coode c. 1648 in Cornwall – February or March 1709 is best known for leading a rebellion that overthrew Maryland's colonial government in 1689. He participated in four separate uprisings and briefly served as Maryland's governor 1689–1691 as the 1st Leader of the Protestant Associators."
-      },
-      {
-        "pid": "L5KT-DBX",
-        "name": "John Cranston",
-        "desc": "John Cranston 1625–1680 was a colonial physician, military leader, legislator, deputy governor and governor of the Colony of Rhode Island and Providence Plantations during the 17th century."
-      },
-      {
-        "pid": "LZ4D-9QD",
-        "name": "John Cutt",
-        "desc": "first"
-      },
-      {
-        "pid": "LBK8-DLF",
-        "name": "John Easton",
-        "desc": "John Easton 1624–1705 was a political leader in the Colony of Rhode Island and Providence Plantations, devoting decades to public service before eventually becoming governor of the colony"
-      },
-      {
-        "pid": "skip",
-        "name": "John Evans",
-        "desc": "John Evans born about 1678 was a colonial governor of Pennsylvania, 3 February 1704 through 1 February 1709."
-      },
-      {
-        "pid": "skip",
-        "name": "John Hart",
-        "desc": "John Hart fl. 1710s–1720s served as the 12th Royal Governor of Maryland from 1714–1715 and continued as the 12th Proprietary Governor of Maryland from 1715–1720, after the restoration of proprietary control to Charles Calvert, 5th Baron Baltimore. His governorship marked the beginnings of the restoration of the Calvert family's control of Maryland."
-      },
-      {
-        "pid": "GX1Y-CZC",
-        "name": "John Harvey",
-        "desc": "John Harvey died 1679 was the governor of Albemarle Sound, in The Carolinas, in 1679."
-      },
-      {
-        "pid": "LWSG-WTH",
-        "name": "John Harvey",
-        "desc": "Sir John Harvey died 1646 was a Crown Governor of Virginia. He was appointed to the position on 26 March 1628 by Charles I of England. In 1635 he was suspended and impeached by the Council of Virginia who named John West as a temporary replacement, and he returned to England. He claimed a conspiracy to change the charter of the colony by John Wolstenholme was the reason for the failures of his administration."
-      },
-      {
-        "pid": "LCMQ-Z9H",
-        "name": "John Haynes",
-        "desc": "John Haynes May 1, 1594 – c. January 9, 1653/4, also sometimes spelled Haines, was a colonial magistrate and one of the founders of the Connecticut Colony. He served one term as governor of the Massachusetts Bay Colony and was the first governor of Connecticut, ultimately serving eight separate terms."
-      },
-      {
-        "pid": "MK46-X1P",
-        "name": "John Leverett",
-        "desc": "John Leverett baptized 7 July 1616 – 16 March 1678/79 was an English colonial magistrate, merchant, soldier and the penultimate governor of the Massachusetts Bay Colony. Born in England, he migrated to Massachusetts as a teenager. He was a leading merchant in the colony, and served in its military. In the 1640s he went back to England to fight in the English Civil War."
-      },
-      {
-        "pid": "KXJ7-C4L",
-        "name": "John Lovelace",
-        "desc": "John Lovelace, 4th Baron Lovelace 1672—1709 was the Governor of both New York and New Jersey."
-      },
-      {
-        "pid": "ML8J-KLY",
-        "name": "John Penn",
-        "desc": "John Penn 22 February 1760 – 21 June 1834 was an English politician and writer who was the chief proprietor of the Province of Pennsylvania from 1775 to 1776. He and his cousin, John Penn \"John Penn, the Governor\" held unsold property, of 24,000,000 acres 97,000 km2, which the Pennsylvania legislature confiscated after the American Revolution."
-      },
-      {
-        "pid": "LJGZ-ZRJ",
-        "name": "John Pott",
-        "desc": "John Potts or Pott was a physician and Colonial Governor of Virginia at the Jamestown settlement in the Virginia Colony in the early 17th century."
-      },
-      {
-        "pid": "L6PN-Y7J",
-        "name": "Thomas Gage",
-        "desc": "General Thomas Gage (10 March 1718/19 – 2 April 1787) was a British Army general officer and colonial official best known for his many years of service in North America, including his role as British commander-in-chief in the early days of the American Revolution."
-      }
-    ]
-  }
+  "title": "Colonial Governors",
+  "desc": "A group of Colonial Governors",
+  "banner": "governors.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "pid": "LZVY-95D",
+      "name": "Alexander Rigby",
+      "desc": "Alexander Rigby (1594 – 18 August 1650) was an English lawyer and politician who sat in the House of Commons between 1640 and 1650. He was a colonel in the Parliamentary army in the English Civil War.",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Rigby",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mqn03/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "M8QH-S4S",
+      "name": "Alexander Spotswood",
+      "desc": "Alexander Spotswood 12 December 1676 – 7 June 1740 was a British Army officer, explorer and lieutenant governor of Colonial Virginia; he is regarded as one of the most significant historical figures in British North American colonial history.",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Spotswood",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lsoqh/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LDRF-3NN",
+      "name": "Andrew Bowne",
+      "desc": "Captain Andrew Bowne c. 1638 - c. 1708 was an American colonial politician and jurist, who served in various capacities in both New York and New Jersey.",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Bowne",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCTM-W14",
+      "name": "Andrew Elliot",
+      "desc": "Andrew Elliot November 1728 – 25 May 1797 was a British merchant and official who served as the Acting and last British Governor of New York in 1783.",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Elliot",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZS3-CBZ",
+      "name": "Andrew Hamilton",
+      "desc": "Andrew Hamilton died 1703 was the colonial governor of East and West New Jersey from 1692 to 1697 and again from 1699 to 1703. He also served as Deputy Governor of the neighboring Province of Pennsylvania.",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Hamilton_(New_Jersey_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZL1-PM2",
+      "name": "Anthony Brockholls",
+      "desc": "Major Anthony Brockholls or Brockholst c. 1656 – August 29, 1723 was and English born Commander-in-Chief 1677-8 and then acting Governor 1681-2 of New York.",
+      "url": "https://en.wikipedia.org/wiki/Anthony_Brockholls",
+      "gender": "Male"
+    },
+    {
+      "pid": "G8FL-WRX",
+      "name": "Archibald Campbell",
+      "desc": "Sir Archibald Campbell KB 21 August 1739 – 31 March 1791 served as governor of Georgia, Jamaica, and Madras. He was a major Scottish landowner, Heritable Usher of the White Rod for Scotland and politician who sat in the House of Commons between 1774 and 1791.",
+      "url": "https://en.wikipedia.org/wiki/Archibald_Campbell_(British_Army_officer,_born_1739)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LDYY-8LC",
+      "name": "Arthur Middleton",
+      "desc": "Arthur Middleton October 29, 1681 – September 17, 1737 was a South Carolina planter and Acting Governor of the Province of South Carolina from May 7, 1725, to December 1730.",
+      "url": "https://en.wikipedia.org/wiki/Arthur_Middleton_(1681%E2%80%931737)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/am7og/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LBW4-N7J",
+      "name": "Benedict Arnold",
+      "desc": "Benedict Arnold December 21, 1615 – June 19, 1678 was president and then governor of the Colony of Rhode Island and Providence Plantations, serving for a total of 11 years in these roles",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Arnold_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8gjvj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCTS-1Q9",
+      "name": "Benedict Calvert",
+      "desc": "Benedict Leonard Calvert, 4th Baron Baltimore 21 March 1679 – 16 April 1715 was an English nobleman and politician.",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Calvert,_4th_Baron_Baltimore",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k3aab/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHPJ-DLL",
+      "name": "Benedict Leonard Calvert",
+      "desc": "Benedict Leonard Calvert September 20, 1700 – June 1, 1732 was the 15th Proprietary Governor of Maryland from 1727 through 1731, appointed by his older brother, Charles Calvert, 5th Baron Baltimore 1699–1751.",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Leonard_Calvert",
+      "gender": "Male"
+    },
+    {
+      "pid": "LC3W-Z3D",
+      "name": "Benjamin Fletcher",
+      "desc": "Benjamin Fletcher 14 May 1640 – 28 May 1703 was colonial governor of New York from 1692 to 1697. Fletcher was known for the Ministry Act of 1693, which secured the place of Anglicans as the official religion in New York. He also built the first Trinity Church in 1698.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Fletcher",
+      "gender": "Male"
+    },
+    {
+      "pid": "LK4G-M1V",
+      "name": "Benjamin Tasker",
+      "desc": "Benjamin Tasker Sr. c. 1690 – June 19, 1768 was the 21st Proprietary Governor of Maryland from 1752 to 1753. He also occupied a number of other significant colonial offices, including, on various occasions, being elected Mayor of Annapolis.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Tasker_Sr.",
+      "gender": "Male"
+    },
+    {
+      "pid": "GQF6-67M",
+      "name": "Benning Wentworth",
+      "desc": "Benning Wentworth July 24, 1696 – October 14, 1770 was an American merchant and colonial administrator who served as the governor of New Hampshire from 1741 to 1766.",
+      "url": "https://en.wikipedia.org/wiki/Benning_Wentworth",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2y7df/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MD5B-3ZR",
+      "name": "Beverley Robinson",
+      "desc": "Beverley Robinson 11 January 1721 – 9 April 1792, was a Virginia-born soldier who became a wealthy colonist of the Province of New York and is best known as a Loyalist during the American Revolutionary War. Robinson married Susanna Philipse, heiress to a significant share of the roughly 250 square miles 650 km2 Highland Patent on the lower Hudson River in the Province of New York.",
+      "url": "https://en.wikipedia.org/wiki/Beverley_Robinson",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/znq7k/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHPP-2KC",
+      "name": "Cadwallader Colden",
+      "desc": "Cadwallader Colden 7 February 1688 – 28 September 1776 was a physician, natural scientist, a lieutenant governor and acting Governor for the Province of New York.",
+      "url": "https://en.wikipedia.org/wiki/Cadwallader_Colden",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uimz3/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6LN-RDY",
+      "name": "Caleb Carr",
+      "desc": "Caleb Carr 1616 - 17 December 1695 was a governor of the Colony of Rhode Island and Providence Plantations, serving a very short term prior to his death. In 1635, at the age of 19, he sailed from England on the ship Elizabeth and Ann with his older brother Robert.",
+      "url": "https://en.wikipedia.org/wiki/Caleb_Carr_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "9N51-NLB",
+      "name": "Charles Calvert",
+      "desc": "Captain Charles Calvert 1688 – February 2, 1734 was the 14th Proprietary Governor of Maryland in 1720, at a time when the Calvert family had recently regained control of their proprietary colony.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Calvert_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LB8Z-KW8",
+      "name": "Charles Calvert",
+      "desc": "Charles Calvert, 3rd Baron Baltimore August 27, 1637 – February 21, 1715, inherited the colony of Maryland in 1675 upon the death of his father, Cecil Calvert, 2nd Baron Baltimore, 1605–1675.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Calvert,_3rd_Baron_Baltimore",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1srnf/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCZW-MZ2",
+      "name": "Charles Calvert",
+      "desc": "Charles Calvert, 5th Baron Baltimore, FRS 29 September 1699 – 24 April 1751 was a British nobleman and Proprietary Governor of the Province of Maryland.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Calvert,_5th_Baron_Baltimore",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xjp5j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9W1R-JD8",
+      "name": "Charles Craven",
+      "desc": "Charles Craven 1682 – 27 December 1754 was the son of Sir William Craven and Margaret Clapham. He held the office of Governor of Carolina between 1711 and 1716.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Craven",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/vyg0e/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LYS4-JF2",
+      "name": "Charles Gookin",
+      "desc": "Charles Gookin c. 1660–c. 1723 was a deputy governor of colonial Pennsylvania.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Gookin",
+      "gender": "Male"
+    },
+    {
+      "pid": "LWXT-RZP",
+      "name": "Charles Hardy",
+      "desc": "Sir Charles Hardy c. 1714 – 18 May 1780 was a Royal Navy officer and politician who sat in the House of Commons between 1764 and 1780. He served as colonial governor of New York from 1755 to 1757.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Hardy",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kjzt2/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH6N-MRX",
+      "name": "Cornelius Jacobsen May",
+      "desc": "Cornelis Jacobsen Mey, often spelled Cornelius Jacobsz May in Dutch, was a Dutch explorer, captain, and fur trader. Cape May, New Jersey and Cape May County, New Jersey are both named after him.",
+      "url": "https://en.wikipedia.org/wiki/Cornelius_Jacobsen_May",
+      "gender": "Male"
+    },
+    {
+      "pid": "945V-6KK",
+      "name": "Dr. Daniel Coxe",
+      "desc": "Daniel Coxe III c. 1640 – 19 January 1730 FRS was an English physician and governor of West Jersey from 1687 to 1688 and 1689 to 1692.",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Coxe",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7GJ-ZDB",
+      "name": "Edmund Andros",
+      "desc": "Sir Edmund Andros 6 December 1637 – 24 February 1714 was an English colonial administrator in British America. He was the governor of the Dominion of New England during most of its three-year existence. At other times, Andros served as governor of the provinces of New York, East and West Jersey, Virginia, and Maryland.",
+      "url": "https://en.wikipedia.org/wiki/Edmund_Andros",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5li84/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LK74-FP2",
+      "name": "Edmund Jenings",
+      "desc": "Edmund Jenings 1659-1727 was a British politician and lawyer who held important posts in the Colony of Virginia including as the attorney general, on the Governor's Council and as acting governor, but encountered controversy and experienced financial problems in his final years.",
+      "url": "https://en.wikipedia.org/wiki/Edmund_Jenings_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "GHMN-X9K",
+      "name": "Edward Byllynge",
+      "desc": "Edward Byllynge was a British colonial administrator and governor of West New Jersey from 1680 to 1687, until his death in England. Byllynge owned a large section of land in New Jersey with the Quakers.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Byllynge",
+      "gender": "Male"
+    },
+    {
+      "pid": "LVN2-B9D",
+      "name": "Edward Digges",
+      "desc": "Edward Digges 14 February 1620 – 15 March 1674/75 was an English barrister and colonist who became a premium tobacco planter and official in the Virginia colony.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Digges",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/psamk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LYZZ-NWK",
+      "name": "Edward Godfrey",
+      "desc": "Edward Godfrey about 1584 – after 1663 was the first governor of the Province of Maine.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Godfrey_(Maine)",
+      "gender": "Male"
+    },
+    {
+      "pid": "KZL2-JHK",
+      "name": "Edward Hopkins",
+      "desc": "Edward Hopkins 1600 – March 1657 was an English colonist and politician and 2nd Governor of the Connecticut Colony. Active on both sides of the Atlantic, he was a founder of the New Haven and Connecticut colonies, serving seven one-year terms as Governor of Connecticut.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Hopkins",
+      "gender": "Male"
+    },
+    {
+      "pid": "L9HQ-K6V",
+      "name": "Edward Hyde",
+      "desc": "Edward Hyde, 3rd Earl of Clarendon 28 November 1661 – 31 March 1723, styled Viscount Cornbury between 1674 and 1709, was an English aristocrat and politician. Better known by his noble title Lord Cornbury, he was propelled into the forefront of English politics when he and part of his army defected from the Catholic King James II to support the newly arrived Protestant contender, William III of Orange. These actions were part of the beginning of the Glorious Revolution of 1688. Cornbury's choice to support his cousin Anne instead of William after the rebellion cost him his military commission. However, Cornbury's support of King William's reign eventually earned him the governorship of the provinces of New York and New Jersey; he served between 1701 and 1708.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Hyde,_3rd_Earl_of_Clarendon",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/87lqe/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCZX-4CV",
+      "name": "Edward Lloyd",
+      "desc": "Major General Edward Lloyd II February 7, 1671 – March 20, 1719 was the 11th Royal Governor of Maryland from 1709 to 1714.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Lloyd_(Colonial_Governor_of_Maryland)",
+      "gender": "Male"
+    },
+    {
+      "pid": "9CVN-5BN",
+      "name": "Edward Maria Wingfield",
+      "desc": "Edward Maria Wingfield, sometimes hyphenated as Edward-Maria Wingfield 1550 in Stonely Priory, near Kimbolton – 1631 was a soldier, Member of Parliament, 1593 and English colonist in America. He was the son of Thomas Maria Wingfield, and the grandson of Richard Wingfield.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Maria_Wingfield",
+      "gender": "Male"
+    },
+    {
+      "pid": "KH7P-V9P",
+      "name": "Edward Nott",
+      "desc": "Colonel Edward Nott 1657 – August 23, 1706 was an English Colonial Governor of Virginia. He was appointed by Queen Anne on either April 25, 1705 or August 15, 1705. His administration lasted only one year, as he died in 1706 at the age of 49. He is interred at Bruton Parish Church in Williamsburg, Virginia. He is noted as having been a \"mild, benevolent man.\"",
+      "url": "https://en.wikipedia.org/wiki/Edward_Nott",
+      "gender": "Male"
+    },
+    {
+      "pid": "LRVS-SWX",
+      "name": "Edward Shippen",
+      "desc": "Edward Shippen 1639, Methley, West Yorkshire, England – October 2, 1712, Philadelphia, Pennsylvania was the second mayor of Philadelphia, although under William Penn's charter of 1701, he was considered the first.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Shippen",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r2zk9/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCR8-TZ9",
+      "name": "Edward Winslow",
+      "desc": "Edward Winslow 18 October 1595 – 8 May 1655 was a Separatist and New England political leader who traveled on the Mayflower in 1620.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Winslow",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/vmrlj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9XN9-Z7C",
+      "name": "Ferdinando Gorges",
+      "desc": "Sir Ferdinando Gorges c. 1565-1568 – 24 May 1647 was a naval and military commander and governor of the important port of Plymouth in England. He was involved in Essex's Rebellion against the Queen, but escaped punishment by testifying against the main conspirators. His early involvement in English trade with and settlement of North America as well as his efforts in founding the Province of Maine in 1622 earned him the title of the \"Father of English Colonization in North America,\" even though Gorges himself never set foot in the New World.",
+      "url": "https://en.wikipedia.org/wiki/Ferdinando_Gorges",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fslne/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "2X5Q-6NY",
+      "name": "Fitz-John Winthrop",
+      "desc": "Fitz-John Winthrop March 14, 1637 – November 27, 1707, was the governor of the Colony of Connecticut from 1698 until his death on November 27, 1707.",
+      "url": "https://en.wikipedia.org/wiki/Fitz-John_Winthrop",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/90svj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LWP7-8KM",
+      "name": "Francis Fauquier",
+      "desc": "Francis Fauquier 1703 – 3 March 1768 was a lieutenant governor of Virginia Colony in what is today the United States, and served as acting governor from 1758 until his death in 1768.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Fauquier",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uvar1/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LWZD-9K8",
+      "name": "Francis Howard",
+      "desc": "Francis Howard, 5th Baron Howard of Effingham c. 1643 – 30 March 1694 O.S./95 N.S. was a member of the Howard family, descended from noted naval commander Lord High Admiral Howard, and a Crown Governor of Virginia 1683-1692.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Howard,_5th_Baron_Howard_of_Effingham",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lzj7j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LDMX-FL2",
+      "name": "Francis Lovelace",
+      "desc": "Francis Lovelace c. 1621–1675 was an English Royalist and the second Governor of New York colony.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Lovelace",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/56c6g/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "943X-PBL",
+      "name": "Francis Newman",
+      "desc": "Francis Newman circa 1605 – 18 November 1660 was an English colonist in America. He served as Governor of the New Haven Colony from 1658 to 1659.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Newman",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7GF-W4D",
+      "name": "Francis Nicholson",
+      "desc": "Lieutenant-General Francis Nicholson 12 November 1655 – 16 March, 1728 was a British Army general and colonial official who served as the governor of South Carolina from 1721 to 1725. He previously was the Governor of Nova Scotia from 1712 to 1715, the Governor of Virginia from 1698 to 1705, the Governor of Maryland from 1694 to 1698, the Lieutenant Governor of Virginia from 1690 to 1692, and the Lieutenant Governor of the Dominion of New England from 1688 to 1689.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Nicholson",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ok4s1/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GKXM-KTV",
+      "name": "Francis West",
+      "desc": "Francis West 28 October 1586 – February 1633/1634 was a Deputy Governor of the Colony and Dominion of Virginia.",
+      "url": "https://en.wikipedia.org/wiki/Francis_West",
+      "gender": "Male"
+    },
+    {
+      "pid": "MS8Y-L5B",
+      "name": "Francis Wyatt",
+      "desc": "Sir Francis Wyatt 1588–1644 was an English nobleman, knight, politician, and government official. He was the first English royal governor of Virginia. He sailed for America on 1 August 1621 on board the George. He became governor shortly after his arrival in October, taking with him the first written constitution for an English colony. Also sailing with him on this voyage was his second cousin Henry Fleete Sr., who helped found colonies in both Virginia and Maryland. In 1622 he rallied the defence of Jamestown which was attacked by Native Americans, during which the lives of some 400 settlers were lost and he then oversaw the contraction of the colony from scattered outposts into a defensive core.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Wyatt",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/g5hak/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K4P9-RVX",
+      "name": "George Burdett",
+      "desc": "George Burdett c. 1602–1671 was the second colonial governor of the Upper Plantation of New Hampshire, later to become the Province of New Hampshire, between 1637 and 1640. He returned to England and was a chaplain to Parliamentary regiments during the English Civil War. After the Restoration he served as a minister in Ireland.",
+      "url": "https://en.wikipedia.org/wiki/George_Burdett_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LW7T-CQM",
+      "name": "George Clarke",
+      "desc": "George Clarke 1676 – 12 January 1760 was a colonial governor of New York.",
+      "url": "https://en.wikipedia.org/wiki/George_Clarke_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCQM-N2N",
+      "name": "George Cleeve",
+      "desc": "George Cleeve c. 1586–after November 1666 was an early settler and founder of today's Portland, Maine. He was Deputy President of the Province of Lygonia from 1643 until the final submission of its Maine towns to Massachusetts authority in 1658.",
+      "url": "https://en.wikipedia.org/wiki/George_Cleeve",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dko37/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L78S-DTG",
+      "name": "George Clinton",
+      "desc": "Admiral of the Fleet The Hon. George Clinton c. 1686 – 10 July 1761 was a Royal Navy officer and politician. Benefiting from the patronage of Thomas Pelham-Holles, 1st Duke of Newcastle, he served as a naval captain during the 1720s and 1730s.",
+      "url": "https://en.wikipedia.org/wiki/George_Clinton_(Royal_Navy_officer)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZDB-JXV",
+      "name": "George Fenwick",
+      "desc": "George Fenwick 1603?–1657, was an English Parliamentarian, and a leading colonist in the short-lived Saybrook Colony.",
+      "url": "https://en.wikipedia.org/wiki/George_Fenwick_(Parliamentarian)",
+      "gender": "Male"
+    },
+    {
+      "pid": "KG8T-TSZ",
+      "name": "George Hamilton",
+      "desc": "Field Marshal George Hamilton, 1st Earl of Orkney, KT 9 February 1666 – 29 January 1737, styled Lord George Hamilton from 1666 to 1696, was a British soldier and Scottish nobleman and the first British Army officer to be promoted to the rank of field marshal",
+      "url": "https://en.wikipedia.org/wiki/George_Hamilton,_1st_Earl_of_Orkney",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/veadg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KN43-459",
+      "name": "George Percy",
+      "desc": "The Honourable George Percy 4 September 1580 – 1632 was an English explorer, author, and early Colonial Governor of Virginia.",
+      "url": "https://en.wikipedia.org/wiki/George_Percy",
+      "gender": "Male"
+    },
+    {
+      "pid": "GK4R-CP9",
+      "name": "George Popham",
+      "desc": "George Popham 1550–1608 was a pioneering colonist from Maine, born in the southwestern regions of England. He was an associate of English colonist Sir Ferdinando Gorges in a colonization scheme for a part of Maine.",
+      "url": "https://en.wikipedia.org/wiki/George_Popham",
+      "gender": "Male"
+    },
+    {
+      "pid": "LB8G-GHT",
+      "name": "George Reade",
+      "desc": "George Reade October 25, 1608 – November 21, 1671 was a prominent landowner, military officer, judge, and politician who served as a member of the House of Burgesses and as Acting Governor of Virginia Colony. He is the great-great-grandfather of the first President of the United States, George Washington.",
+      "url": "https://en.wikipedia.org/wiki/George_Reade_(colonial_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lnrvj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KN6C-KCN",
+      "name": "George Wyllys",
+      "desc": "George Wyllys or Wyllis 1590 – 9 March 1645 served for a year 1642–1643 as one of the early governors of the Connecticut Colony.",
+      "url": "https://en.wikipedia.org/wiki/George_Wyllys",
+      "gender": "Male"
+    },
+    {
+      "pid": "LV94-JSK",
+      "name": "George Yeardley",
+      "desc": "Sir George Yeardley 1587 – November 13, 1627 was a planter and colonial governor of the colony of Virginia. He was also among the first slaveowners in Colonial America. A survivor of the Virginia Company of London's ill-fated Third Supply Mission, whose flagship, the Sea Venture, was shipwrecked on Bermuda for ten months from 1609 to 1610, he is best remembered for presiding over the initial session of the first representative legislative body in Virginia in 1619",
+      "url": "https://en.wikipedia.org/wiki/George_Yeardley",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fp6cj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LVQW-L9S",
+      "name": "Gerardus Beekman",
+      "desc": "Gerardus Willemse Beekman c. August 1653 – October 10, 1723 was a wealthy physician, land owner, and colonial governor of the Province of New York.",
+      "url": "https://en.wikipedia.org/wiki/Gerardus_Beekman",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/6m0ci/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K26T-N22",
+      "name": "Gideon Wanton",
+      "desc": "Gideon Wanton October 20, 1693 – September 12, 1767 was a governor of the Colony of Rhode Island and Providence Plantations who served for two separate one-year terms. His father was Joseph Wanton, a shipbuilder in Tiverton, and his mother was Sarah Freeborn, the daughter of Gideon and Sarah Brownell Freeborn.",
+      "url": "https://en.wikipedia.org/wiki/Gideon_Wanton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cn1fj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9KBK-86J",
+      "name": "Gregory Dexter",
+      "desc": "Gregory Dexter 1610 – c. 1700 was a renowned printer of important and controversial books and pamphlets in London. In New England, he assumed various roles including serving as a consultant to printers, a Baptist minister, an owner of a limestone quarry, and a political figure elected as president of the combined towns of Providence and Warwick in colonial Rhode Island. He is best known as the printer of Roger Williams's book A Key into the Language of America in 1643, the first English translation of a Native American language.",
+      "url": "https://en.wikipedia.org/wiki/Gregory_Dexter",
+      "gender": "Male"
+    },
+    {
+      "pid": "MGFX-WN8",
+      "name": "Gurdon Saltonstall",
+      "desc": "Gurdon Saltonstall 27 March 1666 – 20 September 1724 was governor of the Colony of Connecticut from 1708 to 1724. Born into a distinguished family, Saltonstall became an accomplished and eminent Connecticut pastor. A close associate of Governor Fitz-John Winthrop, Saltonstall was appointed the colony's governor after Winthrop's death in 1707, and then reelected to the office annually until his own death.",
+      "url": "https://en.wikipedia.org/wiki/Gurdon_Saltonstall",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/euxn2/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K2YD-VS7",
+      "name": "Henderson Walker",
+      "desc": "Henderson Walker 1659-1704 was the Acting Deputy Governor of North Carolina from 1699 to 1704. He is better known for his contribution in the founding of the Church of England in the Albemarle Sound region.",
+      "url": "https://en.wikipedia.org/wiki/Henderson_Walker",
+      "gender": "Male"
+    },
+    {
+      "pid": "LC2W-GWG",
+      "name": "Henry Bull",
+      "desc": "Henry Bull 1610–1694 was an early colonial Governor of Rhode Island, serving for two separate terms, one before and one after the tenure of Edmund Andros under the Dominion of New England",
+      "url": "https://en.wikipedia.org/wiki/Henry_Bull_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nwyih/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH88-KH1",
+      "name": "Henry Chicheley",
+      "desc": "Rosegill, Virginia, U.S.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Chicheley",
+      "gender": "Male"
+    },
+    {
+      "pid": "G75K-X46",
+      "name": "Henry Ellis",
+      "desc": "Henry Ellis August 29, 1721 – January 21, 1806 was an Irish explorer, author and slave trader who served as the governor of the colonies of Georgia and Nova Scotia.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Ellis_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZDY-3KR",
+      "name": "Henry Jocelyn",
+      "desc": "Henry Josselyn also spelled Jocelyn; died ca. 1683 was an early settler of northern New England. He was first retained by John Mason, the proprietor of the territory that later became New Hampshire, to administer his holdings. Arriving at the Piscataqua River in 1634, he administered Mason's settlement roughly including present-day Portsmouth and some nearby communities until Mason's death in 1635.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Jocelyn",
+      "gender": "Male"
+    },
+    {
+      "pid": "KFVN-L12",
+      "name": "Henry Laurens",
+      "desc": "Henry Laurens March 6, 1724  – December 8, 1792 was an American Founding Father, merchant, slave trader, and rice planter from South Carolina who became a political leader during the Revolutionary War. A delegate to the Second Continental Congress, Laurens succeeded John Hancock as its president. He was a signatory to the Articles of Confederation and, as president, presided over its passage.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Laurens",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s5pkc/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KN43-459",
+      "name": "Henry Parker",
+      "desc": "Henry Parker born near Savannah, Georgia, about 1690; died Isle of Hope, Georgia, about 1777 was secretary to the governor of Georgia 1750 until 1751. He was Colonial Governor of the state of Georgia from 1751 until 1752.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Parker_(Georgia_official)",
+      "gender": "Male"
+    },
+    {
+      "pid": "MF9V-TWC",
+      "name": "Henry Vane",
+      "desc": "Sir Henry Vane baptised 26 March 1613 – 14 June 1662, often referred to as Harry Vane and Henry Vane the Younger to distinguish him from his father, Henry Vane the Elder, was an English politician, statesman, and colonial governor. He was briefly present in North America, serving one term as the governor of the Massachusetts Bay Colony, and supported the creation of Roger Williams' Rhode Island Colony and Harvard College",
+      "url": "https://en.wikipedia.org/wiki/Henry_Vane_the_Younger",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7zlc8/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GK5K-QVG",
+      "name": "Horatio Sharpe",
+      "desc": "Horatio Sharpe 1718 – November 9, 1790 was the 22nd proprietary governor of Maryland from 1753 to 1768 under the restored proprietary government of Maryland.",
+      "url": "https://en.wikipedia.org/wiki/Horatio_Sharpe",
+      "gender": "Male"
+    },
+    {
+      "pid": "GNXG-Y5D",
+      "name": "Hugh Drysdale",
+      "desc": "Colonel Hugh Drysdale died 22 July 1726 was an American governor of colonial Virginia. He was educated at Kilkenny College and Trinity College Dublin. More officially, his title was Lieutenant Governor and Commander in Chief of the Colony and Dominion of Virginia. He served as governor from September 1722, until his death in July 1726.",
+      "url": "https://en.wikipedia.org/wiki/Hugh_Drysdale",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZN6-S7B",
+      "name": "Jacob Leisler",
+      "desc": "Jacob Leisler c. 1640 – May 16, 1691 was a German-born colonist who served as a politician in the Province of New York. He gained wealth in New Amsterdam later New York City in the fur trade and tobacco business. In what became known as Leisler's Rebellion following the English Revolution of 1688, he took control of the city, and ultimately the entire province, from appointees of deposed King James II, in the name of the Protestant accession of William III and Mary II.",
+      "url": "https://en.wikipedia.org/wiki/Jacob_Leisler",
+      "gender": "Male"
+    },
+    {
+      "pid": "M5X3-F5R",
+      "name": "Jacques Prevost",
+      "desc": "James Marcus or Mark Prevost born Jacques-Marc Prevost; 1736 – 1781 was a British Army officer. After being commissioned in Europe, he commanded troops of the British Army in North America and the West Indies, including during the French and Indian War, the North American front of the Seven Years' War.",
+      "url": "https://en.wikipedia.org/wiki/Jacques_Marcus_Prevost",
+      "gender": "Male"
+    },
+    {
+      "pid": "KN84-VWV",
+      "name": "James Blair",
+      "desc": "James Blair 1656 – 18 April 1743 was a Scottish-born clergyman in the Church of England. He was also a missionary and an educator, best known as the founder of the College of William & Mary in Williamsburg, Virginia.",
+      "url": "https://en.wikipedia.org/wiki/James_Blair_(clergyman)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/oa6hj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "G6ZJ-QQX",
+      "name": "James Colleton",
+      "desc": "James Colleton d. c. 1706 was a governor of the English proprietary Province of Carolina from 1686 to 1690.",
+      "url": "https://en.wikipedia.org/wiki/James_Colleton",
+      "gender": "Male"
+    },
+    {
+      "pid": "KNSF-3CL",
+      "name": "James De Lancey",
+      "desc": "James De Lancey November 27, 1703 – July 30, 1760 served as chief justice, lieutenant governor, and acting colonial governor of the Province of New York.",
+      "url": "https://en.wikipedia.org/wiki/James_De_Lancey",
+      "gender": "Male"
+    },
+    {
+      "pid": "LL46-CNQ",
+      "name": "James Glen",
+      "desc": "James Glen 1701 – July 18, 1777 was a politician in the Province of South Carolina. He was appointed Royal Governor of South Carolina in 1738, but did not arrive in the province until December 17, 1743. He served as governor until June 1, 1756 and was succeeded by William Henry Lyttelton. On June 21, 1761, Glen returned to Europe and died in London. He is buried in St Michael's Parish Church, Linlithgow, Scotland.",
+      "url": "https://en.wikipedia.org/wiki/James_Glen",
+      "gender": "Male"
+    },
+    {
+      "pid": "GZXF-5XL",
+      "name": "James Hamilton",
+      "desc": "James Hamilton 1710 – August 14, 1783, son of the well-known American lawyer Andrew Hamilton, was a prominent lawyer and governmental figure in colonial Philadelphia and Pennsylvania. He served as Deputy Governor of the Province from 1748 to 1754, and again from 1759 to 1763.",
+      "url": "https://en.wikipedia.org/wiki/James_Hamilton_(Pennsylvania_politician)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/a8xrk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L5G3-ZZ8",
+      "name": "James Logan",
+      "desc": "James Logan October 20, 1674 – October 31, 1751 was a Scots-Irish colonial American statesman, administrator, and scholar who served as the fourteenth mayor of Philadelphia and held a number of other public offices.",
+      "url": "https://en.wikipedia.org/wiki/James_Logan_(statesman)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7YJ-PXQ",
+      "name": "James Moore Jr.",
+      "desc": "James Moore Jr. was c. 1682–March 3, 1724 was the governor of South Carolina from 1719 to 1721.",
+      "url": "https://en.wikipedia.org/wiki/James_Moore_Jr.",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/te7og/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "G8P5-GD3",
+      "name": "James Moore Sr.",
+      "desc": "James Moore Sr. c. 1650 – 1706 was a senior officer of militia who served as the governor of Carolina from 1700 to 1703. He is best known for leading several invasions of Spanish Florida during Queen Anne's War, including attacks in 1704 and 1706 which wiped out most of the Spanish missions in Florida. He captured and brought back to Carolina as slaves thousands of Apalachee Indians.",
+      "url": "https://en.wikipedia.org/wiki/James_Moore_Sr.",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7BD-ZQ7",
+      "name": "James Oglethorpe",
+      "desc": "James Edward Oglethorpe 22 December 1696 – 30 June 1785 was a British soldier, Member of Parliament, and philanthropist, as well as the founder of the colony of Georgia in what was then British America. As a social reformer, he hoped to resettle Britain's \"worthy poor\" in the New World, initially focusing on those in debtors' prisons.",
+      "url": "https://en.wikipedia.org/wiki/James_Oglethorpe",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qg76g/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9S7K-VWZ",
+      "name": "James Robertson",
+      "desc": "James Robertson 1717 – 4 March 1788 was a British general and colonial official who served as the 40th Governor of New York from 1779 to 1783. He was a stage actor in his early adulthood.",
+      "url": "https://en.wikipedia.org/wiki/James_Robertson_(British_Army_officer)",
+      "gender": "Male"
+    },
+    {
+      "pid": "27S4-8RZ",
+      "name": "James Wright",
+      "desc": "James Wright 8 May 1716 – 20 November 1785 was a colonial lawyer and jurist who was the last British Royal Governor of the Province of Georgia. He was the only Royal Governor of the Thirteen Colonies to regain control of his colony during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/James_Wright_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/p1i4e/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LQRG-1HR",
+      "name": "Jeffery Amherst",
+      "desc": "Field Marshal Jeffery Amherst, 1st Baron Amherst, KB 29 January 1717 – 3 August 1797 was a British Army officer and Commander-in-Chief of the Forces in the British Army. Amherst is credited as the architect of Britain's successful campaign to conquer the territory of New France during the Seven Years' War. Under his command, British forces captured the cities of Louisbourg, Quebec City and Montreal, as well as several major fortresses. He was also the first British Governor General in the territories that eventually became Canada. Numerous places and streets are named for him, in both Canada and the United States.",
+      "url": "https://en.wikipedia.org/wiki/Jeffery_Amherst,_1st_Baron_Amherst",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7azk5/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GHQT-K3S",
+      "name": "Jeremiah Basse",
+      "desc": "Jeremiah Basse died 1725 was a governor of both West Jersey and East Jersey. He became governor of West Jersey in 1697, and became governor of East Jersey in 1697.",
+      "url": "https://en.wikipedia.org/wiki/Jeremiah_Basse",
+      "gender": "Male"
+    },
+    {
+      "pid": "KHGM-DCT",
+      "name": "Jesse Wharton",
+      "desc": "Jesse Wharton died 1676 was the 7th Proprietary Governor of Maryland during a brief period in 1676. He was appointed by the royally chartered proprietor of Maryland, Charles Calvert, 3rd Baron Baltimore. Following his death, Wharton was briefly succeeded by Cecil Calvert, infant son of Charles Calvert, before the next Governor, Thomas Notley, was appointed.",
+      "url": "https://en.wikipedia.org/wiki/Jesse_Wharton_(Maryland_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "MLZH-SSP",
+      "name": "Johan Björnsson Printz",
+      "desc": "Johan Björnsson Printz July 20, 1592 – May 3, 1663 was governor from 1643 until 1653 of the Swedish colony of New Sweden on the Delaware River in North America.",
+      "url": "https://en.wikipedia.org/wiki/Johan_Bj%C3%B6rnsson_Printz",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fcgxd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "M8VD-TBH",
+      "name": "Johan Classon Risingh",
+      "desc": "Johan Classon Risingh 1617 in Risinge – 1672 was the last governor of the Swedish colony of New Sweden.",
+      "url": "https://en.wikipedia.org/wiki/Johan_Risingh",
+      "gender": "Male"
+    },
+    {
+      "pid": "L85C-VL6",
+      "name": "John Anderson",
+      "desc": "John Anderson 1665 – March 28, 1736 was a Scottish colonel who served as acting governor of New Jersey in 1736.",
+      "url": "https://en.wikipedia.org/wiki/John_Anderson_(New_Jersey_politician)",
+      "gender": "Male"
+    },
+    {
+      "pid": "KZL9-HQP",
+      "name": "John Archdale",
+      "desc": "John Archdale 5 March 1642 – 4 July 1717 served as British colonial Governor of North Carolina and Governor of South Carolina in 1695 and 1696. He may have also been appointed to serve circa 1683-1686. Archdale was appointed to the position by the Lords Proprietors of Carolina.",
+      "url": "https://en.wikipedia.org/wiki/John_Archdale",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCQQ-HHM",
+      "name": "John Berry",
+      "desc": "John Berry c. 1619 – c. 1712 was an English colonist who migrated from Barbados to become an early major landowner, militia officer and Deputy Governor under the Lords Proprietor of the Proprietary Colony of New Jersey.",
+      "url": "https://en.wikipedia.org/wiki/John_Berry_(New_Jersey_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZK6-DXL",
+      "name": "John Blair",
+      "desc": "John Blair c. 1687 – November 5, 1771 was a merchant and politician of the colony of Virginia. He served in both houses of the Virginia General Assembly.",
+      "url": "https://en.wikipedia.org/wiki/John_Blair_Sr.",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b15fg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LQRB-XJZ",
+      "name": "John Campbell",
+      "desc": "General John Campbell, 4th Earl of Loudoun 5 May 1705 – 27 April 1782 was a Scottish nobleman and British army officer.",
+      "url": "https://en.wikipedia.org/wiki/John_Campbell,_4th_Earl_of_Loudoun",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/is1w6/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LQRK-95S",
+      "name": "John Carver",
+      "desc": "John Carver before 1584–1621 was one of the Pilgrims who braved the Mayflower voyage in 1620 which resulted in the creation of Plymouth Colony in America. He is credited with writing the Mayflower Compact and was its first signer, and he was also the first governor of Plymouth Colony.",
+      "url": "https://en.wikipedia.org/wiki/John_Carver_(Plymouth_Colony_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dpoej/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LBK8-DLF",
+      "name": "John Coggeshall",
+      "desc": "John Coggeshall Sr. 2 December 1599 – 27 November 1647 was one of the founders of the Colony of Rhode Island and Providence Plantations and the first President of all four towns in the Colony.",
+      "url": "https://en.wikipedia.org/wiki/John_Coggeshall",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/acrsk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCZX-QCC",
+      "name": "John Coode",
+      "desc": "John Coode c. 1648 in Cornwall – February or March 1709 is best known for leading a rebellion that overthrew Maryland's colonial government in 1689. He participated in four separate uprisings and briefly served as Maryland's governor 1689–1691 as the 1st Leader of the Protestant Associators.",
+      "url": "https://en.wikipedia.org/wiki/John_Coode_(Governor_of_Maryland)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L5KT-DBX",
+      "name": "John Cranston",
+      "desc": "John Cranston 1625–1680 was a colonial physician, military leader, legislator, deputy governor and governor of the Colony of Rhode Island and Providence Plantations during the 17th century.",
+      "url": "https://en.wikipedia.org/wiki/John_Cranston_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/evukh/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZ4D-9QD",
+      "name": "John Cutt",
+      "desc": "first",
+      "url": "https://en.wikipedia.org/wiki/John_Cutt",
+      "gender": "Male"
+    },
+    {
+      "pid": "LBK8-DLF",
+      "name": "John Easton",
+      "desc": "John Easton 1624–1705 was a political leader in the Colony of Rhode Island and Providence Plantations, devoting decades to public service before eventually becoming governor of the colony",
+      "url": "https://en.wikipedia.org/wiki/John_Easton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/acrsk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "8W87-49X",
+      "name": "John Endecott",
+      "desc": "John Endecott also spelled Endicott; before 1600 – 15 March 1664/1665, regarded as one of the Fathers of New England, was the longest-serving governor of the Massachusetts Bay Colony, which became the Commonwealth of Massachusetts.",
+      "url": "https://en.wikipedia.org/wiki/John_Endecott",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/14vmk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GX1Y-CZC",
+      "name": "John Harvey",
+      "desc": "John Harvey died 1679 was the governor of Albemarle Sound, in The Carolinas, in 1679.",
+      "url": "https://en.wikipedia.org/wiki/John_Harvey_(Albemarle)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LWSG-WTH",
+      "name": "John Harvey",
+      "desc": "Sir John Harvey died 1646 was a Crown Governor of Virginia. He was appointed to the position on 26 March 1628 by Charles I of England. In 1635 he was suspended and impeached by the Council of Virginia who named John West as a temporary replacement, and he returned to England. He claimed a conspiracy to change the charter of the colony by John Wolstenholme was the reason for the failures of his administration.",
+      "url": "https://en.wikipedia.org/wiki/John_Harvey_(Virginia_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCMQ-Z9H",
+      "name": "John Haynes",
+      "desc": "John Haynes May 1, 1594 – c. January 9, 1653/4, also sometimes spelled Haines, was a colonial magistrate and one of the founders of the Connecticut Colony. He served one term as governor of the Massachusetts Bay Colony and was the first governor of Connecticut, ultimately serving eight separate terms.",
+      "url": "https://en.wikipedia.org/wiki/John_Haynes_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7sagd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MKRR-GP6",
+      "name": "John Jenkins",
+      "desc": "John Jenkins was an English soldier and radical advocate for self-government. He served as governor of Albemarle now North Carolina four times: 1672-1675;1676-1677;1678-1679;1680-1681, becoming the only person who has served as proprietary governor so many times.",
+      "url": "https://en.wikipedia.org/wiki/John_Jenkins_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "MK46-X1P",
+      "name": "John Leverett",
+      "desc": "John Leverett baptized 7 July 1616 – 16 March 1678/79 was an English colonial magistrate, merchant, soldier and the penultimate governor of the Massachusetts Bay Colony. Born in England, he migrated to Massachusetts as a teenager. He was a leading merchant in the colony, and served in its military. In the 1640s he went back to England to fight in the English Civil War.",
+      "url": "https://en.wikipedia.org/wiki/John_Leverett",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4821b/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KXJ7-C4L",
+      "name": "John Lovelace",
+      "desc": "John Lovelace, 4th Baron Lovelace 1672—1709 was the Governor of both New York and New Jersey.",
+      "url": "https://en.wikipedia.org/wiki/John_Lovelace,_4th_Baron_Lovelace",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCWN-T4M",
+      "name": "John Murray",
+      "desc": "John Murray, 4th Earl of Dunmore PC 1730 – 25 February 1809 was a British peer, military officer and colonial administrator in the Thirteen Colonies and The Bahamas. He was the last royal governor of Virginia.",
+      "url": "https://en.wikipedia.org/wiki/John_Murray,_4th_Earl_of_Dunmore",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xtme3/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7KM-F7L",
+      "name": "John Penn",
+      "desc": "John Penn 14 July 1729 – 9 February 1795 was an English-born colonial administrator who served as the last governor of colonial Pennsylvania, serving in that office from 1763 to 1771 and from 1773 to 1776",
+      "url": "https://en.wikipedia.org/wiki/John_Penn_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/bjrlg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "ML8J-KLY",
+      "name": "John Penn",
+      "desc": "John Penn 22 February 1760 – 21 June 1834 was an English politician and writer who was the chief proprietor of the Province of Pennsylvania from 1775 to 1776. He and his cousin, John Penn \"John Penn, the Governor\" held unsold property, of 24,000,000 acres 97,000 km2, which the Pennsylvania legislature confiscated after the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/John_Penn_(writer)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LJGZ-ZRJ",
+      "name": "John Pott",
+      "desc": "John Potts or Pott was a physician and Colonial Governor of Virginia at the Jamestown settlement in the Virginia Colony in the early 17th century.",
+      "url": "https://en.wikipedia.org/wiki/John_Pott",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/l1jyg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K871-M9N",
+      "name": "John Ratcliffe",
+      "desc": "John Ratcliffe born John Sicklemore; 1549 – December 1609 was an early Jamestown colonist, mariner and captain of Discovery, the smallest of three ships the other two being Susan Constant and Godspeed that sailed from the Kingdom of England on 19 December 1606, to English-claimed Virginia to found a colony, arriving 26 April 1607. He later became the second president of the colony of Jamestown. He was killed by the Pamunkey Native Americans in late 1609.",
+      "url": "https://en.wikipedia.org/wiki/John_Ratcliffe_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4bcj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MSHX-QS1",
+      "name": "John Reading",
+      "desc": "John Reading 6 June 1686 – 5 November 1767 was the first native-born governor of the British Province of New Jersey, serving in 1747, and again from September 1757 to June 1758. His father, Colonel John Reading, was the first major landowner in Hunterdon County.",
+      "url": "https://en.wikipedia.org/wiki/John_Reading_(New_Jersey_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "M9NP-BWZ",
+      "name": "John Reynolds",
+      "desc": "John Reynolds c. 1713 – 3 February 1788 was an officer of the Royal Navy. He served for a period as the royal governor of the Province of Georgia from 1754 to 1757. At the end of a long life of service, he became admiral shortly before his death.",
+      "url": "https://en.wikipedia.org/wiki/John_Reynolds_(Royal_Navy_officer)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hm65j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GN15-KKV",
+      "name": "John Robinson Sr.",
+      "desc": "John Robinson 1683 - August 24, 1749 was an American planter and politician in the colony of Virginia.",
+      "url": "https://en.wikipedia.org/wiki/John_Robinson_(burgess)",
+      "gender": "Male"
+    },
+    {
+      "pid": "9HVT-5Z6",
+      "name": "John Robinson",
+      "desc": "John Robinson, Jr. February 3, 1705 – May 11, 1766 was an American politician and landowner in the colony of Virginia. Robinson served as Speaker of the House of Burgesses from 1738 until his death, the longest tenure in the history of that office.",
+      "url": "https://en.wikipedia.org/wiki/John_Robinson_(Virginia_politician,_born_1705)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k8lif/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LDY7-Q62",
+      "name": "John Sanford",
+      "desc": "John Sanford c. 1605 – 1653 was an early settler of Boston, Massachusetts, an original settler of Portsmouth, Rhode Island, and a governor of the combined towns of Portsmouth and Newport in the Rhode Island colony, dying in office after serving for less than a full term.",
+      "url": "https://en.wikipedia.org/wiki/John_Sanford_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/41e7k/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KHNB-F67",
+      "name": "John Seymour",
+      "desc": "Colonel John Seymour 1649 – July 30, 1709 was the 10th Royal Governor of Maryland from 1704 to 1709.",
+      "url": "https://en.wikipedia.org/wiki/John_Seymour_(Maryland_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCZ8-7KD",
+      "name": "John Smith",
+      "desc": "John Smith baptized 6 January 1580 – 21 June 1631 was an English soldier, explorer, colonial governor, admiral of New England, and author. He played an important role in the establishment of the colony at Jamestown, Virginia, the first permanent English settlement in North America, in the early 17th century.",
+      "url": "https://en.wikipedia.org/wiki/John_Smith_(explorer)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/frnnj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "Warwick, Rhode Island",
+      "name": "John Smith",
+      "desc": "John Smith died 1663 was an early colonial settler and President of the Colony of Rhode Island and Providence Plantations.",
+      "url": "https://en.wikipedia.org/wiki/John_Smith_(President_of_Rhode_Island)",
+      "gender": "Male"
+    },
+    {
+      "pid": "K48G-YF9",
+      "name": "John Wanton",
+      "desc": "John Wanton December 24, 1672 – July 5, 1740 was a governor of the Colony of Rhode Island and Providence Plantations, serving for six consecutive terms from 1734 to 1740",
+      "url": "https://en.wikipedia.org/wiki/John_Wanton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9cluc/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LR4V-H3Z",
+      "name": "John Webster",
+      "desc": "John Webster bef August 16, 1590 – April 5, 1661 was an early colonial settler of New England, serving one term as governor of the Colony of Connecticut in 1656.",
+      "url": "https://en.wikipedia.org/wiki/John_Webster_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L13G-J1H",
+      "name": "John Wentworth",
+      "desc": "Sir John Wentworth, 1st Baronet 9 August 1737 – 8 April 1820 was the British colonial governor of New Hampshire at the time of the American Revolution. He was later also Lieutenant-Governor of Nova Scotia. He is buried in the crypt of St. Paul's Church in Halifax.",
+      "url": "https://en.wikipedia.org/wiki/John_Wentworth_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4iknj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7LT-3S1",
+      "name": "John West",
+      "desc": "John West December 14, 1590 – c. 1659 was an early member of the Virginia General Assembly and acting colonial Governor of Virginia from 1635 to 1637, the third West brother to serve as Governor and one of the founders of the West Family of Virginia, which would include many politicians.",
+      "url": "https://en.wikipedia.org/wiki/John_West_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nns5j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LC5X-4NQ",
+      "name": "John West",
+      "desc": "Lieutenant-General John West, 1st Earl De La Warr KB PC FRS 4 April 1693 – 16 March 1766, styled The Honourable John West until 1723 and known as The Lord De La Warr between 1723 and 1761, was a British soldier, courtier and politician who sat in the House of Commons from 1715 to 1722.",
+      "url": "https://en.wikipedia.org/wiki/John_West,_1st_Earl_De_La_Warr",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHGM-DLK",
+      "name": "John White",
+      "desc": "John White c. 1539 – c. 1593 was an English colonial governor, explorer, artist, and cartographer. White was among those who sailed with Richard Grenville in the first attempt to colonize Roanoke Island in 1585, acting as artist and mapmaker to the expedition. He would most famously briefly serve as the governor of the second attempt to found Roanoke Colony on the same island in 1587 and discover the colonists had mysteriously vanished.",
+      "url": "https://en.wikipedia.org/wiki/John_White_(colonist_and_artist)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ysxab/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9ML1-41Z",
+      "name": "John Winthrop",
+      "desc": "John Winthrop January 12, 1587/88 – March 26, 1649 was an English Puritan lawyer and one of the leading figures in founding the Massachusetts Bay Colony, the second major settlement in New England following Plymouth Colony. Winthrop led the first large wave of colonists from England in 1630 and served as governor for 12 of the colony's first 20 years",
+      "url": "https://en.wikipedia.org/wiki/John_Winthrop",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/d2rxi/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "M7TH-CXX",
+      "name": "John Winthrop the Younger",
+      "desc": "John Winthrop the Younger February 12, 1606 – April 6, 1676 was an early governor of the Connecticut Colony, and he played a large role in the merger of several separate settlements into the unified colony.",
+      "url": "https://en.wikipedia.org/wiki/John_Winthrop_the_Younger",
+      "gender": "Male"
+    },
+    {
+      "pid": "G7W3-SNX",
+      "name": "John Yeamans",
+      "desc": "Sir John Yeamans, 1st Baronet bapt. 28 February 1611 – 1674 was an English colonial administrator and planter who served as Governor of Carolina from 1672 to 1674. Contemporary descriptions of Yeamans described him as \"a pirate ashore.\"",
+      "url": "https://en.wikipedia.org/wiki/John_Yeamans",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/38h0i/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZ6T-ZBL",
+      "name": "Jonathan Belcher",
+      "desc": "Jonathan Belcher 8 January 1681/82 – 31 August 1757 was a merchant, politician, and slave trader from colonial Massachusetts who served as both governor of Massachusetts Bay and governor of New Hampshire from 1730 to 1741 and governor of New Jersey from 1747 to 1757.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Belcher",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uk7w6/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KHS4-HPG",
+      "name": "Jonathan Law",
+      "desc": "Jonathan Law August 6, 1674 – November 6, 1750 was the 27th Governor of the Colony of Connecticut, serving in that office from 1741 to 1750.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Law",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zo2i5/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MQ6F-JXY",
+      "name": "Jonathan Trumbull",
+      "desc": "Jonathan Trumbull Sr. October 12, 1710 – August 17, 1785 was an American politician and statesman who served as Governor of Connecticut during the American Revolution. Trumbull and Nicholas Cooke of Rhode Island were the only men to serve as governor of both a British colony and an American state, and he was the only governor to take up the Patriot cause at the start of the Revolutionary War. Trumbull College at Yale University, the town of Trumbull, Connecticut, Trumbull County, Ohio originally part of the Connecticut Western Reserve, and Jonathan the Husky are all named for him.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Trumbull",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/bjxg3/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KGSG-57Z",
+      "name": "Joseph Blake",
+      "desc": "Joseph Blake died 1700, the nephew of British General at Sea Robert Blake, served as the governor of Carolina in 1694 and from 1696 to his death 1700.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Blake_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/78r2g/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHC1-Q69",
+      "name": "Joseph Dudley",
+      "desc": "Joseph Dudley September 23, 1647 – April 2, 1720 was a colonial administrator, a native of Roxbury in Massachusetts Bay Colony, and the son of one of its founders. He had a leading role in the administration of the Dominion of New England 1686–1689 which was overthrown in the 1689 Boston revolt. He served briefly on the council of the Province of New York where he oversaw the trial which convicted Jacob Leisler, the ringleader of Leisler's Rebellion.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Dudley",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/eibx/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZNG-CF8",
+      "name": "Joseph Jenckes",
+      "desc": "Joseph Jenckes 1656 – 15 June 1740 was a deputy governor and governor of the Colony of Rhode Island and Providence Plantations.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Jenckes_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ufz78/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MJLB-RP4",
+      "name": "Joseph Morton",
+      "desc": "Joseph Morton died September 1721 was an early colonist and governor of the Province of Carolina. Although he was not one of Carolina's Lords Proprietors, Morton was influential in the recruitment of religious dissenters to migrate to the new colony",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Morton_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LC5P-NTM",
+      "name": "Joseph Talcott",
+      "desc": "Joseph Talcott November 16, 1669 – October 11, 1741 was the 26th governor of the Connecticut Colony from 1724 until his death in 1741.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Talcott",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/59sdg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7WC-5LT",
+      "name": "Joseph Wanton",
+      "desc": "Joseph Wanton Sr. 15 August 1705 – 19 July 1780 was a merchant and governor in the Colony of Rhode Island and Providence Plantations from 1769 to 1775. Not wanting to go to war with Britain, he has been branded as a Loyalist, but he remained neutral during the war, and he and his property were not disturbed.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Wanton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4cwjc/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "M99P-CJ7",
+      "name": "Josiah Hardy",
+      "desc": "Josiah Hardy 1715–1790 was a British merchant and colonial administrator who served as colonial Governor of New Jersey between 1761 and 1763. He was succeeded in the post by William Franklin, the son of Benjamin Franklin. Hardy was later appointed as consul at Cádiz.",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Hardy",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZ4L-T1C",
+      "name": "Josiah Winslow",
+      "desc": "Josiah Winslow c. 1623 in Plymouth Colony – 1680 in Marshfield, Plymouth Colony was the 13th Governor of Plymouth Colony.",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Winslow",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kdqjd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KHGQ-DJ7",
+      "name": "Josias Fendall",
+      "desc": "Lieutenant-General Josias Fendall, Esq. c. 1628–1687, was the 4th Proprietary Governor of Maryland. He was born in England, and came to the Province of Maryland. He was the progenitor of the Fendall family in America.",
+      "url": "https://en.wikipedia.org/wiki/Josias_Fendall",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k4fi7/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KZKP-3MN",
+      "name": "Josias Lyndon",
+      "desc": "Josias Lyndon March 10, 1704 – March 30, 1778 was a governor of the Colony of Rhode Island and Providence Plantations, serving for a single one-year term.",
+      "url": "https://en.wikipedia.org/wiki/Josias_Lyndon",
+      "gender": "Male"
+    },
+    {
+      "pid": "LKH1-4DD",
+      "name": "Leonard Calvert",
+      "desc": "The Hon. Leonard Calvert 1606 – June 9, 1647 was the first proprietary governor of the Province of Maryland. He was the second son of The 1st Baron Baltimore 1579–1632, the first proprietor of Maryland. His elder brother Cecil 1605–1675, who inherited the colony and the title upon the death of their father George, April 15, 1632, appointed Leonard as governor of the Colony in his absence.",
+      "url": "https://en.wikipedia.org/wiki/Leonard_Calvert",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xb4cg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LC5M-HDG",
+      "name": "Lewis Morris",
+      "desc": "Lewis Morris October 15, 1671 – May 21, 1746, chief justice of New York and British governor of New Jersey, was the first lord of the manor of Morrisania in New York City in what is now the Bronx.",
+      "url": "https://en.wikipedia.org/wiki/Lewis_Morris_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/02wte/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHX7-3MP",
+      "name": "Charles Greville Montagu",
+      "desc": "Lord Charles Greville Montagu 1741 – 3 February 1784 was the last Royal Governor of the Province of South Carolina from 1766 to 1773, with William Bull II serving terms in 1768 and 1769–1771. He also was the commander of the Duke of Cumberland's Regiment during the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Lord_Charles_Montagu",
+      "gender": "Male"
+    },
+    {
+      "pid": "GCF1-41V",
+      "name": "Matthew Scrivener",
+      "desc": "Matthew Scrivener 1580 – January 7, 1609 was an English colonist in Virginia. He served briefly as acting governor of Jamestown, but drowned while attempting to cross to nearby Hog Island in a storm in 1609. Eight other colonists were also drowned, half of them members of the governing Council, including Bartholomew Gosnold's brother Anthony. Scrivener was succeeded by Captain John Smith.",
+      "url": "https://en.wikipedia.org/wiki/Matthew_Scrivener",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b575h/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LDFM-HPD",
+      "name": "Nathaniel Bacon",
+      "desc": "Nathaniel Bacon c. 1620 – 1692, sometimes referred to as \"Bacon the Elder\" was a politician in colonial Virginia. As President of the Virginia Governor's Council, Bacon served as the acting Governor of Virginia during multiple periods in the 1680s and 1690s.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Bacon_(Virginia_politician)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dd0h2/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KH4J-579",
+      "name": "Nathaniel Blakiston",
+      "desc": "Colonel Nathaniel Blakiston was the 8th Royal Governor of Maryland from 1698 to 1702. He succeeded Francis Nicholson and was succeeded by Thomas Tench. He was related to Nehemiah Blakiston.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Blakiston",
+      "gender": "Male"
+    },
+    {
+      "pid": "GMM7-RR7",
+      "name": "Nathaniel Johnson",
+      "desc": "Sir Nathaniel Johnson 7 April 1644 – 1 July 1712 was a soldier and a Member of Parliament MP for Newcastle upon Tyne, 1680–1689. He was governor of the Leeward Islands 1686 and Carolina 1703–1709.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Johnson_(politician)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/od9mi/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MFQG-86F",
+      "name": "Nehemiah Blakiston",
+      "desc": "Nehemiah Blakiston was Governor of the Maryland colony from 1691 to 1692. He became Governor as the 2nd Leader of the Protestant Associators., succeeding John Coode, who has taken control of the colony, following the 1688 Glorious Revolution, in England. Blakiston was succeeded by the first Governor with an official royal appointment, Lionel Copley. He was related to Nathaniel Blakiston. He died between August 25, 1693, and December 11, 1693.",
+      "url": "https://en.wikipedia.org/wiki/Nehemiah_Blakiston",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wnome/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZX4-L9X",
+      "name": "Nicholas Cooke",
+      "desc": "Nicholas Cooke February 3, 1717 – September 14, 1782 was a governor of the Colony of Rhode Island and Providence Plantations during the American Revolutionary War, and after Rhode Island became a state, he continued in this position to become the first Governor of the State of Rhode Island.",
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Cooke",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/6e8eb/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCQZ-WQB",
+      "name": "Nicholas Easton",
+      "desc": "Nicholas Easton c.1593–1675 was an early colonial President and Governor of Rhode Island. Born in Hampshire, England, he lived in the towns of Lymington and Romsey before immigrating to New England with his two sons in 1634.",
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Easton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cpiej/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6D1-7LQ",
+      "name": "Nicholas Greenberry",
+      "desc": "Colonel Nicholas Greenberry circa 1627 – December 17, 1697 was the 4th Royal Governor of Maryland, and Commander of the Military Forces of Anne Arundel and Baltimore Counties.",
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Greenberry",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zn3l1/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6G3-6LH",
+      "name": "Nicholas Spencer",
+      "desc": "Colonel Nicholas Spencer, Jr. 1633–1689 was a merchant, planter and politician in colonial Virginia. Born in Cople, Bedfordshire, Spencer migrated to the Westmoreland County, Virginia, where he became a planter and which he represented in the Virginia House of Burgesses.",
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Spencer",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yscni/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCS1-85V",
+      "name": "Norborne Berkeley",
+      "desc": "Norborne Berkeley, 4th Baron Botetourt c. 1717 – 15 October 1770, was a British courtier, member of parliament, and royal governor of the colony of Virginia from 1768 until his death in 1770.",
+      "url": "https://en.wikipedia.org/wiki/Norborne_Berkeley,_4th_Baron_Botetourt",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ajrki/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCXN-CZ7",
+      "name": "Peleg Sanford",
+      "desc": "Peleg Sanford 10 May 1639 – 1701 was an early governor of the Colony of Rhode Island and Providence Plantations, serving three consecutive terms from 1680 to 1683.",
+      "url": "https://en.wikipedia.org/wiki/Peleg_Sanford",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7qnok/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K8YV-HHC",
+      "name": "Peter Carteret",
+      "desc": "Peter Carteret born 1641, date of death unknown, but after 1676 was the Governor of the British colony of Albemarle which would later become North Carolina from 1670 to approximately 1672.",
+      "url": "https://en.wikipedia.org/wiki/Peter_Carteret",
+      "gender": "Male"
+    },
+    {
+      "pid": "LVYD-XBH",
+      "name": "Peter Hollander Ridder",
+      "desc": "Peter Hollander Ridder 1608–1692 was the governor of the Swedish colony of New Sweden from 1640 until 1643.",
+      "url": "https://en.wikipedia.org/wiki/Peter_Hollander_Ridder",
+      "gender": "Male"
+    },
+    {
+      "pid": "M8V6-TRR",
+      "name": "Peter Minuit",
+      "desc": "Peter Minuit between 1580 and 1585 – August 5, 1638 was a Wallonian merchant from Tournai, in present-day Belgium. He was the 3rd Director of the Dutch North American colony of New Netherland from 1626 until 1631, and 3rd Governor of New Netherland. He founded the Swedish colony of New Sweden on the Delaware Peninsula in 1638.",
+      "url": "https://en.wikipedia.org/wiki/Peter_Minuit",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/od6fi/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MVKV-LHB",
+      "name": "Peter Stuyvesant",
+      "desc": "Peter Stuyvesant English: /ˈstaɪvəsənt/; in Dutch also Pieter and Petrus Stuyvesant, Dutch: ; c. 1610 – August 1672 was a Dutch colonial officer who served as the last Dutch director-general of the colony of New Netherland from 1647 until it was ceded provisionally to the English in 1664, after which it was split into New York and New Jersey with lesser territory becoming parts of other colonies, and later, states.",
+      "url": "https://en.wikipedia.org/wiki/Peter_Stuyvesant",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zkl9j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LBSM-L2F",
+      "name": "Philip Ludwell",
+      "desc": "Philip Cottington Ludwell c. 1638 – c. 1723 was an English-born planter and politician in colonial Virginia who sat on the Virginia Governor's Council, the first of three generations of men with the same name to do so, and briefly served as speaker of the House of Burgesses.",
+      "url": "https://en.wikipedia.org/wiki/Philip_Ludwell",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pp3r9/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L87J-D71",
+      "name": "Phillip Calvert",
+      "desc": "Hon. Phillip Calvert c. 1626 - c. December 22, 1682, also known as Hon. Philip Calvert, was the fifth Governor of Maryland during a brief period in 1660 or 1661. He was appointed by the royally chartered proprietor of Maryland, Charles Calvert, 3rd Baron Baltimore 1637–1715, as a caretaker to replace Lt. Gen Josias Fendall 1628–1682, the fifth/sixth? provincial governor.",
+      "url": "https://en.wikipedia.org/wiki/Phillip_Calvert_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHTD-FK3",
+      "name": "Pieter Schuyler",
+      "desc": "Pieter Schuyler 17 September 1657 – 19 February 1724 was the first mayor of Albany, New York. A long-serving member of the executive council of the Province of New York, he acted as governor of the Province of New York on three occasions – twice for brief periods in 1709, after the death of Lord Lovelace, and also from 1719 to 1720, after Robert Hunter left office.",
+      "url": "https://en.wikipedia.org/wiki/Pieter_Schuyler",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/snzai/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GWPZ-GL4",
+      "name": "Ralph Lane",
+      "desc": "Sir Ralph Lane c. 1532 – October 1603 was an English explorer of the Elizabethan era. He helped colonise the Kingdom of Ireland in 1583 and was sheriff of County Kerry, Ireland, from 1583 to 1585. He was part of the unsuccessful attempt in 1585 to colonise Roanoke Island, North Carolina. He was knighted by the Queen in 1593.",
+      "url": "https://en.wikipedia.org/wiki/Ralph_Lane",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHQ3-229",
+      "name": "Richard Bellingham",
+      "desc": "Richard Bellingham c. 1592 – 7 December 1672 was a colonial magistrate, lawyer, and several-time governor of the Massachusetts Bay Colony, and the last surviving signatory of the colonial charter at his death",
+      "url": "https://en.wikipedia.org/wiki/Richard_Bellingham",
+      "gender": "Male"
+    },
+    {
+      "pid": "LBHW-SVV",
+      "name": "Richard Bennett",
+      "desc": "Richard Bennett 1608 – 12 April 1675 was an English planter and Governor of the Colony of Virginia, serving 1652–1655. He had first come to the colony in 1629 to represent his uncle Edward Bennett's business interests, managing his plantation known as Bennett's Welcome in Warrascoyack later known as Isle of Wight County.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Bennett_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/50qcd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHX7-3MP",
+      "name": "Richard Coote",
+      "desc": "Richard Coote, 1st Earl of Bellomont sometimes spelled Bellamont, 1636 – 5 March 1700/01, known as The Lord Coote between 1683–89, was an Irish nobleman and colonial administrator who represented Droitwich in the English Parliament from 1688 to 1695. He was a prominent Williamite, supporting William III and Mary II during the Glorious Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Coote,_1st_Earl_of_Bellomont",
+      "gender": "Male"
+    },
+    {
+      "pid": "G3GN-QVS",
+      "name": "Richard Ingoldesby",
+      "desc": "Richard Ingoldesby or Ingoldsby; died 1 March 1719 was a British army officer and lieutenant governor of both New Jersey and New York. He became the acting governor for the two colonies from May 1709 to April 1710.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Ingoldesby",
+      "gender": "Male"
+    },
+    {
+      "pid": "G3JQ-BRH",
+      "name": "Richard Kemp",
+      "desc": "Sir Richard Kemp c. 1600 – c. 1650 was a planter and politician in the Colony of Virginia. Kemp served as the Colony's Secretary and on the Governor's Council from 1634 to 1649. As the council's senior member, he also served as the acting Colonial Governor of Virginia from 1644 to 1645 during travels by Governor Sir William Berkeley",
+      "url": "https://en.wikipedia.org/wiki/Richard_Kemp_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHH3-7FV",
+      "name": "Richard Penn",
+      "desc": "Richard Penn Jr. 1735 – 27 May 1811, Richmond, Surrey, England served as the lieutenant governor of the Province of Pennsylvania from 1771 to 1773, and was later a member of the British Parliament.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Penn_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "GMH6-LMZ",
+      "name": "Richard Vines",
+      "desc": "Richard Vines 1585 – 19 April 1651 was an English colonial explorer of northern New England, and an early administrator and deputy governor of the Province of Maine.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Vines_(colonist)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6YZ-7W3",
+      "name": "Richard Waldron",
+      "desc": "Major Richard Waldron or Richard Waldern, Richard Walderne; 1615–1689 was an English-born merchant, soldier, and government official who rose to prominence in early colonial Dover, New Hampshire. His presence spread to greater New Hampshire and neighboring Massachusetts. He was the second president of the colonial New Hampshire Royal Council after it was first separated from Massachusetts.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Waldron",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s06c/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZK3-LJR",
+      "name": "Richard Ward",
+      "desc": "Richard Ward April 15, 1689 – August 21, 1763 was a governor of the Colony of Rhode Island and Providence Plantations, serving for one complete term from 1741 to 1742.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Ward_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/bibne/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LVLD-SLG",
+      "name": "Rip Van Dam",
+      "desc": "Rip Van Dam c. 1660 – 10 June 1749 was the acting governor of the Province of New York from 1731 to 1732. As one of the leaders of the republican liberal or \"country\" party, Van Dam confronted the subsequent royal governor William Cosby.",
+      "url": "https://en.wikipedia.org/wiki/Rip_Van_Dam",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/evx03/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZLB-GS2",
+      "name": "Robert Barclay",
+      "desc": "Robert Barclay 23 December 1648 – 3 October 1690 was a Scottish Quaker, one of the most eminent writers belonging to the Religious Society of Friends and a member of the Clan Barclay.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Barclay",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s7k7k/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LTDM-3HZ",
+      "name": "Robert Carter",
+      "desc": "Robert \"King\" Carter 4 August 1663 – 4 August 1732 was a merchant, planter and powerful politician in colonial Virginia. Born in Lancaster County, Carter eventually became one of the richest men in the Thirteen Colonies. As President of the Virginia Governor's Council, Carter served as the royal governor of Virginia from 1726 to 1727 after the previous governor, Hugh Drysdale, died in office.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Carter_I",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/usbcg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LJ2N-PXS",
+      "name": "Robert Daniell",
+      "desc": "Robert Daniell born 1646 was a Welsh military officer and colonial administrator who served as governor of the Province of South Carolina from 1716 to 1717.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Daniell",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rbaff/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LDPY-ZGN",
+      "name": "Robert Dinwiddie",
+      "desc": "Robert Dinwiddie 1692 – 27 July 1770 was a British colonial administrator who served as lieutenant governor of colonial Virginia from 1751 to 1758, first under Governor Willem Anne van Keppel, 2nd Earl of Albemarle, and then, from July 1756 to January 1758, as deputy for John Campbell, 4th Earl of Loudoun.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Dinwiddie",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pbyje/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH23-6WM",
+      "name": "Robert Gibbes",
+      "desc": "Robert Gibbes January 9, 1644 – June 24, 1715 was an English Landgrave, chairman and acting governor of the province of South Carolina between 1710-1712. Although he was elected acting governor by the Executive Council between the three proprietary deputies of former governor, Edward Tynte, after his death, received one vote more than his opponent Thomas Broughton, getting it through bribery.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Gibbes",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/l8ofc/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KZ6X-1GT",
+      "name": "Robert Hunter",
+      "desc": "Robert Hunter 1666–1734 was a British military officer, colonial governor of New York and New Jersey from 1710 to 1720, and governor of Jamaica from 1727 to 1734.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Hunter_(colonial_administrator)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6D4-YY5",
+      "name": "Joseph Bridger",
+      "desc": "General Joseph Bridger before 28 Apr 1631 – before 8 May 1686 was a military and political figure in the Colony of Virginia. Some sources relate him as \"Colonel\" Col. Bridger.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Bridger",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/o3yzd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L5T9-8WG",
+      "name": "Robert Hunter",
+      "desc": "Robert Hunter 1666–1734 was a British military officer, colonial governor of New York and New Jersey from 1710 to 1720, and governor of Jamaica from 1727 to 1734.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Hunter_(colonial_administrator)",
+      "gender": "Male"
+    },
+    {
+      "pid": "G39W-H7D",
+      "name": "Robert Hunter Morris",
+      "desc": "Robert Hunter Morris c. 1700 – 27 January 1764, was a prominent governmental figure in Colonial Pennsylvania, serving as governor of Pennsylvania and Chief Justice of the New Jersey Supreme Court.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Hunter_Morris",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHGW-BRH",
+      "name": "Robert Johnson",
+      "desc": "Robert Johnson 1682 – 1735 served as the governor of South Carolina from 1717 to 1719 and from 1729 to 1735. Johnson ordered Colonel William Rhett to engage the notorious pirate Stede Bonnet's sloops in the Battle of Cape Fear River with the Charleston Militia on sea in 1718. His grandson was South Carolina Senator Ralph Izard.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Johnson_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7K9-F85",
+      "name": "Robert Monckton",
+      "desc": "Lieutenant-General Robert Monckton 24 June 1726 – 21 May 1782 was an officer of the British Army and colonial administrator in British North America. He had a distinguished military and political career, being second in command to General James Wolfe at the battle of Quebec and later being named the Governor of the Province of New York.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Monckton",
+      "gender": "Male"
+    },
+    {
+      "pid": "GH4L-NS5",
+      "name": "Robert Quary",
+      "desc": "Robert Quary 1644–1712 was a governor of the English proprietary Province of Carolina during 1685. He would later serve on the provincial councils of several other colonies.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Quary",
+      "gender": "Male"
+    },
+    {
+      "pid": "93B9-5CB",
+      "name": "Robert Treat",
+      "desc": "Robert Treat February 23, 1624 – July 12, 1710 was a New England Puritan colonial leader, militia officer and governor of the Connecticut Colony between 1683 and 1698. In 1666 he helped found Newark, New Jersey.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Treat",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1ywsi/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LR7T-FWX",
+      "name": "Roger Williams",
+      "desc": "Roger Williams c. December 21, 1603 – March 1683 was an English-born New England Puritan minister, theologian, and author who founded Providence Plantations, which became the Colony of Rhode Island and Providence Plantations and later the State of Rhode Island and Providence Plantations. He was a staunch advocate for religious freedom, separation of church and state, and fair dealings with the American Indians.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Williams",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ps1jk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZ5X-T7P",
+      "name": "Roger Wolcott",
+      "desc": "Roger Wolcott January 4, 1679 – May 17, 1767 was an American weaver, statesman, and politician from Windsor, Connecticut. He served as colonial governor of Connecticut from 1751 to 1754.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Wolcott_(Connecticut_politician)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/tjfbb/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCPR-P9S",
+      "name": "Samuel Allen",
+      "desc": "Samuel Allen 1635–1705 was an English proprietor and governor of the Province of New Hampshire. Born in London, he was a successful merchant, who in 1691 purchased the proprietary claims of the heirs of the colony's founder, John Mason. He was commissioned governor of the province in 1692 by William III and Mary II, a post he held until 1699. He upset local landowners and the colonial bureaucracy in London with his pursuit of territorial claims, which were largely unsuccessful. He died in 1705, before his claims had been resolved.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Allen_(New_Hampshire_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L5CP-ZJK",
+      "name": "Samuel Argall",
+      "desc": "Sir Samuel Argall 1572 or 1580 – 24 January 1626 was an English adventurer and naval officer.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Argall",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f5y3j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "29V7-8NG",
+      "name": "Samuel Carpenter",
+      "desc": "Samuel Carpenter 4 November 1649 – 10 April 1714 was a Deputy Governor of colonial Pennsylvania. He signed the historic document \"The Declaration of Fealty, Christian Belief and Test\" dated 10 September 1695; the original is in the Historical Society of Pennsylvania. Samuel was also called the \"First Treasurer\" of Pennsylvania, and was a partner and friend of proprietor William Penn.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Carpenter",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zpon3/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L5K2-B5C",
+      "name": "Samuel Cranston",
+      "desc": "Samuel Cranston 1659–1727 was a governor of the Colony of Rhode Island and Providence Plantations during the first quarter of the 18th century. He held office from 1698 to 1727, being elected to office 30 times twice in 1698, and served as governor longer than any other individual in the history of both the colony and the state of Rhode Island.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Cranston",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8c5ni/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHVT-3MT",
+      "name": "Samuel Gorton",
+      "desc": "Samuel Gorton 1593–1677 was an early settler and civic leader of the Colony of Rhode Island and Providence Plantations and President of the towns of Providence and Warwick. He had strong religious beliefs which differed from Puritan theology and was very outspoken, and he became the leader of a small sect known as Gortonians, Gortonists, or Gortonites",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Gorton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fx7qk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LV49-V35",
+      "name": "Samuel Mathews",
+      "desc": "Lt. Col. Samuel Mathews 1630–1660, Commonwealth Governor of Virginia, of Warwick County in the English Colony of Virginia, was a member of the House of Burgesses, the Governor's Council, and served as Commonwealth Governor of Virginia from 1656 until he died in office in January, 1660 1659 A.S.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Mathews_(Colonial_Virginia_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "KNHK-TMM",
+      "name": "Samuel Ogle",
+      "desc": "Samuel Ogle c. 1694 – 3 May 1752 was the 16th, 18th and 20th Proprietary Governor of Maryland from 1731 to 1732, 1733 to 1742, and 1746/1747 to 1752.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Ogle",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8f3u3/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K2V4-3QQ",
+      "name": "Samuel Shute",
+      "desc": "Samuel Shute January 12, 1662 – April 15, 1742 was an English military officer and royal governor of the provinces of Massachusetts and New Hampshire. After serving in the Nine Years' War and the War of the Spanish Succession, he was appointed by King George I as governor of Massachusetts and New Hampshire in 1716.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Shute",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCT7-YNK",
+      "name": "Samuel Stephens",
+      "desc": "Samuel Stephens 1629–1669 was the Governor of the Albemarle colony which would later become North Carolina from 1667 until his death in late 1669. He was appointed by the Lords Proprietor to succeed William Drummond.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Stephens_(North_Carolina_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4qjn2/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZK3-LYW",
+      "name": "Samuel Ward",
+      "desc": "Samuel Ward May 25, 1725 – March 26, 1776 was an American farmer, politician, Rhode Island Supreme Court justice, governor of the Colony of Rhode Island and Providence Plantations, and delegate to the Continental Congress where he signed the Continental Association.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Ward_(Rhode_Island_politician)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s8fc/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LC7S-BGY",
+      "name": "Simon Bradstreet",
+      "desc": "Simon Bradstreet baptized March 18, 1603/4 – March 27, 1697 was a colonial magistrate, businessman, diplomat, and the last governor of the Massachusetts Bay Colony. Arriving in Massachusetts on the Winthrop Fleet in 1630, Bradstreet was almost constantly involved in the politics of the colony but became its governor only in 1679",
+      "url": "https://en.wikipedia.org/wiki/Simon_Bradstreet",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fotxg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH6W-C6P",
+      "name": "Danvers Osborn",
+      "desc": "Sir Danvers Osborn, 3rd Baronet 17 November 1715 – 12 October 1753 served briefly in 1753 as colonial governor of New York Province.",
+      "url": "https://en.wikipedia.org/wiki/Sir_Danvers_Osborn,_3rd_Baronet",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wf9cg/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K67N-HD6",
+      "name": "Francis Bernard",
+      "desc": "Sir Francis Bernard, 1st Baronet bapt. 12 July 1712 – 16 June 1779 was a British colonial administrator who served as governor of the provinces of New Jersey and Massachusetts Bay.",
+      "url": "https://en.wikipedia.org/wiki/Sir_Francis_Bernard,_1st_Baronet",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hwa55/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCCF-JY2",
+      "name": "George Thomas",
+      "desc": "Sir George Thomas, 1st Baronet died 1774 was an English colonial government official, who served as Governor of the Leeward Islands.",
+      "url": "https://en.wikipedia.org/wiki/Sir_George_Thomas,_1st_Baronet",
+      "gender": "Male"
+    },
+    {
+      "pid": "KCB3-6NZ",
+      "name": "Henry Moore",
+      "desc": "Sir Henry Moore, 1st Baronet 7 February 1713 – 11 September 1769 was a British colonial leader who served as governor of Jamaica and as royal Governor of Province of New York from 1765 to 1769.",
+      "url": "https://en.wikipedia.org/wiki/Sir_Henry_Moore,_1st_Baronet",
+      "gender": "Male"
+    },
+    {
+      "pid": "G4LY-PTL",
+      "name": "Robert Eden",
+      "desc": "Sir Robert Eden, 1st Baronet, of Maryland, 23rd Proprietary Governor of Maryland 14 September 1741 – 2 September 1784 was a British official and the last colonial Governor of Maryland. Although a popular governor and an able administrator, Eden's authority was overthrown by the events of the American Revolution, and in June 1776 he was invited by the Maryland Convention to leave for England",
+      "url": "https://en.wikipedia.org/wiki/Sir_Robert_Eden,_1st_Baronet,_of_Maryland",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/djp5j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZXX-QJ1",
+      "name": "William Gooch",
+      "desc": "Sir William Gooch, 1st Baronet 21 October 1681 – 17 December 1751 was a British Army officer and colonial administrator who served as the governor of Virginia from 1727 to 1749.",
+      "url": "https://en.wikipedia.org/wiki/Sir_William_Gooch,_1st_Baronet",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u9oxj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MZLG-1YL",
+      "name": "William Keith",
+      "desc": "Sir William Keith, 4th Baronet 1669 – 18 November 1749 was a Scottish colonial administrator who served as lieutenant-governor of the British colonies of Pennsylvania and Delaware, from 1717 to 1726.",
+      "url": "https://en.wikipedia.org/wiki/Sir_William_Keith,_4th_Baronet",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH3N-9YK",
+      "name": "Spencer Phips",
+      "desc": "Spencer Phips June 6, 1685 – April 4, 1757 was a government official in the Province of Massachusetts Bay. Born Spencer Bennett, he was adopted by Massachusetts Governor Sir William Phips, his uncle by marriage, whose name he legally took",
+      "url": "https://en.wikipedia.org/wiki/Spencer_Phips",
+      "gender": "Male"
+    },
+    {
+      "pid": "L13C-CMX",
+      "name": "Stephen Hopkins",
+      "desc": "Stephen Hopkins March 7, 1707 – July 13, 1785 was a Founding Father of the United States, a governor of the Colony of Rhode Island and Providence Plantations, a chief justice of the Rhode Island Supreme Court, and a signer of the Continental Association and Declaration of Independence",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Hopkins_(politician)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/oc8g/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KYL6-391",
+      "name": "Theophilus Eaton",
+      "desc": "Theophilus Eaton c. 1590—January 7, 1658 was a wealthy New England Puritan merchant and diplomat. He became 1st Governor of New Haven Colony, Connecticut, cofounder of that same colony and cofounder of the Massachusetts Bay Colony. His brother, Nathaniel Eaton, was the first Head of Harvard.",
+      "url": "https://en.wikipedia.org/wiki/Theophilus_Eaton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/59pik/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KG7V-539",
+      "name": "Thomas Bladen",
+      "desc": "Thomas Bladen 23 February 1698 – 2 February 1780 was a colonial governor in North America and politician who sat in the British House of Commons between 1727 and 1741. He served as the 19th Proprietary Governor of Maryland from 1742 to 1747.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Bladen",
+      "gender": "Male"
+    },
+    {
+      "pid": "9XHM-V2M",
+      "name": "Thomas Brooke, Jr.",
+      "desc": "Colonel Thomas Brooke Jr. of Brookefield 1660 – 1731 was President of the Council in Maryland and acting 13th Proprietary Governor of the Province of Maryland. He was the son of Major Thomas Brooke Sr. and Esquire 1632–1676 and his second wife Eleanor Hatton 1642–1725 who later remarried Col. Henry Darnall 1645-1711.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Brooke_Jr.",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHJS-58W",
+      "name": "Thomas Broughton",
+      "desc": "Thomas Broughton ca. 1668 – November 22, 1737 was a colonial-era official in South Carolina, serving a variety of positions, including acting Governor from May 5, 1735, through November 22, 1737.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Broughton_(acting_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jusve/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K46D-8FF",
+      "name": "Thomas Culpeper",
+      "desc": "Thomas Colepeper 21 March 1635 – 27 January 1689, 2nd Baron Colepeper, was an English peer and colonial administrator who served as the governor of the Isle of Wight from 1661 to 1667 and as the governor of Virginia from 1677 to 1683.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Colepeper,_2nd_Baron_Colepeper",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/11wz4/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCQM-TDG",
+      "name": "Thomas Dale",
+      "desc": "Sir Thomas Dale c. 1570 − 19 August 1619 was an English naval commander and deputy-governor of the Virginia Colony in 1611 and from 1614 to 1616. Governor Dale is best remembered for the energy and the extreme rigour of his administration in Virginia, which established order and in various ways seems to have benefited the colony, although he was criticised for high-handedness. He is also credited with the establishment of Bermuda Hundred, Bermuda Cittie, and the Cittie of Henricus.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Dale",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/89bfi/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCJQ-3NJ",
+      "name": "Thomas Danforth",
+      "desc": "Thomas Danforth baptized November 20, 1623 – November 5, 1699 was a politician, magistrate, and landowner in the Massachusetts Bay Colony. A conservative Puritan, he served for many years as one of the colony's councilors and magistrates, generally leading opposition to attempts by the English kings to assert control over the colony",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Danforth",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u6aai/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K4FV-263",
+      "name": "Thomas Dongan",
+      "desc": "Thomas Dongan, pronounced \"Dungan\" 2nd Earl of Limerick 1634 – 14 December 1715, was a member of the Irish Parliament, Royalist military officer during the English Civil War, and Governor of the Province of New York. He is noted for having called the first representative legislature in New York, and for granting the province's Charter of Liberties.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Dongan,_2nd_Earl_of_Limerick",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/c48jd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9SVT-FBV",
+      "name": "Thomas Dudley",
+      "desc": "Thomas Dudley 12 October 1576 – 31 July 1653 was a New England colonial magistrate who served several terms as governor of the Massachusetts Bay Colony.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Dudley",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8321j/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LB2N-1BN",
+      "name": "Thomas Fitch",
+      "desc": "Thomas Fitch IV c. 1699 – July 18, 1774 was governor of the Connecticut Colony from 1754 to 1766.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Fitch_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/076cj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KH54-WM9",
+      "name": "Thomas Gates",
+      "desc": "Sir Thomas Gates fl.?—1622, was the governor of Jamestown, in the English colony of Virginia now the Commonwealth of Virginia, part of the United States of America. His predecessor, George Percy, through inept leadership, was responsible for the lives lost during the period called the Starving Time.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Gates_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pezw9/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L2Q6-M87",
+      "name": "Thomas Harvey",
+      "desc": "Thomas Harvey 1668-1699 was the Deputy Governor of North Carolina from 1694 to 1699.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Harvey_(North_Carolina_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7ge6i/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9HDY-R79",
+      "name": "Thomas Hinckley",
+      "desc": "Thomas Hinckley bapt. March 19, 1618 – April 25, 1706 was the last governor of the Plymouth Colony. Born in England, he arrived in New England as a teenager, and was a leading settler of what is now Barnstable, Massachusetts. He served in a variety of political and military offices before becoming governor of the colony in 1680, a post he held excluding the interregnum of the Dominion of New England 1686-1689 until the colony was folded into the Province of Massachusetts Bay in 1692",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hinckley",
+      "gender": "Male"
+    },
+    {
+      "pid": "L445-J77",
+      "name": "Thomas Hutchinson",
+      "desc": "businessman, historian, and a prominent Loyalist politician of the Province of Massachusetts Bay in the years before the American Revolution. He has been referred to as \"the most important figure on the loyalist side in pre-Revolutionary Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hutchinson_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f71da/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LJKP-QQT",
+      "name": "Thomas Jarvis",
+      "desc": "Thomas Jarvis 1623–1694 was the Deputy Governor of the Carolina Province from 1691 to 1694.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Jarvis",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rlbpa/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZFX-PX1",
+      "name": "Thomas Lee",
+      "desc": "Colonel Thomas Lee c. 1690 – November 14, 1750 was a planter and politician in colonial Virginia, and a member of the Lee family, a political dynasty. Lee became involved in politics in 1710, serving in both houses of the Virginia General Assembly, and also held important positions as Naval Officer for the Northern Potomac Region and agent for the Northern Neck Proprietary",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Lee_(Virginia_colonist)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zqmth/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LXQM-P4N",
+      "name": "Thomas Lloyd",
+      "desc": "Thomas Lloyd 6 April 1640 – 10 September 1694 was a lieutenant-governor of the Province of Pennsylvania and a Quaker preacher.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Lloyd_(lieutenant_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "MMY5-8BD",
+      "name": "Thomas Penn",
+      "desc": "Thomas Penn 8 March 1702 – 21 March 1775 was an English landowner and mercer who was the chief proprietor of Pennsylvania from 1746 to 1775. Penn is best known for his involvement in negotiating the Walking Purchase, a contested land cession treaty he negotiated with Lenape chief Lappawinsoe in 1737 which transferred control over 1,200,000 acres 4,860 km2 of territory from the Lenape tribe to the Province of Pennsylvania.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Penn",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jgb8i/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KHTS-ZRX",
+      "name": "Thomas Pownall",
+      "desc": "Thomas Pownall bapt. 4 September 1722 N.S. – 25 February 1805 was a British colonial official and politician. He was governor of the Province of Massachusetts Bay from 1757 to 1760, and afterwards sat in the House of Commons from 1767 to 1780. He travelled widely in the North American colonies prior to the American Revolutionary War, opposed Parliamentary attempts to tax the colonies, and was a minority advocate of colonial positions until the Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Pownall",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/vath5/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9MWV-FM6",
+      "name": "Thomas Prence",
+      "desc": "Thomas Prence c. 1601 – March 29, 1673 was a New England colonist who arrived in the colony of Plymouth in November 1621 on the ship Fortune. In 1644 he moved to Eastham, which he helped found, returning later to Plymouth. For many years, he was prominent in Plymouth colony affairs and was colony governor for about twenty years, covering three terms.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Prence",
+      "gender": "Male"
+    },
+    {
+      "pid": "M6WF-N2N",
+      "name": "Thomas Smith",
+      "desc": "Thomas Smith 1648 – 16 November 1694 was an English-born colonial administrator, merchant, planter and surgeon who served the colonial governor of South Carolina from 1693 to 1694.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Smith_(governor_of_South_Carolina)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/eeeak/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KGC9-K12",
+      "name": "Thomas Tench",
+      "desc": "Thomas Tench c. 1650s – 1708 was the 9th Royal Governor of Maryland, from 1702 to 1704. He was appointed by his predecessor, Nathaniel Blakiston, and was succeeded by Colonel John Seymour.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Tench",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH1P-T42",
+      "name": "Thomas Welles",
+      "desc": "Thomas Welles c. 10 July 1594 – 14 January 1660 is the only person in Connecticut's history to hold all four top offices: governor, deputy governor, treasurer, and secretary. In 1639, he was elected as the first treasurer of the Colony of Connecticut, and from 1640 to 1649 served as the colony's secretary.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Welles",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/15f2i/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LY55-FHH",
+      "name": "Thomas West",
+      "desc": "Thomas West, 3rd Baron De La Warr /ˈdɛləwɛər/ listen DEL-ə-wair; 9 July 1577 – 7 June 1618, was an English merchant and politician, for whom the bay, the river, and, consequently, a Native American people and U.S. state, all later called \"Delaware\", were named. He was a member of the House of Lords from the death of his father in 1602 until his own death in 1618.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_West,_3rd_Baron_De_La_Warr",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/n2unh/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZDF-NC5",
+      "name": "Thomas Wiggin",
+      "desc": "Captain Thomas Wiggin 1601–1666, often known as Governor Thomas Wiggin, was the first governor of the Upper Plantation of New Hampshire, a settlement that later became part of the Province of New Hampshire in 1679.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Wiggin",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pfkf4/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "GS4Z-SGN",
+      "name": "Walter Barefoote",
+      "desc": "Walter Barefoote also Barefoot, fl. 1655 – d. 1688 was colonist and deputy governor of the Province of New Hampshire. From 1685 to 1686 he served as acting governor of the province.",
+      "url": "https://en.wikipedia.org/wiki/Walter_Barefoote",
+      "gender": "Male"
+    },
+    {
+      "pid": "GKYH-8LL",
+      "name": "Walter Clarke",
+      "desc": "Walter Clarke 1640–1714 was an early governor of the Colony of Rhode Island and Providence Plantations and the first native-born governor of the colony. The son of colonial President Jeremy Clarke, he was a Quaker like his father",
+      "url": "https://en.wikipedia.org/wiki/Walter_Clarke_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LYK3-272",
+      "name": "Walter Raleigh",
+      "desc": "Sir Walter Raleigh /ˈrɔːli, ˈræli, ˈrɑːli/; c. 1552 – 29 October 1618 was an English statesman, soldier, writer and explorer. One of the most notable figures of the Elizabethan era, he played a leading part in English colonisation of North America, suppressed rebellion in Ireland, helped defend England against the Spanish Armada and held political positions under Elizabeth I.",
+      "url": "https://en.wikipedia.org/wiki/Walter_Raleigh",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u6lcj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "99Z7-95N",
+      "name": "Willem Kieft",
+      "desc": "Willem Kieft September 1597 – September 27, 1647 was a Dutch merchant and the Director of New Netherland of which New Amsterdam was the capital from 1638 to 1647.",
+      "url": "https://en.wikipedia.org/wiki/Willem_Kieft",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ej0z2/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KJPF-H38",
+      "name": "William Berkeley",
+      "desc": "Sir William Berkeley /ˈbɑːrkliː/; 1605 – 9 July 1677 was an English colonial administrator who served as the governor of Virginia from 1660 to 1677. One of the Lords Proprietors of the Province of Carolina, as governor of Virginia he implemented policies that bred dissent among the colonists and sparked Bacon's Rebellion. A favourite of King Charles I, the king first granted him the governorship in 1642. Berkeley was unseated following the execution of Charles I, but his governorship was restored by King Charles II in 1660.",
+      "url": "https://en.wikipedia.org/wiki/William_Berkeley_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "9HCJ-14M",
+      "name": "William Bradford",
+      "desc": "William Bradford c. 19 March 1590 – 9 May 1657 was an English Puritan Separatist originally from the West Riding of Yorkshire in Northern England. He moved to Leiden in Holland in order to escape persecution from King James I of England, and then emigrated to the Plymouth Colony on the Mayflower in 1620. He was a signatory to the Mayflower Compact and went on to serve as Governor of the Plymouth Colony intermittently for about 30 years between 1621 and 1657",
+      "url": "https://en.wikipedia.org/wiki/William_Bradford_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/53oxj/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KZGB-ZTB",
+      "name": "William Brenton",
+      "desc": "William Brenton c. 1610–1674 was a colonial President, Deputy Governor, and Governor of the Colony of Rhode Island and Providence Plantations, and an early settler of Portsmouth and Newport in the Rhode Island colony. Austin and other historians give his place of origin as Hammersmith in Middlesex, England now a part of London, but in reviewing the evidence, Anderson concludes that his place of origin is unknown. Brenton named one of his Newport properties \"Hammersmith,\" and this has led some writers to assume that the like-named town in London was his place of origin.",
+      "url": "https://en.wikipedia.org/wiki/William_Brenton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/98vgd/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9H2J-NSV",
+      "name": "William Bull",
+      "desc": "William Bull 1683 – March 21, 1755 was a landowner and politician in the Province of South Carolina.",
+      "url": "https://en.wikipedia.org/wiki/William_Bull_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "GS5Y-P8H",
+      "name": "William Bull II",
+      "desc": "William Bull II September 24, 1710 – July 4, 1791 was a landowner who was for many years 1759–1775 the lieutenant governor of the province of South Carolina and served as acting governor on five occasions. A Loyalist, he left the colony in 1782 when British troops were evacuated at the end of the American Revolutionary War, and he died in London.",
+      "url": "https://en.wikipedia.org/wiki/William_Bull_II",
+      "gender": "Male"
+    },
+    {
+      "pid": "LH7S-CQX",
+      "name": "William Coddington",
+      "desc": "William Coddington c. 1601 – 1 November 1678 was an early magistrate of the Massachusetts Bay Colony and later of the Colony of Rhode Island and Providence Plantations. He served as the judge of Portsmouth and Newport, governor of Portsmouth and Newport, deputy governor of the four-town colony, and then governor of the entire colony.",
+      "url": "https://en.wikipedia.org/wiki/William_Coddington",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ph3c/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "KG1C-Z6Y",
+      "name": "William Coddington Jr.",
+      "desc": "William Coddington Jr. 18 January 1651 – 5 February 1689 was an early governor of the Colony of Rhode Island and Providence Plantations, serving two consecutive terms from 1683 to 1685.",
+      "url": "https://en.wikipedia.org/wiki/William_Coddington_Jr.",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/infej/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LTS5-8G6",
+      "name": "William Cosby",
+      "desc": "Brigadier-General William Cosby 1690–1736 was an Irish soldier who served as the British colonial governor of New York from 1732 to 1736. During his short term, Cosby was portrayed as one of the most oppressive governors in the Thirteen Colonies. In 1735, Cosby accused publisher John Peter Zenger of sedition and libel for publishing unflattering reports about Cosby. In spite of Cosby's efforts, Zenger was acquitted of all charges and the case helped to establish the concept of freedom of the press.",
+      "url": "https://en.wikipedia.org/wiki/William_Cosby",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/otqaa/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "G6RW-V6G",
+      "name": "William Drummond",
+      "desc": "William Drummond born ca.1617, died January 20, 1677 was a Scottish indentured servant in Virginia who became the first colonial governor of Albemarle Sound settlement in the Province of Carolina, but alienated Virginia governor William Berkeley, became a ringleader of Bacon's Rebellion and was executed after his capture.",
+      "url": "https://en.wikipedia.org/wiki/William_Drummond_(colonial_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "LL4Y-57K",
+      "name": "William Dummer",
+      "desc": "William Dummer bapt. September 29, 1677 O.S. – October 10, 1761 was a politician in the Province of Massachusetts Bay. He served as its lieutenant governor for fourteen years 1716–1730, including an extended period from 1723 to 1728 when he acted as governor.",
+      "url": "https://en.wikipedia.org/wiki/William_Dummer",
+      "gender": "Male"
+    },
+    {
+      "pid": "LTC7-K3G",
+      "name": "William Glover",
+      "desc": "William Glover 1653–1713 was the Acting Deputy Governor of North Carolina from 1706 to 1708.",
+      "url": "https://en.wikipedia.org/wiki/William_Glover_(North_Carolina_governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "K2MR-SSK",
+      "name": "William Gorges",
+      "desc": "William Gorges January 1605 – February 1658 was a soldier and the first colonial governor of the Province of Maine.",
+      "url": "https://en.wikipedia.org/wiki/William_Gorges",
+      "gender": "Male"
+    },
+    {
+      "pid": "L7GN-V4R",
+      "name": "William Greene",
+      "desc": "William Greene Sr. 16 March 1695 – 23 January 1758 was a governor of the Colony of Rhode Island and Providence Plantations. He was a clerk of the county court in Providence, deputy from Warwick, speaker of the Rhode Island Assembly, and then deputy governor from 1740 to 1743. He became governor for the first time in 1743 and served four separate terms for a total of 11 years, and died while in office during his final term.",
+      "url": "https://en.wikipedia.org/wiki/William_Greene_(colonial_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/isxu9/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LCTV-Q11",
+      "name": "William Hutchinson",
+      "desc": "William Hutchinson 1586–1641 was a judge chief magistrate in the Colonial era settlement at Portsmouth on the island of Aquidneck. Aquidneck Island was known at the time as Rhode Island, and it later became part of the Colony of Rhode Island and Providence Plantations.",
+      "url": "https://en.wikipedia.org/wiki/William_Hutchinson_(Rhode_Island_judge)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f3zrh/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZSQ-M3C",
+      "name": "William Leete",
+      "desc": "William Leete 1612 or 1613 – 16 April 1683 was Governor of the Colony of New Haven from 1661 to 1665 and Governor of the Colony of Connecticut from 1676 to 1683.",
+      "url": "https://en.wikipedia.org/wiki/William_Leete",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/6j21k/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LZFV-SF8",
+      "name": "William Henry Lyttleton",
+      "desc": "William Leete 1612 or 1613 – 16 April 1683 was Governor of the Colony of New Haven from 1661 to 1665 and Governor of the Colony of Connecticut from 1676 to 1683.",
+      "url": "https://en.wikipedia.org/wiki/William_Lyttelton,_1st_Baron_Lyttelton",
+      "gender": "Male"
+    },
+    {
+      "pid": "K4BY-MGD",
+      "name": "William Markham",
+      "desc": "William Markham 1635 – 12 June 1704 served as deputy governor of the Province of Pennsylvania. Markham was the acting governor of Pennsylvania from 1681 to 1682 and from 1693 to 1699. He was a member of the Church of England and tended to favor the interests of minority religious groups in the primarily Quaker colony.",
+      "url": "https://en.wikipedia.org/wiki/William_Markham_(governor)",
+      "gender": "Male"
+    },
+    {
+      "pid": "278Y-BHF",
+      "name": "William Penn",
+      "desc": "William Penn 24 October    1644 – 10 August   1718 was an English writer, religious thinker, and influential Quaker who founded the Province of Pennsylvania during the British colonial era. Penn was an advocate of democracy and religious freedom known for his amicable relations and successful treaties with the Lenape Native Americans who had resided in present-day Pennsylvania prior to European settlements in the state.",
+      "url": "https://en.wikipedia.org/wiki/William_Penn",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/umlnk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "K1GW-N65",
+      "name": "William Phips",
+      "desc": "Sir William Phips or Phipps; February 2, 1651 – February 18, 1695 was born in Maine in the Massachusetts Bay Colony and was of humble origin, uneducated, and fatherless from a young age but rapidly advanced from shepherd boy, to shipwright, ship's captain, and treasure hunter, the first New England native to be knighted, and the first royally appointed governor of the Province of Massachusetts Bay.",
+      "url": "https://en.wikipedia.org/wiki/William_Phips",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fbyr1/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9Q7Q-LYL",
+      "name": "William Pitkin",
+      "desc": "William Pitkin April 30, 1694 – October 1, 1769 was a colonial governor of the Connecticut Colony.",
+      "url": "https://en.wikipedia.org/wiki/William_Pitkin",
+      "gender": "Male"
+    },
+    {
+      "pid": "KCXL-C2B",
+      "name": "William Shirley",
+      "desc": "William Shirley 2 December 1694 – 24 March 1771 was a British Army officer and colonial administrator who served as the governor of the British American colonies of Massachusetts Bay and the Bahamas. He is best known for his role in organizing the successful capture of Louisbourg during King George's War, and for his role in managing military affairs during the French and Indian War. He spent most of his years in the colonial administration of British North America working to defeat New France, but his lack of formal military training led to political difficulties and his eventual downfall.",
+      "url": "https://en.wikipedia.org/wiki/William_Shirley",
+      "gender": "Male"
+    },
+    {
+      "pid": "9KDC-KXS",
+      "name": "William Stephens",
+      "desc": "William Stephens January 28, 1671 - 1753, of Bowcombe, near Newport, Isle of Wight, and later Beaulieu, Savannah, Georgia, was an English Tory politician who sat in the House of Commons from 1702 to 1727. He emigrated to Georgia and was governor of the Province of Georgia between 1743 and 1751.",
+      "url": "https://en.wikipedia.org/wiki/William_Stephens_(governor_of_Georgia)",
+      "gender": "Male"
+    },
+    {
+      "pid": "L5VL-2NT",
+      "name": "William Stone",
+      "desc": "William Stone, 3rd Proprietary Governor of Province of Maryland c. 1603 – c. 1660 was an early English settler in Maryland. He was governor of the colony of Maryland from 1649 to 1655.",
+      "url": "https://en.wikipedia.org/wiki/William_Stone_(Maryland_governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/av6jk/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "LHNC-RT8",
+      "name": "William Stoughton",
+      "desc": "William Stoughton 1631 – July 7, 1701 was a New England Puritan magistrate and administrator in the Province of Massachusetts Bay. He was in charge of what have come to be known as the Salem Witch Trials, first as the Chief Justice of the Special Court of Oyer and Terminer in 1692, and then as the Chief Justice of the Superior Court of Judicature in 1693",
+      "url": "https://en.wikipedia.org/wiki/William_Stoughton_(judge)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8ltaa/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "9K8P-H4Q",
+      "name": "William Tailer",
+      "desc": "William Tailer February 25, 1675/6 – March 1, 1731/2 was a military officer and politician in the Province of Massachusetts Bay. Born into the wealthy and influential Stoughton family, he twice married into other politically powerful families. He served as lieutenant governor of the province from 1711 until 1716, and again in the early 1730s",
+      "url": "https://en.wikipedia.org/wiki/William_Tailer",
+      "gender": "Male"
+    },
+    {
+      "pid": "GMXS-8W8",
+      "name": "William Tryon",
+      "desc": "Lieutenant-General William Tryon 8 June 1729 – 27 January 1788 was a British Army officer and colonial administrator who served as governor of North Carolina from 1764 to 1771 and the governor of New York from 1771 to 1777. He also served during the Seven Years' War, the Regulator Movement, and the American War of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Tryon",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xs0vc/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6J7-KXX",
+      "name": "William Wanton",
+      "desc": "William Wanton September 15, 1670 – December 1733 was a governor of the Colony of Rhode Island and Providence Plantations, serving a short term prior to his death. He spent most of his adult life in the civil and military service of the colony and commanded a sloop for chasing privateers.",
+      "url": "https://en.wikipedia.org/wiki/William_Wanton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cc7d/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "MSY7-LD4",
+      "name": "Wouter van Twiller",
+      "desc": "Wouter van Twiller May 22, 1606 – buried August 29, 1654 was an employee of the Dutch West India Company and the fourth Director of New Netherland. He governed from 1632 until 1638, succeeding Peter Minuit, who was recalled by the Dutch West India authorities in Amsterdam for unknown reasons.",
+      "url": "https://en.wikipedia.org/wiki/Wouter_van_Twiller",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/sm2q7/thumb200s.jpg",
+      "gender": "Male"
+    },
+    {
+      "pid": "L6PN-Y7J",
+      "name": "Thomas Gage",
+      "desc": "General Thomas Gage (10 March 1718/19 – 2 April 1787) was a British Army general officer and colonial official best known for his many years of service in North America, including his role as British commander-in-chief in the early days of the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Gage",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/m6uu7/thumb200s.jpg",
+      "gender": "Male"
+    }
+  ]
+}

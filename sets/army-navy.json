@@ -7,377 +7,587 @@
   "people": [
     {
       "pid": "KNDX-MKG",
-      "name": "George Washington ",
-      "desc": "George Washington February 22, 1732 – December 14, 1799 was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797."
+      "name": "George Washington ",
+      "desc": "George Washington February 22, 1732 – December 14, 1799 was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.",
+      "url": "https://en.wikipedia.org/wiki/George_Washington",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KP4N-DZV",
       "name": "Caesar Rodney",
-      "desc": "Caesar Rodney October 7, 1728 – June 26, 1784 was an American Founding Father, lawyer, and politician from St. Jones Neck in Dover Hundred, Kent County, Delaware. He was an officer of the Delaware militia during the French and Indian War and the American Revolutionary War, a Continental Congressman from Delaware, a signer of the Continental Association and Declaration of Independence, and president of Delaware during most of the American Revolution."
+      "desc": "Caesar Rodney October 7, 1728 – June 26, 1784 was an American Founding Father, lawyer, and politician from St. Jones Neck in Dover Hundred, Kent County, Delaware. He was an officer of the Delaware militia during the French and Indian War and the American Revolutionary War, a Continental Congressman from Delaware, a signer of the Continental Association and Declaration of Independence, and president of Delaware during most of the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Caesar_Rodney",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/eo7wh/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "MKX8-82P",
       "name": "Artemas Ward",
-      "desc": "Artemas Ward (November 26, 1727 – October 28, 1800) was an American major general in the American Revolutionary War and a Congressman from Massachusetts. He was considered an effective political leader, President John Adams describing him as \"universally esteemed, beloved and confided in by his army and his country.\""
+      "desc": "Artemas Ward (November 26, 1727 – October 28, 1800) was an American major general in the American Revolutionary War and a Congressman from Massachusetts. He was considered an effective political leader, President John Adams describing him as \"universally esteemed, beloved and confided in by his army and his country.\"",
+      "url": "https://en.wikipedia.org/wiki/Artemas_Ward",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hd6i/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LCXT-LYW",
       "name": "Philip Schuyler",
-      "desc": "Philip John Schuyler (/ˈskaɪlər/; November 20, 1733 - November 18, 1804) was an American general in the Revolutionary War and a United States Senator from New York. He is usually known as Philip Schuyler, while his son is usually known as Philip J. Schuyler."
+      "desc": "Philip John Schuyler (/ˈskaɪlər/; November 20, 1733 - November 18, 1804) was an American general in the Revolutionary War and a United States Senator from New York. He is usually known as Philip Schuyler, while his son is usually known as Philip J. Schuyler.",
+      "url": "https://en.wikipedia.org/wiki/Philip_Schuyler",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/q23xh/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LJP4-714",
       "name": "Israel Putnam",
-      "desc": "Israel Putnam (January 7, 1718 – May 29, 1790), popularly known as \"Old Put\", was an American military officer and landowner who fought with distinction at the Battle of Bunker Hill during the American Revolutionary War (1775–1783). He also served as an officer with Rogers' Rangers during the French and Indian War (1754–1763), when he was captured by Mohawk warriors. He was saved from the ritual burning given to enemies by the intervention of a French officer with whom the Mohawk were allied. Putnam's courage and fighting spirit became known far beyond his home of Connecticut's borders through the circulation of folk legends in the American colonies and states celebrating his exploits."
+      "desc": "Israel Putnam (January 7, 1718 – May 29, 1790), popularly known as \"Old Put\", was an American military officer and landowner who fought with distinction at the Battle of Bunker Hill during the American Revolutionary War (1775–1783). He also served as an officer with Rogers' Rangers during the French and Indian War (1754–1763), when he was captured by Mohawk warriors. He was saved from the ritual burning given to enemies by the intervention of a French officer with whom the Mohawk were allied. Putnam's courage and fighting spirit became known far beyond his home of Connecticut's borders through the circulation of folk legends in the American colonies and states celebrating his exploits.",
+      "url": "https://en.wikipedia.org/wiki/Israel_Putnam",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xsabb/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "GQF4-VL6",
       "name": "Richard Montgomery",
-      "desc": "Richard Montgomery (2 December 1738 – 31 December 1775) was an Irish soldier who first served in the British Army. He later became a major general in the Continental Army during the American Revolutionary War, and he is most famous for leading the unsuccessful 1775 invasion of Quebec."
+      "desc": "Richard Montgomery (2 December 1738 – 31 December 1775) was an Irish soldier who first served in the British Army. He later became a major general in the Continental Army during the American Revolutionary War, and he is most famous for leading the unsuccessful 1775 invasion of Quebec.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Montgomery",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/x5zyh/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LCZS-DPV",
       "name": "John Thomas",
-      "desc": "John Thomas (1724 – 2 June 1776) was an American doctor and soldier from Massachusetts who became a major general in the Continental Army. He was a leader during the siege of Boston. Thomas briefly commanded the withdrawal from Canada after the unsuccessful invasion by the Continental Army. He died from smallpox during the retreat."
+      "desc": "John Thomas (1724 – 2 June 1776) was an American doctor and soldier from Massachusetts who became a major general in the Continental Army. He was a leader during the siege of Boston. Thomas briefly commanded the withdrawal from Canada after the unsuccessful invasion by the Continental Army. He died from smallpox during the retreat.",
+      "url": "https://en.wikipedia.org/wiki/John_Thomas_(American_general)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cz7ti/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LL4L-ZH6",
       "name": "William Heath",
-      "desc": "William Heath (March 2, 1737 – January 24, 1814) was an American farmer, soldier, and political leader from Massachusetts who served as a major general in the Continental Army during the American Revolutionary War."
+      "desc": "William Heath (March 2, 1737 – January 24, 1814) was an American farmer, soldier, and political leader from Massachusetts who served as a major general in the Continental Army during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/William_Heath",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pyus9/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "MZ75-M5R",
       "name": "Horatio Gates",
-      "desc": "Horatio Lloyd Gates (July 26, 1727 – April 10, 1806) was a British-born American army officer who served as a general in the Continental Army during the early years of the Revolutionary War. He took credit for the American victory in the Battles of Saratoga (1777) – a matter of contemporary and historical controversy – and was blamed for the defeat at the Battle of Camden in 1780. Gates has been described as \"one of the Revolution's most controversial military figures\" because of his role in the Conway Cabal, which attempted to discredit and replace General George Washington; the battle at Saratoga; and his actions during and after his defeat at Camden."
+      "desc": "Horatio Lloyd Gates (July 26, 1727 – April 10, 1806) was a British-born American army officer who served as a general in the Continental Army during the early years of the Revolutionary War. He took credit for the American victory in the Battles of Saratoga (1777) – a matter of contemporary and historical controversy – and was blamed for the defeat at the Battle of Camden in 1780. Gates has been described as \"one of the Revolution's most controversial military figures\" because of his role in the Conway Cabal, which attempted to discredit and replace General George Washington; the battle at Saratoga; and his actions during and after his defeat at Camden.",
+      "url": "https://en.wikipedia.org/wiki/Horatio_Gates",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xlie9/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "99ZR-TJ8",
       "name": "Joseph Spencer",
-      "desc": "Joseph Spencer (October 3, 1714 – January 13, 1789) was an American lawyer, soldier, and statesman from Connecticut. During the Revolutionary War, he served both as a delegate to the Continental Congress and as a major general in the Continental Army."
+      "desc": "Joseph Spencer (October 3, 1714 – January 13, 1789) was an American lawyer, soldier, and statesman from Connecticut. During the Revolutionary War, he served both as a delegate to the Continental Congress and as a major general in the Continental Army.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Spencer",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f6urj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "MXJX-T65",
       "name": "John Sullivan",
-      "desc": "John Sullivan (February 17, 1740 – January 23, 1795) was an American general in the Revolutionary War winning several key battles most notably the Delaware crossing. He was a delegate in the Continental Congress where he signed the Continental Association, the third governor of New Hampshire, and a United States district judge of the United States District Court for the District of New Hampshire."
+      "desc": "John Sullivan (February 17, 1740 – January 23, 1795) was an American general in the Revolutionary War winning several key battles most notably the Delaware crossing. He was a delegate in the Continental Congress where he signed the Continental Association, the third governor of New Hampshire, and a United States district judge of the United States District Court for the District of New Hampshire.",
+      "url": "https://en.wikipedia.org/wiki/John_Sullivan_(general)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/g90z1/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LK78-JML",
       "name": "Nathanael Greene",
-      "desc": "Major-General Nathanael Greene (August 7  1742 – June 19, 1786) was an American military officer and planter who served in the Continental Army during the Revolutionary War. He emerged from the war with a reputation as one of George Washington's most talented and dependable officers, and is known for his successful command in the Southern theater of the conflict."
+      "desc": "Major-General Nathanael Greene (August 7  1742 – June 19, 1786) was an American military officer and planter who served in the Continental Army during the Revolutionary War. He emerged from the war with a reputation as one of George Washington's most talented and dependable officers, and is known for his successful command in the Southern theater of the conflict.",
+      "url": "https://en.wikipedia.org/wiki/Nathanael_Greene",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ow56/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "K2W9-2WG",
       "name": "Benedict Arnold",
-      "desc": "Benedict Arnold (14 January 1741  – June 14, 1801) was an American-born military officer who served during the Revolutionary War. He fought with distinction for the American Continental Army and rose to the rank of major general before defecting to the British side of the conflict in 1780. General George Washington had given him his fullest trust and had placed him in command of West Point in New York. Arnold was planning to surrender the fort there to British forces, but the plot was discovered in September 1780, whereupon he fled to the British lines. In the later part of the conflict, Arnold was commissioned as a brigadier general in the British Army, and placed in command of the American Legion. He led the British army in battle against the soldiers whom he had once commanded, after which his name became, and has remained, synonymous with treason and betrayal in the United States."
+      "desc": "Benedict Arnold (14 January 1741  – June 14, 1801) was an American-born military officer who served during the Revolutionary War. He fought with distinction for the American Continental Army and rose to the rank of major general before defecting to the British side of the conflict in 1780. General George Washington had given him his fullest trust and had placed him in command of West Point in New York. Arnold was planning to surrender the fort there to British forces, but the plot was discovered in September 1780, whereupon he fled to the British lines. In the later part of the conflict, Arnold was commissioned as a brigadier general in the British Army, and placed in command of the American Legion. He led the British army in battle against the soldiers whom he had once commanded, after which his name became, and has remained, synonymous with treason and betrayal in the United States.",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Arnold",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/htkdj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LZXJ-8TS",
       "name": "William Alexander",
-      "desc": "William Alexander, also known as Lord Stirling (1726 – 15 January 1783), was a Scottish-American major general during the American Revolutionary War. He was considered male heir to the Scottish title of Earl of Stirling through Scottish lineage (being the senior male descendant of the paternal grandfather of the 1st Earl of Stirling, who had died in 1640), and he sought the title sometime after 1756. His claim was initially granted by a Scottish court in 1759; however, the House of Lords ultimately overruled Scottish law and denied the title in 1762. He continued to hold himself out as \"Lord Stirling\" regardless."
+      "desc": "William Alexander, also known as Lord Stirling (1726 – 15 January 1783), was a Scottish-American major general during the American Revolutionary War. He was considered male heir to the Scottish title of Earl of Stirling through Scottish lineage (being the senior male descendant of the paternal grandfather of the 1st Earl of Stirling, who had died in 1640), and he sought the title sometime after 1756. His claim was initially granted by a Scottish court in 1759; however, the House of Lords ultimately overruled Scottish law and denied the title in 1762. He continued to hold himself out as \"Lord Stirling\" regardless.",
+      "url": "https://en.wikipedia.org/wiki/William_Alexander,_Lord_Stirling",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/h25d5/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "G8PL-4YQ",
       "name": "Thomas Mifflin",
-      "desc": "Thomas Mifflin (January 10, 1744 – January 20, 1800) was an American merchant, soldier, and politician from Pennsylvania, who is regarded as a Founding Father of the United States for his roles during and after the American Revolution. Mifflin signed the United States Constitution, was the first governor of Pennsylvania, serving from 1790 to 1799, and was also the state's last president, succeeding Benjamin Franklin in 1788."
+      "desc": "Thomas Mifflin (January 10, 1744 – January 20, 1800) was an American merchant, soldier, and politician from Pennsylvania, who is regarded as a Founding Father of the United States for his roles during and after the American Revolution. Mifflin signed the United States Constitution, was the first governor of Pennsylvania, serving from 1790 to 1799, and was also the state's last president, succeeding Benjamin Franklin in 1788.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Mifflin",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/62twg/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LX9G-4B7",
       "name": "Arthur St. Clair",
-      "desc": "Arthur St. Clair (March 23, 1737 – August 31, 1818) was a Scottish-American soldier and politician. Born in Thurso, Scotland, he served in the British Army during the French and Indian War before settling in Pennsylvania, where he held local office. During the American Revolutionary War, he rose to the rank of major general in the Continental Army, but lost his command after a controversial retreat from Fort Ticonderoga."
+      "desc": "Arthur St. Clair (March 23, 1737 – August 31, 1818) was a Scottish-American soldier and politician. Born in Thurso, Scotland, he served in the British Army during the French and Indian War before settling in Pennsylvania, where he held local office. During the American Revolutionary War, he rose to the rank of major general in the Continental Army, but lost his command after a controversial retreat from Fort Ticonderoga.",
+      "url": "https://en.wikipedia.org/wiki/Arthur_St._Clair",
+      "gender": "Male"
     },
     {
       "pid": "KH65-BVR",
       "name": "Adam Stephen",
-      "desc": "Adam Stephen (c. 1718 – 16 July 1791) was a Scottish-born American doctor and military officer who helped found what became Martinsburg, West Virginia. He emigrated to North America, where he served in the Province of Virginia's militia under George Washington during the French and Indian War. He served under Washington again in the American Revolutionary War, rising to lead a division of the Continental Army. After a friendly fire incident during the Battle of Germantown, Stephen was cashiered out of the army, but continued as a prominent citizen of western Virginia, including terms in the Virginia General Assembly representing Berkeley County."
+      "desc": "Adam Stephen (c. 1718 – 16 July 1791) was a Scottish-born American doctor and military officer who helped found what became Martinsburg, West Virginia. He emigrated to North America, where he served in the Province of Virginia's militia under George Washington during the French and Indian War. He served under Washington again in the American Revolutionary War, rising to lead a division of the Continental Army. After a friendly fire incident during the Battle of Germantown, Stephen was cashiered out of the army, but continued as a prominent citizen of western Virginia, including terms in the Virginia General Assembly representing Berkeley County.",
+      "url": "https://en.wikipedia.org/wiki/Adam_Stephen",
+      "gender": "Male"
     },
     {
       "pid": "LHXF-4HF",
       "name": "Benjamin Lincoln",
-      "desc": "Benjamin Lincoln (January 24, 1733 (O.S. January 13, 1733) – May 9, 1810) was an American army officer. He served as a major general in the Continental Army during the American Revolutionary War. Lincoln was involved in three major surrenders during the war: his participation in the Battles of Saratoga (sustaining a wound shortly afterward) contributed to John Burgoyne's surrender of a British army, he oversaw the largest American surrender of the war at the 1780 siege of Charleston, and, as George Washington's second in command, he formally accepted the British surrender at Yorktown."
+      "desc": "Benjamin Lincoln (January 24, 1733 (O.S. January 13, 1733) – May 9, 1810) was an American army officer. He served as a major general in the Continental Army during the American Revolutionary War. Lincoln was involved in three major surrenders during the war: his participation in the Battles of Saratoga (sustaining a wound shortly afterward) contributed to John Burgoyne's surrender of a British army, he oversaw the largest American surrender of the war at the 1780 siege of Charleston, and, as George Washington's second in command, he formally accepted the British surrender at Yorktown.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Lincoln",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/gw071/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L844-DTF",
       "name": "Gilbert du Motier, Marquis de Lafayette",
-      "desc": "Marie-Joseph Paul Yves Roch Gilbert du Motier de La Fayette, Marquis de La Fayette (6 September 1757 – 20 May 1834), known in the United States as Lafayette (/ˌlɑːfiːˈɛt, ˌlæf-/, French: ), was a French aristocrat, freemason, and military officer who fought in the American Revolutionary War, commanding American troops in several battles, including the siege of Yorktown. After returning to France, he was a key figure in the French Revolution of 1789 and the July Revolution of 1830. He has been considered a national hero in both countries."
+      "desc": "Marie-Joseph Paul Yves Roch Gilbert du Motier de La Fayette, Marquis de La Fayette (6 September 1757 – 20 May 1834), known in the United States as Lafayette (/ˌlɑːfiːˈɛt, ˌlæf-/, French: ), was a French aristocrat, freemason, and military officer who fought in the American Revolutionary War, commanding American troops in several battles, including the siege of Yorktown. After returning to France, he was a key figure in the French Revolution of 1789 and the July Revolution of 1830. He has been considered a national hero in both countries.",
+      "url": "https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/sr5aj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "9MMM-252",
       "name": "Philip De Coudray",
-      "desc": "Philippe Charles Jean Baptiste Tronson du Coudray (September 8, 1738 – September 11, 1777) was a French army officer who volunteered for service in the Continental Army during the American Revolutionary War."
+      "desc": "Philippe Charles Jean Baptiste Tronson du Coudray (September 8, 1738 – September 11, 1777) was a French army officer who volunteered for service in the Continental Army during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Philip_De_Coudray",
+      "gender": "Male"
     },
     {
       "pid": "LHK7-6PP",
       "name": "Johann de Kalb",
-      "desc": "Johann von Robais, Baron de Kalb (June 19, 1721 – August 19, 1780), born Johann Kalb, was a Franconian-born French military officer who served as a major general in the Continental Army during the American Revolutionary War. He was mortally wounded while fighting against the British Army during the Battle of Camden."
+      "desc": "Johann von Robais, Baron de Kalb (June 19, 1721 – August 19, 1780), born Johann Kalb, was a Franconian-born French military officer who served as a major general in the Continental Army during the American Revolutionary War. He was mortally wounded while fighting against the British Army during the Battle of Camden.",
+      "url": "https://en.wikipedia.org/wiki/Johann_de_Kalb",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kvwfc/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LV79-LF2",
       "name": "Robert Howe",
-      "desc": "Robert Howe (/haʊ/; c. 1732 – December 14, 1786) was a Continental Army general from the Province of North Carolina during the American Revolutionary War. The descendant of a prominent family in North Carolina, Howe was one of five generals, and the only major general, in the Continental Army from that state. He also played a role in the colonial and state governments of North Carolina, serving in the legislative bodies of both."
+      "desc": "Robert Howe (/haʊ/; c. 1732 – December 14, 1786) was a Continental Army general from the Province of North Carolina during the American Revolutionary War. The descendant of a prominent family in North Carolina, Howe was one of five generals, and the only major general, in the Continental Army from that state. He also played a role in the colonial and state governments of North Carolina, serving in the legislative bodies of both.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Howe_(Continental_Army_officer)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/61ycf/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "GDCD-JJV",
       "name": "Alexander McDougall",
-      "desc": "Alexander McDougall (1732– 9 June 1786) was a Scottish-born American seaman, merchant, a Sons of Liberty leader from New York City before and during the American Revolution, and a military leader during the Revolutionary War. He served as a major general in the Continental Army, and as a delegate to the Continental Congress. After the war, he was the president of the first bank in the state of New York and served a term in the New York State Senate."
+      "desc": "Alexander McDougall (1732– 9 June 1786) was a Scottish-born American seaman, merchant, a Sons of Liberty leader from New York City before and during the American Revolution, and a military leader during the Revolutionary War. He served as a major general in the Continental Army, and as a delegate to the Continental Congress. After the war, he was the president of the first bank in the state of New York and served a term in the New York State Senate.",
+      "url": "https://en.wikipedia.org/wiki/Alexander_McDougall",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/j9kxf/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KFLK-1NL",
       "name": "Thomas Conway",
-      "desc": "Thomas Conway (February 27, 1735 – 1795) served as a major general in the American Continental Army during the American Revolutionary War. He became involved with the alleged Conway Cabal with Horatio Gates. He later served with Émigré forces during the French Revolutionary Wars."
+      "desc": "Thomas Conway (February 27, 1735 – 1795) served as a major general in the American Continental Army during the American Revolutionary War. He became involved with the alleged Conway Cabal with Horatio Gates. He later served with Émigré forces during the French Revolutionary Wars.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Conway",
+      "gender": "Male"
     },
     {
       "pid": "MJYW-8BF",
       "name": "Friedrich Wilhelm von Steuben",
-      "desc": "Friedrich Wilhelm August Heinrich Ferdinand von Steuben (born Friedrich Wilhelm Ludolf Gerhard Augustin Louis von Steuben; September 17, 1730 – November 28, 1794), also referred to as Baron von Steuben (German: ), was a Prussian military officer who was a Founding Father of the United States who played a leading role in the American Revolutionary War by reforming the Continental Army into a disciplined and professional fighting force. His contributions marked a significant improvement in the performance of U.S. troops, and he is consequently regarded as one of the fathers of the United States Army."
+      "desc": "Friedrich Wilhelm August Heinrich Ferdinand von Steuben (born Friedrich Wilhelm Ludolf Gerhard Augustin Louis von Steuben; September 17, 1730 – November 28, 1794), also referred to as Baron von Steuben (German: ), was a Prussian military officer who was a Founding Father of the United States who played a leading role in the American Revolutionary War by reforming the Continental Army into a disciplined and professional fighting force. His contributions marked a significant improvement in the performance of U.S. troops, and he is consequently regarded as one of the fathers of the United States Army.",
+      "url": "https://en.wikipedia.org/wiki/Friedrich_Wilhelm_von_Steuben",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b4gth/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KJDG-JK8",
       "name": "Samuel Holden Parsons",
-      "desc": "Samuel Holden Parsons (May 14, 1737 – November 17, 1789) was an American lawyer, jurist, general in the Continental Army during the American Revolutionary War, and a pioneer to the Ohio Country. Parsons was described as \"Soldier, scholar, judge, one of the strongest arms on which Washington leaned, who first suggested the Continental Congress, from the story of whose life could almost be written the history of the Northern War\" by Senator George F. Hoar of Massachusetts"
+      "desc": "Samuel Holden Parsons (May 14, 1737 – November 17, 1789) was an American lawyer, jurist, general in the Continental Army during the American Revolutionary War, and a pioneer to the Ohio Country. Parsons was described as \"Soldier, scholar, judge, one of the strongest arms on which Washington leaned, who first suggested the Continental Congress, from the story of whose life could almost be written the history of the Northern War\" by Senator George F. Hoar of Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Holden_Parsons",
+      "gender": "Male"
     },
     {
       "pid": "L4JL-D17",
       "name": "Henry Knox",
-      "desc": "Henry Knox (July 25, 1750 – October 25, 1806), a Founding Father of the United States, was a senior general of the Continental Army during the Revolutionary War, serving as chief of artillery in most of Washington's campaigns. Following the revolution, he oversaw the War Department under the Articles of Confederation, 1785–1789. Washington, at the start of his first administration, appointed Knox the nation's first Secretary of War, a position he held from 1789 to 1794. He is perhaps best remembered today as the namesake of Fort Knox in Kentucky, the repository of a large portion of the nation's gold reserves."
+      "desc": "Henry Knox (July 25, 1750 – October 25, 1806), a Founding Father of the United States, was a senior general of the Continental Army during the Revolutionary War, serving as chief of artillery in most of Washington's campaigns. Following the revolution, he oversaw the War Department under the Articles of Confederation, 1785–1789. Washington, at the start of his first administration, appointed Knox the nation's first Secretary of War, a position he held from 1789 to 1794. He is perhaps best remembered today as the namesake of Fort Knox in Kentucky, the repository of a large portion of the nation's gold reserves.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Knox",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ewiwi/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L71Y-68T",
       "name": "William Moultrie",
-      "desc": "William Moultrie (November 23, 1730 – September 27, 1805) was an American planter and politician who became a general in the American Revolutionary War. As colonel leading a state militia, in 1776 he prevented the British from taking Charleston, and Fort Moultrie was named in his honor."
+      "desc": "William Moultrie (November 23, 1730 – September 27, 1805) was an American planter and politician who became a general in the American Revolutionary War. As colonel leading a state militia, in 1776 he prevented the British from taking Charleston, and Fort Moultrie was named in his honor.",
+      "url": "https://en.wikipedia.org/wiki/William_Moultrie",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/e1rti/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LYTN-ML5",
       "name": "John Armstrong",
-      "desc": "John Armstrong (October 13, 1717 – March 9, 1795) was an American civil engineer and soldier who served as a brigadier general in the Continental Army and as a major general in the Pennsylvania Militia during the Revolutionary War. He was also a delegate to the Continental Congress for Pennsylvania. Armstrong County, Pennsylvania is named in his honor."
+      "desc": "John Armstrong (October 13, 1717 – March 9, 1795) was an American civil engineer and soldier who served as a brigadier general in the Continental Army and as a major general in the Pennsylvania Militia during the Revolutionary War. He was also a delegate to the Continental Congress for Pennsylvania. Armstrong County, Pennsylvania is named in his honor.",
+      "url": "https://en.wikipedia.org/wiki/John_Armstrong_Sr.",
+      "gender": "Male"
     },
     {
       "pid": "LHCY-DVP",
       "name": "George Clinton",
-      "desc": "George Clinton (July 26, 1739 – April 20, 1812) was an American soldier, statesman, and Founding Father of the United States. A prominent Democratic-Republican, Clinton served as the fourth vice president of the United States from 1805 until his death in 1812. He also served as the first Governor of New York from 1777 to 1795 and again from 1801 to 1804. Along with John C. Calhoun, he is one of two vice presidents to hold office under two consecutive presidents."
+      "desc": "George Clinton (July 26, 1739 – April 20, 1812) was an American soldier, statesman, and Founding Father of the United States. A prominent Democratic-Republican, Clinton served as the fourth vice president of the United States from 1805 until his death in 1812. He also served as the first Governor of New York from 1777 to 1795 and again from 1801 to 1804. Along with John C. Calhoun, he is one of two vice presidents to hold office under two consecutive presidents.",
+      "url": "https://en.wikipedia.org/wiki/George_Clinton_(vice_president)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/n8x0i/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LHPJ-66W",
       "name": "Elias Dayton",
-      "desc": "Elias Dayton (May 1, 1737 – October 22, 1807) was an American merchant and military officer who served as captain and colonel of the local militia and in 1783 rose to become a brigadier general during the American Revolutionary War. Afterward, he became the Mayor of Elizabethtown, New Jersey as well as served in the New Jersey General Assembly. He was the father of U.S. Constitution signer Jonathan Dayton."
+      "desc": "Elias Dayton (May 1, 1737 – October 22, 1807) was an American merchant and military officer who served as captain and colonel of the local militia and in 1783 rose to become a brigadier general during the American Revolutionary War. Afterward, he became the Mayor of Elizabethtown, New Jersey as well as served in the New Jersey General Assembly. He was the father of U.S. Constitution signer Jonathan Dayton.",
+      "url": "https://en.wikipedia.org/wiki/Elias_Dayton",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cc1cj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LHP2-67Q",
       "name": "Joseph Frye",
-      "desc": "Joseph Frye (March 19, 1712 – July 25, 1794) was a renowned military leader from colonial Maine (then a part of Massachusetts)."
+      "desc": "Joseph Frye (March 19, 1712 – July 25, 1794) was a renowned military leader from colonial Maine (then a part of Massachusetts).",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Frye",
+      "gender": "Male"
     },
     {
       "pid": "LZNZ-QFL",
       "name": "Christopher Gadsden",
-      "desc": "Christopher Gadsden (February 16, 1724 – August 28, 1805) was an American politician who was the principal leader of the South Carolina Patriot movement during the American Revolution. He was a delegate to the Continental Congress, a brigadier general in the Continental Army during the American Revolutionary War, Lieutenant Governor of South Carolina, a merchant, and the designer of the Gadsden flag. He is a signatory to the Continental Association."
+      "desc": "Christopher Gadsden (February 16, 1724 – August 28, 1805) was an American politician who was the principal leader of the South Carolina Patriot movement during the American Revolution. He was a delegate to the Continental Congress, a brigadier general in the Continental Army during the American Revolutionary War, Lieutenant Governor of South Carolina, a merchant, and the designer of the Gadsden flag. He is a signatory to the Continental Association.",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Gadsden",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jac0k/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "94G9-JCN",
       "name": "John Glover",
-      "desc": "John Glover (November 5, 1732 – January 30, 1797) was an American fisherman, merchant, politician, and military leader from Marblehead, Massachusetts, who served as a brigadier general in the Continental Army during the American Revolutionary War. He is most famous in American history for his regiment rowing Washington across the Delaware, the Battle of Long Island, and leading the first integrated regiment in the American military."
+      "desc": "John Glover (November 5, 1732 – January 30, 1797) was an American fisherman, merchant, politician, and military leader from Marblehead, Massachusetts, who served as a brigadier general in the Continental Army during the American Revolutionary War. He is most famous in American history for his regiment rowing Washington across the Delaware, the Battle of Long Island, and leading the first integrated regiment in the American military.",
+      "url": "https://en.wikipedia.org/wiki/John_Glover_(general)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/26caj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L7F6-G7C",
       "name": "Mordecai Gist",
-      "desc": "Mordecai Gist (1743–1792) was a member of a prominent Maryland family who became a brigadier general in command of the Maryland Line in the Continental Army during the American Revolutionary War."
+      "desc": "Mordecai Gist (1743–1792) was a member of a prominent Maryland family who became a brigadier general in command of the Maryland Line in the Continental Army during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Mordecai_Gist",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/g43bf/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KH88-HGP",
-      "name": "John Greaton"
+      "name": "John Greaton",
+      "desc": "JOHN GREATON (1741–1783). Continental general. Massachusetts. Born on 10 March 1741 at Roxbury, John Greaton was the son of a small-time retail merchant who was also the last landlord of the famous Greyhound Tavern in Roxbury. The son joined his father in the family's businesses and opposed changes in imperial trade regulations after the French and Indian War, in which he apparently did not serve.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/greaton-john",
+      "gender": "Male"
     },
     {
       "pid": "MNW8-38B",
       "name": "Moses Hazen",
-      "desc": "Moses Hazen (June 1, 1733 – February 5, 1803) was a brigadier general in the Continental Army during the American Revolutionary War. Born in the Province of Massachusetts Bay, he saw action in the French and Indian War with Rogers' Rangers. His service included particularly brutal raids, during the Expulsion of the Acadians and the 1759 Battle of Quebec. He was formally commissioned into the British Army, shortly before the war ended, and retired on half-pay outside Montreal, Province of Quebec, where he and Gabriel Christie, another British officer, made extensive land purchases in partnership. During his lifetime he acquired land in Quebec, New Hampshire, Vermont, and New York, but lost most of his Quebec land due to litigation, with Christie and the negative effects of the Revolution."
+      "desc": "Moses Hazen (June 1, 1733 – February 5, 1803) was a brigadier general in the Continental Army during the American Revolutionary War. Born in the Province of Massachusetts Bay, he saw action in the French and Indian War with Rogers' Rangers. His service included particularly brutal raids, during the Expulsion of the Acadians and the 1759 Battle of Quebec. He was formally commissioned into the British Army, shortly before the war ended, and retired on half-pay outside Montreal, Province of Quebec, where he and Gabriel Christie, another British officer, made extensive land purchases in partnership. During his lifetime he acquired land in Quebec, New Hampshire, Vermont, and New York, but lost most of his Quebec land due to litigation, with Christie and the negative effects of the Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Moses_Hazen",
+      "gender": "Male"
     },
     {
       "pid": "9CDY-5VR",
       "name": "James Hogun",
-      "desc": "James Hogun (died January 4, 1781) was an Irish-American military officer who was as one of five generals from North Carolina to serve with the Continental Army during the American Revolutionary War. Born in Ireland, Hogan migrated to North Carolina – then a British colony – in 1751. Settling in Halifax County, he raised a family and established himself as a prominent local figure."
+      "desc": "James Hogun (died January 4, 1781) was an Irish-American military officer who was as one of five generals from North Carolina to serve with the Continental Army during the American Revolutionary War. Born in Ireland, Hogan migrated to North Carolina – then a British colony – in 1751. Settling in Halifax County, he raised a family and established himself as a prominent local figure.",
+      "url": "https://en.wikipedia.org/wiki/James_Hogun",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jk0o6/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L43S-Z2D",
       "name": "Isaac Huger",
-      "desc": "Isaac Huger (March 19, 1743 – October 17, 1797) was a planter and Continental Army general during the American Revolutionary War."
+      "desc": "Isaac Huger (March 19, 1743 – October 17, 1797) was a planter and Continental Army general during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Huger",
+      "gender": "Male"
     },
     {
       "pid": "9SRH-12T",
       "name": "Jedediah Huntington",
-      "desc": "Jedediah (or Jedidiah) Huntington (4 August 1743 – 25 September 1818), was an American general in the Continental Army during the American Revolutionary War. After the war, he served in numerous civilian posts."
+      "desc": "Jedediah (or Jedidiah) Huntington (4 August 1743 – 25 September 1818), was an American general in the Continental Army during the American Revolutionary War. After the war, he served in numerous civilian posts.",
+      "url": "https://en.wikipedia.org/wiki/Jedediah_Huntington",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mtcdj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L89V-71M",
       "name": "William Irvine",
-      "desc": "William Irvine (November 3, 1741 – July 29, 1804) was an Irish-American physician, soldier, and statesman from Carlisle, Pennsylvania. He practiced medicine as a ship's surgeon for the Royal Navy before he sympathized with the American Revolution and fought against the British during the American Revolutionary War. As tensions escalated between the American colonies and the British government during the 1770s, Irvine sympathized and allied himself with the revolutionary cause. He subsequently served as a brigadier general in the American Revolutionary War and served in the western theater. After the war he served in the Continental Congress, and later played an active role in ending the Whiskey Rebellion in Pennsylvania. He also served one term in Congress representing Pennsylvania, and was also active in the state's other public affairs."
+      "desc": "William Irvine (November 3, 1741 – July 29, 1804) was an Irish-American physician, soldier, and statesman from Carlisle, Pennsylvania. He practiced medicine as a ship's surgeon for the Royal Navy before he sympathized with the American Revolution and fought against the British during the American Revolutionary War. As tensions escalated between the American colonies and the British government during the 1770s, Irvine sympathized and allied himself with the revolutionary cause. He subsequently served as a brigadier general in the American Revolutionary War and served in the western theater. After the war he served in the Continental Congress, and later played an active role in ending the Whiskey Rebellion in Pennsylvania. He also served one term in Congress representing Pennsylvania, and was also active in the state's other public affairs.",
+      "url": "https://en.wikipedia.org/wiki/William_Irvine_(general)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rtwrk/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KJ6C-L8P",
       "name": "Tadeusz Kościuszko",
-      "desc": "Andrzej Tadeusz Bonawentura Kościuszko (Belarusian: Андрэй Тадэвуш Банавентура Касцюшка, English: Andrew Thaddeus Bonaventure Kosciuszko; 4 or 12 February 1746 – 15 October 1817) was a Polish military engineer, statesman, and military leader who became a national hero in Belarus, France, Lithuania, Poland, and the United States. He fought in the Polish–Lithuanian Commonwealth's struggles against Russia and Prussia, and on the US side in the American Revolutionary War. As Supreme Commander of the Polish National Armed Forces, he led the 1794 Kościuszko Uprising."
+      "desc": "Andrzej Tadeusz Bonawentura Kościuszko (Belarusian: Андрэй Тадэвуш Банавентура Касцюшка, English: Andrew Thaddeus Bonaventure Kosciuszko; 4 or 12 February 1746 – 15 October 1817) was a Polish military engineer, statesman, and military leader who became a national hero in Belarus, France, Lithuania, Poland, and the United States. He fought in the Polish–Lithuanian Commonwealth's struggles against Russia and Prussia, and on the US side in the American Revolutionary War. As Supreme Commander of the Polish National Armed Forces, he led the 1794 Kościuszko Uprising.",
+      "url": "https://en.wikipedia.org/wiki/Tadeusz_Ko%C5%9Bciuszko",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fcrpj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KL4Y-G2J",
       "name": "Ebenezer Learned",
-      "desc": "Ebenezer Learned (April 18, 1728 – April 1, 1801) was a brigadier general in the American Continental Army during the Revolutionary War."
+      "desc": "Ebenezer Learned (April 18, 1728 – April 1, 1801) was a brigadier general in the American Continental Army during the Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Ebenezer_Learned",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wr0jb/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L8MY-9GH",
       "name": "Andrew Lewis",
-      "desc": "Andrew Lewis (October 9, 1720 – September 26, 1781) was an Irish-born American pioneer, surveyor, military officer and politician in Colonial Virginia and during the American Revolutionary War. A colonel of militia during the French and Indian War, and brigadier general in the American Revolutionary War, his most famous victory was the Battle of Point Pleasant in Dunmore's War in 1774, although he also drove Lord Dunmore's forces from Norfolk and Gwynn's Island in 1776. He also helped found Liberty Hall (later Washington and Lee University) in 1776"
+      "desc": "Andrew Lewis (October 9, 1720 – September 26, 1781) was an Irish-born American pioneer, surveyor, military officer and politician in Colonial Virginia and during the American Revolutionary War. A colonel of militia during the French and Indian War, and brigadier general in the American Revolutionary War, his most famous victory was the Battle of Point Pleasant in Dunmore's War in 1774, although he also drove Lord Dunmore's forces from Norfolk and Gwynn's Island in 1776. He also helped found Liberty Hall (later Washington and Lee University) in 1776",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Lewis_(soldier)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kqjrc/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L555-BZP",
       "name": "Lachlan McIntosh",
-      "desc": "Lachlan McIntosh (March 17, 1725 – February 20, 1806) was a Scottish American military and political leader during the American Revolution and the early United States. In a 1777 duel, he fatally shot Button Gwinnett, a signer of the Declaration of Independence."
+      "desc": "Lachlan McIntosh (March 17, 1725 – February 20, 1806) was a Scottish American military and political leader during the American Revolution and the early United States. In a 1777 duel, he fatally shot Button Gwinnett, a signer of the Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/Lachlan_McIntosh",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u6546/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L5BJ-2KK",
       "name": "George Mathews",
-      "desc": "George Mathews (August 30, 1739 – August 30, 1812) was an American soldier and politician from the U.S. States of Virginia and Georgia. He was a brevet brigadier general in the Continental Army, the 20th and 24th Governor of Georgia, a U.S. Representative from Georgia, and the leading participant in the Patriot War of East Florida."
+      "desc": "George Mathews (August 30, 1739 – August 30, 1812) was an American soldier and politician from the U.S. States of Virginia and Georgia. He was a brevet brigadier general in the Continental Army, the 20th and 24th Governor of Georgia, a U.S. Representative from Georgia, and the leading participant in the Patriot War of East Florida.",
+      "url": "https://en.wikipedia.org/wiki/George_Mathews_(Georgia)",
+      "gender": "Male"
     },
     {
       "pid": "21RP-H1B",
       "name": "William Maxwell",
-      "desc": "William Maxwell (1733 – November 4, 1796) was an Irish-born brigadier general in the Continental Army during the American Revolutionary War."
+      "desc": "William Maxwell (1733 – November 4, 1796) was an Irish-born brigadier general in the Continental Army during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/William_Maxwell_(Continental_Army_general)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nrq2a/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L8Z1-MW6",
       "name": "Hugh Mercer",
-      "desc": "Hugh Mercer (16 January 1726 – 12 January 1777) was a Scottish-born American military officer and physician who participated in the Seven Years' War and Revolutionary War. Born in Pitsligo, Scotland, he studied medicine in his home country and served with the Jacobite forces of Bonnie Prince Charlie, participating in the Battle of Culloden in 1746. With the failure of the Jacobite rising, Mercer escaped to the Province of Pennsylvania."
+      "desc": "Hugh Mercer (16 January 1726 – 12 January 1777) was a Scottish-born American military officer and physician who participated in the Seven Years' War and Revolutionary War. Born in Pitsligo, Scotland, he studied medicine in his home country and served with the Jacobite forces of Bonnie Prince Charlie, participating in the Battle of Culloden in 1746. With the failure of the Jacobite rising, Mercer escaped to the Province of Pennsylvania.",
+      "url": "https://en.wikipedia.org/wiki/Hugh_Mercer",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/enrmk/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L4BT-N2Q",
       "name": "Samuel Meredith",
-      "desc": "Samuel Meredith (1741 – February 10, 1817) was an American merchant from Philadelphia, Pennsylvania. He was a delegate for Pennsylvania to the Continental Congress from 1786 to 1788."
+      "desc": "Samuel Meredith (1741 – February 10, 1817) was an American merchant from Philadelphia, Pennsylvania. He was a delegate for Pennsylvania to the Continental Congress from 1786 to 1788.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Meredith",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/a00qh/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LB87-Y4V",
       "name": "James Moore",
-      "desc": "James Moore (c. 1737 – c. April 15, 1777) was a Continental Army general during the American Revolutionary War. Moore was born into a prominent political family in the colonial Province of North Carolina, he was one of only five generals from North Carolina to serve in the Continental Army. He spent much of his childhood and youth on his family's estates in the lower Cape Fear River area, but soon became active in the colonial military structure in North Carolina."
+      "desc": "James Moore (c. 1737 – c. April 15, 1777) was a Continental Army general during the American Revolutionary War. Moore was born into a prominent political family in the colonial Province of North Carolina, he was one of only five generals from North Carolina to serve in the Continental Army. He spent much of his childhood and youth on his family's estates in the lower Cape Fear River area, but soon became active in the colonial military structure in North Carolina.",
+      "url": "https://en.wikipedia.org/wiki/James_Moore_(Continental_Army_officer)",
+      "gender": "Male"
     },
     {
       "pid": "L835-DCM",
       "name": "Daniel Morgan",
-      "desc": "Daniel Morgan (1735/36 – July 6, 1802) was an American pioneer, soldier, and politician from Virginia. One of the most respected battlefield tacticians of the American Revolutionary War of 1775–1783, he later commanded troops during the suppression of the Whiskey Rebellion of 1791–1794."
+      "desc": "Daniel Morgan (1735/36 – July 6, 1802) was an American pioneer, soldier, and politician from Virginia. One of the most respected battlefield tacticians of the American Revolutionary War of 1775–1783, he later commanded troops during the suppression of the Whiskey Rebellion of 1791–1794.",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Morgan",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qres8/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LCPC-WRF",
       "name": "Francis Nash",
-      "desc": "Francis Nash (c. 1742 – October 7, 1777) was a brigadier general in the Continental Army during the American Revolutionary War. Prior to the war, he was a lawyer, public official, and politician in Hillsborough, North Carolina, and was heavily involved in opposing the Regulator movement, an uprising of settlers in the North Carolina piedmont between 1765 and 1771. Nash was also involved in North Carolina politics, representing Hillsborough on several occasions in the colonial North Carolina General Assembly."
+      "desc": "Francis Nash (c. 1742 – October 7, 1777) was a brigadier general in the Continental Army during the American Revolutionary War. Prior to the war, he was a lawyer, public official, and politician in Hillsborough, North Carolina, and was heavily involved in opposing the Regulator movement, an uprising of settlers in the North Carolina piedmont between 1765 and 1771. Nash was also involved in North Carolina politics, representing Hillsborough on several occasions in the colonial North Carolina General Assembly.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Nash",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8z4dg/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "2WNV-TSJ",
       "name": "John Nixon",
-      "desc": "John Nixon (March 1, 1727 – March 24, 1815) was an American brigadier general in the Continental Army during the American Revolutionary War."
+      "desc": "John Nixon (March 1, 1727 – March 24, 1815) was an American brigadier general in the Continental Army during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/John_Nixon_(Continental_Army_general)",
+      "gender": "Male"
     },
     {
       "pid": "LHP3-S68",
       "name": "Enoch Poor",
-      "desc": "Enoch Poor (June 21, 1736 (Old Style) – September 8, 1780) was a brigadier general in the Continental Army during the American Revolutionary War. He was a ship builder and merchant from Exeter, New Hampshire."
+      "desc": "Enoch Poor (June 21, 1736 (Old Style) – September 8, 1780) was a brigadier general in the Continental Army during the American Revolutionary War. He was a ship builder and merchant from Exeter, New Hampshire.",
+      "url": "https://en.wikipedia.org/wiki/Enoch_Poor",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/vx7sa/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "MZWG-FFL",
       "name": "Kazimierz Pułaski",
-      "desc": "Kazimierz Michał Władysław Wiktor Pułaski of the Ślepowron coat of arms (Polish pronunciation:  (listen); Casimir Pulaski /ˈkæ.zɪ.ˌmɪər pəˈlæ.skiː/; March 4 or March 6, 1745  – October 11, 1779) was a Polish nobleman, soldier, and military commander who has been called the \"father of the American cavalry.\""
+      "desc": "Kazimierz Michał Władysław Wiktor Pułaski of the Ślepowron coat of arms (Polish pronunciation:  (listen); Casimir Pulaski /ˈkæ.zɪ.ˌmɪər pəˈlæ.skiː/; March 4 or March 6, 1745  – October 11, 1779) was a Polish nobleman, soldier, and military commander who has been called the \"father of the American cavalry.\"",
+      "url": "https://en.wikipedia.org/wiki/Kazimierz_Pu%C5%82aski",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9ytt4/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L8B7-1QR",
       "name": "Michael Kovats",
-      "desc": "Michael Kovats de Fabriczy (often simply Michael Kovats; Hungarian: Kováts Mihály; 1724 – May 11, 1779) was a Hungarian nobleman and cavalry officer who served in the Continental Army during the American Revolutionary War, in which he was killed in action. General Casimir Pulaski and Kovats are together known as the \"Founding Fathers of the US Cavalry.\""
+      "desc": "Michael Kovats de Fabriczy (often simply Michael Kovats; Hungarian: Kováts Mihály; 1724 – May 11, 1779) was a Hungarian nobleman and cavalry officer who served in the Continental Army during the American Revolutionary War, in which he was killed in action. General Casimir Pulaski and Kovats are together known as the \"Founding Fathers of the US Cavalry.\"",
+      "url": "https://en.wikipedia.org/wiki/Michael_Kovats_de_Fabriczy",
+      "gender": "Male"
     },
     {
       "pid": "LHK1-5K1",
       "name": "Rufus Putnam",
-      "desc": "Brigadier-General Rufus Putnam (April 9, 1738 – May 4, 1824) was an American military officer who fought during the French and Indian War and the American Revolutionary War. As an organizer of the Ohio Company of Associates, he was instrumental in the initial colonization of the Northwest Territory in present-day Ohio following the war. He was known as \"Father of the Northwest Territory\"."
+      "desc": "Brigadier-General Rufus Putnam (April 9, 1738 – May 4, 1824) was an American military officer who fought during the French and Indian War and the American Revolutionary War. As an organizer of the Ohio Company of Associates, he was instrumental in the initial colonization of the Northwest Territory in present-day Ohio following the war. He was known as \"Father of the Northwest Territory\".",
+      "url": "https://en.wikipedia.org/wiki/Rufus_Putnam",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/q2dme/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L7JN-NCT",
       "name": "Charles Armand Tuffin",
-      "desc": "Charles Armand Tuffin, marquis de la Rouërie (13 April 1751 – 30 January 1793), also known in the United States as \"Colonel Armand,\" was a Breton cavalry officer who served under the American flag in the American War of Independence. He was promoted to brigadier general after the Battle of Yorktown. He is also known as a founder and early leader of the Breton Association (the Chouannerie) during the French Revolution. La Rouërie is less-remembered than Lafayette and others in writings of French participation in the Revolutionary war."
+      "desc": "Charles Armand Tuffin, marquis de la Rouërie (13 April 1751 – 30 January 1793), also known in the United States as \"Colonel Armand,\" was a Breton cavalry officer who served under the American flag in the American War of Independence. He was promoted to brigadier general after the Battle of Yorktown. He is also known as a founder and early leader of the Breton Association (the Chouannerie) during the French Revolution. La Rouërie is less-remembered than Lafayette and others in writings of French participation in the Revolutionary war.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Armand_Tuffin,_marquis_de_la_Rou%C3%ABrie",
+      "gender": "Male"
     },
     {
       "pid": "KC8P-RD4",
       "name": "Charles Scott",
-      "desc": "Charles Scott (April 1739 – October 22, 1813) was an American military officer and politician who served as the governor of Kentucky from 1808 to 1812. Orphaned in his teens, Scott enlisted in the Virginia Regiment in October 1755 and served as a scout and escort during the French and Indian War. He quickly rose through the ranks to become a captain. After the war, he married and engaged in agricultural pursuits on land left to him by his father, but he returned to active military service in 1775 as the American Revolution began to grow in intensity. In August 1776, he was promoted to colonel and given command of the 5th Virginia Regiment. The 5th Virginia joined George Washington in New Jersey later that year, serving with him for the duration of the Philadelphia campaign. Scott commanded Washington's light infantry, and by late 1778 was also serving as his chief of intelligence. Furloughed at the end of the Philadelphia campaign, Scott returned to active service in March 1779 and was ordered to South Carolina to assist General Benjamin Lincoln in the southern theater. He arrived in Charleston, South Carolina, just as Henry Clinton had begun his siege of the city. Scott was taken as a prisoner of war when Charleston surrendered. Paroled in March 1781 and exchanged for Lord Rawdon in July 1782, Scott managed to complete a few recruiting assignments before the war ended."
+      "desc": "Charles Scott (April 1739 – October 22, 1813) was an American military officer and politician who served as the governor of Kentucky from 1808 to 1812. Orphaned in his teens, Scott enlisted in the Virginia Regiment in October 1755 and served as a scout and escort during the French and Indian War. He quickly rose through the ranks to become a captain. After the war, he married and engaged in agricultural pursuits on land left to him by his father, but he returned to active military service in 1775 as the American Revolution began to grow in intensity. In August 1776, he was promoted to colonel and given command of the 5th Virginia Regiment. The 5th Virginia joined George Washington in New Jersey later that year, serving with him for the duration of the Philadelphia campaign. Scott commanded Washington's light infantry, and by late 1778 was also serving as his chief of intelligence. Furloughed at the end of the Philadelphia campaign, Scott returned to active service in March 1779 and was ordered to South Carolina to assist General Benjamin Lincoln in the southern theater. He arrived in Charleston, South Carolina, just as Henry Clinton had begun his siege of the city. Scott was taken as a prisoner of war when Charleston surrendered. Paroled in March 1781 and exchanged for Lord Rawdon in July 1782, Scott managed to complete a few recruiting assignments before the war ended.",
+      "url": "https://en.wikipedia.org/wiki/Charles_Scott_(governor)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/w2cvf/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LJRC-BSK",
       "name": "John Stark",
-      "desc": "Major-General John Stark (August 28, 1728 – May 8, 1822) was an American military officer who served during the French and Indian War and the Revolutionary War. He became known as the \"Hero of Bennington\" for his exemplary service at the Battle of Bennington in 1777."
+      "desc": "Major-General John Stark (August 28, 1728 – May 8, 1822) was an American military officer who served during the French and Indian War and the Revolutionary War. He became known as the \"Hero of Bennington\" for his exemplary service at the Battle of Bennington in 1777.",
+      "url": "https://en.wikipedia.org/wiki/John_Stark",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4iw23/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LHZS-CGW",
       "name": "Jethro Sumner",
-      "desc": "Jethro Exum Sumner (c. 1733 – c. March 18, 1785) was a senior officer of the Continental Army during the American Revolutionary War. Born in Virginia, Sumner's military service began in the French and Indian War as a member of the state's Provincial forces. After the conclusion of that conflict, he moved to Bute County, North Carolina, where he acquired a substantial area of land and operated a tavern. He served as Sheriff of Bute County, but with the coming of the American Revolution, he became a strident patriot, and was elected to North Carolina's Provincial Congress."
+      "desc": "Jethro Exum Sumner (c. 1733 – c. March 18, 1785) was a senior officer of the Continental Army during the American Revolutionary War. Born in Virginia, Sumner's military service began in the French and Indian War as a member of the state's Provincial forces. After the conclusion of that conflict, he moved to Bute County, North Carolina, where he acquired a substantial area of land and operated a tavern. He served as Sheriff of Bute County, but with the coming of the American Revolution, he became a strident patriot, and was elected to North Carolina's Provincial Congress.",
+      "url": "https://en.wikipedia.org/wiki/Jethro_Sumner",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/n766b/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LHFK-LNN",
       "name": "Jacobus Swartwout",
-      "desc": "Jacobus Swartwout (1734–1827) was an early American landowner, statesman, and military leader. Swartwout served as a brigadier general in the Continental Army during the American Revolutionary War under General George Washington. He was a close ally of many key Founding Fathers of the United States, and a delegate to New York State's convention for ratification of the US Constitution."
+      "desc": "Jacobus Swartwout (1734–1827) was an early American landowner, statesman, and military leader. Swartwout served as a brigadier general in the Continental Army during the American Revolutionary War under General George Washington. He was a close ally of many key Founding Fathers of the United States, and a delegate to New York State's convention for ratification of the US Constitution.",
+      "url": "https://en.wikipedia.org/wiki/Jacobus_Swartwout",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/i6kgi/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KJDK-V2J",
       "name": "James Mitchell Varnum",
-      "desc": "James Mitchell Varnum (December 17, 1748 – January 9, 1789) was an American legislator, lawyer, general in the Continental Army, and a pioneer to the Ohio Country. Varnum resigned his commission in 1779, and was a delegate to the Continental and Confederation Congress, as well as one of two “supreme” judges appointed to the Northwest Territory. He died in Marietta, Ohio in January 1789."
+      "desc": "James Mitchell Varnum (December 17, 1748 – January 9, 1789) was an American legislator, lawyer, general in the Continental Army, and a pioneer to the Ohio Country. Varnum resigned his commission in 1779, and was a delegate to the Continental and Confederation Congress, as well as one of two “supreme” judges appointed to the Northwest Territory. He died in Marietta, Ohio in January 1789.",
+      "url": "https://en.wikipedia.org/wiki/James_Mitchell_Varnum",
+      "gender": "Male"
     },
     {
       "pid": "ML23-WZW",
       "name": "Anthony Wayne",
-      "desc": "Anthony Wayne (January 1, 1745 – December 15, 1796) was an American soldier, officer, statesman, and one of the Founding Fathers of the United States. He adopted a military career at the outset of the American Revolutionary War, where his military exploits and fiery personality quickly earned him promotion to brigadier general and the nickname \"Mad Anthony\". He later served as the Senior Officer of the Army on the Ohio Country frontier and led the Legion of the United States."
+      "desc": "Anthony Wayne (January 1, 1745 – December 15, 1796) was an American soldier, officer, statesman, and one of the Founding Fathers of the United States. He adopted a military career at the outset of the American Revolutionary War, where his military exploits and fiery personality quickly earned him promotion to brigadier general and the nickname \"Mad Anthony\". He later served as the Senior Officer of the Army on the Ohio Country frontier and led the Legion of the United States.",
+      "url": "https://en.wikipedia.org/wiki/Anthony_Wayne",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b3p6b/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "9HX8-PDL",
       "name": "George Weedon",
-      "desc": "George Weedon (1734–1793) was an American soldier during the Revolutionary War from Fredericksburg, Colony of Virginia. He served as a brigadier general in the Continental Army and later in the Virginia militia. After the Revolutionary War ended he became an original member of the Society of the Cincinnati (Va.)."
+      "desc": "George Weedon (1734–1793) was an American soldier during the Revolutionary War from Fredericksburg, Colony of Virginia. He served as a brigadier general in the Continental Army and later in the Virginia militia. After the Revolutionary War ended he became an original member of the Society of the Cincinnati (Va.).",
+      "url": "https://en.wikipedia.org/wiki/George_Weedon",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jnoqj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L6M8-KFH",
       "name": "James Wilkinson",
-      "desc": "James Wilkinson (March 24, 1757 – December 28, 1825) was an American soldier, politician, and double agent who was associated with several scandals and controversies. He served in the Continental Army during the American Revolutionary War, but he was twice compelled to resign. He was twice the Senior Officer of the U.S. Army, appointed to be the first Governor of the Louisiana Territory in 1805, and commanded two unsuccessful campaigns in the St. Lawrence River theater during the War of 1812. He died while seeking to serve as a diplomat in Mexico City."
+      "desc": "James Wilkinson (March 24, 1757 – December 28, 1825) was an American soldier, politician, and double agent who was associated with several scandals and controversies. He served in the Continental Army during the American Revolutionary War, but he was twice compelled to resign. He was twice the Senior Officer of the U.S. Army, appointed to be the first Governor of the Louisiana Territory in 1805, and commanded two unsuccessful campaigns in the St. Lawrence River theater during the War of 1812. He died while seeking to serve as a diplomat in Mexico City.",
+      "url": "https://en.wikipedia.org/wiki/James_Wilkinson",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/x4613/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KK1P-DFD",
       "name": "Otho Holland Williams",
-      "desc": "Otho Holland Williams (March 1, 1749 – July 15, 1794) was a Continental Army officer from Maryland in the American Revolutionary War. He participated in many battles throughout the war in the New York, New Jersey and Southern theaters, eventually ending his career as a brigadier general."
+      "desc": "Otho Holland Williams (March 1, 1749 – July 15, 1794) was a Continental Army officer from Maryland in the American Revolutionary War. He participated in many battles throughout the war in the New York, New Jersey and Southern theaters, eventually ending his career as a brigadier general.",
+      "url": "https://en.wikipedia.org/wiki/Otho_Holland_Williams",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hzwgj/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KVKY-CWY",
       "name": "William Woodford",
-      "desc": "William Woodford (October 6, 1734 – November 13, 1780) was a Virginia planter and militia officer who distinguished himself in the French and Indian War, and later became general of the 2nd Virginia Regiment in the American Revolutionary War, but was captured at the siege of Charleston, South Carolina and died of disease in New York City about six months later aboard a British prison ship."
+      "desc": "William Woodford (October 6, 1734 – November 13, 1780) was a Virginia planter and militia officer who distinguished himself in the French and Indian War, and later became general of the 2nd Virginia Regiment in the American Revolutionary War, but was captured at the siege of Charleston, South Carolina and died of disease in New York City about six months later aboard a British prison ship.",
+      "url": "https://en.wikipedia.org/wiki/William_Woodford",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5gugc/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LHJR-9PY",
       "name": "David Wooster",
-      "desc": "David Wooster (March 13, 1711  – May 2, 1777) was an American general who served in the French and Indian War and in the American Revolutionary War. He died of wounds sustained during the Battle of Ridgefield, Connecticut. Several cities, schools, and public places were named after him thereafter. He has been called \"a largely forgotten hero of the Revolution.\""
+      "desc": "David Wooster (March 13, 1711  – May 2, 1777) was an American general who served in the French and Indian War and in the American Revolutionary War. He died of wounds sustained during the Battle of Ridgefield, Connecticut. Several cities, schools, and public places were named after him thereafter. He has been called \"a largely forgotten hero of the Revolution.\"",
+      "url": "https://en.wikipedia.org/wiki/David_Wooster",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/o6ijc/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "KPQW-MSH",
       "name": "John Barry",
-      "desc": "John Barry (March 25, 1745 – September 13, 1803) was an Irish-American officer in the Continental Navy during the American Revolutionary War and later in the United States Navy. He has been credited as \"The Father of the American Navy\" (and shares that moniker with John Paul Jones and John Adams) and was appointed a captain in the Continental Navy on December 7, 1775. He was the first captain placed in command of a U.S. warship commissioned for service under the Continental flag."
+      "desc": "John Barry (March 25, 1745 – September 13, 1803) was an Irish-American officer in the Continental Navy during the American Revolutionary War and later in the United States Navy. He has been credited as \"The Father of the American Navy\" (and shares that moniker with John Paul Jones and John Adams) and was appointed a captain in the Continental Navy on December 7, 1775. He was the first captain placed in command of a U.S. warship commissioned for service under the Continental flag.",
+      "url": "https://en.wikipedia.org/wiki/John_Barry_(naval_officer)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/586c3/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "MT3F-WGZ",
       "name": "John Hazelwood",
-      "desc": "John Hazelwood (1726 – March 1, 1800) served as a Commodore in the Pennsylvania Navy and Continental Navy and was among the most noted naval officers during the American Revolutionary War. Born in England about 1726, he became a mariner and settled in Philadelphia early in life, became married and had several children. Promoted to Commodore during the Philadelphia campaign, he also became commander of Fort Mifflin while it was under siege by the British. Throughout the campaign Hazelwood and General Washington were in frequent communication with letters. During the weeks spent engaging the British navy on the Delaware River Hazelwood innovated many naval tactics, kept the British navy at bay for weeks and played a major role in the development of riverine warfare for the American navies. Recommended by Washington and his council, Hazelwood was chosen to lead a large fleet of American ships and riverboats up river to safety. For his bravery and distinguished service Congress awarded him with a ceremonial military sword, while the famous presidential artist Charles Peale found Hazelwood worthy enough to paint his portrait. After the Revolution Hazelwood lived out his remaining years in Philadelphia."
+      "desc": "John Hazelwood (1726 – March 1, 1800) served as a Commodore in the Pennsylvania Navy and Continental Navy and was among the most noted naval officers during the American Revolutionary War. Born in England about 1726, he became a mariner and settled in Philadelphia early in life, became married and had several children. Promoted to Commodore during the Philadelphia campaign, he also became commander of Fort Mifflin while it was under siege by the British. Throughout the campaign Hazelwood and General Washington were in frequent communication with letters. During the weeks spent engaging the British navy on the Delaware River Hazelwood innovated many naval tactics, kept the British navy at bay for weeks and played a major role in the development of riverine warfare for the American navies. Recommended by Washington and his council, Hazelwood was chosen to lead a large fleet of American ships and riverboats up river to safety. For his bravery and distinguished service Congress awarded him with a ceremonial military sword, while the famous presidential artist Charles Peale found Hazelwood worthy enough to paint his portrait. After the Revolution Hazelwood lived out his remaining years in Philadelphia.",
+      "url": "https://en.wikipedia.org/wiki/John_Hazelwood",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/aglkh/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "K87P-RSD",
       "name": "John Paul Jones",
-      "desc": "John Paul Jones (born John Paul; July 6, 1747 – July 18, 1792) was a Scottish-American naval captain who was the United States' first well-known naval commander in the American Revolutionary War. Credited as being the \"Father of the American Navy\" (a title also credited to John Barry, John Adams, and sometimes Joshua Humphreys), Jones is highly regarded as one of the greatest naval commanders in the history of the United States."
+      "desc": "John Paul Jones (born John Paul; July 6, 1747 – July 18, 1792) was a Scottish-American naval captain who was the United States' first well-known naval commander in the American Revolutionary War. Credited as being the \"Father of the American Navy\" (a title also credited to John Barry, John Adams, and sometimes Joshua Humphreys), Jones is highly regarded as one of the greatest naval commanders in the history of the United States.",
+      "url": "https://en.wikipedia.org/wiki/John_Paul_Jones",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u57e9/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "279W-3K5",
       "name": "Esek Hopkins",
-      "desc": "Esek Hopkins was an established Sea Captain and Brigadier General of Militia from Rhode Island who was named Commodore and Commander in Chief of the Continental Navy in 1776. He disregarded his instructions from Congress to take the fleet to cruise the Southern colonies, instead attacking British colonial holdings in the Caribbean in the Battle of Nassau. This act was Initially hailed as heroic, he was subsequently censured by Congress in August 1776, and was relieved of his command in January 1778."
+      "desc": "Esek Hopkins was an established Sea Captain and Brigadier General of Militia from Rhode Island who was named Commodore and Commander in Chief of the Continental Navy in 1776. He disregarded his instructions from Congress to take the fleet to cruise the Southern colonies, instead attacking British colonial holdings in the Caribbean in the Battle of Nassau. This act was Initially hailed as heroic, he was subsequently censured by Congress in August 1776, and was relieved of his command in January 1778.",
+      "url": "https://en.wikipedia.org/wiki/Esek_Hopkins",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/t6zz9/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "L6TB-2CR",
       "name": "James Nicholson",
-      "desc": "James Nicholson (1737 – 2 September 1804) was an officer in the Continental Navy during the American Revolutionary War."
+      "desc": "James Nicholson (1737 – 2 September 1804) was an officer in the Continental Navy during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/James_Nicholson_(naval_officer)",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xjtoe/thumb200s.jpg",
+      "gender": "Male"
     },
     {
       "pid": "LD6M-K2K",
       "name": "Abraham Whipple",
-      "desc": "Commander Abraham Whipple (September 26, 1733 – May 27, 1819) was an American naval officer best known for his service in the Continental Navy during the Revolutionary War and being one of the founders of Marietta, Ohio. Born near Providence, Colony of Rhode Island, Whipple chose to be a seafarer early in his life and embarked on a career in the lucrative trade with the West Indies, working for Moses and John Brown. In the French and Indian War period, he became a privateersman and commanded privateer Game Cock from 1759 to 1760. In one six-month cruise, he captured 23 French ships."
+      "desc": "Commander Abraham Whipple (September 26, 1733 – May 27, 1819) was an American naval officer best known for his service in the Continental Navy during the Revolutionary War and being one of the founders of Marietta, Ohio. Born near Providence, Colony of Rhode Island, Whipple chose to be a seafarer early in his life and embarked on a career in the lucrative trade with the West Indies, working for Moses and John Brown. In the French and Indian War period, he became a privateersman and commanded privateer Game Cock from 1759 to 1760. In one six-month cruise, he captured 23 French ships.",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Whipple",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/90fm5/thumb200s.jpg",
+      "gender": "Male"
     }
   ]
 }

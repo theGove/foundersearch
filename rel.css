@@ -9,8 +9,8 @@ header{
     margin-top:20px;
 }
 a{
-    color:inherit;
-   text-decoration:none;
+    color:blue;
+   text-decoration:underline;
 }
 a:hover{
     color:inherit;
@@ -43,4 +43,35 @@ ul{
 }
 .related li{
     margin-bottom:20px;
+}
+
+.tree td{
+    text-align: center;
+    
+}
+.female{
+    background-color: pink;
+    border-radius: 20px;
+    padding: 0 10px
+}
+
+.male{
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 0 10px
+}
+
+.show-tree{
+    cursor:pointer;
+    color:blue;
+    text-decoration: underline;
+
+}
+.relative-header{
+    background-color: rgb(67, 86, 143);
+    color:whitesmoke;
+    font-size: larger;
+    padding-left: .5rem;
+    margin:1rem 0 .5rem 0;
+
 }
