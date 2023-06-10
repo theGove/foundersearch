@@ -86,7 +86,7 @@ async function start_me_up() {
 
 function launch_relationships(ancestor){
     //console.log("clicked", ancestor)
-    $('.relationInfo').append(`<h3 class="searchInstructions">${ancestor.name} is related to</h3><ul id="${ancestor.id}" class="related"></ul>`);
+    $('.relationInfo').append(`<div class="relative-header">${ancestor.name} is related to:</div><div id="results-${ancestor.id}"><ul id="${ancestor.id}" class="related"></ul></id>`);
     $('.noRels').show();
     find_relationships(ancestor.id)
 }

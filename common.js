@@ -147,7 +147,7 @@ async function unauthenticated_token_is_valid(){
     }
     
     //check the age of the token
-    if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36){
+    if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36000000){
         // it's been less than an hour since checking
         //console.log("less than an hour")
         return true
@@ -257,11 +257,12 @@ function show_path(span){
 }
 
 async function find_relationships(id) {
-    //console.log("find rels", id)
+    console.log("find rels", id)
     // Iterate person list
     searches_started=0
     searches_complete=0
     relatives_found=0
+    console.log("start", relatives_found)        
     
 
     let access_token=null
@@ -288,7 +289,7 @@ async function find_relationships(id) {
 
 
 
-        //console.log("key----->", key)
+        console.log("key----->", key)
         // Calculate relationship
         //console.log("source pid", id, access_token)
         const options = {headers: {Authorization: 'Bearer ' + access_token}}
@@ -298,9 +299,9 @@ async function find_relationships(id) {
 
             if(searches_complete===searches_started){
                 // we are done
-                
+                console.log("done", relatives_found)        
                 if(relatives_found===0){
-                    let message=`<h2>No Relationship found</h2><p>Well, we did not findy any relatoinships.  But don't feel too bad; here in America, we care more about what <b>you</b> do that what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
+                    let message=`<h2>No Relationship found</h2><p>Well, we did not findy any relatoinships.  But don't feel too bad; here in America, we care more about what <b>you</b> do than what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
                     let event_data = localStorage.getItem("eventData")
                     if(event_data){ 
                         event_data=JSON.parse(event_data)
@@ -308,7 +309,7 @@ async function find_relationships(id) {
                             message += event_data.notFound 
                         }
                     }
-                    $('.noRels').html(message)    
+                    $('.relationInfo').html(message)    
                     $('.searchInstructions').hide()    
                 }
             }
@@ -330,10 +331,10 @@ async function find_relationships(id) {
                 return rsp.json();
             })
             .then(async function(rsp) {
-                //console.log("---------------------------")
-                //console.log(rsp)
+                console.log("---------------------------",rsp.persons.length)
+                console.log(rsp)
+                if (rsp.persons.length === 0) return;
                 relatives_found++
-                if (rsp.persons.length == 0) return;
                 $('.noRels').hide();
 
                 // Get relationship title
