@@ -84,6 +84,7 @@ async function api(path, authenticated="either", options={method:"GET"}){
 async function get_access_token( authenticated="either"){
     //console.log("authenticated",authenticated)
     let token = null
+    
     if(authenticated===true){
         if(await logged_in()){
             token = localStorage.getItem("authenticatedToken")  
@@ -96,6 +97,8 @@ async function get_access_token( authenticated="either"){
         }else{
             token =await get_unauthenticated_token()
         }
+    }else if(authenticated){
+        token = authenticated
     }else if(authenticated===false){
         token =await get_unauthenticated_token()
     }
@@ -257,12 +260,12 @@ function show_path(span){
 }
 
 async function find_relationships(id) {
-    console.log("find rels", id)
+    //console.log("find rels", id)
     // Iterate person list
     searches_started=0
     searches_complete=0
     relatives_found=0
-    console.log("start", relatives_found)        
+    //console.log("start", relatives_found)        
     
 
     let access_token=null
@@ -289,7 +292,7 @@ async function find_relationships(id) {
 
 
 
-        console.log("key----->", key)
+        //console.log("key----->", key)
         // Calculate relationship
         //console.log("source pid", id, access_token)
         const options = {headers: {Authorization: 'Bearer ' + access_token}}
@@ -299,7 +302,7 @@ async function find_relationships(id) {
 
             if(searches_complete===searches_started){
                 // we are done
-                console.log("done", relatives_found)        
+                //console.log("done", relatives_found)        
                 if(relatives_found===0){
                     let message=`<h2>No Relationship found</h2><p>Well, we did not findy any relatoinships.  But don't feel too bad; here in America, we care more about what <b>you</b> do than what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
                     let event_data = localStorage.getItem("eventData")
@@ -331,8 +334,8 @@ async function find_relationships(id) {
                 return rsp.json();
             })
             .then(async function(rsp) {
-                console.log("---------------------------",rsp.persons.length)
-                console.log(rsp)
+                //console.log("---------------------------",rsp.persons.length)
+                //console.log(rsp)
                 if (rsp.persons.length === 0) return;
                 relatives_found++
                 $('.noRels').hide();

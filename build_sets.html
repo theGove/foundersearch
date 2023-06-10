@@ -7,11 +7,11 @@
     <script>
        const endpoint = "https://script.google.com/macros/s/AKfycbxxWX3FrfYFe_MkTF953ILf-Br_saVTheG-NQw-Olp3UWHSXbEjCryEUDoktTWJS47jpw/exec" 
         async function add_images(set){
-            console.log("set", set)
+            //console.log("set", set)
             let counter = 1
             for(const key of Object.keys(set.people)){
                 tag("counter").innerHTML = counter++
-                console.log(counter)
+                //console.log(counter)
                 const person = set.people[key]
                 //console.log(person)
                 try{
@@ -23,7 +23,7 @@
                         set.people[key].imageURL=rsp.url
                     }
                 }catch(e){
-                    console.log("error fetching", e)
+                    //console.log("error fetching", e)
                 }
                     
                 rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}`,{headers:{authorization:"Bearer " + localStorage.getItem("authenticatedToken")}})
@@ -53,11 +53,11 @@
         }
         function show_links(){
             const groups = JSON.parse(sessionStorage.getItem("group"))
-            console.log(groups)
+            //console.log(groups)
             const html=["<h2>Build data set</h2>"]
             for(const group of Object.values(groups)){
                 if(group.fields.shortname){
-                    console.log(group.fields.shortname)
+                    //console.log(group.fields.shortname)
                     html.push(`<a href="http://localhost:5501/build_sets.html?set=${group.fields.shortname}&load=false">${group.fields.shortname}</a><br>`)
                 }
             }
@@ -75,7 +75,7 @@
 
             
             for(const [id, grp] of Object.entries(group)){
-              console.log(grp.fields.shortname,set_name)  
+              //console.log(grp.fields.shortname,set_name)  
               if(grp.fields.shortname===set_name){   
                 let image_url=grp.fields.image_url
                 if(!image_url){
@@ -93,10 +93,10 @@
                 const data = grp.fields
                 //console.log(data.group_name, grp.id, data.members.length)
                 for(const member of data.members){
-                    console.log("member",member)
+                    //console.log("member",member)
                     if(person[member].fields.pid && pid[person[member].fields.pid[0]].fields.pid && pid[person[member].fields.pid[0]].fields.pid.toUpperCase()!=="SKIP"){
 
-                        console.log("member", pid[person[member].fields.pid[0]].fields.pid)
+                        //console.log("member", pid[person[member].fields.pid[0]].fields.pid)
 
                         report.people.push({
                             pid: pid[person[member].fields.pid[0]].fields.pid,

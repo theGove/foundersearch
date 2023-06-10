@@ -153,10 +153,13 @@ async function start_me_up() {
         if ($("[name='deathLikePlace']").val() != "") URL += "&q.deathLikePlace=" + $("[name='deathLikePlace']").val();
 
 
-        const autheticated=await logged_in()
+        let  autheticated=false
+        if(await logged_in()){
+            autheticated = localStorage.getItem("authenticatedToken")
+        }
 
         const search=await api('platform/tree/search?' + URL + "&count=20",autheticated, {headers:{Accept: "application/json"}})
-        console.log("search", search)
+        //console.log("search", search)
         for (let i = 0; i < search.entries.length; i++) {
             p = search.entries[i].content.gedcomx.persons[0].display;
             p.id = search.entries[i].content.gedcomx.persons[0].id;
@@ -216,8 +219,10 @@ async function place_ancestor(p, ancestors, authenticated){
     if (p.gender == "Female") portrait = "/images/female.svg";
 
     let image_clause = null
-    if(authenticated){
+    if(authenticated===true){
        image_clause = `<div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${access_token}"></div>`
+    }else if(authenticated){
+        image_clause = `<div><img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${authenticated}"></div>`
     }else{
         image_clause = `<div><img class="portrait" src="${portrait}"></div>`
     }
