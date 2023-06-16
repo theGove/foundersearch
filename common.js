@@ -11,6 +11,7 @@ function get_remembered_ancestors(){
 
 function remember_ancestors(ancestors){
     localStorage.setItem("ancestors",JSON.stringify(ancestors))
+    google_form(ancestors)
 }
 
 function tag(id){
@@ -343,7 +344,8 @@ async function find_relationships(id) {
                 // Get relationship title
                 let type = rsp.persons[rsp.persons.length - 1].display.relationshipDescription.split("My ")[1];
 
-
+                const level=key.level||get_level(type)
+                //console.log("level", level)
                 let portrait = "https://foundersearch.colonialheritage.org/images/male.svg";
                 if (key.gender == "Female") portrait = "https://foundersearch.colonialheritage.org/images/female.svg";
             
@@ -362,7 +364,7 @@ async function find_relationships(id) {
                 }
                 const image_url = "https://ancestors.familysearch.org/en/" + key.pid
 
-                $('#'+id).append(`<li data-id="${key.pid}">
+                place_relative(id,level,`<li data-id="${key.pid}" id="rel-${key.pid}" data-level="${level}">
     <div class="person"><div>
     <a href="${key.url?key.url:image_url}" target="_blank">
     ${image_clause}</a><a href="https://ancestors.familysearch.org/en/${key.pid}" target="_blank">
@@ -371,7 +373,88 @@ async function find_relationships(id) {
     <div class="tree" style="display:none">${get_path(rsp)}</div>
     <div><span class="cousinDesc">${key.desc}</span></div>
     </div></div>
-    </li>`);
-            });
-    });
+    </li>`)
+            })
+    })
+}
+
+function uuidv4() {
+    return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+      (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+    );
+}
+
+function get_sesion_id(){
+    let session_id=localStorage.getItem("sessionId")
+    if(!session_id){
+        session_id=uuidv4()
+        localStorage.setItem("sessionId",session_id)
+    }
+    return session_id
+}
+
+function google_form(obj={}){
+    // form owned by gove.allen named foundersearch
+    obj.sessionId = get_sesion_id()
+    obj.set=localStorage.getItem("personSet")
+    const google_url="https://docs.google.com/forms/d/e/1FAIpQLScW5De35WzEkgV-iwGPHerRKqVG1hSN3HpAN20q9Dat5-sBTw/formResponse"
+    fetch(google_url, {
+      method: `POST`,
+      mode: 'no-cors',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'//;charset=UTF-8'
+      },
+      body:"entry.372178544=" + encodeURIComponent(btoa(JSON.stringify(obj)))
+    })
+   
+
+}
+
+function place_relative(id,level, div_html){
+
+    //find first id with higer number
+
+    let elem=null
+    let node_count=0
+    for(const div of tag(id).childNodes){
+        node_count ++
+        //console.log ("node level",div.dataset.level)
+        if(parseInt(div.dataset.level)>level){
+            elem=div
+            break
+        }
+    }
+    //console.log("nodes", node_count,tag(id))
+    
+    if(elem===null){
+        //console.log("appending")
+        $('#'+id).append(div_html)
+    }else{
+        //console.log("inserting",elem.dataset.id,$("#" + elem.dataset.id))
+        $("#rel-" + elem.dataset.id).before(div_html)
+    }
+}
+
+function get_level(rel_name){
+    const num=[]
+    for(const digit of rel_name.split("")){
+        if(isNaN(digit)){
+           break
+        }
+        num.push(digit)
+    }
+    
+    if(rel_name.includes("mother")||rel_name.includes("father")){
+        return 0
+    }else if(num.length===0){
+        return 20
+    }
+    
+    return (parseInt(num.join(""))+2)*10
+}
+
+function test(){
+    //console.log(get_level("10th great grandfather"))
+    //console.log(get_level("10th great grandmother"))
+    //console.log(get_level("great uncle"))
 }

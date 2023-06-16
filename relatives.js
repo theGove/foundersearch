@@ -17,7 +17,7 @@ async function start_me_up() {
 
     // remember the set
     localStorage.setItem("personSet",set)
-
+    google_form()
     if(event){
         if(!event.startsWith("http")){event = "events/"+event+".json"}
         fetch(event)

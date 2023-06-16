@@ -26,6 +26,7 @@
       "name": "Benjamin Franklin",
       "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
       "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+      "level": 1,
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg",
       "gender": "Male"
     },
@@ -196,6 +197,7 @@
       "name": "Alexander Hamilton ",
       "desc": "Alexander Hamilton January 11, 1755 or 1757 – July 12, 1804 was a Nevis-born American military officer, statesman, and Founding Father who served as the first Secretary of Treasury from 1789 to 1795 during George Washington's presidency.",
       "url": "https://en.wikipedia.org/wiki/Alexander_Hamilton",
+      "level": 2,
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wxd67/thumb200s.jpg",
       "gender": "Male"
     },
@@ -304,6 +306,7 @@
       "name": "George Washington ",
       "desc": "George Washington February 22, 1732 – December 14, 1799 was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.",
       "url": "https://en.wikipedia.org/wiki/George_Washington",
+      "level": 1,
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg",
       "gender": "Male"
     }
