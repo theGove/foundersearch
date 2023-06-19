@@ -1,0 +1,152 @@
+{
+  "title": "Women of the American Revolution",
+  "desc": "Women who played significant roles in the American Revolution",
+  "banner": "women.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recU4q2cLr1DRDvdf",
+      "pid": "MBX8-ZFV",
+      "name": "Mary Ludwig  Hays",
+      "desc": "Mary Ludwig Hays October 13, 1754 – January 22, 1832 was a woman who fought in the American War of Independence at the Battle of Monmouth. The woman behind the Molly Pitcher story is most often identified as Hays, but it is likely that the legend is an amalgam of more than one woman seen on the battlefield that day.",
+      "url": "https://en.m.wikipedia.org/wiki/Mary_Hays_(American_Revolutionary_War)",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/79wq8/thumb200s.jpg"
+    },
+    {
+      "id": "recXdufxwdhwkNWw2",
+      "pid": "MVPS-Q4H",
+      "name": "Abigail adams",
+      "desc": "Abigail Adams née Smith; November 22,  1744 – October 28, 1818 was the wife and closest advisor of John Adams, as well as the mother of John Quincy Adams. She was a founder of the United States, and was the first second lady of the United States and second first lady of the United States, although such titles were not used at the time. She and Barbara Bush are the only two women to have been married to U.S. presidents and to have been the mothers of other U.S. presidents.",
+      "url": "https://en.m.wikipedia.org/wiki/Abigail_Adams",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ky07/thumb200s.jpg"
+    },
+    {
+      "id": "recvEQAfXNhI1MeyJ",
+      "pid": "LCCP-4FV",
+      "name": "Phyllis Wheatley",
+      "desc": "Phillis Wheatley Peters, also spelled Phyllis and Wheatly c. 1753 – December 5, 1784 was an American author who is considered the first African-American author of a published book of poetry. Born in West Africa, she was kidnapped and subsequently sold into enslavement at the age of seven or eight and transported to North America, where she was bought by the Wheatley family of Boston. After she learned to read and write, they encouraged her poetry when they saw her talent.",
+      "url": "https://en.m.wikipedia.org/wiki/Phillis_Wheatley",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/iacfk/thumb200s.jpg"
+    },
+    {
+      "id": "recwh11gSS6MBzhRQ",
+      "pid": "M5BC-QBT",
+      "name": "Betsy Ross (nee Elizabeth Griscom)",
+      "desc": "Elizabeth Griscom Ross née Griscom; January 1, 1752 – January 30, 1836, also known by her second and third married names, Ashburn and Claypoole, was an American upholsterer who was credited by her relatives in 1870 with making the first official U.S. flag, accordingly known as the Betsy Ross flag. Though most historians dismiss the story, Ross family tradition holds that General George Washington, commander-in-chief of the Continental Army and two members of a congressional committee—Robert Morris and George Ross—visited Mrs. Ross in 1776. Mrs. Ross convinced George Washington to change the shape of the stars in a sketch of a flag he showed her from six-pointed to five-pointed by demonstrating that it was easier and speedier to cut the latter.",
+      "url": "https://en.m.wikipedia.org/wiki/Betsy_Ross",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lnsbj/thumb200s.jpg"
+    },
+    {
+      "id": "reczbelZXPc16Poxa",
+      "pid": "GSBL-DWL",
+      "name": "Esther de Berdt Reed",
+      "desc": "Esther de Berdt Reed October 22, 1746 – September 18, 1780 was active in the American Revolutionary War as a civic leader for soldiers' relief, who formed and led the Ladies Association of Philadelphia to provide aid for George Washington's troops during the war.",
+      "url": "https://en.m.wikipedia.org/wiki/Esther_de_Berdt_Reed",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2alhg/thumb200s.jpg"
+    },
+    {
+      "id": "recHY23fZzJrodeJO",
+      "pid": "KZWW-YXT",
+      "name": "Lydia Darragh",
+      "desc": "Lydia Darragh 1729 – December 28, 1789 was an Irish woman said to have crossed British lines during the British occupation of Philadelphia, Pennsylvania during the American Revolutionary War, delivering information to George Washington and the Continental Army that warned them of a pending British attack.",
+      "url": "https://en.m.wikipedia.org/wiki/Lydia_Darragh",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k3913/thumb200s.jpg"
+    },
+    {
+      "id": "rec6ZLQGhxf6GUsjK",
+      "pid": "LH71-XLT",
+      "name": "Deborah Sampson",
+      "desc": "Deborah Sampson Gannett, also known as Deborah Samson or Deborah Sampson, was born on December 17, 1760 in Plympton, Massachusetts. She disguised herself as a man, and served in the Continental Army under the name Robert Shirtliff – sometimes spelled Shurtleff or Shirtleff – and fought in the American Revolutionary War. She fought in the war for 17 months before her sex was revealed when she required medical treatment after contracting a fever in Philadelphia in 1783.",
+      "url": "https://en.m.wikipedia.org/wiki/Deborah_Sampson",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/c8e4j/thumb200s.jpg"
+    },
+    {
+      "id": "recah8Vas7vIlzCMX",
+      "pid": "LZDR-CQM",
+      "name": "Catherine Moore Barry",
+      "desc": "Catherine Moore Barry October 1752 – September 1823 was a heroine of the American Revolutionary War. She was the daughter of Charles and Mary Moore, and the eldest of ten children. She married Andrew Barry in 1767 at the age of 15 and lived on Walnut Grove Plantation in Roebuck, South Carolina during the 18th century. She was instrumental in helping to warn the militia of the coming British before the Battle of Cowpens in 1781. According to legend, she tied her toddler to the bedpost while she rode out to warn neighbors that the British were coming.",
+      "url": "https://en.m.wikipedia.org/wiki/Kate_Barry",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/6hby/thumb200s.jpg"
+    },
+    {
+      "id": "reccOWKbjNZPuwJxY",
+      "pid": "KNDD-GXQ",
+      "name": "Mary Ball Washington",
+      "desc": "Mary Washington née Ball; November 30, 1708 – August 26, 1789, was the second wife of Augustine Washington, a planter in Virginia, the mother-in-law of Martha Washington, the paternal grandmother of Bushrod Washington, and the mother of George Washington, the first president of the United States, and five other children. Washington lived a large part of her life in Fredericksburg, Virginia, where many monuments were erected in her honor and a university plus other public buildings bear her name.",
+      "url": "https://en.m.wikipedia.org/wiki/Mary_Ball_Washington",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b5sb/thumb200s.jpg"
+    },
+    {
+      "id": "recciGxsJrIH7JvX6",
+      "pid": "L454-TQM",
+      "name": "Lucy Flucker Knox",
+      "desc": "Lucy Flucker Knox August 2, 1756 – June 20, 1824 was an American revolutionary. She was the daughter of colonial official Thomas Flucker and Hannah Waldo, daughter of Samuel Waldo. She married Henry Knox, who became a leading officer in the Continental Army during the American Revolutionary War. Lucy accompanied Henry and lived on the military camp during the war. She accompanied Henry Knox until he retired from the army in 1794.",
+      "url": "https://en.m.wikipedia.org/wiki/Lucy_Flucker_Knox",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ma66g/thumb200s.jpg"
+    },
+    {
+      "id": "reci0Tz8CDs4pBtI1",
+      "pid": "LC9N-15S",
+      "name": "Mercy Otis Warren",
+      "desc": "Mercy Otis Warren September 25, 1728 – October 19, 1814 was an American activist poet, playwright, and pamphleteer during the American Revolution. During the years before the Revolution, she had published poems and plays that attacked royal authority in Massachusetts and urged colonists to resist British infringements on colonial rights and liberties. She was married to James Warren, who was likewise heavily active in the independence movement.",
+      "url": "https://en.m.wikipedia.org/wiki/Mercy_Otis_Warren",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hvkbk/thumb200s.jpg"
+    },
+    {
+      "id": "reci1z7CgYzSQPqUK",
+      "pid": "MZ64-19G",
+      "name": "Margaret Cochran Corbin",
+      "desc": "Margaret Cochran Corbin November 12, 1751 – January 16, 1800 was a woman who fought in the American Revolutionary War. On November 16, 1776, her husband, John Corbin, was one of some 600 American soldiers defending Fort Washington in northern Manhattan from 4,000 attacking Hessian troops under British command. Margaret, too nervous to let her husband go into battle alone, decided she wanted to go with him. Since she was a nurse, she was allowed to accompany her husband as a nurse for injured soldiers. John Corbin was on the crew of one of two cannons the defenders deployed; when he fell in action, Margaret Corbin took his place and continued to work the cannon until she too was seriously wounded.",
+      "url": "https://en.m.wikipedia.org/wiki/Margaret_Corbin",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwo8a/thumb200s.jpg"
+    },
+    {
+      "id": "recjhCJxpGnss2TCR",
+      "pid": "KNZC-6QV",
+      "name": "Martha Dandrige Curtis Washington",
+      "desc": "Martha Dandridge Custis Washington June 2, 1731 — May 22, 1802 was the wife of George Washington, the first president of the United States. Although the title was not coined until after her death, she served as the inaugural first lady of the United States, defining the role of the president's wife and setting many precedents that future first ladies would observe. During her tenure, she was referred to as \"Lady Washington\". Washington is consistently ranked in the upper half of first ladies by historians.",
+      "url": "https://en.m.wikipedia.org/wiki/Martha_Washington",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yxfr2/thumb200s.jpg"
+    },
+    {
+      "id": "reckmAKlGBCNBnbRL",
+      "pid": "L4B1-H33",
+      "name": "Sybil Ludington",
+      "desc": "Sybil or Sibbell Ludington April 5, 1761 – February 26, 1839 was an alleged heroine of the American Revolutionary War, though modern scholars dispute this. On April 26, 1777, at age 16, Ludington, the daughter of a colonel in the Colonial militia, Henry Ludington, is said to have made an all-night horseback ride 40 miles 64 km to rally militia forces in neighboring towns after the burning of Danbury, Connecticut, by British forces.",
+      "url": "https://en.wikipedia.org/wiki/Sybil_Ludington",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7fju8/thumb200s.jpg"
+    },
+    {
+      "id": "recrGj1EUuqii73CK",
+      "pid": "L4MG-689",
+      "name": "Sarah Bradlee Fulton",
+      "desc": "Sarah Bradlee Fulton December 24, 1740, Dorchester - November 9, 1835, Medford was an active participant of the Revolutionary War on the American side. A tablet stone was dedicated to her memory at the Salem Street Burying Ground in Medford, Massachusetts in 1900.",
+      "url": "https://en.m.wikipedia.org/wiki/Sarah_Bradlee_Fulton",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/84ml6/thumb200s.jpg"
+    },
+    {
+      "id": "recr26395LvfnPhpb",
+      "pid": "K8F7-BNJ",
+      "name": "Sally Kellogg",
+      "url": "https://static1.squarespace.com/static/5e7a0da508e4e2019ee23004/t/5eaacc0446dc317f0140b633/1588251652557/04-16-20+Addison+Independent%2C+Sally+Markham%2C+Remarkable+Women+Series.pdf",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9s759/thumb200s.jpg"
+    }
+  ]
+}

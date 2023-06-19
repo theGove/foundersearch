@@ -1,16 +1,17 @@
 {
   "title": "Bakers",
-  "desc": "There is only one baker to search for at the moment.  His name is Christopher Ludick.  He was the baker general for the Continental Army.  Set's see if you are related.",
+  "desc": "There is only one baker to search for at the moment.  His name is Christopher Ludwick.  He was the baker general for the Continental Army.  Set's see if you are related.",
   "banner": "baker.png",
   "backgroundColor": "#fff",
   "textColor": "#000",
   "people": [
     {
+      "id": "recRBayyonDCVyY5z",
       "pid": "KZD8-HKS",
       "name": "Christopher Ludwick",
       "url": "https://en.wikipedia.org/wiki/Christopher_Ludwick",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uhnsk/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uhnsk/thumb200s.jpg"
     }
   ]
 }

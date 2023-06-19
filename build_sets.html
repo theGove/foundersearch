@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-       const endpoint = "https://script.google.com/macros/s/AKfycbxxWX3FrfYFe_MkTF953ILf-Br_saVTheG-NQw-Olp3UWHSXbEjCryEUDoktTWJS47jpw/exec" 
+    <script>//google apps script is airtable family search owned b gove.allem
+       const endpoint = "https://script.google.com/macros/s/AKfycbzJBgUvYmqiYuMrpSyJYc1RwuH8ltn-5v4TxicOSKivkyEFlvprfj6pJsHeBUU0-12kaQ/exec" 
         async function add_images(set){
             //console.log("set", set)
             let counter = 1
@@ -14,29 +14,50 @@
                 //console.log(counter)
                 const person = set.people[key]
                 //console.log(person)
-                try{
-                    let rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}/portrait?default=https://foundersearch.colonialheritage.org/images/male.svg&access_token=` + localStorage.getItem("authenticatedToken"))
-                    tag("output").append(rsp.url + "\n")
-                    if(!rsp.url.includes(localStorage.getItem("authenticatedToken")) &&
-                    !rsp.url.includes("foundersearch.colonialheritage.org")
-                    ){
-                        set.people[key].imageURL=rsp.url
+                if(!person.gender){
+                    try{
+                        let rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}/portrait?default=https://foundersearch.colonialheritage.org/images/male.svg&access_token=` + localStorage.getItem("authenticatedToken"))
+                        tag("output").append(rsp.url + "\n")
+                        if(!rsp.url.includes(localStorage.getItem("authenticatedToken")) &&
+                        !rsp.url.includes("foundersearch.colonialheritage.org")
+                        ){
+                            set.people[key].imageURL=rsp.url
+                        }
+                    }catch(e){
+                        //console.log("error fetching", e)
                     }
-                }catch(e){
-                    //console.log("error fetching", e)
-                }
-                    
-                rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}`,{headers:{authorization:"Bearer " + localStorage.getItem("authenticatedToken")}})
-                if(rsp.status===401){
-                    return false
-                }
-                let text = await rsp.text()
-                if(text.includes("<gender>Female</gender>")){
-                    set.people[key].gender="Female"
-                }else{
-                    set.people[key].gender="Male"
-                }
+                        
+                    rsp=await fetch(`https://api.familysearch.org/platform/tree/persons/${person.pid}`,{headers:{authorization:"Bearer " + localStorage.getItem("authenticatedToken")}})
+                    if(rsp.status===401){
+                        return false
+                    }
+                    let text = await rsp.text()
+                    if(text.includes("<gender>Female</gender>")){
+                        set.people[key].gender="Female"
+                    }else{
+                        set.people[key].gender="Male"
+                    }
 
+                    console.log("person",set.people[key])
+                    const rec={id: set.people[key].id,
+                            fields: {
+                            }
+                        }
+                    if(set.people[key].imageURL){
+                        rec.fields.image_url=set.people[key].imageURL
+                    }        
+                    if(set.people[key].gender){
+                        rec.fields.gender=set.people[key].gender
+                    }        
+
+                    console.log("record",JSON.stringify(rec,null,2))
+                    const url= endpoint+"?mode=update&data=" + encodeURIComponent(btoa(JSON.stringify(rec)))
+                    //console.log(url)
+                    const response  = await fetch(url)
+                    const result = await response.text();
+                    console.log("result",result)
+                    
+                }
             }
             return set
             //document.body.innerHTML = "<pre>" + JSON.stringify(set,null,2) + "</pre>"
@@ -94,16 +115,19 @@
                 //console.log(data.group_name, grp.id, data.members.length)
                 for(const member of data.members){
                     //console.log("member",member)
-                    if(person[member].fields.pid && pid[person[member].fields.pid[0]].fields.pid && pid[person[member].fields.pid[0]].fields.pid.toUpperCase()!=="SKIP"){
+                    if(person[member].fields.pid && pid[person[member].fields.pid[0]].fields.pid && pid[person[member].fields.pid[0]].fields.pid.includes("-")){
 
                         //console.log("member", pid[person[member].fields.pid[0]].fields.pid)
 
                         report.people.push({
+                            id:person[member].id,
                             pid: pid[person[member].fields.pid[0]].fields.pid,
                             name: person[member].fields.full_name,
                             desc: person[member].fields.blurb,
                             url: person[member].fields.url,
                             level:person[member].fields.level,
+                            gender:person[member].fields.gender,
+                            imageURL:person[member].fields.image_url,
                         })
                         //console.log(person[member].fields.full_name, pid[person[member].fields.pid].fields.pid, person[member].fields.blurb)
                     }
@@ -141,7 +165,7 @@
 
         async function get_table(tablename){
             const url= endpoint+"?mode=table&name=" + tablename
-            //console.log(url)
+            console.log("table",url)
             const response  = await fetch(url)
             const text = await response.text();
             const table = {}

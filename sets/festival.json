@@ -1,0 +1,19 @@
+{
+  "title": "At Festival",
+  "desc": "These are the people whom you can meet here at the fesitval",
+  "banner": "festival.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recaxAA97GxiBHufK",
+      "pid": "LJLQ-WRC",
+      "name": "Benjamin Franklin",
+      "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg"
+    }
+  ]
+}

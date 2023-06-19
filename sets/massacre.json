@@ -1,0 +1,124 @@
+{
+  "title": "Boston Massacre",
+  "desc": "People who were directly involved with the Boston Massacre and its trial.",
+  "banner": "massacre.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recPFCcJDxF9HeQrL",
+      "pid": "LZP1-7YB",
+      "name": "Samuel Adams",
+      "desc": "Samuel Adams September 27  1722 – October 2, 1803 was an American statesman, political philosopher, and a Founding Father of the United States. He was a politician in colonial Massachusetts, a leader of the movement that became the American Revolution, and one of the architects of the principles of American republicanism that shaped the political culture of the United States. He was a second cousin to his fellow Founding Father, President John Adams.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Adams",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dlvpe/thumb200s.jpg"
+    },
+    {
+      "id": "recWFtUBa6uCkD4bb",
+      "pid": "LVG7-2CJ",
+      "name": "Josiah Quincy II",
+      "desc": "Josiah Quincy II /ˈkwɪnzi/; February 23, 1744 – April 26, 1775 was an American lawyer and patriot. He was a principal spokesman for the Sons of Liberty in Boston prior to the Revolution and was John Adams' co-counsel during the trials of Captain Thomas Preston and the soldiers involved in the Boston Massacre.",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Quincy_II",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pb1j3/thumb200s.jpg"
+    },
+    {
+      "id": "recxMXi3SDZWYquzW",
+      "pid": "MKNQ-TSF",
+      "name": "John Adams",
+      "desc": "John Adams October 30, 1735 – July 4, 1826 was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States from 1797 to 1801.",
+      "url": "https://en.wikipedia.org/wiki/John_Adams",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uan/thumb200s.jpg"
+    },
+    {
+      "id": "recQXdHBLHDRNhvPA",
+      "pid": "L445-J77",
+      "name": "Thomas Hutchinson",
+      "desc": "businessman, historian, and a prominent Loyalist politician of the Province of Massachusetts Bay in the years before the American Revolution. He has been referred to as \"the most important figure on the loyalist side in pre-Revolutionary Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hutchinson_(governor)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f71da/thumb200s.jpg"
+    },
+    {
+      "id": "recIDQMN3z16QwxUw",
+      "pid": "LVN9-NPL",
+      "name": "John Hancock",
+      "desc": "John Hancock January 23, 1737 – October 8, 1793 was an American Founding Father, merchant, statesman, and prominent Patriot of the American Revolution. He served as president of the Second Continental Congress and was the first and third Governor of the Commonwealth of Massachusetts. He is remembered for his large and stylish signature on the United States Declaration of Independence, so much so that the term John Hancock or Hancock has become a nickname in the United States for one's signature.",
+      "url": "https://en.wikipedia.org/wiki/John_Hancock",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ij841/thumb200s.jpg"
+    },
+    {
+      "id": "recqWen0jk3zV2Ed3",
+      "pid": "LH19-XQY",
+      "name": "Samuel Gray",
+      "desc": "Samuel was killed in the Boston Massacre of 1770. Samuel was the first man fired upon by the British during the massacre. He was killed by Private Matthew Killroy after Samuel cried, \"God damn you, don't fire!\" as the violence started.",
+      "url": "http://www.bostonmassacre.net/players/samuel-gray.htm",
+      "gender": "Male"
+    },
+    {
+      "id": "recsNCp1SKxXZkbdh",
+      "pid": "LCHX-W2F",
+      "name": "Crispus Attucks",
+      "desc": "A victim of the Boston Massacre, Crispus Attucks was a sailor mulatto (African American and Native American descent), died on the spot",
+      "url": "http://www.bostonmassacre.net/players/crispus-attucks.htm",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/q1zo6/thumb200s.jpg"
+    },
+    {
+      "id": "rec0fmQMwgN59mbDn",
+      "pid": "2HK1-3MC",
+      "name": "James Caldwell",
+      "desc": "A victim of the Boston Massacre, A mate from the brig “Hawk”, was 17 years old when he was shot",
+      "url": "http://www.bostonmassacre.net/players/james-caldwell.htm",
+      "gender": "Male"
+    },
+    {
+      "id": "recJU1ebsTCZiXQ70",
+      "pid": "LVH4-P2L",
+      "name": "Samuel Maverick",
+      "desc": "A victim of the Boston Massacre, a youth of seventeen years of age mortally wounded, he died the next morning.",
+      "url": "http://www.bostonmassacre.net/players/Samuel-Maverick.htm",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7u3ti/thumb200s.jpg"
+    },
+    {
+      "id": "recizlHDRy7Me2iVK",
+      "pid": "L7PZ-D6W",
+      "name": "Thomas Preston",
+      "desc": "Thomas Preston was the captain of the 14th regiment, the Officer of the Day who commanded the British soldiers outside of the Customs House.",
+      "url": "http://www.bostonmassacre.net/players/preston-biography.htm",
+      "gender": "Male"
+    },
+    {
+      "id": "recwbktqnqdWfi82D",
+      "pid": "LX35-1F5",
+      "name": "Hugh Montgomery",
+      "desc": "Private Hugh Montgomery was the first British soldier to fire in the Boston Massacre. He was also identified by many witnesses in the trial as the man who killed Crispus Attucks.",
+      "url": "http://www.bostonmassacre.net/players/Hugh-Montgomery.htm",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mt68c/thumb200s.jpg"
+    },
+    {
+      "id": "recdeNPZTMxqD0wwj",
+      "pid": "97DJ-NST",
+      "name": "Samuel Quincy",
+      "desc": "By 1770 Quincy was Solicitor for the Crown – in effect, the King's attorney for the Massachusetts colony – and when the firing began at Lexington and Concord in 1775, his father, brothers and sister all supported the rebels, whose ranks included Adams and Hancock but he remained loyual to the King, leaving Boston for good when the British forces evacuated in March, 1776. He was one of the prosecutors in the Boston Massacre Trials",
+      "url": "https://www.geni.com/people/Samuel-Quincy/6000000000333390310",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ovauc/thumb200s.jpg"
+    },
+    {
+      "id": "recS9V42kSgk8n3Bj",
+      "pid": "LHVX-16Z",
+      "name": "Robert Treat Paine",
+      "desc": "Robert Treat Paine (March 11, 1731 – May 11, 1814) was a lawyer, politician and Founding Father of the United States who signed the Continental Association and Declaration of Independence as a representative of Massachusetts. He served as the state's first attorney general and as an associate justice of the Massachusetts Supreme Judicial Court, the state's highest court.  He was one of the prosecutors in the Boston Massacre Trials",
+      "url": "https://en.wikipedia.org/wiki/Robert_Treat_Paine",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xhih7/thumb200s.jpg"
+    }
+  ]
+}

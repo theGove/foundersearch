@@ -1,27 +1,31 @@
 {
   "title": "Colonial Printers",
-  "desc": "A group of Colonial Printers",
+  "desc": "Printers and publishers in the 13 British colonies in North America",
   "banner": "printers.png",
   "backgroundColor": "#fff",
   "textColor": "#000",
   "people": [
     {
+      "id": "recaxAA97GxiBHufK",
       "pid": "LJLQ-WRC",
       "name": "Benjamin Franklin",
       "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
       "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg",
-      "gender": "Male"
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg"
     },
     {
+      "id": "recy0Y53GyuBNxxLt",
       "pid": "K83J-FTV",
       "name": "Jane Aitken",
       "desc": "Jane Aitken 1764–1832 was an American printer and publisher known for printing Charles Thomson's translation of the Septuagint into English, as well as Rebecca Rush's novel Kelroy. She was the first printer to issue a Philadelphia census directory containing a section devoted to \"persons of colour\".",
       "url": "https://en.wikipedia.org/wiki/Jane_Aitken",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/226kj/thumb200s.jpg",
-      "gender": "Female"
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/226kj/thumb200s.jpg"
     },
     {
+      "id": "rec3knK0cQKaWUPVP",
       "pid": "KH5Y-SL3",
       "name": "Robert Aitken",
       "desc": "Robert Aitken 1734–1802 was an Early American publisher and printer in Philadelphia and the first to publish an English language Bible in the newly formed United States. He was born in Dalkeith, Scotland.",
@@ -29,6 +33,7 @@
       "gender": "Male"
     },
     {
+      "id": "recv5NfppK31avqU2",
       "pid": "M2CH-9S6",
       "name": "Francis Bailey",
       "desc": "Francis Bailey September 3, 1744 – November 1, 1817 was an early American printer, publisher and journalist in Pennsylvania from 1771 to 1807.",
@@ -36,6 +41,7 @@
       "gender": "Male"
     },
     {
+      "id": "recj3ctWkFYKli6ya",
       "pid": "KZSV-YBX",
       "name": "Andrew Bradford",
       "desc": "Andrew Bradford 1686 – November 24, 1742 was an early American printer in colonial Philadelphia. He published the first newspaper in Philadelphia, The American Weekly Mercury, beginning in 1719, as well as the first magazine in America in 1741.",
@@ -43,22 +49,25 @@
       "gender": "Male"
     },
     {
+      "id": "recYY5YDcgaiDgiJq",
       "pid": "2Z39-VCH",
       "name": "William Bradford",
       "desc": "William Bradford May 20, 1663 – May 23, 1752 was an early American colonial printer and publisher in British America. Bradford is best known for establishing the first printing press in the Middle colonies of the Thirteen Colonies, founding the first press in Pennsylvania in 1685 and the first press in New York in 1693.",
       "url": "https://en.wikipedia.org/wiki/William_Bradford_(printer,_born_1663)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hbm7/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hbm7/thumb200s.jpg"
     },
     {
+      "id": "recCF320oKNmmcfxN",
       "pid": "2Z98-PBT",
       "name": "William Bradford",
       "desc": "William Bradford 1719 – September 25, 1791 was a printer, soldier, and leader during the American Revolution from Philadelphia.",
       "url": "https://en.wikipedia.org/wiki/William_Bradford_(printer,_born_1719)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/3o3f8/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/3o3f8/thumb200s.jpg"
     },
     {
+      "id": "recKMjTsRGBnx3BGQ",
       "pid": "9JW2-3TB",
       "name": "John Campbell",
       "desc": "John Campbell 1653 – March 4, 1728 was an early American newspaper publisher and editor and Postmaster of Boston. He founded the first regularly published newspaper in British America, The Boston News-Letter.",
@@ -66,14 +75,16 @@
       "gender": "Male"
     },
     {
+      "id": "recWo7pOVcy3hJaBT",
       "pid": "9X5V-YQL",
       "name": "Mathew Carey",
       "desc": "Mathew Carey January 28, 1760 – September 16, 1839 was an Irish-born American publisher and economist who lived and worked in Philadelphia, Pennsylvania. He was the father of economist Henry Charles Carey.",
       "url": "https://en.wikipedia.org/wiki/Mathew_Carey",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/i4sbf/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/i4sbf/thumb200s.jpg"
     },
     {
+      "id": "rec6TCjGCIMqIJiqi",
       "pid": "KN35-289",
       "name": "John Carter",
       "desc": "John Carter July 21, 1745 – August 19, 1814 was an early American printer, newspaper publisher, and postmaster of Providence, Rhode Island. Carter entered the printing profession as an apprentice of Benjamin Franklin while living in Philadelphia. After he entered into a partnership and ran The Providence Gazette, which he eventually purchased and ran on his own up until the year of his death.",
@@ -81,6 +92,7 @@
       "gender": "Male"
     },
     {
+      "id": "recqhZBzrMABWgrwI",
       "pid": "LJGK-8JC",
       "name": "Francis Childs",
       "desc": "Francis Childs 1763–1830 was an American publisher and printer of The New York Daily Advertiser, founded on Thursday, March 1, 1785, who went on to be one of the printers for the newly established United States government. Childs, together with John Swaine, both established printers in New York City, printed the laws of the United States, beginning in 1789 shortly after the Constitution was ratified.",
@@ -88,21 +100,25 @@
       "gender": "Male"
     },
     {
+      "id": "recV5jlAvP8kgJ7yW",
       "pid": "LWYC-2B8",
       "name": "James Davis",
       "desc": "James Davis October 21, 1721–1785 was an early American printer and the first printer and first postmaster of the colony of North Carolina. He was also the founder and printer of the North-Carolina Gazette, North Carolina colony's first newspaper.",
       "url": "https://en.wikipedia.org/wiki/James_Davis_(printer)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/e7uy3/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/e7uy3/thumb200s.jpg"
     },
     {
+      "id": "recgSpYNbjxlUDq9v",
       "pid": "9KBK-86J",
       "name": "Gregory Dexter  ",
       "desc": "Gregory Dexter 1610 – c. 1700 was a renowned printer of important and controversial books and pamphlets in London. In New England, he assumed various roles including serving as a consultant to printers, a Baptist minister, an owner of a limestone quarry, and a political figure elected as president of the combined towns of Providence and Warwick in colonial Rhode Island.",
       "url": "https://en.wikipedia.org/wiki/Gregory_Dexter",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f1237/thumb200s.jpg"
     },
     {
+      "id": "recul1mFk3iTgWrQD",
       "pid": "KZQ9-WK9",
       "name": "Thomas Dobson",
       "desc": "Thomas Dobson 1751 near Edinburgh, Scotland – 1823 in Philadelphia, Pennsylvania was a master printer most famous for having published the earliest American version of the Encyclopædia Britannica, and the first in the United States to publish a complete Hebrew Bible.",
@@ -110,6 +126,16 @@
       "gender": "Male"
     },
     {
+      "id": "rec97hLQq27tE9l8a",
+      "pid": "LW46-BB2",
+      "name": "John Dunlap  ",
+      "desc": "John Dunlap 1747 – 27 November 1812 was an early American printer who emigrated from Ireland and who printed the first copies of the United States Declaration of Independence and was one of the most successful Irish/American printers of his era. He served in the Continental Army under George Washington during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/John_Dunlap",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/psja4/thumb200s.jpg"
+    },
+    {
+      "id": "recEPebpKRGE47DLw",
       "pid": "LHVG-VCP",
       "name": "Benjamin Edes  ",
       "desc": "Benjamin Edes October 15, 1732 – December 11, 1803 was an early American printer, publisher, newspaper journalist and a revolutionary advocate before and during the American Revolution. He is best known, along with John Gill, as the publisher of the Boston Gazette, a colonial newspaper which sparked and financed the Boston Tea Party and was influential during the American Revolutionary War.",
@@ -117,6 +143,7 @@
       "gender": "Male"
     },
     {
+      "id": "rec54uTP6Mt2iLn86",
       "pid": "LHXZ-GJ3",
       "name": "John Fenno  ",
       "desc": "John Fenno Aug. 12, 1751 O.S. – Sept. 14, 1798 was a Federalist Party editor among early American publishers and major figure in the history of American newspapers. His Gazette of the United States played a major role in shaping the beginnings of party politics in the United States in the 1790s.",
@@ -124,6 +151,7 @@
       "gender": "Male"
     },
     {
+      "id": "rechDAyr2qLeLXogX",
       "pid": "LCCH-747",
       "name": "Daniel Fowle",
       "desc": "Daniel Fowle c. 1715 – June 1787 was a colonial American printer and publisher before and during the American Revolution, and the founder of The New Hampshire Gazette. He printed Samuel Adams' newspaper, The Independent Advertiser. He was jailed for printing a damaging account on the conduct of various Massachusetts representatives and after his trial, he lost his license to print.",
@@ -131,14 +159,16 @@
       "gender": "Male"
     },
     {
+      "id": "recqPfXG2P1FN0NOc",
       "pid": "LRMH-SJB",
       "name": "James Franklin",
       "desc": "James Franklin February 4, 1697 in Boston – February 4, 1735 in Newport, Rhode Island was an early American printer, publisher and author of newspapers and almanacs in the American colonies. James published the New England Courant, one of the oldest and the first truly independent American newspapers, and the short lived Rhode Island Gazette.",
       "url": "https://en.wikipedia.org/wiki/James_Franklin_(printer)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8tpfj/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8tpfj/thumb200s.jpg"
     },
     {
+      "id": "recAfkjWZuh6hAVae",
       "pid": "KHQ2-11L",
       "name": "Philip Freneau  ",
       "desc": "Philip Morin Freneau January 2, 1752 – December 18, 1832 was an American poet, nationalist, polemicist, sea captain and early American newspaper editor sometimes called the \"Poet of the American Revolution\". Through his newspaper, the National Gazette, he was a strong critic of George Washington and a proponent of Jeffersonian policies.",
@@ -146,14 +176,16 @@
       "gender": "Male"
     },
     {
+      "id": "recbmd6l6JGs6cguy",
       "pid": "K4ZT-36V",
       "name": "Hugh Gaine",
       "desc": "Hugh Gaine c. 1726 – April 27, 1807 was an 18th-century early American printer, newspaper publisher and bookseller. He founded and was printer of The New York Mercury and the New York Royal Gazette. As a printer and journalist Gaine remained neutral when the idea of American independence was at issue, which became a source of trouble for him at times. Subsequently figures like Philip Freneau, a Revolutionary poet, had very little affection for Gaine, while some historians question his loyalties. During his time in New York City Gaine's printing business became the most prolific, lasting more than forty years.",
       "url": "https://en.wikipedia.org/wiki/Hugh_Gaine",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mg513/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mg513/thumb200s.jpg"
     },
     {
+      "id": "recgl8L85pcvWYeOF",
       "pid": "M2W8-X6T",
       "name": "Sarah Updike Goddard  ",
       "desc": "Sarah Updike Goddard c. 1701—January 5, 1770 was an early American printer, as well as a co-founder and publisher of the Providence Gazette and Country Journal, the first newspaper founded in Providence, Rhode Island. She worked closely with her son William and daughter Mary Katherine, who both also became printers and publishers, forming one of the earliest influential publishing dynasties in the American colonies.",
@@ -161,38 +193,43 @@
       "gender": "Female"
     },
     {
+      "id": "recbLiAFR2PoHxUGh",
       "pid": "2MGY-4V5",
       "name": "Mary Katherine Goddard  ",
       "desc": "Mary Katharine Goddard June 16, 1738 – August 12, 1816 was an early American publisher, and the postmaster of the Baltimore Post Office from 1775 to 1789. She was the older sister of William Goddard, also a publisher and printer. She was the second printer to print the Declaration of Independence. Her copy, the Goddard Broadside, was commissioned by Congress in 1777, and was the first to include the names of the signatories. In 1998, Goddard was inducted into the Maryland Women's Hall of Fame.",
       "url": "https://en.wikipedia.org/wiki/Mary_Katherine_Goddard",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwxmh/thumb200s.jpg",
-      "gender": "Female"
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwxmh/thumb200s.jpg"
     },
     {
+      "id": "recoLpzZqNLkIvENe",
       "pid": "L4SY-5V8",
       "name": "William Goddard",
       "desc": "William Goddard October 10, 1740 – December 23, 1817 was an early American patriot, publisher, printer and postal inspector. Born in New London, Connecticut, Goddard lived through the American Revolutionary era, during which he opposed British rule of the colonies through his actions and publications. He was a major figure in the development of the colonial postal system, which became the U.S. Post Office after the American Revolution.",
       "url": "https://en.wikipedia.org/wiki/William_Goddard_(publisher)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s2i78/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s2i78/thumb200s.jpg"
     },
     {
+      "id": "recuyGtbft3bY8vpb",
       "pid": "MKZV-4FG",
       "name": "Bartholomew Green Sr.",
       "desc": "Bartholomew Green October 12, 1666 – December 28, 1732 was a colonial printer at Boston and later the publisher of The Boston News-Letter. He was born in Cambridge, Massachusetts.",
       "url": "https://en.wikipedia.org/wiki/Bartholomew_Green_Sr._(printer)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/43hlc/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/43hlc/thumb200s.jpg"
     },
     {
+      "id": "recdpwFElUyGe2rdw",
       "pid": "LDTM-HSS",
       "name": "Samuel Green",
       "desc": "Samuel Green 1615 – January 1, 1702 was an early American printer, the first of several printers from the Green family who followed in his footsteps. One of Green's major accomplishments as a printer was the Eliot Indian Bible, translated by the missionary John Eliot, which became the first Bible to be printed in British America in 1663",
       "url": "https://en.wikipedia.org/wiki/Samuel_Green_(printer)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/od53c/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/od53c/thumb200s.jpg"
     },
     {
+      "id": "recudQPxMyRnAqxAT",
       "pid": "LHV1-STZ",
       "name": "Jonas Green",
       "desc": "Jonas Green died 1767 was a colonial American printer and newspaper publisher together with his wife Anne Catherine Hoof Green in Maryland. He was a strong opponent of The Stamp Act.",
@@ -200,6 +237,7 @@
       "gender": "Male"
     },
     {
+      "id": "recfugAycF6UQEnQg",
       "pid": "MV1X-YKZ",
       "name": "David Hall",
       "desc": "David Hall 1714 – December 24, 1772 was a British printer who immigrated from Scotland to America and became an early American printer, publisher and business partner with Benjamin Franklin in Philadelphia. He eventually took over Franklin's printing business of producing official documents for the colonial province of Pennsylvania and that of publishing The Pennsylvania Gazette newspaper that Franklin had acquired in 1729.",
@@ -207,6 +245,7 @@
       "gender": "Male"
     },
     {
+      "id": "rectjjh2qjrcnvMqY",
       "pid": "LKFV-GB6",
       "name": "Nicholas Hasselbach  ",
       "desc": "Nicholas Hasselbach c. 1728 – 1769 was a German-American printer, part of a mass migration from Germany who emigrated to Philadelphia in the mid-18th century. He operated a paper mill near Philadelphia, after which he removed to Baltimore, Maryland, where he established that city's first printing press. He was one of the few German speaking printers who that wanted to print religious literature in German. Hasselbach died unexpectedly as a relatively young man, leaving only one known example of his printing, a small book, now owned by a private collector.",
@@ -214,6 +253,7 @@
       "gender": "Male"
     },
     {
+      "id": "recTEUBQv3ksSoWZo",
       "pid": "KV2Y-CKF",
       "name": "Anthony Haswell",
       "desc": "Anthony Haswell 6 April 1756 – 26 May 1816 was an English immigrant to New England, where he became a newspaper, almanac, and book publisher, the Postmaster General of Vermont and one of the Jeffersonian printers imprisoned under the Sedition Act of 1798.",
@@ -221,6 +261,7 @@
       "gender": "Male"
     },
     {
+      "id": "rec47homRaFwGoJn2",
       "pid": "MKWT-PQC",
       "name": "Daniel Henchman",
       "desc": "Daniel Henchman January 21, 1689 – February 25, 1761 was a renowned American publisher and bookseller in 18th-century colonial Boston. Aside from his mainstay of publishing, printing, and bookselling, he was involved in a variety of mercantile pursuits. He was also very involved in Boston's civic matters and gave generously to the poor fund through his church. He was also an officer in the Boston militia regiment. Primarily through Henchman's efforts, the first paper mill to appear in New England was built in Massachusetts. Some historians consider Henchman to be the most prominent publisher and bookseller in pre-Revolutionary New England.",
@@ -228,6 +269,7 @@
       "gender": "Male"
     },
     {
+      "id": "rec1uR3xwqSF1TvCs",
       "pid": "LZR7-GDC",
       "name": "John Holt",
       "desc": "John Holt 1721—1784 was a colonial American newspaper publisher, printer, postmaster, and mayor of Williamsburg, Virginia, United States. He was involved with publishing the Connecticut Gazette, the New York Gazette, and the New-York Journal newspapers. He worked with Benjamin Franklin, the prominent publisher James Parker, and Founding Father Samuel Adams.",
@@ -235,6 +277,7 @@
       "gender": "Male"
     },
     {
+      "id": "reclQFPTIbrFf65ns",
       "pid": "KH7J-KQF",
       "name": "James Humphreys",
       "desc": "James Humphreys January 15, 1748 – February 2, 1810 was a printer, publisher, merchant and politician in Nova Scotia and Pennsylvania. He represented Shelburne County in the Nova Scotia House of Assembly from 1793 to 1796.",
@@ -242,6 +285,7 @@
       "gender": "Male"
     },
     {
+      "id": "recTUPByqCPDSWSWm",
       "pid": "LHH6-4M9",
       "name": "Samuel Kneeland",
       "desc": "Samuel Kneeland c.1696–1769 was an American printer and publisher of The Boston Gazette and Weekly Journal. Kneeland obtained much of his work printing laws and other official documents for the Province of Massachusetts Bay colonial government for about two decades. He printed the first Bible in the English language ever produced in the American colonies, along with many other religious and spiritual works, including the Book of Psalms.",
@@ -249,6 +293,7 @@
       "gender": "Male"
     },
     {
+      "id": "recNY6jWuDFMwwPV4",
       "pid": "KLLX-1TT",
       "name": "Samuel Loudon  ",
       "desc": "Samuel Loudon 1727–1813 was a colonial American printer, publisher and merchant who emigrated from Ireland some time prior to 1753. Loudon founded The New-York Packet and The American Advertiser and became the postmaster at New York State's first post office in Fishkill, New York. During the American Revolution he became the official printer of New York State and printed its first Constitution, laws, acts and other official documents, while also taking on some private commissions.",
@@ -256,6 +301,7 @@
       "gender": "Male"
     },
     {
+      "id": "recHwEmt5iUWDApkM",
       "pid": "KZ48-S89",
       "name": "James Parker",
       "desc": "Parker was in journalism in the colonies of New Jersey, New York, and Connecticut. He had several printing businesses in his lifetime. Parker not only published newspapers and official government documents, but also published magazines, poetry, fiction, history, science, almanacs, and religious material. He was also a printer for Yale College in Connecticut in the mid-eighteenth century.",
@@ -263,6 +309,7 @@
       "gender": "Male"
     },
     {
+      "id": "rec2j2Y0JNHO9SyvW",
       "pid": "KK73-HGQ",
       "name": "William Parks",
       "desc": "William Parks May 23, 1699 – April 1, 1750 was an 18th-century printer and journalist in England and Colonial America. He was the first printer in Maryland authorized as the official printer for the colonial government. He published the first newspaper in the Southern American colonies, the Maryland Gazette.",
@@ -270,6 +317,7 @@
       "gender": "Male"
     },
     {
+      "id": "recNTdQYiwfcUYHSl",
       "pid": "LLSR-V9G",
       "name": "Richard Pierce",
       "desc": "Richard Pierce died c. 1691 was an early American printing press owner and publisher who printed Publick Occurrences Both Forreign and Domestick for Benjamin Harris, generally considered the first newspaper printed in America.",
@@ -277,6 +325,7 @@
       "gender": "Male"
     },
     {
+      "id": "recSQNGr0sklkEfMI",
       "pid": "KVLK-488",
       "name": "William Rind  ",
       "desc": "Printer, Publisher Williamsburg Proprietor of the first political press established in Virginia 1766-73 and so publisher of the second Virginia Gazette in Williamsburg; husband of Clementina Rind",
@@ -284,22 +333,25 @@
       "gender": "Male"
     },
     {
+      "id": "reccy5JOQPYqqXTQG",
       "pid": "KVLK-4P6",
       "name": "Clementina Rind  ",
       "desc": "Clementina Rind c. 1740–September 25, 1774 was a Colonial American woman who is known as being the first female newspaper printer and publisher in Virginia. Living and working in Williamsburg, Virginia, she took the printing press established by her husband, William Rind, after his death in 1773. Clementina continued to print The Virginia Gazette and also published Thomas Jefferson's tract A Summary View of the Rights of British America.",
       "url": "https://en.wikipedia.org/wiki/Clementina_Rind",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cm3gc/thumb200s.jpg",
-      "gender": "Female"
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cm3gc/thumb200s.jpg"
     },
     {
+      "id": "recHkr5tjmO5EF0XC",
       "pid": "GQ9J-2Q4",
       "name": "James Rivington  ",
       "desc": "James Rivington 1724 – July 4, 1802 was an English-born American journalist who published a Loyalist newspaper in the American colonies called Rivington's Gazette. He was driven out of New York by the Sons of Liberty, but was very likely a member of the American Culper Spy Ring, which provided the Continental Army with military intelligence from British-occupied New York.",
       "url": "https://en.wikipedia.org/wiki/James_Rivington",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r8cja/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r8cja/thumb200s.jpg"
     },
     {
+      "id": "recPbnr41y0eOq38s",
       "pid": "G4SH-FZM",
       "name": "Joseph Royle",
       "desc": "Publisher of the Virginia Gazette",
@@ -307,22 +359,25 @@
       "gender": "Male"
     },
     {
+      "id": "recClqYc1JqMYbFUr",
       "pid": "KLGX-W5Z",
       "name": "Benjamin Russell",
       "desc": "Benjamin Russell September 13, 1761 – January 4, 1845 was an American journalist, born in Boston. He established the Columbian Centinel and was one of the founding members of the American Antiquarian Society.",
       "url": "https://en.wikipedia.org/wiki/Benjamin_Russell_(journalist)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dlmxh/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dlmxh/thumb200s.jpg"
     },
     {
+      "id": "recbog5ruH3nsh6W9",
       "pid": "L1JS-SNC",
       "name": "Christopher Sower",
       "desc": "Christoph Sauer 1695 – September 25, 1758 was the first German-language printer and publisher in North America.",
       "url": "https://en.wikipedia.org/wiki/Christopher_Sower_(elder)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2flth/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2flth/thumb200s.jpg"
     },
     {
+      "id": "recEEaC0PYTKYuP2V",
       "pid": "MKJ5-2C5",
       "name": "Christopher Sower",
       "desc": "Christopher Sower 20 September 1721 in Laasphe, near Marburg, Germany – 4 August 1784 in Methacton, Pennsylvania was a clergyman and printer.",
@@ -330,6 +385,7 @@
       "gender": "Male"
     },
     {
+      "id": "recN4S1TOrTXUeLxC",
       "pid": "KP7W-KQQ",
       "name": "Christopher Sower III  ",
       "desc": "Christopher Sower 27 January 1754 in Germantown, Pennsylvania – 3 July 1799 in Baltimore, Maryland was a printer and publisher in Pennsylvania.",
@@ -337,14 +393,16 @@
       "gender": "Male"
     },
     {
+      "id": "recQ1lqukWVoHcvZk",
       "pid": "LWJP-JV6",
       "name": "Solomon Southwick  ",
       "desc": "Solomon Southwick December 25, 1773 – November 18, 1839 was an American newspaper publisher and political figure who was a principal organizer of the Anti-Masonic Party.",
       "url": "https://en.wikipedia.org/wiki/Solomon_Southwick",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ev3gc/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ev3gc/thumb200s.jpg"
     },
     {
+      "id": "recxszZwQkkqwZDgc",
       "pid": "LRFW-XFK",
       "name": "William Strahan",
       "desc": "William Strahan 24 March 1715 – 9 July 1785 was a Scottish printer and publisher, and a politician who sat in the House of Commons between from 1774 to 1784. He was a correspondent and later a good friend of Benjamin Franklin.",
@@ -352,14 +410,16 @@
       "gender": "Male"
     },
     {
+      "id": "recUs3UlI3Q77ZBq9",
       "pid": "K4RJ-KYH",
       "name": "Isaiah Thomas",
       "desc": "Isaiah Thomas January 19, 1749 – April 4, 1831 was an early American printer, newspaper publisher and author. He performed the first public reading of the Declaration of Independence in Worcester, Massachusetts, and reported the first account of the Battles of Lexington and Concord. He was the founder of the American Antiquarian Society.",
       "url": "https://en.wikipedia.org/wiki/Isaiah_Thomas_(publisher)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fm1h4/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fm1h4/thumb200s.jpg"
     },
     {
+      "id": "recdNTDxhPwVcd8et",
       "pid": "9N43-2TZ",
       "name": "Ann Timothy  ",
       "desc": "Ann Timothy ca. 1727–September 11, 1792 was a newspaper publisher from South Carolina. She worked alongside her husband until his death in 1782, and after she had published by herself for years, she became the official printer for the state of South Carolina.",
@@ -367,14 +427,16 @@
       "gender": "Female"
     },
     {
+      "id": "recXp42dr1TDFSemc",
       "pid": "9FPN-Q1W",
       "name": "Elizabeth Timothy  ",
       "desc": "Elizabeth Timothy ?–1757 was the first female newspaper publisher in America.",
       "url": "https://www.knowitall.org/video/elizabeth-timothy-legacy-leadership-profile",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pc076/thumb200s.jpg",
-      "gender": "Female"
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pc076/thumb200s.jpg"
     },
     {
+      "id": "recGCdoma8Qv64SvG",
       "pid": "9N43-2TH",
       "name": "Peter Timothy  ",
       "desc": "Peter Timothy 1724–1782, originally named Peter Timothee, was an 18th-century Dutch-American printer and politician.",
@@ -382,14 +444,16 @@
       "gender": "Male"
     },
     {
+      "id": "reckqbKif16Rb8LH6",
       "pid": "LCTJ-LF3",
       "name": "Benjamin Towne",
       "desc": "Towne opened a printing house of his own in 1774 and published the first issue of the Pennsylvania Evening Post, a tri-weekly, on January 24, 1775. This was the first evening newspaper printed in Philadelphia and the only newspaper that continued to be published in that city through the Revolutionary War.",
       "url": "https://en.wikipedia.org/wiki/Benjamin_Towne",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mzw96/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mzw96/thumb200s.jpg"
     },
     {
+      "id": "rec32CmbCPgR5cuHW",
       "pid": "LCCX-DZ4",
       "name": "William Williams",
       "desc": "William Williams October 12, 1787 – June 10, 1850 was an American printer, publisher and bookseller, originally from Massachusetts",
@@ -397,6 +461,7 @@
       "gender": "Male"
     },
     {
+      "id": "recYdSpyPnbwCOHjU",
       "pid": "G3C5-JWC",
       "name": "John Peter Zenger",
       "desc": "John Peter Zenger October 26, 1697 – July 28, 1746 was a German printer and journalist in New York City. Zenger printed The New York Weekly Journal. He was accused of libel in 1734 by William Cosby, the royal governor of New York, but the jury acquitted Zenger, who became a symbol for freedom of the press.",
@@ -404,12 +469,13 @@
       "gender": "Male"
     },
     {
+      "id": "recIyz2MEREd2JsKp",
       "pid": "2Z3Z-L7J",
       "name": "Benjamin Franklin Bache",
       "desc": "Benjamin Franklin Bache August 12, 1769 – September 10, 1798 was an American journalist, printer and publisher. He founded the Philadelphia Aurora, a newspaper that supported Jeffersonian philosophy. He frequently attacked the Federalist political leaders, including Presidents George Washington and John Adams",
       "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin_Bache",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nbk7c/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nbk7c/thumb200s.jpg"
     }
   ]
 }

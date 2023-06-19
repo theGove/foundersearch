@@ -1,68 +1,76 @@
 {
   "title": "Signers of the Constitution",
-  "desc": "A group of Signers of the Constitution",
+  "desc": "The representatives of the people of United States of America who met in Philadelphia in 1787 to amend the Articles of Confederation and ended up giving us a completely new government.",
   "banner": "constitution.png",
   "backgroundColor": "#fff",
   "textColor": "#000",
   "people": [
     {
+      "id": "recdm8TmJO2Mfamtb",
       "pid": "LZXD-7S2",
       "name": "Roger Sherman",
       "desc": "Roger Sherman April 19, 1721 – July 23, 1793 was an American statesman, lawyer, and a Founding Father of the United States. He is the only person to sign four of the great state papers of the United States related to the founding: the Continental Association, Declaration of Independence, Articles of Confederation, and U.S. Constitution. He also signed the 1774 Petition to the King and 1775 Olive Branch Petition.",
       "url": "https://en.wikipedia.org/wiki/Roger_Sherman",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqh9/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqh9/thumb200s.jpg"
     },
     {
+      "id": "rec6idEL4g8CeZPgk",
       "pid": "K4P1-K1S",
       "name": "George Clymer",
       "desc": "George Clymer March 16, 1739 – January 23, 1813 was an American politician, abolitionist and Founding Father of the United States, one of only six founders who signed both the Declaration of Independence and U.S. Constitution. Clymer was among the earliest patriots to advocate for complete independence from Britain.",
       "url": "https://en.wikipedia.org/wiki/George_Clymer",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/a98g/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/a98g/thumb200s.jpg"
     },
     {
+      "id": "recaxAA97GxiBHufK",
       "pid": "LJLQ-WRC",
       "name": "Benjamin Franklin",
       "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
       "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
       "level": 1,
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg"
     },
     {
+      "id": "recXkH3DPG95FLHap",
       "pid": "LJYV-FLC",
       "name": "Robert Morris",
       "desc": "Robert Morris Jr. January 20, 1734 – May 8, 1806 was an English-born merchant and a Founding Father of the United States. He served as a member of the Pennsylvania legislature, the Second Continental Congress, and the United States Senate, and he was a signer of the Declaration of Independence, the Articles of Confederation, and the United States Constitution.",
       "url": "https://en.wikipedia.org/wiki/Robert_Morris_(financier)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/449g/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/449g/thumb200s.jpg"
     },
     {
+      "id": "recuncPl316B0XKFJ",
       "pid": "LZFH-5RP",
       "name": "James Wilson",
       "desc": "James Wilson September 14, 1742 – August 21, 1798 was a Scottish-born American Founding Father, legal scholar, jurist, and statesman who served as an associate justice of the United States Supreme Court from 1789 to 1798. Wilson was elected twice to the Continental Congress, was a signatory of the Declaration of Independence, and was a major participant in drafting the U.S. Constitution. A",
       "url": "https://en.wikipedia.org/wiki/James_Wilson_(Founding_Father)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jg7g/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jg7g/thumb200s.jpg"
     },
     {
+      "id": "recT8NpDa9s9at38G",
       "pid": "97H5-JS5",
       "name": "George Read",
       "desc": "George Read September 18, 1733 – September 21, 1798 was an American politician from New Castle in New Castle County, Delaware. He was a Continental Congressman from Delaware, a delegate to the U.S. Constitutional Convention of 1787, president of Delaware, and a member of the Federalist Party. In addition, Read served as U.S. Senator from Delaware and chief justice of Delaware.",
       "url": "https://en.wikipedia.org/wiki/George_Read_(signer)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9rcvh/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9rcvh/thumb200s.jpg"
     },
     {
+      "id": "recRevNQxRaVHyApy",
       "pid": "LC17-QWH",
       "name": "William Samuel Johnson ",
       "desc": "William Samuel Johnson October 7, 1727 – November 14, 1819 was an American Founding Father and statesman. Before the Revolutionary War, he had served as a militia lieutenant before being relieved after his rejection of his election to the First Continental Congress for opposing American independence. He was notable for signing the United States Constitution, representing Connecticut in the United States Senate, and serving as the third president of Columbia University then known as Columbia College.",
       "url": "https://en.wikipedia.org/wiki/William_Samuel_Johnson",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r7ph3/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r7ph3/thumb200s.jpg"
     },
     {
+      "id": "recQZ27XZSMqNXyuJ",
       "pid": "KCKH-V27",
       "name": "Richard Bassett ",
       "desc": "Richard Bassett April 2, 1745 – September 15, 1815 was an American politician, attorney, slave owner and later abolitionist, veteran of the American Revolution, signer of the United States Constitution, and one of the Founding Fathers of America. He also served as United States Senator from Delaware, chief justice of the Delaware Court of Common Pleas, governor of Delaware and a United States circuit judge of the United States Circuit Court for the Third Circuit.",
@@ -70,6 +78,7 @@
       "gender": "Male"
     },
     {
+      "id": "recnTL0GPH0TM9LQE",
       "pid": "KHX4-ZKK",
       "name": "Gunning Bedford Jr. ",
       "desc": "Gunning Bedford Jr. 1747 – March 30, 1812 was an American Founding Father, delegate to the Congress of the Confederation Continental Congress, Attorney General of Delaware, a delegate to the Constitutional Convention in 1787 which drafted the United States Constitution, a signer of the United States Constitution, and a United States district judge of the United States District Court for the District of Delaware.",
@@ -77,6 +86,7 @@
       "gender": "Male"
     },
     {
+      "id": "recJr4I7An3yQ4AU3",
       "pid": "LZQT-YH4",
       "name": "Jacob Broom ",
       "desc": "Jacob Broom October 17, 1752 – April 25, 1810 was an American Founding Father, businessman, and politician from Wilmington, Delaware. As a delegate to the U.S. Constitutional Convention of 1787, he was a signer of the United States Constitution.",
@@ -84,70 +94,79 @@
       "gender": "Male"
     },
     {
+      "id": "recasyEZvqfa61og8",
       "pid": "KJ46-JCZ",
       "name": "John Dickinson ",
       "desc": "John Dickinson November 13 1732 – February 14, 1808, a Founding Father of the United States, was an attorney and politician from Philadelphia, Pennsylvania, and Wilmington, Delaware. Dickinson was known as the \"Penman of the Revolution\" for his twelve Letters from a Farmer in Pennsylvania, published individually in 1767 and 1768, and he also wrote \"The Liberty Song\" in 1768.",
       "url": "https://en.wikipedia.org/wiki/John_Dickinson_(delegate)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yub1j/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yub1j/thumb200s.jpg"
     },
     {
+      "id": "rec2yqQivhnFt3nLY",
       "pid": "LHD1-Y85",
       "name": "Abraham Baldwin ",
       "desc": "Abraham Baldwin November 22, 1754 – March 4, 1807 was an American minister, patriot, politician, and Founding Father who signed the United States Constitution. Born and raised in Connecticut, he was a 1772 graduate of Yale College. After the Revolutionary War, Baldwin became a lawyer. He moved to the U.S. state of Georgia in the mid-1780s and founded the University of Georgia. Baldwin was a member of Society of the Cincinnati.",
       "url": "https://en.wikipedia.org/wiki/Abraham_Baldwin",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ucys1/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ucys1/thumb200s.jpg"
     },
     {
+      "id": "recpYPlb95y6tXhnk",
       "pid": "G9JW-C8X",
       "name": "William Few ",
       "desc": "William Few Jr. June 8, 1748 – July 16, 1828 was an American Founding Father, lawyer, politician and jurist. He represented the U.S. state of Georgia at the Constitutional Convention and signed the U.S. Constitution. Few and James Gunn were the first U.S. Senators from Georgia.",
       "url": "https://en.wikipedia.org/wiki/William_Few",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9j168/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9j168/thumb200s.jpg"
     },
     {
+      "id": "reccqElGSv5ZTrpr4",
       "pid": "K819-SWV",
       "name": "Daniel Carroll ",
       "desc": "Daniel Carroll July 22, 1730 – May 7, 1796 was an American politician and plantation owner from Maryland and one of the Founding Fathers of the United States. He supported the American Revolution, served in the Confederation Congress, was a delegate to the Philadelphia Convention of 1787 which penned the Constitution of the United States, and was a U.S. Representative in the First Congress.",
       "url": "https://en.wikipedia.org/wiki/Daniel_Carroll",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqsc5/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqsc5/thumb200s.jpg"
     },
     {
+      "id": "recKaQzlXQ7LymAYr",
       "pid": "2Z3S-ZHG",
       "name": "Daniel of St. Thomas Jenifer ",
       "desc": "Daniel of St. Thomas Jenifer 1723 – November 16, 1790 was an American politician and Founding Father who was one of the signers of the Constitution of the United States. He was active for many years in the Province of Maryland's colonial government, but when conflict arose with Great Britain, Jenifer embraced the Patriot cause.",
       "url": "https://en.wikipedia.org/wiki/Daniel_of_St._Thomas_Jenifer",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zpli7/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zpli7/thumb200s.jpg"
     },
     {
+      "id": "recRbtOunwQniVX7J",
       "pid": "LZ28-KNL",
       "name": "James McHenry ",
       "desc": "James McHenry November 16, 1753 – May 3, 1816 was a Scotch-Irish American military surgeon, statesman, and a Founding Father of the United States. McHenry was a signer of the United States Constitution from Maryland, initiated the recommendation for Congress to form the Navy, and was the eponym of Fort McHenry.",
       "url": "https://en.wikipedia.org/wiki/James_McHenry",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2qwv4/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2qwv4/thumb200s.jpg"
     },
     {
+      "id": "recSXM9fWq5oER7q8",
       "pid": "LRCJ-FP8",
       "name": "Nathanial Gorham ",
       "desc": "Nathaniel Gorham May 27, 1738 – June 11, 1796; sometimes spelled Nathanial was an American Founding Father, merchant, and politician from Massachusetts. He was a delegate from the Bay Colony to the Continental Congress and for six months served as the presiding officer of that body under the Articles of Confederation. He also attended the Constitutional Convention, served on its Committee of Detail, and signed the United States Constitution.",
       "url": "https://en.wikipedia.org/wiki/Nathaniel_Gorham",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/y0u52/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/y0u52/thumb200s.jpg"
     },
     {
+      "id": "recyCWs7lLImNgRQs",
       "pid": "LHFH-BBF",
       "name": "Rufus King ",
       "desc": "Rufus King March 24, 1755 – April 29, 1827 was an American Founding Father, lawyer, politician, and diplomat. He was a delegate from Massachusetts to the Continental Congress and the Philadelphia Convention and was one of the signers of the United States Constitution in 1787.",
       "url": "https://en.wikipedia.org/wiki/Rufus_King",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u9f7/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u9f7/thumb200s.jpg"
     },
     {
+      "id": "rec0HdQ2YNFIeHuM8",
       "pid": "LH17-K8Y",
       "name": "Nicholas Gilman ",
       "desc": "Nicholas Gilman Jr. August 3, 1755 – May 2, 1814 was an American Founding Father, a soldier in the Continental Army during the American Revolutionary War, a delegate to the Continental Congress, and a signer of the U.S. Constitution, representing New Hampshire.",
@@ -155,14 +174,16 @@
       "gender": "Male"
     },
     {
+      "id": "rec79MsxrVC5x7eef",
       "pid": "L656-YP8",
       "name": "John Langdon ",
       "desc": "John Langdon June 26, 1741 – September 18, 1819 was an American politician and Founding Father from New Hampshire. He served as a delegate to the Constitutional Convention, signed the United States Constitution, and was one of the first two United States senators from New Hampshire.",
       "url": "https://en.wikipedia.org/wiki/John_Langdon_(politician)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/0j0z1/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/0j0z1/thumb200s.jpg"
     },
     {
+      "id": "recEw33mNPJ0Owrxg",
       "pid": "K64B-7RP",
       "name": "David Brearly ",
       "desc": "David Brearley often misspelled as Brearly June 11, 1745 – August 16, 1790 was an American Founding Father, Chief Justice of the Supreme Court of New Jersey, a delegate from New Jersey to the Constitutional Convention of 1787, which drafted the United States Constitution, a signer of the United States Constitution, and a United States district judge of the United States District Court for the District of New Jersey.",
@@ -170,22 +191,25 @@
       "gender": "Male"
     },
     {
+      "id": "recO9KTjHuK4kKFTg",
       "pid": "K1DB-PS1",
       "name": "Jonathan Dayton ",
       "desc": "Jonathan Dayton October 16, 1760 – October 9, 1824 was an American Founding Father and politician from the U.S. state of New Jersey. At age 26 he was the youngest person to sign the Constitution of the United States. He was elected to the United States House of Representatives in 1791 and later served from 1795-1799 as its third Speaker. He left the House in 1799 after being elected to the U.S. Senate, where he served one term.",
       "url": "https://en.wikipedia.org/wiki/Jonathan_Dayton",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/w8fs1/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/w8fs1/thumb200s.jpg"
     },
     {
+      "id": "recLE5LCV6Xmud16t",
       "pid": "LH1R-45B",
       "name": "William Livingston  ",
       "desc": "William Livingston November 30, 1723 – July 25, 1790 was an American politician and lawyer who served as the first governor of New Jersey 1776–1790 during the American Revolutionary War. As a New Jersey representative in the Continental Congress, he signed the Continental Association and the United States Constitution.",
       "url": "https://en.wikipedia.org/wiki/William_Livingston",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5ida5/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5ida5/thumb200s.jpg"
     },
     {
+      "id": "recpACjeeUCadsEw2",
       "pid": "L7JQ-1HT",
       "name": "William Paterson ",
       "desc": "William Paterson December 24, 1745 – September 9, 1806 was an American statesman, lawyer, jurist, and signer of the United States Constitution.",
@@ -193,39 +217,44 @@
       "gender": "Male"
     },
     {
+      "id": "recnOwUqhVeYYcLmr",
       "pid": "LZKN-H6X",
       "name": "Alexander Hamilton ",
       "desc": "Alexander Hamilton January 11, 1755 or 1757 – July 12, 1804 was a Nevis-born American military officer, statesman, and Founding Father who served as the first Secretary of Treasury from 1789 to 1795 during George Washington's presidency.",
       "url": "https://en.wikipedia.org/wiki/Alexander_Hamilton",
       "level": 2,
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wxd67/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wxd67/thumb200s.jpg"
     },
     {
+      "id": "rec3s3TUbjO1AEVDA",
       "pid": "KNZC-2L7",
       "name": "William Blount ",
       "desc": "William Blount March 29, 1749 – March 21, 1800 was an American Founding Father, statesman, farmer, and land speculator who signed the United States Constitution. He was a member of the North Carolina delegation at the Constitutional Convention of 1787 and led the efforts for North Carolina to ratify the Constitution in 1789 at the Fayetteville Convention.",
       "url": "https://en.wikipedia.org/wiki/William_Blount",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/581a7/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/581a7/thumb200s.jpg"
     },
     {
+      "id": "rectatbHndUrIAKxd",
       "pid": "MYD9-C98",
       "name": "Richard Dobbs Spaight Sr. ",
       "desc": "Richard Dobbs Spaight March 25, 1758 – September 6, 1802 was an American Founding Father, politician, planter, and signer of the United States Constitution, who served as a Democratic-Republican U.S. Representative for North Carolina's 10th congressional district from 1798 to 1801.",
       "url": "https://en.wikipedia.org/wiki/Richard_Dobbs_Spaight",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4xzs1/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/4xzs1/thumb200s.jpg"
     },
     {
+      "id": "recnWKjVNII5XzEgh",
       "pid": "L657-T36",
       "name": "Hugh Williamson ",
       "desc": "Hugh Williamson December 5, 1735 – May 22, 1819 was an American Founding Father, physician, and politician. He is best known as a signatory to the U.S. Constitution and for representing North Carolina at the Constitutional Convention.",
       "url": "https://en.wikipedia.org/wiki/Hugh_Williamson",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qev72/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qev72/thumb200s.jpg"
     },
     {
+      "id": "recjDxQL4qZskrOPX",
       "pid": "KLYZ-BY3",
       "name": "Thomas Fitzsimons ",
       "desc": "Thomas Fitzsimons October 1741 – August 26, 1811 was an Irish-born American Founding Father, merchant, banker, and politician. A resident of Philadelphia, Fitzsimons represented Pennsylvania in the Continental Congress, was a delegate to Constitutional Convention, and served in U.S. Congress. He was a signatory of the Constitution of the United States. A slave owner, Fitzsimons was an early proponent of abolishing the slave trade in the newly formed nation.",
@@ -233,6 +262,7 @@
       "gender": "Male"
     },
     {
+      "id": "recgUareoPCsj83Lh",
       "pid": "LCDV-P8V",
       "name": "Jared Ingersoll ",
       "desc": "Jared Ingersoll October 24, 1749 – October 31, 1822 was an American Founding Father, lawyer, and statesman from Philadelphia, Pennsylvania. He was a delegate to the Continental Congress and a signer of the United States Constitution.",
@@ -240,6 +270,7 @@
       "gender": "Male"
     },
     {
+      "id": "rec6QL8D1XUex6veK",
       "pid": "L46T-664",
       "name": "Thomas Mifflin ",
       "desc": "Thomas Mifflin January 10, 1744 – January 20, 1800 was an American merchant, soldier, and politician from Pennsylvania, who is regarded as a Founding Father of the United States for his roles during and after the American Revolution. Mifflin signed the United States Constitution, was the first governor of Pennsylvania, serving from 1790 to 1799, and was also the state's last president, succeeding Benjamin Franklin in 1788.",
@@ -247,22 +278,25 @@
       "gender": "Male"
     },
     {
+      "id": "recMhh9LHy3scsGgY",
       "pid": "LVKS-LRR",
       "name": "Gouverneur Morris ",
       "desc": "Gouverneur Morris /ɡʌvərnɪər ˈmɒrɪs/ guh-vər-NEER MOR-ris; January 31, 1752 – November 6, 1816 was an American statesman, a Founding Father of the United States, and a signatory to the Articles of Confederation and the United States Constitution. He wrote the Preamble to the United States Constitution and has been called the \"Penman of the Constitution\".",
       "url": "https://en.wikipedia.org/wiki/Gouverneur_Morris",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/naq73/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/naq73/thumb200s.jpg"
     },
     {
+      "id": "recaWKYW2g19wMdgB",
       "pid": "MCR3-K3M",
       "name": "Pierce Butler ",
       "desc": "Pierce Butler July 11, 1744 – February 15, 1822 was an Irish-born American politician who was one of the Founding Fathers of the United States. Born in the Kingdom of Ireland, Butler emigrated to the British North American colonies, where he fought in the American Revolutionary War. After the war, he served as a state legislator and was a member of the Congress of the Confederation. In 1787, he served as a delegate to the 1787 Constitutional Convention, where Butler signed the Constitution of the United States; he was also a member of the United States Senate.",
       "url": "https://en.wikipedia.org/wiki/Pierce_Butler_(American_politician)",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2i712/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2i712/thumb200s.jpg"
     },
     {
+      "id": "reciHkT3G6Xojn1Th",
       "pid": "L46K-JSN",
       "name": "Charles Pinckney ",
       "desc": "Charles Pinckney October 26, 1757 – October 29, 1824 was an American Founding Father, planter, and politician who was a signer of the United States Constitution. He was elected and served as the 37th governor of South Carolina, later serving two more non-consecutive terms.",
@@ -270,45 +304,60 @@
       "gender": "Male"
     },
     {
+      "id": "recJSp5KURAJVHIFG",
       "pid": "LHRS-63X",
       "name": "Charles Cotesworth Pinckney ",
       "desc": "Charles Carroll September 19, 1737 – November 14, 1832, known as Charles Carroll of Carrollton or Charles Carroll III, was an Irish-American politician, planter, and signatory of the Declaration of Independence. He was the only Catholic signatory of the Declaration and the longest surviving, dying 56 years after its signing.",
       "url": "https://en.wikipedia.org/wiki/Charles_Carroll_of_Carrollton",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rx9af/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rx9af/thumb200s.jpg"
     },
     {
+      "id": "recsc4LaKdysvJtI8",
       "pid": "MNGY-CL4",
       "name": "John Rutledge ",
       "desc": "John Rutledge September 17, 1739 – June 21, 1800 was an American Founding Father, politician, and jurist who served as one of the original associate justices of the Supreme Court and the second chief justice of the United States. Additionally, he served as the first president of South Carolina and later as its first governor after the Declaration of Independence was signed.",
       "url": "https://en.wikipedia.org/wiki/John_Rutledge",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/72g6/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/72g6/thumb200s.jpg"
     },
     {
+      "id": "reczwQw4EqWfF0R6B",
       "pid": "LXQ4-Y56",
       "name": "John Blair ",
       "desc": "John Blair Jr. April 17, 1732 – August 31, 1800 was an American Founding Father, who signed the United States Constitution as a delegate from Virginia and was appointed an Associate Justice on the first U.S. Supreme Court by George Washington.",
       "url": "https://en.wikipedia.org/wiki/John_Blair_Jr.",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hbbt5/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hbbt5/thumb200s.jpg"
     },
     {
+      "id": "rec9l65B2tHEVDj4B",
       "pid": "LZTD-MFS",
       "name": "James Madison ",
       "desc": "James Madison Jr. March 16, 1751 – June 28, 1836 was an American statesman, diplomat, and Founding Father who served as the fourth president of the United States from 1809 to 1817. Madison is hailed as the \"Father of the Constitution\" for his pivotal role in drafting and promoting the Constitution of the United States and the Bill of Rights.",
       "url": "https://en.wikipedia.org/wiki/James_Madison",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/0ddg/thumb200s.jpg",
-      "gender": "Male"
+      "level": 5,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/0ddg/thumb200s.jpg"
     },
     {
+      "id": "rec4A3YM5RCl0TRZA",
       "pid": "KNDX-MKG",
       "name": "George Washington ",
       "desc": "George Washington February 22, 1732 – December 14, 1799 was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.",
       "url": "https://en.wikipedia.org/wiki/George_Washington",
       "level": 1,
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg",
-      "gender": "Male"
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg"
+    },
+    {
+      "id": "recidZR09toC7TaoK",
+      "pid": "KJ46-JCZ",
+      "name": "John Dickenson",
+      "desc": "John Dickinson (November 13, 1732 – February 14, 1808), a Founding Father of the United States, was an attorney and politician from Philadelphia, Pennsylvania, and Wilmington, Delaware. Dickinson was known as the \"Penman of the Revolution\" for his twelve Letters from a Farmer in Pennsylvania, published individually in 1767 and 1768, and he also wrote \"The Liberty Song\" in 1768.",
+      "url": "https://en.wikipedia.org/wiki/John_Dickinson",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yub1j/thumb200s.jpg"
     }
   ]
 }
