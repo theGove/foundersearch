@@ -14,6 +14,53 @@
       "level": 1,
       "gender": "Male",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg"
+    },
+    {
+      "id": "recUs3UlI3Q77ZBq9",
+      "pid": "K4RJ-KYH",
+      "name": "Isaiah Thomas",
+      "desc": "Isaiah Thomas January 19, 1749 – April 4, 1831 was an early American printer, newspaper publisher and author. He performed the first public reading of the Declaration of Independence in Worcester, Massachusetts, and reported the first account of the Battles of Lexington and Concord. He was the founder of the American Antiquarian Society.",
+      "url": "https://en.wikipedia.org/wiki/Isaiah_Thomas_(publisher)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fm1h4/thumb200s.jpg"
+    },
+    {
+      "id": "rec9l65B2tHEVDj4B",
+      "pid": "LZTD-MFS",
+      "name": "James Madison ",
+      "desc": "James Madison Jr. March 16, 1751 – June 28, 1836 was an American statesman, diplomat, and Founding Father who served as the fourth president of the United States from 1809 to 1817. Madison is hailed as the \"Father of the Constitution\" for his pivotal role in drafting and promoting the Constitution of the United States and the Bill of Rights.",
+      "url": "https://en.wikipedia.org/wiki/James_Madison",
+      "level": 5,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/0ddg/thumb200s.jpg"
+    },
+    {
+      "id": "rec2b2TZv5mXe8GYi",
+      "pid": "K19W-1RK",
+      "name": "Patrick Henry",
+      "desc": "Patrick Henry May 29, 1736 – June 6, 1799 was an American politician and orator who declared to the Second Virginia Convention 1775: \"Give me liberty, or give me death!\" A Founding Father, he served as the first and sixth post-colonial Governor of Virginia, from 1776 to 1779 and from 1784 to 1786.",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Henry",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b80wi/thumb200s.jpg"
+    },
+    {
+      "id": "rec6U2cU34LqFPPLH",
+      "pid": "LYBV-Q75",
+      "name": "Josiah Harmar",
+      "desc": "Josiah Harmar (November 10, 1753 – August 20, 1813) was an officer in the United States Army during the American Revolutionary War and the Northwest Indian War. He was the senior officer in the Army for six years and seven months (August 1784 to March 1791).",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Harmar#:~:text=Josiah%20Harmar%20(November%2010%2C%201753,August%201784%20to%20March%201791).",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwsb5/thumb200s.jpg"
+    },
+    {
+      "id": "recxMXi3SDZWYquzW",
+      "pid": "MKNQ-TSF",
+      "name": "John Adams",
+      "desc": "John Adams October 30, 1735 – July 4, 1826 was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States from 1797 to 1801.",
+      "url": "https://en.wikipedia.org/wiki/John_Adams",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uan/thumb200s.jpg"
     }
   ]
 }
