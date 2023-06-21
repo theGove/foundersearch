@@ -1,0 +1,114 @@
+{
+  "title": "Brithish Spies",
+  "desc": "Folks who spied for the British during the American war for independence.",
+  "banner": "spies2.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "reci2eLUDnGGv2XGf",
+      "pid": "K2W9-2WG",
+      "name": "Benedict Arnold",
+      "desc": "Benedict Arnold (14 January 1741  – June 14, 1801) was an American-born military officer who served during the Revolutionary War. He fought with distinction for the American Continental Army and rose to the rank of major general before defecting to the British side of the conflict in 1780. General George Washington had given him his fullest trust and had placed him in command of West Point in New York. Arnold was planning to surrender the fort there to British forces, but the plot was discovered in September 1780, whereupon he fled to the British lines. In the later part of the conflict, Arnold was commissioned as a brigadier general in the British Army, and placed in command of the American Legion. He led the British army in battle against the soldiers whom he had once commanded, after which his name became, and has remained, synonymous with treason and betrayal in the United States.",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Arnold",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/htkdj/thumb200s.jpg"
+    },
+    {
+      "id": "recNhUVmTftxgjFRZ",
+      "pid": "GMXS-8W8",
+      "name": "William Tryon",
+      "desc": "Lieutenant-General William Tryon 8 June 1729 – 27 January 1788 was a British Army officer and colonial administrator who served as governor of North Carolina from 1764 to 1771 and the governor of New York from 1771 to 1777. He also served during the Seven Years' War, the Regulator Movement, and the American War of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Tryon",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xs0vc/thumb200s.jpg"
+    },
+    {
+      "id": "recUmk52DRH2cZKP2",
+      "pid": "K2VX-486",
+      "name": "Elisabeth Brewer",
+      "desc": "Elisabeth Brewer was a nurse and loyalist in the American Revolutionary War who was captured and imprisoned for intelligence gathering activities.",
+      "url": "https://en.wikipedia.org/wiki/Elisabeth_Brewer",
+      "gender": "Female"
+    },
+    {
+      "id": "reczH0RR5hUjcDN3G",
+      "pid": "KNF8-D8T",
+      "name": "David Farnsworth",
+      "desc": "David Farnsworth was a Colonial-era American Loyalist. He was a British agent during the American Revolutionary War. George Washington had him hanged for his involvement in a plot to destroy the American economy by placing counterfeit money into circulation.",
+      "url": "https://en.wikipedia.org/wiki/David_Farnsworth",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/y7yla/thumb200s.jpg"
+    },
+    {
+      "id": "recDAQ589Whn5Mh3t",
+      "pid": "GHT4-4DT",
+      "name": "Thomas Hickey ",
+      "desc": "Thomas Hickey died June 28, 1776 was a Continental Army soldier in the American Revolutionary War, and the first person to be executed by the Continental Army for \"mutiny, sedition, and treachery\".",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hickey_(soldier)",
+      "gender": "Male"
+    },
+    {
+      "id": "recKeQmMJBPUnYo12",
+      "pid": "LC2C-YZH",
+      "name": "Peggy Shippen",
+      "desc": "Margaret \"Peggy\" Shippen July 11, 1760 – August 24, 1804 was the highest-paid spy in the American Revolution, and was the second wife of General Benedict Arnold.",
+      "url": "https://en.wikipedia.org/wiki/Peggy_Shippen",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pltee/thumb200s.jpg"
+    },
+    {
+      "id": "recPu3593DcIYupX3",
+      "pid": "L7N8-S7L",
+      "name": "Benjamin Church",
+      "desc": "Benjamin Church August 24, 1734 – 1778 was effectively the first Surgeon General of the United States Army, serving as the \"Chief Physician & Director General\" of the Medical Service of the Continental Army from July 27, 1775, to October 17, 1775. He was also active in Boston's Sons of Liberty movement in the years before the war. However, early in the American Revolution, Church was also sending secret information to General Thomas Gage, the British commander, and when one of his letters into Boston was intercepted, he was tried and convicted of \"communicating with the enemy\". He was jailed but eventually released, likely dying somewhere in the Caribbean Sea in 1778.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Church_(physician)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/i5wt3/thumb200s.jpg"
+    },
+    {
+      "id": "rec4KeoFj9KHVcRr2",
+      "pid": "MDND-HB1",
+      "name": "Benjamin Thompson",
+      "desc": "Sir Benjamin Thompson, Count Rumford, FRS German: Reichsgraf von Rumford; March 26, 1753 – August 21, 1814 was a British physicist, born in Colonial Massachusetts, and inventor whose challenges to established physical theory were part of the 19th-century revolution in thermodynamics. He served as lieutenant-colonel of the King's American Dragoons, part of the British Loyalist forces, during the American Revolutionary War. After the end of the war he moved to London, where his administrative talents were recognized when he was appointed a full colonel, and in 1784 he received a knighthood from King George III. A prolific designer, Thompson also drew designs for warships. He later moved to Bavaria and entered government service there, being appointed Bavarian Army Minister and re-organizing the army, and, in 1792, was made a Count of the Holy Roman Empire.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Thompson",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xzje8/thumb200s.jpg"
+    },
+    {
+      "id": "recbPw9HZIgJwHRDG",
+      "pid": "L8D3-9W7",
+      "name": "Joseph Bettys",
+      "desc": "Joseph Bettys \"Joe\" 1754–April 1, 1782 was a soldier in the American Revolution best known for being hanged as a British Spy in 1782.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Bettys",
+      "gender": "Male"
+    },
+    {
+      "id": "reclrOBpvIXr3DADZ",
+      "pid": "LHW8-FHV",
+      "name": "Metcalf Bowler",
+      "desc": "Metcalf Bowler 1726—September 24, 1789 was a Rhode Island merchant, politician, and magistrate. He was for many years speaker of the house in the Rhode Island colonial assembly, attended the 1754 Albany Congress, and was elected a delegate to the 1765 Stamp Act Congress. In 1776 he was appointed to the newly independent state's supreme court. A successful Atlantic merchant, he was financially ruined by the American Revolutionary War, and was in the 20th century revealed to be a paid informant for the British Army.",
+      "url": "https://en.wikipedia.org/wiki/Metcalf_Bowler",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fdfd9/thumb200s.jpg"
+    },
+    {
+      "id": "rec3gqnUywofb35nO",
+      "pid": "2DRN-DPR",
+      "name": "Edward Bancroft",
+      "desc": "Edward Bartholomew Bancroft January 20, 1745 – September 7, 1821 was a Massachusetts-born physician and chemist who became a double agent, spying for both the United States and Great Britain while serving as secretary to the American Commission in Paris during the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Bancroft",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qo45e/thumb200s.jpg"
+    },
+    {
+      "id": "recbtESdY271XY7Hz",
+      "pid": "KVG8-YYG",
+      "name": "John Andre",
+      "desc": "John André (2 May 1750/1751 – 2 October 1780) was a major in the British Army and head of its Secret Service in America during the American Revolutionary War. He was hanged as a spy by the Continental Army for assisting Benedict Arnold's attempted surrender of the fort at West Point, New York, to the British. André is typically remembered favorably by historians as a man of honor, and several prominent U.S. leaders of the time, including Alexander Hamilton and the Marquis de Lafayette, did not agree with his fate.",
+      "url": "https://en.wikipedia.org/wiki/John_Andre",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/z48oc/thumb200s.jpg"
+    }
+  ]
+}

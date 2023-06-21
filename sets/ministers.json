@@ -1,0 +1,373 @@
+{
+  "title": "Revolutionary Ministers",
+  "desc": "Men who were ministers around the time of the American Revolution.",
+  "banner": "ministers.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recTaCYP76gN9qZcK",
+      "pid": "LHKN-C9T",
+      "name": "Olaudah Equiano ",
+      "desc": "Olaudah Equiano /əˈlaʊdə/; c. 1745 – 31 March 1797, known for most of his life as Gustavus Vassa /ˈvæsə/, was a writer and abolitionist from, according to his memoir, the village of Essaka in modern southern Nigeria. Enslaved as a child in Africa, he was shipped to the Caribbean and sold to a Royal Navy officer. He was sold twice more before purchasing his freedom in 1766. As a freedman in London, Equiano supported the British abolitionist movement. Equiano was part of the abolitionist group the Sons of Africa, whose members were Africans living in Britain and he was a leader of the anti-slave-trade movement in the 1780s. His 1789 autobiography, The Interesting Narrative of the Life of Olaudah Equiano, helped secure passage of the British Slave Trade Act 1807, which abolished the slave trade and sold so well that nine editions were published during his life. The Interesting Narrative gained renewed popularity among scholars in the late 20th century and remains a useful primary source.",
+      "url": "https://en.wikipedia.org/wiki/Olaudah_Equiano",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/emka1/thumb200s.jpg"
+    },
+    {
+      "id": "recXmvq87GoPmVRPm",
+      "pid": "LCJ7-PCL",
+      "name": "John Larkin",
+      "desc": "Deacon John Larkin April 3, 1735 – December 14, 1807 was an ordained minister of the First Congregational Church in his hometown of Charlestown, Massachusetts. He was also a merchant, in the tea trade, for the East India Company, having in his possession chests of tea that he readily concealed to avoid England's Stamp Tax. John Larkin is most notable for aiding Paul Revere to obtain the horse he used in his \"Midnight Ride\". The horse, Brown Beauty was owned by John's father, Samuel Larkin. John Larkin's will is among Charlestown Records. He amassed a large fortune before he died in 1807. His estate was probated for $86,381.99.",
+      "url": "https://en.wikipedia.org/wiki/John_Larkin_(Deacon_of_Charlestown)",
+      "gender": "Male"
+    },
+    {
+      "id": "recYAmGxKtmMiDDEW",
+      "pid": "LZK2-1JX",
+      "name": "Isaac Backus",
+      "desc": "Isaac Backus January 9, 1724 – November 20, 1806 was a leading Baptist minister during the era of the American Revolution who campaigned against state-established churches in New England. Little is known of his childhood. In \"An account of the life of Isaac Backus\" completed to 1756, he provides genealogical information and a chronicle of events leading to his religious conversion.",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Backus",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/l0nf1/thumb200s.jpg"
+    },
+    {
+      "id": "rectBMZJ1WCARkr75",
+      "pid": "LR9P-TYZ",
+      "name": "Josiah Smith",
+      "desc": "Josiah Smith 1704 – October 1781 was a clergyman in colonial South Carolina who championed the causes of the evangelical style of the Great Awakening and later American independence.",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Smith_(clergyman)",
+      "gender": "Male"
+    },
+    {
+      "id": "recuQUboUM7GQxz5V",
+      "pid": "2Z9D-118",
+      "name": "Gideon Hawley",
+      "desc": "Gideon Hawley 1727–1807 was a missionary to the Iroquois Indians in Massachusetts and on the Susquehanna River in New York.",
+      "url": "https://en.wikipedia.org/wiki/Gideon_Hawley",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/y6oih/thumb200s.jpg"
+    },
+    {
+      "id": "recvhzo7fMWkcGXv1",
+      "pid": "LDQM-F9P",
+      "name": "William Emerson Sr.",
+      "desc": "William Emerson Sr. 31 May 1743, Malden, Province of Massachusetts Bay – 30 October 1776, West Rutland, New Hampshire now Vermont was a Congregational minister. He was the father of William Emerson Jr. and Mary Moody Emerson, and grandfather of Ralph Waldo Emerson.",
+      "url": "https://en.wikipedia.org/wiki/William_Emerson_Sr.",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mqp33/thumb200s.jpg"
+    },
+    {
+      "id": "recwVqIIWby3dvF9L",
+      "pid": "LZLX-MDF",
+      "name": "John Simpson",
+      "desc": "The Reverend John Simpson 1740–1808, was a Presbyterian minister and Whig leader in the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/John_Simpson_(Presbyterian)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lzs7b/thumb200s.jpg"
+    },
+    {
+      "id": "recziwVIeU3Raq6Xg",
+      "pid": "K8SC-J23",
+      "name": "Jacob Duché",
+      "desc": "The Reverend Jacob Duché 1737–1798 was a Rector of Christ Church in Philadelphia, Pennsylvania, and the first chaplain to the Continental Congress.",
+      "url": "https://en.wikipedia.org/wiki/Jacob_Duch%C3%A9",
+      "gender": "Male"
+    },
+    {
+      "id": "recAURi4EmfV41Hmn",
+      "pid": "LZNB-ND1",
+      "name": "Pierre Gibault",
+      "desc": "Father Pierre Gibault 7 April 1737 – 16 August 1802 was a Jesuit missionary and priest in the Northwest Territory in the 18th century, and an American Patriot during the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Gibault",
+      "gender": "Male"
+    },
+    {
+      "id": "recACO4ECCQoupHfQ",
+      "pid": "L72N-FFF",
+      "name": "Peter Muhlenberg",
+      "desc": "John Peter Gabriel Muhlenberg October 1, 1746 – October 1, 1807 was an American clergyman and Continental Army soldier during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Peter_Muhlenberg",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rtyr4/thumb200s.jpg"
+    },
+    {
+      "id": "recAK1JxZnUa3SH9S",
+      "pid": "LV7F-3YQ",
+      "name": "Blackleach Burritt",
+      "desc": "Blackleach Burritt 1744 – August 27, 1794 was a preacher during the American Revolutionary War. During the war, he was incarcerated in a sugar house prison.",
+      "url": "https://en.wikipedia.org/wiki/Blackleach_Burritt",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zelg7/thumb200s.jpg"
+    },
+    {
+      "id": "recBGcCLoba9Mp1VM",
+      "pid": "M9HF-8XS",
+      "name": "William Smith",
+      "desc": "William Smith September 7, 1727 – May 14, 1803 was an Episcopal priest who served as the first provost of the College of Philadelphia, which became the University of Pennsylvania. He was also the founder of Washington College in Chestertown Maryland, and St. John's College in Annapolis, Maryland.",
+      "url": "https://en.wikipedia.org/wiki/William_Smith_(Anglican_priest)",
+      "gender": "Male"
+    },
+    {
+      "id": "recCUTjDNlwbvOaZu",
+      "pid": "GMD2-5B7",
+      "name": "Absalom Jones",
+      "desc": "Absalom Jones November 7, 1746 – February 13, 1818 was an African-American abolitionist and clergyman who became prominent in Philadelphia, Pennsylvania. Disappointed at the racial discrimination he experienced in a local Methodist church, he founded the Free African Society with Richard Allen in 1787, a mutual aid society for African Americans in the city. The Free African Society included many people newly freed from slavery after the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Absalom_Jones",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2a7si/thumb200s.jpg"
+    },
+    {
+      "id": "recDtmOpjqOSIqTKw",
+      "pid": "L4BZ-M3K",
+      "name": "Samuel Kirkland",
+      "desc": "Samuel Kirkland December 1, 1741 – February 28, 1808 was a Presbyterian minister and missionary among the Oneida and Tuscarora peoples of present-day central New York State. He was a long-time friend of the Oneida chief Skenandoa.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Kirkland",
+      "gender": "Male"
+    },
+    {
+      "id": "recEMckSJ8AQVN7vB",
+      "pid": "LCZN-7WF",
+      "name": "Francis Asbury",
+      "desc": "Francis Asbury August 20 or 21, 1745 – March 31, 1816 was one of the first two bishops of the Methodist Episcopal Church in the United States. During his 45 years in the colonies and the newly independent United States, he devoted his life to ministry, traveling on horseback and by carriage thousands of miles to those living on the frontier.",
+      "url": "https://en.wikipedia.org/wiki/Francis_Asbury",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f058a/thumb200s.jpg"
+    },
+    {
+      "id": "recIm83CeybHYmK5J",
+      "pid": "21R5-793",
+      "name": "Nathaniel Bartlett",
+      "desc": "Nathaniel Bartlett April 22, 1727 – January 11, 1810, pastor of the Congregational Church of Redding, Connecticut, during the period 1753–1810, was one of the numerous Colonial American clergymen who played an active role during the American Revolution. He was among many such American patriots living in British Colonial America on the eve of the Revolutionary War, who found themselves in circumstances which compelled them to make a personal contribution to the unfolding drama of one of history's most momentous events.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Bartlett",
+      "gender": "Male"
+    },
+    {
+      "id": "recIWiaEADbhpRHiB",
+      "pid": "L7YB-LPC",
+      "name": "Naphtali Daggett",
+      "desc": "Naphtali Daggett September 8, 1727 – November 25, 1780 was an American academic and educator. He graduated from Yale University in 1748. Three years later, he became pastor of the Presbyterian Church in Smithtown, Long Island. In 1755, the Yale Corporation persuaded him to return to New Haven to assist President Thomas Clapp in the pulpit, and to be considered for appointment as a college professor. On March 4, 1756, the Corporation inducted him as Yale's first professor—officially the Livingstonian Professor of Divinity.",
+      "url": "https://en.wikipedia.org/wiki/Naphtali_Daggett",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yxdv3/thumb200s.jpg"
+    },
+    {
+      "id": "recJCx0nUiB3H9Plq",
+      "pid": "L443-7NY",
+      "name": "Timothy Dwight IV",
+      "desc": "Timothy Dwight May 14, 1752 – January 11, 1817 was an American academic and educator, a Congregationalist minister, theologian, and author. He was the eighth president of Yale College 1795–1817.",
+      "url": "https://en.wikipedia.org/wiki/Timothy_Dwight_IV",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8xkpi/thumb200s.jpg"
+    },
+    {
+      "id": "recJCSWnw9hhSXgI2",
+      "pid": "K23K-F89",
+      "name": "Frederick Valentine Melsheimer",
+      "desc": "The Reverend Frederick Valentine Melsheimer September 25, 1749, Negenborn, Brunswick – June 30, 1814, Hanover, Pennsylvania was a Lutheran clergyman and early American entomologist, called the \"Father of American Entomology\" by successor Thomas Say. He was the author of the first major entomological work in the United States: A Catalogue of Insects of Pennsylvania 1806, a sixty-page work that describes 1,363 species of beetles.",
+      "url": "https://en.wikipedia.org/wiki/Frederick_Valentine_Melsheimer",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/tpf32/thumb200s.jpg"
+    },
+    {
+      "id": "recKLnK8g5qwJ2HWa",
+      "pid": "L5Y5-PYG",
+      "name": "Samuel Magaw",
+      "desc": "Rev. Samuel Magaw, D.D. 1735 – 1 December 1812 was a clergyman and educator from Pennsylvania. He was a member of the American Philosophical Society in 1784 and served as Vice Provost of the University of Pennsylvania 1782–1791.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Magaw",
+      "gender": "Male"
+    },
+    {
+      "id": "recK7yC8pnvOrkXV3",
+      "pid": "MX11-BL6",
+      "name": "Lemuel Haynes",
+      "desc": "Lemuel Haynes July 18, 1753 – September 28, 1833 was an American clergyman. A veteran of the American Revolution, Haynes was the first black man in the United States to be ordained as a minister.",
+      "url": "https://en.wikipedia.org/wiki/Lemuel_Haynes",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qorjk/thumb200s.jpg"
+    },
+    {
+      "id": "recLowmGRZWYnVDOU",
+      "pid": "LV6Q-2VV",
+      "name": "James Francis Armstrong",
+      "desc": "James Francis Armstrong April 3, 1750 – January 19, 1816 was a chaplain from New Jersey in the American Revolutionary War and a Presbyterian minister for 30 years in Trenton, New Jersey.",
+      "url": "https://en.wikipedia.org/wiki/James_Francis_Armstrong",
+      "gender": "Male"
+    },
+    {
+      "id": "recMl4zPZtd1BKl8Q",
+      "pid": "LTJP-J7X",
+      "name": "John Gano",
+      "desc": "John Gano July 22, 1727– August 10, 1804 was a Baptist minister, soldier, patriot, and Revolutionary War chaplain who allegedly baptized his friend, General George Washington. He was also notable for his bravery at the Battle of White Plains and crossing the Delaware River with General Washington. Gano later served as the first chaplain of the Kentucky Legislature in 1798. He was the founder of the Gano political family, which included several generations of politicians and military officers.",
+      "url": "https://en.wikipedia.org/wiki/John_Gano",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ddj6g/thumb200s.jpg"
+    },
+    {
+      "id": "recM8Fy4SNIMLRAKz",
+      "pid": "L8MF-BJ5",
+      "name": "Joseph Roby",
+      "desc": "Joseph Roby May 12, 1724 – January 31, 1803 was an American Congregationalist minister and supporter of the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Roby#:~:text=Joseph%20Roby%20(May%2012%2C%201724,supporter%20of%20the%20American%20Revolution.",
+      "gender": "Male"
+    },
+    {
+      "id": "recOTQsaTrGpxds2i",
+      "pid": "LH51-LKJ",
+      "name": "Rev. Joseph Thaxter Jr.",
+      "desc": "Joseph Thaxter, the eldest son of Deacon Joseph and Mary Leavitt Thaxter, was born in Hingham, April 23,1742. He graduated at Harvard College in 1768; studied theology with Rev. Dr. Gay in his native place, and was licensed to preach in 1771. He was present at the fight at Concord Bridge and at the battle of Bunker Hill. On the 23rd of January, 1776, he was elected a chaplain in the army, and served in a regiment of which John Robinson, of Westford, was colonel.",
+      "url": "https://www.westford.org/westford1775/Joseph_Thaxter.html",
+      "gender": "Male"
+    },
+    {
+      "id": "recOJFPexepOu6xRM",
+      "pid": "L87V-SS5",
+      "name": "James Caldwell",
+      "desc": "James Caldwell April 1734 – November 24, 1781 was a Presbyterian minister who played a prominent part in the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/James_Caldwell_(clergyman)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mgg1d/thumb200s.jpg"
+    },
+    {
+      "id": "recRYxBsPb179Ad8v",
+      "pid": "KCSD-QK8",
+      "name": "Samuel Seabury",
+      "desc": "Samuel Seabury November 30, 1729 – February 25, 1796 was the first American Episcopal bishop, the second Presiding Bishop of the Episcopal Church in the United States of America, and the first Bishop of Connecticut. He was a leading Loyalist in New York City during the American Revolution and a known rival of Alexander Hamilton.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Seabury_(bishop)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/tdx46/thumb200s.jpg"
+    },
+    {
+      "id": "rec37Rdaua5Enu4ra",
+      "pid": "LT5K-DNT",
+      "name": "Moses Allen",
+      "desc": "Moses Allen September 14, 1748 – February 8, 1779 was a minister of Midway, Georgia during the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Moses_Allen_(minister)",
+      "gender": "Male"
+    },
+    {
+      "id": "rec50Lh7MRDpMRUXi",
+      "pid": "KV2F-5WR",
+      "name": "Manasseh Cutler",
+      "desc": "Manasseh Cutler May 13, 1742 – July 28, 1823 was an American Congregational clergyman involved in the American Revolutionary War. He was influential in the passage of the Northwest Ordinance of 1787 and wrote the section prohibiting slavery in the Northwest Territory. Cutler was also a member of the United States House of Representatives. Cutler is \"rightly entitled to be called 'The Father of Ohio University.'\"",
+      "url": "https://en.wikipedia.org/wiki/Manasseh_Cutler",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/rwbf9/thumb200s.jpg"
+    },
+    {
+      "id": "recaqAm0W5yZz7dQ4",
+      "pid": "LH6X-LF2",
+      "name": "John Murray",
+      "desc": "John Murray December 10, 1741 – September 3, 1815 was one of the founders of the Universalist denomination in the United States, a pioneer minister and an inspirational figure.",
+      "url": "https://en.wikipedia.org/wiki/John_Murray_(minister)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8l1nh/thumb200s.jpg"
+    },
+    {
+      "id": "recawWOzQDO808Idi",
+      "pid": "MLH4-4F2",
+      "name": "John Marrant",
+      "desc": "John Marrant June 15, 1755 – April 15, 1791 was an American Methodist preacher and missionary and one of the first black preachers in North America. Born free in New York City, he moved as a child with his family to Charleston, South Carolina. His father died when he was young, and he and his mother also lived in Florida and Georgia. After escaping to the Cherokee, with whom he lived for two years, he allied with the British during the American Revolutionary War and resettled afterward in London. There he became involved with the Countess of Huntingdon's Connexion and ordained as a preacher.",
+      "url": "https://en.wikipedia.org/wiki/John_Marrant",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9eq08/thumb200s.jpg"
+    },
+    {
+      "id": "recex79RyVYmFJL9J",
+      "pid": "L13C-K6L",
+      "name": "Jarena Lee",
+      "desc": "Jarena Lee February 11, 1783 – February 3, 1864 was the first woman preacher in the African Methodist Episcopal Church AME. Born into a free Black family, in New Jersey, Lee asked the founder of the AME church, Richard Allen, to be a preacher. Although Allen initially refused, after hearing her preach in 1819, Allen approved her preaching ministry. A leader in the Wesleyan-Holiness movement, Lee preached the doctrine of entire sanctification as an itinerant pastor throughout the pulpits of the African Methodist Episcopal denomination. In 1836, Lee became the first African American woman to publish her autobiography.",
+      "url": "https://en.wikipedia.org/wiki/Jarena_Lee",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/slvqk/thumb200s.jpg"
+    },
+    {
+      "id": "receFB4DXF3FYGC0c",
+      "pid": "LHJG-T97",
+      "name": "John Carroll",
+      "desc": "John Carroll SJ January 8, 1735 – December 3, 1815 was an American prelate of the Catholic Church who served as the first bishop and archbishop in the United States. He served as the ordinary of the first diocese and later Archdiocese of Baltimore, in Maryland, which at first encompassed all of the United States and later after division as the eastern half of the new nation.",
+      "url": "https://en.wikipedia.org/wiki/John_Carroll_(bishop)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jr1nj/thumb200s.jpg"
+    },
+    {
+      "id": "recgsuxcEYgxS4xlA",
+      "pid": "LW84-YVN",
+      "name": "Samuel Phillips Payson",
+      "desc": "Phillips Payson January 18, 1736 – January 11, 1801 was an American Congregationalist minister who was the pastor for the town of Chelsea, Massachusetts from 1757 until his death.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Phillips_Payson",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f7alk/thumb200s.jpg"
+    },
+    {
+      "id": "recgtuKYWWTQjLZfP",
+      "pid": "LZG9-QWJ",
+      "name": "William Linn",
+      "desc": "William Linn February 27, 1752 – January 8, 1808 was an American Presbyterian minister and the second President of Queen's College now Rutgers University, serving in a pro tempore capacity from 1791 to 1795. He was also the first Chaplain of the United States House of Representatives.",
+      "url": "https://en.wikipedia.org/wiki/William_Linn_(clergyman)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ruee5/thumb200s.jpg"
+    },
+    {
+      "id": "reciUfIL614vK1anm",
+      "pid": "MZWM-M27",
+      "name": "Richard Peters",
+      "desc": "Richard Peters 1704 – July 10, 1776, born in Liverpool, became an attorney, Anglican minister, and civil servant. In 1735 he emigrated to Pennsylvania, where he served in numerous posts for the Penn family, including on the Governor's Council from 1749 to 1775, and eventually became rector of Christ Church in Philadelphia.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Peters_(priest)",
+      "gender": "Male"
+    },
+    {
+      "id": "recjz1uCGJoPEQlH7",
+      "pid": "L7G8-3T2",
+      "name": "David Zeisberger",
+      "desc": "David Zeisberger April 11, 1721 – November 17, 1808 was a Moravian clergyman and missionary among the Native American tribes who resided in the Thirteen Colonies. He established communities of Munsee Lenape converts to Christianity in the valley of the Muskingum River in Ohio; and for a time, near modern-day Amherstburg, Ontario.",
+      "url": "https://en.wikipedia.org/wiki/David_Zeisberger",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jvi57/thumb200s.jpg"
+    },
+    {
+      "id": "reckSdCaUqHwPeUKb",
+      "pid": "9MR1-NX7",
+      "name": "George Liele",
+      "desc": "George Liele also spelled Lisle or Leile, c. 1750–1820 was an African American and emancipated slave who became the founding pastor of First Bryan Baptist Church and First African Baptist Church, in Savannah, Georgia USA. He later would become a missionary to Jamaica.",
+      "url": "https://en.wikipedia.org/wiki/George_Liele",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/q2q16/thumb200s.jpg"
+    },
+    {
+      "id": "recn3Lf62BDLny0sx",
+      "pid": "27FK-997",
+      "name": "Elihu Spencer",
+      "desc": "Elihu Spencer February 12, 1721 – December 27, 1784 was an American clergyman who served as a chaplain during the French and Indian War. During the American Revolution, he was invited to North Carolina by that colony's provincial congress to convince loyalist congregations to join the patriot cause.",
+      "url": "https://en.wikipedia.org/wiki/Elihu_Spencer",
+      "gender": "Male"
+    },
+    {
+      "id": "recoxndgm9QZPv6Oi",
+      "pid": "LZDC-6KM",
+      "name": "Joseph Montgomery",
+      "desc": "Joseph Montgomery 1733–1794 was an American Presbyterian minister and a delegate to the Continental Congress from Pennsylvania.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Montgomery",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jvnvj/thumb200s.jpg"
+    },
+    {
+      "id": "recp7laTFUpiYB0kL",
+      "pid": "LRH1-LMP",
+      "name": "John Witherspoon",
+      "desc": "John Witherspoon February 5, 1723 – November 15, 1794 was a Scottish-American Presbyterian minister, educator, farmer, slaveholder, and a Founding Father of the United States. Witherspoon embraced the concepts of Scottish common sense realism, and while president of the College of New Jersey 1768–1794; now Princeton University became an influential figure in the development of the United States' national character. Politically active, Witherspoon was a delegate from New Jersey to the Second Continental Congress and a signatory to the July 4, 1776, Declaration of Independence. He was the only active clergyman and the only college president to sign the Declaration. Later, he signed the Articles of Confederation and supported ratification of the Constitution of the United States.",
+      "url": "https://en.wikipedia.org/wiki/John_Witherspoon",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jj7g/thumb200s.jpg"
+    },
+    {
+      "id": "recK28oVUhWcmoJO7",
+      "pid": "24PY-N4M",
+      "name": "Hercules Mulligan",
+      "desc": "Hercules Mulligan September 25, 1740 – March 4, 1825 was an Irish-American tailor and spy during the American Revolutionary War. He was a member of the Sons of Liberty.",
+      "url": "https://en.wikipedia.org/wiki/Hercules_Mulligan",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9z5r7/thumb200s.jpg"
+    }
+  ]
+}

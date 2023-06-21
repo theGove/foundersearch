@@ -1,0 +1,178 @@
+{
+  "title": "Ministers of the Great Awakening",
+  "desc": "Ministers in the American colonies around the time of the Great Awakening (1730 -1750)\n",
+  "banner": "awakening.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recTy5wVyIi93FHSf",
+      "pid": "LZYX-CQD",
+      "name": "Samuel Davies",
+      "desc": "Samuel Davies November 3, 1723 – February 4, 1761 was an evangelist and Presbyterian minister. Davies ministered in Hanover County from 1748 to 1759, followed by a term as the fourth President of Princeton University, then known as the College of New Jersey, from 1759 to 1761. Davies was one of the first non-Anglican preachers in Virginia, and one of earliest missionaries to slaves in the Thirteen Colonies. He was a strong advocate for religious freedom, and helped to institute significant religious reforms in the colony. Davies was also a prolific writer, authoring several hymns and publishing a book of poetry.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Davies_(clergyman)",
+      "gender": "Male"
+    },
+    {
+      "id": "recWIcaiKPOoiQy6a",
+      "pid": "9XTN-LR7",
+      "name": "Eleazar Wheelock",
+      "desc": "Eleazar Wheelock was born in Windham, Connecticut, to Ralph Wheelock and Ruth Huntington, who had a prosperous farm of 300 acres. He is the great-grandson of the first teacher of the first free school in the United States see Dedham, Massachusetts, the Rev. Ralph Wheelock. In 1733, he graduated from Yale College, having won the first award of the Dean Berkeley Donation for distinction in classics. He continued his theological studies at Yale until he was licensed to preach in May 1734.",
+      "url": "https://en.wikipedia.org/wiki/Eleazar_Wheelock",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ky5dj/thumb200s.jpg"
+    },
+    {
+      "id": "recZHBOVLuxeL5Yff",
+      "pid": "LZFD-S31",
+      "name": "Isaac Watts",
+      "desc": "Isaac Watts 17 July 1674 – 25 November 1748 was an English Congregational minister, hymn writer, theologian, and logician. He was a prolific and popular hymn writer and is credited with some 750 hymns. His works include \"When I Survey the Wondrous Cross\", \"Joy to the World\", and \"Our God, Our Help in Ages Past\". He is recognized as the \"Godfather of English Hymnody\"; many of his hymns remain in use today and have been translated into numerous languages.",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Watts",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/3l7f9/thumb200s.jpg"
+    },
+    {
+      "id": "rec1xT5sub1VNGUG2",
+      "pid": "GMCM-JVG",
+      "name": "William Tennent",
+      "desc": "William Tennent 1673 – May 6, 1746 was an early Scottish American Presbyterian minister and educator in British North America.",
+      "url": "https://en.wikipedia.org/wiki/William_Tennent",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kp8da/thumb200s.jpg"
+    },
+    {
+      "id": "recweoRTX4EzH71d6",
+      "pid": "9HPN-ZXQ",
+      "name": "John Cotton",
+      "desc": "John Cotton 4 December 1585 – 23 December 1652 was a clergyman in England and the American colonies and was considered the preeminent minister and theologian of the Massachusetts Bay Colony. He studied for five years at Trinity College, Cambridge, and nine years at Emmanuel College, Cambridge. He had already built a reputation as a scholar and outstanding preacher when he accepted the position of minister at St. Botolph's Church, Boston in Lincolnshire, in 1612.",
+      "url": "https://en.wikipedia.org/wiki/John_Cotton_(minister)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/w6z5/thumb200s.jpg"
+    },
+    {
+      "id": "recxz9ZBuJuc98Kmu",
+      "pid": "LZWV-B6T",
+      "name": "Solomon Stoddard",
+      "desc": "Solomon Stoddard September 27, 1643, baptized October 1, 1643 – February 11, 1729 was the pastor of the Congregationalist Church in Northampton, Massachusetts Bay Colony. He succeeded Rev. Eleazer Mather, and later married his widow around 1670. Stoddard significantly liberalized church policy while promoting more power for the clergy, decrying drinking and extravagance, and urging the preaching of hellfire and the Judgment. The major religious leader of what was then the frontier, he was known as the \"Puritan Pope of the Connecticut River valley\" and was concerned with the lives and the souls of second-generation Puritans. The well-known theologian Jonathan Edwards 1703–1758 was his grandson, the son of Solomon's daughter, Esther Stoddard Edwards. Stoddard was the first librarian at Harvard University and the first person in American history known by that title",
+      "url": "https://en.wikipedia.org/wiki/Solomon_Stoddard",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k9jv7/thumb200s.jpg"
+    },
+    {
+      "id": "recymEahYAMPla491",
+      "pid": "LR7T-FWX",
+      "name": "Roger Williams",
+      "desc": "Roger Williams c. December 21, 1603 – March 1683 was an English-born New England Puritan minister, theologian, and author who founded Providence Plantations, which became the Colony of Rhode Island and Providence Plantations and later the State of Rhode Island and Providence Plantations. He was a staunch advocate for religious freedom, separation of church and state, and fair dealings with the American Indians.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Williams",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ps1jk/thumb200s.jpg"
+    },
+    {
+      "id": "recAvdxL80stxX8Jv",
+      "pid": "LZ4L-Q72",
+      "name": "James Davenport",
+      "desc": "James Davenport 1716–1757 was an American Congregational clergyman and itinerant preacher noted for his often controversial actions during the First Great Awakening.",
+      "url": "https://en.wikipedia.org/wiki/James_Davenport_(clergyman)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zta49/thumb200s.jpg"
+    },
+    {
+      "id": "recENbu1bQ810FmcV",
+      "pid": "MQMD-6TG",
+      "name": "Samuel Blair",
+      "desc": "Samuel Blair June 14, 1712 – July 5, 1751 was a Presbyterian minister and one of the leaders of the Presbyterian New Light religious movement that swept the North American colonies as part of the First Great Awakening. In 1739, he founded a theology school, Faggs Manor Classical School, near his church in Faggs Manor, Pennsylvania. Blair's son, also named Samuel Blair was born in Faggs Manor, and became the second Chaplain of the United States House of Representatives. The church was rebuilt in 1846 and is now known simply as the Faggs Manor Presbyterian Church.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Blair_(pastor)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/clzrj/thumb200s.jpg"
+    },
+    {
+      "id": "recEjro6Wbh6uB57M",
+      "pid": "LH6C-T5Y",
+      "name": "Gilbert Tennent",
+      "desc": "Gilbert Tennent 5 February 1703 – 23 July 1764 was a pietistic Protestant evangelist in colonial America. Born in a Presbyterian Scots-Irish family in County Armagh, Ireland, he migrated to America as a teenager, trained for pastoral ministry, and became one of the leaders of the Great Awakening of religious feeling in Colonial America, along with Jonathan Edwards, George Whitefield, and his father William Tennent. His most famous sermon, \"On the Danger of an Unconverted Ministry,\" compared contemporary anti-revivalistic ministers to the biblical Pharisees described in the Gospels, resulting in a division of the colonial Presbyterian Church which lasted 17 years. Although he engaged divisively via pamphlets early in this period, Tennent would later work \"feverishly\" for reunion of the various synods involved.",
+      "url": "https://en.wikipedia.org/wiki/Gilbert_Tennent",
+      "gender": "Male"
+    },
+    {
+      "id": "recF0q63C99qokRLd",
+      "pid": "L5B3-3VQ",
+      "name": "Cotton Mather",
+      "desc": "Cotton Mather FRS /ˈmæðər/; February 12, 1663 – February 13, 1728 was a New England Puritan clergyman and writer. Educated at Harvard College, in 1685 he joined his father Increase as minister of the Congregationalist Old North Meeting House of Boston, where he continued to preach for the rest of his life.",
+      "url": "https://en.wikipedia.org/wiki/Cotton_Mather",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/h8a9i/thumb200s.jpg"
+    },
+    {
+      "id": "recHg9cfzR7BHyqr6",
+      "pid": "MWWW-LYD",
+      "name": "Anne Marbury Hutchinson",
+      "desc": "Anne Hutchinson née Marbury; July 1591 – August 1643 was a Puritan spiritual advisor, religious reformer, and an important participant in the Antinomian Controversy which shook the infant Massachusetts Bay Colony from 1636 to 1638. Her strong religious convictions were at odds with the established Puritan clergy in the Boston area and her popularity and charisma helped create a theological schism that threatened the Puritan religious community in New England. She was eventually tried and convicted, then banished from the colony with many of her supporters.",
+      "url": "https://en.wikipedia.org/wiki/Anne_Hutchinson",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2u4kj/thumb200s.jpg"
+    },
+    {
+      "id": "recOcFbgTXoIQYJb7",
+      "pid": "K6QN-P8Q",
+      "name": "John Wesley",
+      "desc": "John Wesley /ˈwɛsli/; 28 June   1703 – 2 March 1791 was an English cleric, theologian, and evangelist who was a leader of a revival movement within the Church of England known as Methodism. The societies he founded became the dominant form of the independent Methodist movement that continues to this day.",
+      "url": "https://en.wikipedia.org/wiki/John_Wesley",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/evvi1/thumb200s.jpg"
+    },
+    {
+      "id": "rec64akQth0eTUfIv",
+      "pid": "L7BZ-HKY",
+      "name": "George Whitefield",
+      "desc": "George Whitefield /ˈhwɪtfiːld/; 27 December  1714 – 30 September 1770, also known as George Whitfield, was an Anglican cleric and evangelist who was one of the founders of Methodism and the evangelical movement.",
+      "url": "https://en.wikipedia.org/wiki/George_Whitefield",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/v62zh/thumb200s.jpg"
+    },
+    {
+      "id": "recdOu6A3fdtPsF53",
+      "pid": "KNZ3-H8V",
+      "name": "Jonathan Edwards",
+      "desc": "Jonathan Edwards October 5, 1703 – March 22, 1758 was an American revivalist preacher, philosopher, and Congregationalist theologian.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Edwards_(theologian)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/w2k2i/thumb200s.jpg"
+    },
+    {
+      "id": "recdZjkSFw0MkDY9m",
+      "pid": "LV5P-CLL",
+      "name": "Jonathan Dickinson",
+      "desc": "Jonathan Dickinson April 22, 1688 – October 7, 1747 was a Congregational, later Presbyterian, minister, a leader in the Great Awakening of the 1730s and 1740s, and a co-founder and first president of the College of New Jersey, which later became Princeton University.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Dickinson_(New_Jersey_minister)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ue1g4/thumb200s.jpg"
+    },
+    {
+      "id": "recicyZG7oQpDEs1L",
+      "pid": "LCXV-3PC",
+      "name": "Charles Wesley",
+      "desc": "Charles Wesley 18 December 1707 – 29 March 1788 was an English leader of the Methodist movement. Wesley was a prolific hymnwriter who wrote over 6,500 hymns during his lifetime. His works include \"And Can It Be\", \"Christ the Lord Is Risen Today\", \"Love Divine, All Loves Excelling\", the carol \"Hark! The Herald Angels Sing\", and \"Lo! He Comes With Clouds Descending\".",
+      "url": "https://en.wikipedia.org/wiki/Charles_Wesley",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ddtbh/thumb200s.jpg"
+    },
+    {
+      "id": "recmYKJW8iDDNdHiI",
+      "pid": "LHLB-TCQ",
+      "name": "Theodorus Jacobus Frelinghuysen",
+      "desc": "Theodorus Jacobus Frelinghuysen born as Theodor Jakob Frelinghaus, c. 1691 – c. 1747 was a German-American Dutch Reformed minister, theologian and the progenitor of the Frelinghuysen family in the United States of America. Frelinghuysen is most remembered for his religious contributions in the Raritan Valley during the beginnings of the First Great Awakening. Several of his descendants became influential theologians and politicians throughout American history.",
+      "url": "https://en.wikipedia.org/wiki/Theodorus_Jacobus_Frelinghuysen",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5uhh/thumb200s.jpg"
+    },
+    {
+      "id": "recoNzx1Ct0tnt2JT",
+      "pid": "2DTL-W3L",
+      "name": "Henry Alline",
+      "desc": "Henry Alline pronounced Allen June 14, 1748 – February 2, 1784 was a minister, evangelist, and writer who became known as \"the Apostle of Nova Scotia.\"",
+      "url": "https://en.wikipedia.org/wiki/Henry_Alline",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qcpv9/thumb200s.jpg"
+    }
+  ]
+}

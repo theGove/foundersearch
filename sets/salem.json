@@ -1,100 +1,645 @@
 {
-	"title": "Salem Witch Trials",
-	"desc": "Find out if you are related to anyone associated with the Salem Witch Trials, a series of hearings and prosecutions of people accused of witchcraft in colonial Massachusetts between March 1692 and May 1693. The trials resulted in the executions of twenty people, most of whom were women.",
-	"banner": "salem.webp",
-	"backgroundColor": "#fff",
-	"textColor": "#000",
-	"people": [
-	  {
-		"pid": "LH8R-QQZ",
-		"name": "Elizabeth Booth",
-		"desc": "Accuser: When she was sixteen she was accused of being a witch. When she was eighteen, she began accusing people (ten people on record) of practicing witchcraft.",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "G8LH-4WF",
-		"name": "Elizabeth Hubbard",
-		"desc": "Accusser: Best known as the primary instigator of the Salem Witch Trials.",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "",
-		"name": "Mercy Lewis",
-		"desc": "Accusser",
-		"gender": "Male"
-	  },
-	  {
-		"pid": "LX79-SXN",
-		"name": "Elizabeth \"Betty\" Parris",
-		"desc": "The accusations made by Parris and her cousin Abigail Williams caused the direct death of 20 Salem residents: 19 were hanged, while another, Giles Corey, was pressed to death.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r1cxf/thumb200s.jpg",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "KPWT-58P",
-		"name": "Anna Putnam",
-		"desc": "An important witness at the Salem Witch Trials",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "",
-		"name": "Abigail Williams",
-		"desc": "Accusser",
-		"gender": "Male"
-	  },
-	  {
-		"pid": "L41Z-R5Q",
-		"name": "Deliverance Haseltine",
-		"desc": "Confessed witch, and witch accuser. Escaped execution.",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "LZGT-3Q5",
-		"name": "Thomas Putnam",
-		"desc": "Significant accuser responsible for the accusations of 43 people.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u9erj/thumb200s.jpg",
-		"gender": "Male"
-	  },
-	  {
-		"pid": "LBCW-QF9",
-		"name": "Bridget Magnus",
-		"desc": "First person executed for witchcraft.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/95b9e/thumb200s.jpg",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "93SS-QRT",
-		"name": "Sarah Solart",
-		"desc": "One of the first three women to be accused of witchcraft.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1xq49/thumb200s.jpg",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "9421-W84",
-		"name": "Rebecca Towne",
-		"desc": "Accused of witchcraft and executed by hanging. She was fully exonerated fewer than twenty years later.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zovak/thumb200s.jpg",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "LYCL-MSM",
-		"name": "Elizabeth Jackson",
-		"desc": "Accused a witch by a ten year old girl.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8ecy9/thumb200s.jpg",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "LZLN-7JJ",
-		"name": "Susannah North",
-		"desc": "One of fourteen women executed for witchcraft.",
-		"imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5y3nj/thumb200s.jpg",
-		"gender": "Female"
-	  },
-	  {
-		"pid": "",
-		"name": "",
-		"desc": "",
-		"gender": "Male"
-	  }
-	]
-  }
+  "title": "1692 Salem Witch Trials",
+  "desc": "Find out if you are related to anyone associated with the Salem Witch Trials, a series of hearings and prosecutions of people accused of witchcraft in colonial Massachusetts between March 1692 and May 1693. The trials resulted in the executions of twenty people, most of whom were women.",
+  "banner": "salem.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recSGeTyhZkh38dgm",
+      "pid": "9365-XNF",
+      "name": "Daniel Andrew",
+      "desc": "Daniel Andrew was accused of witchcraft in Salem but fled before he could be brought in.",
+      "gender": "Male"
+    },
+    {
+      "id": "recJgmruSEGI4tlU4",
+      "pid": "L7KJ-RXZ",
+      "name": "William Phillips",
+      "desc": "William Phillips (1731 – 13 May 1781) was a renowned artilleryman and general officer in the British Army who served as a major-general in the American War of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Phillips_(British_Army_officer)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ouazj/thumb200s.jpg"
+    },
+    {
+      "id": "recTh0K1bnrkARbPP",
+      "pid": "LCXD-65H",
+      "name": "Increase Mather",
+      "url": "https://en.wikipedia.org/wiki/Increase_Mather",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/md6j7/thumb200s.jpg"
+    },
+    {
+      "id": "recUURcW0beIwlUN8",
+      "pid": "LH3Z-MG9",
+      "name": "Abigail Hobbs",
+      "desc": "Abigail Hobbs was a girl of about 14-17 years old when she was arrested for witchcraft on April 18, 1692, along with Giles Corey, Mary Warren, and Bridget Bishop. Prior to living in Salem Village now Danvers, Massachusetts, she and her family had lived in Falmouth, Maine, the frontier of the Massachusetts Bay Colony, during a time when there were many attacks by the Wabanaki Native Americans. Her father William and mother, Deliverance Hobbs, were also both charged with witchcraft.",
+      "url": "https://en.wikipedia.org/wiki/Abigail_Hobbs",
+      "gender": "Female"
+    },
+    {
+      "id": "recVsGzTrzFf1Kl78",
+      "pid": "LZV7-Y94",
+      "name": "Waitstill Winthrop",
+      "desc": "Waitstill Winthrop 27 February 1642 – 7 November 1717 was a colonial magistrate, military officer, and politician of New England.",
+      "url": "https://en.wikipedia.org/wiki/Waitstill_Winthrop",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/upbwd/thumb200s.jpg"
+    },
+    {
+      "id": "recVtjOQ2SFsXhJwi",
+      "pid": "L87Y-Z17",
+      "name": "Sarah Pease",
+      "desc": "Sarah was accused on Monday, May 23, 1692 of \"sundry acts of Witchcraft committed on the bodys of Mary Warren, Abigaile Williams and Eliz Hubbard.\" along with Benjamin Procter and Mary Derich. A warrant for her arrest was issued and she was arrested that day.",
+      "url": "http://spicerweb.org/Genealogy/Pease/sarahwitch.aspx",
+      "gender": "Female"
+    },
+    {
+      "id": "recWCcCBwp6na3KR8",
+      "pid": "MZWX-VS8",
+      "name": "Margaret Stephenson Scott",
+      "desc": "Margaret Scott née Stephenson, March 28, 1616 – October 2, 1692 was found guilty of witchcraft during the Salem witch trials and was executed by hanging on September 22, 1692. She was part of the last group to be executed, which also included Mary Eastey, Martha Corey, Ann Pudeator, Samuel Wardwell, Mary Parker, Alice Parker, and Wilmot Redd. She was the only accused person from Rowley to be executed. As a lower-class, long-term widow, having lost several children in infancy, she was a prototypical witch candidate. When her husband, Benjamin, died, he left a very small estate and she, being unable to remarry, was reduced to begging, which invited resentment and suspicion. In this manner, her circumstances were comparable to fellow victim Sarah Good.",
+      "url": "https://en.wikipedia.org/wiki/Margaret_Scott_(Salem_witch_trials)",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nhjgj/thumb200s.jpg"
+    },
+    {
+      "id": "rec0lrcomz9FJyprY",
+      "pid": "96X6-Q52",
+      "name": "Samuel Parris",
+      "desc": "Samuel Parris 1653 – February 27, 1720 was the Puritan minister in Salem Village, Massachusetts, during the Salem witch trials. He was also the father of one of the afflicted girls, and the uncle of another.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Parris",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/0ir7j/thumb200s.jpg"
+    },
+    {
+      "id": "rec1ZUuT2DqtlEMgN",
+      "pid": "LZDC-6KM",
+      "name": "John Hathorne",
+      "desc": "John Hathorne August 1641 – May 10, 1717 was a merchant and magistrate of the Massachusetts Bay Colony and Salem, Massachusetts. He is best known for his early and vocal role as one of the leading judges in the Salem witch trials.",
+      "url": "https://en.wikipedia.org/wiki/John_Hathorne",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jvnvj/thumb200s.jpg"
+    },
+    {
+      "id": "recsOiV04ctlJdiNL",
+      "pid": "L6RQ-2DN",
+      "name": "Roger Toothaker",
+      "desc": "Roger Toothaker 1634 – 16 June 1692 was a physician from Billerica, Massachusetts who was accused of witchcraft during the Salem witch trials in May 1692. He was sent to Boston Jail where he died the following month.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Toothaker",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/tpyxe/thumb200s.jpg"
+    },
+    {
+      "id": "recvHtnR1g4wH1mbQ",
+      "pid": "LYNX-BYL",
+      "name": "Samuel Sewall",
+      "desc": "Samuel Sewall /ˈsuːəl/; March 28, 1652 – January 1, 1730 was a judge, businessman, and printer in the Province of Massachusetts Bay, best known for his involvement in the Salem witch trials, for which he later apologized, and his essay The Selling of Joseph 1700, which criticized slavery. He served for many years as the chief justice of the Massachusetts Superior Court of Judicature, the province's high court.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Sewall",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/f6voi/thumb200s.jpg"
+    },
+    {
+      "id": "recveiorUGEvGKBPC",
+      "pid": "94F8-G2B",
+      "name": "William Bond",
+      "desc": "William Bond September 8, 1625–December 14, 1695 was the first Speaker of the Massachusetts Province House of Representatives in 1692 following unification of Plymouth Colony and Massachusetts Bay Colony in 1691, he was the representative for Watertown a position he would be elected to several times after.",
+      "url": "https://en.wikipedia.org/wiki/William_Bond_(Massachusetts_politician)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hpmga/thumb200s.jpg"
+    },
+    {
+      "id": "recwr6C365AD42vYi",
+      "pid": "GCBD-J1Z",
+      "name": "Abigail Williams",
+      "desc": "Abigail Williams born c. 1681, date of death unknown was an 11- or 12-year-old girl who, along with nine-year-old Betty Parris, was among the first of the children to falsely accuse their neighbors of witchcraft in 1692; these accusations eventually led to the Salem witch trials.",
+      "url": "https://en.wikipedia.org/wiki/Abigail_Williams_(Salem_witch_trials)",
+      "gender": "Female"
+    },
+    {
+      "id": "recw1izwUB2ZM92gw",
+      "pid": "L6BG-2BL",
+      "name": "John Proctor",
+      "desc": "John Proctor, Jr. October 9, 1632 – August 19, 1692 was a landowner in the Massachusetts Bay Colony. He was the son of John Proctor Sr. 1594–1672 and Martha Harper 1607–1667. John and his 3rd wife were tried on August 5, 1692. He was hanged on August 19, 1692 in Salem Village, Massachusetts Bay Colony during the Salem Witch Trials after being falsely accused and convicted of witchcraft.",
+      "url": "https://en.wikipedia.org/wiki/John_Proctor_(Salem_witch_trials)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/x6esk/thumb200s.jpg"
+    },
+    {
+      "id": "recxr5zxPutBu0IWa",
+      "pid": "LTL2-3ZW",
+      "name": "Sarah Osborne",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Osborne",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/akkoh/thumb200s.jpg"
+    },
+    {
+      "id": "recxsiGR5BmjKIEBm",
+      "pid": "LCTJ-673",
+      "name": "Wilmot Redd",
+      "desc": "Wilmot Redd a.k.a. Wilmot Read and Wilmot Reed early 17th century - September 22, 1692 was one of the victims of the Salem witch trials of 1692. She was born in Marblehead, Massachusetts, and executed by hanging on September 22, 1692. Her husband was Samuel Redd, a fisherman. She was known for her irritability, but she was given little serious attention.",
+      "url": "https://en.wikipedia.org/wiki/Wilmot_Redd",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mvzq9/thumb200s.jpg"
+    },
+    {
+      "id": "recyICN4gkS9yPB18",
+      "pid": "LC8R-RXV",
+      "name": "John Alden Jr.",
+      "desc": "Capt. John Alden Jr. ca. 1626 or 1627 – March 25, 1702 was a 17th-century American soldier, politician, merchant, and sailor. He was a well-known public figure in his time but is now chiefly remembered as a survivor of the Salem witch trials, of which he wrote a much quoted and studied account.",
+      "url": "https://en.wikipedia.org/wiki/John_Alden_(sailor)",
+      "gender": "Male"
+    },
+    {
+      "id": "reczO9ew0ynwx6PI9",
+      "pid": "M1K9-XPN",
+      "name": "Elizabeth Bassett Proctor",
+      "desc": "Elizabeth Proctor née Bassett; 1650 – after 1703 was convicted of witchcraft in the Salem Witch Trials of 1692. She was the wife of John Proctor, who was convicted and executed. Her execution sentence was postponed because she was pregnant. In 1693 the new governor, Sir William Phips, freed 153 prisoners, including Elizabeth. The widow Proctor remarried in 1699, to Daniel Richards. In 1703 she and her late husband John Proctor were granted a reversal of attainder by the Massachusetts legislature.",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Proctor_(Salem_witch_trials)",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ta53k/thumb200s.jpg"
+    },
+    {
+      "id": "reczOiGEh8QYgceDc",
+      "pid": "LZGL-QRF",
+      "name": "Israel Porter",
+      "desc": "Accused of witchcraft but never indicted.",
+      "url": "https://www.wikitree.com/wiki/Porter-408",
+      "gender": "Male"
+    },
+    {
+      "id": "reczfN8HwAtFAyT46",
+      "pid": "KHRK-QMH",
+      "name": "Peter Sergeant",
+      "desc": "England",
+      "url": "https://www.geni.com/people/Judge-Peter-Sargent/6000000002766428684",
+      "gender": "Male"
+    },
+    {
+      "id": "recCwmRe2exREMvvV",
+      "pid": "MZPV-5XN",
+      "name": "Martha Bowne Farrington",
+      "desc": "Two years after his marriage, on September 17, 1692, Edward Farrington — then only 30 years old — was indicted twice by a grand jury for Witchcraft during the Salem Witch Trials. One \"for Covenantin w'th the Devill\" and one for \"aflicting Mary Warren.\"",
+      "url": "https://www.wikitree.com/wiki/Farrington-247",
+      "gender": "Female"
+    },
+    {
+      "id": "recC2LyVtU9bVIemq",
+      "pid": "LYCL-SPP",
+      "name": "James Howe",
+      "desc": "James How/Howe was named during the Salem Witch Trials but never charged. His wife Elizabeth was convicted and executed",
+      "url": "https://www.wikitree.com/wiki/How-149",
+      "gender": "Male"
+    },
+    {
+      "id": "recC3N6yalQHt1N4q",
+      "pid": "L41Z-R5Q",
+      "name": "Deliverance Dane",
+      "desc": "Deliverance née Hazeltine Dane January 15th, 1653 - June 15th 1735 was one of many women accused of witchcraft during the Salem Witch Trials. She was born January 15th, 1653, her parents were Robert and Anna Hazeltine. She was from Andover, Massachusetts, and due largely to the work of her father-in-law, much of the hysteria that swept through Salem was halted in Andover.",
+      "url": "https://en.wikipedia.org/wiki/Deliverance_(Hazeltine)_Dane",
+      "gender": "Female"
+    },
+    {
+      "id": "recDQS8vkvGTcx1D9",
+      "pid": "LY96-JXC",
+      "name": "Margaret Thacher Webb",
+      "desc": "Margaret Webb Thacher 1625 - 1693, only known child of Henry Webb and probably Dowsabel Smith, was baptized 25 September 1625 at Salisbury, England. She died at the age of 67 on 4 February 1693/4 at Boston, Mass. She was named during the Salem witch trials but no arrest warrant was issued.",
+      "url": "https://www.geni.com/people/Margaret-Thacher/6000000000664593870",
+      "gender": "Female"
+    },
+    {
+      "id": "recDvTwcdyVqvkgmc",
+      "pid": "LJLT-7TF",
+      "name": "Martha Allen Carrier",
+      "desc": "Martha Carrier née Allen; between 1643 and 1650 – 19 August 1692 was a Puritan accused and convicted of being a witch during the 1692 Salem witch trials.",
+      "url": "https://en.wikipedia.org/wiki/Martha_Carrier",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9uryj/thumb200s.jpg"
+    },
+    {
+      "id": "recEOE9G9uhDUVVz6",
+      "pid": "G9HJ-MVW",
+      "name": "John Willard",
+      "desc": "John Willard c. 1657 – August 19, 1692 was one of the people executed for witchcraft in Salem, Massachusetts, during the Salem witch trials. He was hanged on Gallows Hill, Salem on August 19, 1692.",
+      "url": "https://en.wikipedia.org/wiki/John_Willard",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/m0t9e/thumb200s.jpg"
+    },
+    {
+      "id": "recEfbTuJ7Ela0fTW",
+      "pid": "LHR4-96R",
+      "name": "Samuel Preston Sr",
+      "desc": "Samuel was an accuser in the Salem Witch Trials, 1692, when he said he lost two cows dying in a strange manner after Martha Carrier had differences with him. She was eventually hanged for \"her crime\" August 19, 1692.",
+      "url": "https://www.wikitree.com/wiki/Preston-532",
+      "gender": "Male"
+    },
+    {
+      "id": "recEiqr3BqYIS4hQ2",
+      "pid": "MN7M-R9C",
+      "name": "John Hale",
+      "desc": "John Hale June 3, 1636 – May 15, 1700 was the Puritan pastor of Beverly, Massachusetts, and took part in the Salem witch trials in 1692. He was one of the most prominent and influential ministers associated with the witch trials, being noted as having initially supported the trials and then changing his mind and publishing a critique of them.",
+      "url": "https://en.wikipedia.org/wiki/John_Hale_(Beverly_minister)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/z8q5c/thumb200s.jpg"
+    },
+    {
+      "id": "recG0xbd0Xs7gOLn1",
+      "pid": "LHXZ-6W3",
+      "name": "Sarah Noyes Hale",
+      "desc": "Sarah Hale was the wife of John Hale and was accused but never arrested of witchcraft during the Salem Witch Trials that took place in Massachusetts Bay Colony.",
+      "url": "https://thehistoryjunkie.com/sarah-hale-and-the-salem-witch-trials/",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u4iua/thumb200s.jpg"
+    },
+    {
+      "id": "recKCZTjde2HmgvOC",
+      "pid": "LCJQ-3NJ",
+      "name": "Thomas Danforth",
+      "desc": "Thomas Danforth baptized November 20, 1623 – November 5, 1699 was a politician, magistrate, and landowner in the Massachusetts Bay Colony. A conservative Puritan, he served for many years as one of the colony's councilors and magistrates, generally leading opposition to attempts by the English kings to assert control over the colony. He accumulated land in the central part of the colony that eventually became a portion of Framingham, Massachusetts. His government roles included administration of territory in present-day Maine that was purchased by the colony.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Danforth",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/u6aai/thumb200s.jpg"
+    },
+    {
+      "id": "recMusfw6FSg2ONjC",
+      "pid": "L7GQ-XXB",
+      "name": "Philip English",
+      "desc": "Philip English, the most successful merchant in Salem Town, emigrated from Isle of Jersey as Philippe D'Anglois in 1670. He rose out of obscurity to become the largest entrepreneur and ship owner in Salem, and he married into an established Salem merchant family. He and his wife were arrested of witchcraft in late April 1692, but both escaped to New York for the duration of the trials. No attempts were made to bring English back to face trial. During his hiding in New York, English's wealthy estate was pillaged at the hands of Sheriff Corwin, and little restitution was ever made for his losses.",
+      "url": "https://www.geni.com/people/Philip-English-Escaped-Salem-Witch/6000000015614015955",
+      "gender": "Male"
+    },
+    {
+      "id": "recNHcbnH169uuNvV",
+      "pid": "MK43-766",
+      "name": "Thomas Brattle",
+      "desc": "Thomas Brattle June 20, 1658 – May 18, 1713 was an American merchant who served as treasurer of Harvard College and member of the Royal Society. He is known for his involvement in the Salem Witch Trials and the formation of the Brattle Street Church.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Brattle",
+      "gender": "Male"
+    },
+    {
+      "id": "recN6MpUOkvzhHlI4",
+      "pid": "L4B1-CPH",
+      "name": "Dorothy Good",
+      "desc": "Dorothy Good historically referred to as Dorcas Good; born ca. 1687/1688 was the daughter of William Good and Sarah Good née Solart.",
+      "url": "https://en.wikipedia.org/wiki/Dorothy_Good",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/fxdvj/thumb200s.jpg"
+    },
+    {
+      "id": "recO9zCR8QEIB5hNL",
+      "pid": "LVZD-NZ2",
+      "name": "George Jacobs Sr.",
+      "desc": "George Jacobs Sr. 1609–1692 was an English colonist in the Massachusetts Bay Colony who was accused of witchcraft in 1692 during the Salem witch trials in Salem Village, Massachusetts. He was convicted and hanged on August 19, 1692. His son, George Jr., was also accused but evaded arrest. Jacobs' accusers included his daughter-in-law and granddaughter, Margaret.",
+      "url": "https://en.wikipedia.org/wiki/George_Jacobs_(Salem_witch_trials)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k9qkh/thumb200s.jpg"
+    },
+    {
+      "id": "recPiVVMIbwnjToVv",
+      "pid": "LZD6-RCS",
+      "name": "Giles Corey",
+      "desc": "Giles Corey c. August 1611 – September 19, 1692 was an English farmer who was accused of witchcraft along with his wife Martha Corey during the Salem witch trials. After being arrested, Corey refused to enter a plea of guilty or not guilty. He was subjected to pressing in an effort to force him to plead—the only example of such a sanction in American history—and died after three days of this torture. Because Corey refused to enter a plea, his estate passed on to his sons instead of being seized by the local government.",
+      "url": "https://en.wikipedia.org/wiki/Giles_Corey",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pcbdf/thumb200s.jpg"
+    },
+    {
+      "id": "recQZrnonWzPYqypF",
+      "pid": "LZSS-S4L",
+      "name": "Sarah Towne Cloyce",
+      "desc": "Sarah Cloyce alt. Cloyes; née Towne; c. 1641 – 1703 was among the many accused during Salem Witch Trials including two of her older sisters, Rebecca Nurse and Mary Eastey, who were both executed. Cloyce was about 50-years-old at the time and was held without bail in cramped prisons for many months before her release.",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Cloyce",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mgcyi/thumb200s.jpg"
+    },
+    {
+      "id": "recRwyqXTHBZ1EVwt",
+      "pid": "LBMP-LLG",
+      "name": "Mary Towne Eastey",
+      "desc": "Mary Towne Eastey also spelled Esty, Easty, Estey, Eastick, Eastie, or Estye bap. August 24, 1634 – September 22, 1692 was a defendant in the Salem witch trials in colonial Massachusetts. She was executed by hanging in Salem in 1692.",
+      "url": "https://en.wikipedia.org/wiki/Mary_Eastey",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/141kj/thumb200s.jpg"
+    },
+    {
+      "id": "rec3Eccf92zK6HajG",
+      "pid": "LHQT-JCM",
+      "name": "Mary Ayer Parker",
+      "desc": "Mary née Ayer Parker of Andover, Massachusetts Bay Colony, the daughter of John Ayer, was executed by hanging on September 22, 1692, with several others, for witchcraft in the Salem witch trials. She was a 55 year old widow. It is believed that Mary Parker’s family buried her body on their property, as was tradition for those who were executed. Mary's husband, Nathan, died in 1685. Nicholas Noyes officiated. Her daughter, Sarah Parker, was also accused. Historians have identified three others persons named Mary Parker who lived in colonial Massachusetts at the same time who are sometimes conflated with the woman who was executed.",
+      "url": "https://en.wikipedia.org/wiki/Mary_Parker_(Salem_witch_trials)",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/6oldk/thumb200s.jpg"
+    },
+    {
+      "id": "rec3J25NTZ20qQGne",
+      "pid": "MC5W-KTT",
+      "name": "George Burroughs",
+      "desc": "George Burroughs c. 1650 – August 19, 1692 was an American religious leader who was the only minister executed for witchcraft during the course of the Salem witch trials. He is remembered especially for reciting the Lord's Prayer during his execution, something it was believed a witch could never do.",
+      "url": "https://en.wikipedia.org/wiki/George_Burroughs",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r7009/thumb200s.jpg"
+    },
+    {
+      "id": "rec4OxdT60zG2BHEo",
+      "pid": "LZ8M-4Y1",
+      "name": "Mary Perkins Bradbury",
+      "desc": "Mary née Perkins Bradbury baptized September 3, 1615 – December 20, 1700 was tried, convicted and sentenced to hang as a witch in Salem, Massachusetts in 1692. However, she managed to avoid her sentence until the trials had been discredited, and died in 1700, aged 85.",
+      "url": "https://en.wikipedia.org/wiki/Mary_Bradbury",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xbsyi/thumb200s.jpg"
+    },
+    {
+      "id": "rec5PJ6IR3zPFfEol",
+      "pid": "LX79-SXN",
+      "name": "Elizabeth \"Betty\" Parris",
+      "desc": "Elizabeth \"Betty\" Parris November 28, 1682 – March 21, 1760 was one of the young girls who accused other people of being witches during the Salem witch trials. The accusations made by Parris and her cousin Abigail Williams caused the direct death of 20 Salem residents: 19 were hanged, while another, Giles Corey, was pressed to death.",
+      "url": "https://en.wikipedia.org/wiki/Betty_Parris",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r1cxf/thumb200s.jpg"
+    },
+    {
+      "id": "rec582cEGC7v1fhZw",
+      "pid": "KNCV-2NN",
+      "name": "Samuel Willard",
+      "desc": "Samuel Willard January 31, 1640 – September 12, 1707 was a New England Puritan clergyman. He was born in Concord, Massachusetts, graduated from Harvard College in 1659, and was minister at Groton from 1663 to 1676, before being driven out by the Indians during King Philip's War. Willard was pastor of the Third Church, Boston, from 1678 until his death. He opposed the Salem witch trials and was acting president of Harvard University from 1701. He published many sermons; the folio volume, A Compleat Body of Divinity, was published posthumously in 1726.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Willard",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/l6yy2/thumb200s.jpg"
+    },
+    {
+      "id": "rec6MzY4kRUMzUZQd",
+      "pid": "LCT7-VQT",
+      "name": "Ephraim Stevens",
+      "desc": "Ensign Ephraim Stevens was a selectman of Andover, and he was also charged with the security of the town’s supply of weapons and ammunition. Town records for 20 February 1712/13 state “we have left the keas of the Town Stock of Ammunition with Ensign Ephraim Stevens, to be at ye selectmen’s service, when they shall have ocation for them, and there is two dry casks of the Towns left standing on ye chest that the Amonition is locked up in.” Bailey, “Andover in the Indian Wars,” Historical Sketches of Andover, 185.",
+      "url": "https://www.familysearch.org/search/tree/results?count=20&q.anyPlace=Andover%2C%20Essex%2C%20Massachusetts%20Bay%20Colony%2C%20British%20Colonial%20America&q.birthLikeDate.from=1643&q.birthLikePlace=Massachusetts%20Bay%20Colony%2C%20British%20Colonial%20America&q.deathLikeDate.from=1702&q.givenName=Ephraim&q.surname=Stevens",
+      "gender": "Male"
+    },
+    {
+      "id": "rec89zR37OMAPrZ7D",
+      "pid": "LZLN-7JJ",
+      "name": "Susannah North Martin",
+      "desc": "Susannah Martin née North, baptized September 30, 1621 – July 19, 1692 was one of fourteen women executed for the suspicion of practicing witchcraft during the Salem witch trials of colonial Massachusetts.",
+      "url": "https://en.wikipedia.org/wiki/Susannah_Martin",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5y3nj/thumb200s.jpg"
+    },
+    {
+      "id": "rec9upsQaMhnfETjx",
+      "pid": "MKB8-C4J",
+      "name": "Jonathan Corwin",
+      "desc": "Jonathan Corwin also Curwin or Corwen, November 14, 1640 – June 9, 1718 was a New England merchant, politician, and magistrate. He is best known as one of the judges involved in the Salem witch trials of 1692, although his later work also included service as an associate justice of the Massachusetts Superior Court of Judicature, the highest court of the Province of Massachusetts Bay.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Corwin",
+      "gender": "Male"
+    },
+    {
+      "id": "rec96s1Iw1tWQgT6A",
+      "pid": "LZXB-N7Z",
+      "name": "Elizabeth Hutchinson Hart",
+      "desc": "Elizabeth Hutchinson Hart 1622-1700 - Accused and imprisoned during the Salem witchcraft trials, Elizabeth was born at Oulton, Suffolk, England on 22 February 1622, daughter of Thomas Hutchinson and Anne Browne. She married Isaac Hart about 1650. She was living in Lynn, Massachusetts when she was accused and arrested for witchcraft, having allegedly afflicted Mary Walcott, Abigail Williams, Mercy Lewis, and Ann Putnam, Jr. It is not known if she was ever indicted, NOTE: She was indicted. See but she was sent to prison in Boston on 18 May 1692 and held there until December.",
+      "url": "https://www.geni.com/people/Elizabeth-Hutchinson-Hart-Salem-Witch-Trials/6000000010434412386",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/agxsi/thumb200s.jpg"
+    },
+    {
+      "id": "recbi0myb03dTPFEu",
+      "pid": "MMTL-ZZ7",
+      "name": "Robert Calef",
+      "desc": "Robert Calef baptized 2 November 1648 – 13 April 1719 was a cloth merchant in colonial Boston. He was the author of More Wonders of the Invisible World, a book composed throughout the mid-1690s denouncing the recent Salem witch trials of 1692–1693 and particularly examining the influential role played by Cotton Mather.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Calef",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/q2tue/thumb200s.jpg"
+    },
+    {
+      "id": "reccr9ni4Hbcx1Xnv",
+      "pid": "L5LR-8CP",
+      "name": "Abigail Faulkner Sr.",
+      "desc": "Abigail Faulkner née Dane; October 13, 1652 – February 5, 1730, sometimes called Abigail Faulkner Sr., was an American woman accused of witchcraft during the Salem witch trials in 1692. In the frenzy that followed, Faulkner's sister Elizabeth Dane Johnson 1641-1722, her sister-in-law Deliverance Dane, two of her daughters, two of her nieces, and a nephew, would all be accused of witchcraft and arrested. Faulkner was convicted and sentenced to death, but her execution was delayed due to pregnancy. Before she gave birth, Faulkner was pardoned by the governor and released from prison.",
+      "url": "https://en.wikipedia.org/wiki/Abigail_Faulkner",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nkfth/thumb200s.jpg"
+    },
+    {
+      "id": "rece5LgqIhHTdiRim",
+      "pid": "LCZY-CVT",
+      "name": "Nicholas Noyes",
+      "desc": "Rev. Nicholas Noyes II December 22, 1647 at Newbury, Massachusetts Bay Colony – December 13, 1717 at Salem, Massachusetts Bay Colony was a colonial minister during the time of the Salem witch trials. He was the second minister, called the \"Teacher\", to Rev. John Higginson. During the Salem witch trials, Rev. Noyes served as the official minister of the trials.",
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Noyes",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5u47i/thumb200s.jpg"
+    },
+    {
+      "id": "receaAPfDyHBRBx4b",
+      "pid": "LYQ3-8JS",
+      "name": "Ann Pudeator",
+      "desc": "Ann Pudeator November 13, 1621 – October 2 , 1692 was a wealthy septuagenarian widow who was accused of and convicted of witchcraft in the Salem witch trials in colonial Massachusetts. She was executed by hanging.: 113 ",
+      "url": "https://en.wikipedia.org/wiki/Ann_Pudeator",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/elaq8/thumb200s.jpg"
+    },
+    {
+      "id": "recfAEpIbBoRTIqz8",
+      "pid": "LHH3-5CZ",
+      "name": "Mary Spencer",
+      "desc": "Lady Mary was arrested in 1692, accused of being a witch. However her case was not taken forward and her husband, Sir William started to disassemble the witchcraft courts.",
+      "url": "https://www.familysearch.org/tree/person/details/LHH3-5CZ",
+      "gender": "Female"
+    },
+    {
+      "id": "recfC4YFRQfJpz5lz",
+      "pid": "LH8R-QQZ",
+      "name": "Elizabeth Booth",
+      "desc": "Elizabeth Booth was born in 1674 and was one of the accusers in the Salem Witch Trials. She grew up in Salem, Massachusetts, as the second eldest of ten children. When she was sixteen she was accused of being a witch. When she was eighteen, she began accusing people ten people on record of practicing witchcraft, including John Proctor, Elizabeth Proctor, Sarah Proctor, William Proctor, Benjamin Proctor, Woody Proctor, Giles Corey, Martha Corey, Job Tookey, and Wilmont Redd. Five of these people were executed due to Booth's testimony John Proctor, Woody Proctor, Giles Corey, Martha Corey, and Wilmont Redd.",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Booth",
+      "gender": "Female"
+    },
+    {
+      "id": "recf3p5w1NrIwUDPI",
+      "pid": "9421-W84",
+      "name": "Rebecca Nurse",
+      "desc": "Rebecca Nurse February 13, 1621 – July 19, 1692 was a woman who was accused of witchcraft and executed by hanging in New England during the Salem Witch Trials of 1692. She was fully exonerated fewer than twenty years later.",
+      "url": "https://en.wikipedia.org/wiki/Rebecca_Nurse",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zovak/thumb200s.jpg"
+    },
+    {
+      "id": "recffy1MXXq4QH29Y",
+      "pid": "GMQ1-VHN",
+      "name": "Thomas Barnard",
+      "desc": "In 1692, he was involved in the Salem Witchcraft Trials. \"It was in this season...that the devil took over Andover...There were two ministers in Andover, it was apparently the younger, Thomas Bernard, who opened the door .\" \"After Mr. Barnard had been at prayer, we were blindfolded, and our hands were laid upon the afflicted persons, they being in their fits and falling into their fits at our coming into their presence, as they said; and some led us and laid our hands upon them, and then they said they were well, and that we were guilty of afflicting them: Whereupon, we were all seized, as prisoners...,\" Declaration of Mary Osgood, Martha Tyler, Deliverance Dane, Abigail Barker, Sarah Wilson, and Hannah Tyler",
+      "url": "https://www.wikitree.com/wiki/Barnard-254",
+      "gender": "Male"
+    },
+    {
+      "id": "recgQSiuQvlAWk83c",
+      "pid": "MNWT-7X1",
+      "name": "Samuel Wardwell Sr.",
+      "desc": "Samuel Wardwell May 16, 1643 – September 22, 1692 was a man accused of witchcraft during the Salem witch trials of 1692. He was executed by hanging on September 22, 1692, along with Alice Parker, Martha Corey, Mary Eastey, Ann Pudeator, Mary Parker, Wilmot Redd, and Margaret Scott.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Wardwell",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pnh9e/thumb200s.jpg"
+    },
+    {
+      "id": "recg51eE6xVt2t8ny",
+      "pid": "KPWT-58P",
+      "name": "Ann Putnam Jr.",
+      "desc": "Ann Putnam October 18, 1679 – 1716 was a primary accuser, at age 12, at the Salem Witch Trials of Massachusetts during the later portion of 17th-century Colonial America. Born 1679 in Salem Village, Essex County, Massachusetts Bay Colony, she was the eldest child of Thomas 1652–1699 and Ann Née Carr Putnam 1661–1699.",
+      "url": "https://en.wikipedia.org/wiki/Ann_Putnam_Jr.",
+      "gender": "Female"
+    },
+    {
+      "id": "rechXDql3LTkg3Bvr",
+      "pid": "KCYP-6MD",
+      "name": "Thomas Farrer Sr.",
+      "desc": "Because of his old age, presumably he was hard of hearing, he was allowed to sit in the pulpit to be able to hear the minister. Teenager Ann Putnam accused him of witchcraft because in her dreams she saw him pinching her. This happened in Salem 18 May 1692. He was sent to prison in Boston for a period of 5 to 7 months",
+      "url": "https://www.geni.com/people/Thomas-Farrar-of-Lynn/6000000003522885375",
+      "gender": "Male"
+    },
+    {
+      "id": "recicltBkAe6LVn39",
+      "pid": "LH5G-PV1",
+      "name": "Alice Parker",
+      "desc": "Alice Parker, a resident of Salem Town, Massachusetts, was executed on September 22, 1692, during the Salem Witch Trials.",
+      "url": "https://en.wikipedia.org/wiki/Alice_Parker_(Salem_witch_trials)",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mbysi/thumb200s.jpg"
+    },
+    {
+      "id": "recihvyMsW7gOh59p",
+      "pid": "L7GQ-XFN",
+      "name": "Mary English",
+      "desc": "Charged with the baneful offence of witchcraft, and had the happiness of being remitted from the Salem gaol with her husband and imprisoned in Boston, whence, with the approbation of the best people in town, especially Rev. Messieurs Willand and Moody, they escaped to New York. She, however two years after, in consequence of her sufferings, aged only 42.",
+      "url": "https://www.geni.com/people/Mary-English/6000000015614015950",
+      "gender": "Female"
+    },
+    {
+      "id": "recjBLRqUns3kVcl9",
+      "pid": "GKK3-89F",
+      "name": "Sarah Averill Wildes",
+      "desc": "Sarah Wildes née Averell/Averill; baptized March 16, 1627 – July 29, 1692 was wrongly convicted of witchcraft during the Salem witch trials and was executed by hanging. She maintained her innocence throughout the process, and was later exonerated. Her husband's first wife was a member of the Gould family, cousins of the Putnam family, the primary accusers, and court records document the family feuds which led to her persecution.",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Wildes",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ay9ek/thumb200s.jpg"
+    },
+    {
+      "id": "reckTfsTa5PGCQT0x",
+      "pid": "LBCW-QF9",
+      "name": "Bridget Bishop (nee Bridget Magnus)",
+      "desc": "Bridget Bishop c. 1632 – 10 June 1692 was the first person executed for witchcraft during the Salem witch trials in 1692. Nineteen were hanged, and one, Giles Corey, was pressed to death. Altogether, about 200 people were tried.",
+      "url": "https://en.wikipedia.org/wiki/Bridget_Bishop",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/95b9e/thumb200s.jpg"
+    },
+    {
+      "id": "reckKmeH3MikhV8MK",
+      "pid": "93SS-QRT",
+      "name": "Sarah Solart Good",
+      "desc": "Sarah Good July 21 , 1653 – July 29 , 1692 was one of the first three women to be accused of witchcraft in the Salem witch trials, which occurred in 1692 in colonial Massachusetts.",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Good",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1xq49/thumb200s.jpg"
+    },
+    {
+      "id": "reckkPYwcL32WkwWw",
+      "pid": "K19N-8YT",
+      "name": "Mercy Lewis",
+      "desc": "Mercy Lewis fl. 1692 was an accuser during the Salem Witch Trials. She was born in Falmouth, Maine. Mercy Lewis, formally known as Mercy Allen, was the child of Philip Lewis and Mary Cass Lewis.",
+      "url": "https://en.wikipedia.org/wiki/Mercy_Lewis",
+      "gender": "Female"
+    },
+    {
+      "id": "recmVHQ7zsrFiurEh",
+      "pid": "LKTV-4QX",
+      "name": "Dorcas Hoar",
+      "desc": "Dorcas Hoar née Galley; c.1634 – July 12, 1711 was a widow accused of witchcraft during the Salem witch trials of 1692. She was found guilty and condemned to hang, but then confessed and with the support of several ministers, was given a temporary reprieve, after which the trials had already ended.",
+      "url": "https://en.wikipedia.org/wiki/Dorcas_Hoar",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lznja/thumb200s.jpg"
+    },
+    {
+      "id": "recm86W8RvdAzAChy",
+      "pid": "LZPM-BFZ",
+      "name": "William Griggs",
+      "desc": "William Griggs",
+      "url": "https://en.wikipedia.org/wiki/William_Griggs_(physician)",
+      "gender": "Male"
+    },
+    {
+      "id": "recn3WrNq1wqPXzuv",
+      "pid": "LHNC-RT8",
+      "name": "William Stoughton",
+      "desc": "William Stoughton 1631 – July 7, 1701 was a New England Puritan magistrate and administrator in the Province of Massachusetts Bay. He was in charge of what have come to be known as the Salem Witch Trials, first as the Chief Justice of the Special Court of Oyer and Terminer in 1692, and then as the Chief Justice of the Superior Court of Judicature in 1693. In these trials he controversially accepted spectral evidence based on supposed demonic visions. Unlike some of the other magistrates, he never admitted to the possibility that his acceptance of such evidence was in error.",
+      "url": "https://en.wikipedia.org/wiki/William_Stoughton_(Massachusetts)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/8ltaa/thumb200s.jpg"
+    },
+    {
+      "id": "recowPgpySwydKDAJ",
+      "pid": "9CVK-BP4",
+      "name": "Martha Panon Corey",
+      "desc": "Martha Corey née Panon; 1619 or 1620 – September 22, 1692 was accused and convicted of witchcraft during the Salem witch trials, on September 9, 1692, and was hanged on September 22, 1692. Her second husband, Giles Corey, was also accused and killed.",
+      "url": "https://en.wikipedia.org/wiki/Martha_Corey",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cypui/thumb200s.jpg"
+    },
+    {
+      "id": "recof3QK6JPQC5R0j",
+      "pid": "LT6N-5C3",
+      "name": "Edward Farrington",
+      "desc": "Edward Farrington 1662-1745? – Edward was born in Lynn, Massachusetts to John and Elizabeth Knight Farrington on July 5, 1662. He was living in Andover when he was accused of witchcraft for afflicting Mary Warren. Witnesses against him included Martha Sprague and Ann Putnam, Jr. He spent some time in prison; but, any further information is unknown. He died in Andover on January 3, 1745/46.",
+      "url": "https://www.wikitree.com/wiki/Farrington-247",
+      "gender": "Male"
+    },
+    {
+      "id": "recohq9IJigVjxFgM",
+      "pid": "LCXG-6QY",
+      "name": "Ann Foster",
+      "desc": "Ann Foster c. 1617 – December 3, 1692 was an Andover widow accused of witchcraft during the Salem witch trials.",
+      "url": "https://en.wikipedia.org/wiki/Ann_Foster",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kkdlk/thumb200s.jpg"
+    },
+    {
+      "id": "recpqn47fDxtgHUr3",
+      "pid": "L87V-DCJ",
+      "name": "Nathaniel Saltonstall",
+      "desc": "Col. Nathaniel Saltonstall also spelled Nathanial Saltonstall; c. 1639 – May 21, 1707 was a judge for the Court of Oyer and Terminer, a special court established in 1692 for the trial and sentence of people, mostly women, for the crime of witchcraft in the Province of Massachusetts Bay during the Salem Witch Trials. He is most famous for his resignation from the court, and though he left no indication of his feelings toward witchcraft, he is considered to be one of the more principled men of his time.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Saltonstall",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/zcf7i/thumb200s.jpg"
+    },
+    {
+      "id": "recp6wrY4QcCi8P69",
+      "pid": "LTKF-5HN",
+      "name": "Lydia Dustin",
+      "desc": "There is not much known about Lydia before or even during the trials. She was accused and then found not guilty. However, she died in prison before her release.",
+      "url": "https://thehistoryjunkie.com/lydia-dustin-and-the-salem-witch-trials/",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/1y7g3/thumb200s.jpg"
+    },
+    {
+      "id": "recq4SsDNXeD7dMVl",
+      "pid": "9NQV-X1J",
+      "name": "Bartholomew Gedney",
+      "desc": "Bartholomew Gedney June 14, 1640 – February 28, 1698 was a merchant, physician, military officer, and native of Salem, Massachusetts. He is best known as one of the magistrates in the Salem witchcraft trials.",
+      "url": "https://en.wikipedia.org/wiki/Bartholomew_Gedney",
+      "gender": "Male"
+    },
+    {
+      "id": "recrhejZcfdxYLAV2",
+      "pid": "L66Z-TLR",
+      "name": "William Barker, Sr.",
+      "desc": "William Barker, Sr. was arrested and examined for witchcraft in Salem on 29 August 1692. He readily confessed to the charge. He told the magistrates that the witches' \"design was to Destroy Salem Village, and to begin at the Ministers House, and to destroy the Church of God, and to set up Satan's Kingdom, and then all will be well.\" Despite his confession, Barker survived the hysteria.",
+      "url": "https://www.wikitree.com/wiki/Barker-175",
+      "gender": "Male"
+    },
+    {
+      "id": "recF0q63C99qokRLd",
+      "pid": "L5B3-3VQ",
+      "name": "Cotton Mather",
+      "desc": "Cotton Mather FRS /ˈmæðər/; February 12, 1663 – February 13, 1728 was a New England Puritan clergyman and writer. Educated at Harvard College, in 1685 he joined his father Increase as minister of the Congregationalist Old North Meeting House of Boston, where he continued to preach for the rest of his life.",
+      "url": "https://en.wikipedia.org/wiki/Cotton_Mather",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/h8a9i/thumb200s.jpg"
+    }
+  ]
+}

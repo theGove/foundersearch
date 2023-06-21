@@ -1,0 +1,310 @@
+{
+  "title": "American Spies",
+  "desc": "Folks who spied for George Washington and the Continental Army.",
+  "banner": "spies1.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recS5VxsRr6KspBkV",
+      "pid": "L7J4-48K",
+      "name": "Margaret Kemble Gage",
+      "desc": "Margaret Kemble Gage 1734–1824 was the wife of General Thomas Gage, who led the British Army in Massachusetts in the American Revolutionary War. She was born in New Brunswick, Province of New Jersey, and lived in East Brunswick Township. She died in England in 1824.",
+      "url": "https://en.wikipedia.org/wiki/Margaret_Kemble_Gage",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/i6uu7/thumb200s.jpg"
+    },
+    {
+      "id": "recSk5WcnwA1i4FaJ",
+      "pid": "L4BP-XC6",
+      "name": "Daniel Bissell (spy)",
+      "desc": "Daniel Bissell December 30, 1754 – August 21, 1824 was a soldier and spy for the Continental Army during the American Revolutionary War. Bissell joined the British Army for 13 months and passed intelligence information to the Continental Army. For his efforts, Bissell was awarded the Badge of Military Merit by General George Washington.",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Bissell_(spy)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/76wu6/thumb200s.jpg"
+    },
+    {
+      "id": "recXaUsJ3ZJ7VRecZ",
+      "pid": "LH85-H4B",
+      "name": "Abraham Woodhull",
+      "desc": "Abraham Woodhull October 7, 1750 – January 23, 1826 was a leading member of the Culper Spy Ring in New York City and Setauket, New York, during the American Revolutionary War. He used the alias \"Samuel Culper\" later \"Samuel Culper Sr.\", which was a play on Culpeper County, Virginia, and was suggested by George Washington.",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Woodhull",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qta5j/thumb200s.jpg"
+    },
+    {
+      "id": "rec04LpVu2M93uX1I",
+      "pid": "M5BD-M8Q",
+      "name": "Jonas Hawkins",
+      "desc": "Jonas Hawkins August 28, 1752 – April 24, 1817 was an American Patriot and a member of the Culper Spy Ring during the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Hawkins",
+      "gender": "Male"
+    },
+    {
+      "id": "rect4MmSRc1rDTerV",
+      "pid": "KJ5S-LLZ",
+      "name": "David Henley",
+      "desc": "David Henley February 5/12, 1748/9 – January 1, 1823 was a Continental Army officer during the American Revolutionary War, who served as George Washington's intelligence officer and prisoner of war commandant. He later served as the Agent for the United States Department of War for the Southwest Territory later Tennessee in the 1790s.",
+      "url": "https://en.wikipedia.org/wiki/David_Henley",
+      "gender": "Male"
+    },
+    {
+      "id": "recwbKVNyy2ORy82O",
+      "pid": "LVNJ-128",
+      "name": "Clément Gosselin",
+      "desc": "Clément Gosselin June 12, 1747 – March 9, 1816 was a French Canadian soldier who served in Moses Hazen's 2nd Canadian Regiment of the Continental Army during the American Revolutionary War. He recruited other French Canadians, assisted in American operations during and after the Battle of Quebec, and, following the American retreat from Quebec in 1776, continued to serve in Hazen's regiment. Included in that service were spy missions to the province of Quebec.",
+      "url": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Gosselin",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xo9mf/thumb200s.jpg"
+    },
+    {
+      "id": "recxQqZyQahvGWoHF",
+      "pid": "LZM4-ZS5",
+      "name": "Henry K. Van Rensselaer",
+      "desc": "Henry K. van Rensselaer, his given name Hendrick Kiliaen July 25, 1744 – September 9, 1816 was a Colonel during the American Revolutionary War when he played a pivotal role in the Battle of Fort Anne.",
+      "url": "https://en.wikipedia.org/wiki/Henry_K._Van_Rensselaer",
+      "gender": "Male"
+    },
+    {
+      "id": "recz7j2ERmvVbZojM",
+      "pid": "K24C-59H",
+      "name": "John Champe",
+      "desc": "Sergeant Major John Champe ca. 1752 – 30 September 1798 was an American Revolutionary War senior enlisted soldier in the Continental Army who became a double agent in a failed attempt to capture the American traitor General Benedict Arnold 1741–1801.",
+      "url": "https://en.wikipedia.org/wiki/John_Champe_(soldier)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/pmjpe/thumb200s.jpg"
+    },
+    {
+      "id": "recA2JVwmQExpbPHv",
+      "pid": "GKQB-9LJ",
+      "name": "Anna Nancy Smith Strong",
+      "desc": "Anna Smith Strong April 14, 1740 – August 12, 1812: 202  of Setauket, New York was an American Patriot, and she may have been one of the only female members of the Culper Spy Ring during the American Revolution. Her perceived main contribution in the ring was to relay signals to a courier who ran smuggling and military missions for General George Washington. No information has been found concerning Anna's activities after the war other than that she and her husband, Selah Strong, lived quietly in Setauket for the rest of their lives. She died on August 12, 1812.: 202 ",
+      "url": "https://en.wikipedia.org/wiki/Anna_Strong_(spy)",
+      "gender": "Female"
+    },
+    {
+      "id": "recA5SkDuCP6ezB05",
+      "pid": "LCV4-CF5",
+      "name": "Jonathan L. Austin",
+      "desc": "Jonathan Loring Austin January 2, 1748 – May 10, 1826 was an American revolutionary, diplomat and politician who served as the second Massachusetts Secretary of the Commonwealth and the tenth Treasurer and Receiver-General of Massachusetts. Austin was the father of Massachusetts Attorney General James Treacothie Austin.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_L._Austin",
+      "gender": "Male"
+    },
+    {
+      "id": "recBXY7XHQyRrfH6S",
+      "pid": "KL8C-9KQ",
+      "name": "Austin Roe",
+      "desc": "Austin Roe March 2, 1748 – November 28, 1830 was a member of the Culper Ring, a successful spy network during the American War of Independence that was organized in 1778 by George Washington.",
+      "url": "https://en.wikipedia.org/wiki/Austin_Roe",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/tws1a/thumb200s.jpg"
+    },
+    {
+      "id": "recG2Efjz5FmBnwEL",
+      "pid": "GCR2-3ZY",
+      "name": "Emily Geiger",
+      "desc": "Emily Geiger 1765–1825 was a Patriot messenger active during the American Revolutionary War. Captured by Loyalists whilst on a mission to deliver a message on behalf of General Nathanael Greene, Geiger ate the written message in her possession. Upon release she verbally delivered the letter to its recipient.",
+      "url": "https://en.wikipedia.org/wiki/Emily_Geiger",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/j30ug/thumb200s.jpg"
+    },
+    {
+      "id": "recHDdMuoNdaDWWCP",
+      "pid": "LZNB-QLK",
+      "name": "Nathaniel Sackett",
+      "desc": "Nathaniel Sackett April 10, 1737 – July 28, 1805 was the spymaster appointed by General George Washington to create a network of civilian spies located in New York during the American Revolution. Sackett and his new spy ring would report to William Duer, a Continental Congressman, and General Washington. Sackett's later lack of progress led him to be relieved of his post. He was replaced with Benjamin Tallmadge, who built upon Sackett's work and established the Culper Spy Ring.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Sackett",
+      "gender": "Male"
+    },
+    {
+      "id": "recJRXVFvgf0xbzP1",
+      "pid": "KHDQ-BY9",
+      "name": "Robert Townsend",
+      "desc": "Robert Townsend November 25, 1753 – March 7, 1838 was a member of the Culper Ring during the American Revolution. He operated in New York City with the aliases \"Samuel Culper, Jr.\" and \"723\" and gathered information as a service to General George Washington. He is one of the least-known operatives in the spy ring and once demanded Abraham Woodhull \"Samuel Culper\" never to tell his name to anyone, even to Washington.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Townsend_(spy)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/2rlpi/thumb200s.jpg"
+    },
+    {
+      "id": "recK28oVUhWcmoJO7",
+      "pid": "24PY-N4M",
+      "name": "Hercules Mulligan",
+      "desc": "Hercules Mulligan September 25, 1740 – March 4, 1825 was an Irish-American tailor and spy during the American Revolutionary War. He was a member of the Sons of Liberty.",
+      "url": "https://en.wikipedia.org/wiki/Hercules_Mulligan",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9z5r7/thumb200s.jpg"
+    },
+    {
+      "id": "recPPth5PEac0ixln",
+      "pid": "L6JF-CGY",
+      "name": "Enoch Crosby",
+      "desc": "Enoch Crosby 1750–1835 was an American spy and soldier during the American Revolution. His life may have been the basis for the character Harvey Birch in James Fenimore Cooper's novel The Spy.",
+      "url": "https://en.wikipedia.org/wiki/Enoch_Crosby",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/d2yb5/thumb200s.jpg"
+    },
+    {
+      "id": "recQ23qBPRa3uoBDU",
+      "pid": "L7NK-H7G",
+      "name": "Thomas Knowlton",
+      "desc": "Thomas W. Knowlton November 22, 1740 – September 16, 1776 was an American patriot who served in the French and Indian War and was a colonel during the American Revolution. Knowlton is considered America's first Intelligence professional, and his unit, Knowlton's Rangers, gathered intelligence during the early Revolutionary War. Knowlton was killed in action at the Battle of Harlem Heights.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Knowlton",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/gggvi/thumb200s.jpg"
+    },
+    {
+      "id": "recRGxBL5oj1uCZjj",
+      "pid": "GF3D-CMF",
+      "name": "Nancy Hart",
+      "desc": "Nancy Morgan Hart c. 1735–1830 was a rebel heroine of the American Revolutionary War, noted for her exploits against Loyalists in the northeast Georgia backcountry. She is characterized as a tough, resourceful frontier woman who repeatedly outsmarted Tory soldiers, and killed some outright. Stories about her are mostly unsupported by contemporary documentation, and it has been impossible for researchers to entirely distinguish fact from folklore.",
+      "url": "https://en.wikipedia.org/wiki/Nancy_Hart",
+      "gender": "Female"
+    },
+    {
+      "id": "rec3vwV7V2BYojn3R",
+      "pid": "L6RZ-5WT",
+      "name": "Pierre Ayotte",
+      "desc": "Pierre Ayotte was a French-Canadian soldier and fur trader who served with American revolutionary foreces during the American Revolutionary War. Ayotte, who was an inhabitant of Kamouraska, was just as devoted to the revolutionary cause as other Quebecois soldiers on the American side of the conflict such as Clément Gosselin, with whom he served in the 2nd Canadian Regiment.",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Ayotte",
+      "gender": "Male"
+    },
+    {
+      "id": "rec3I3I7aFWX6xEJ6",
+      "pid": "MMT1-Y1T",
+      "name": "Ethan Allen",
+      "desc": "Ethan Allen January 21, 1738  – February 12, 1789 was an American farmer, businessman, land speculator, philosopher, writer, lay theologian, American Revolutionary War patriot, and politician. He is best known as one of the founders of Vermont and for the capture of Fort Ticonderoga early in the Revolutionary War. He was the brother of Ira Allen and the father of Frances Allen.",
+      "url": "https://en.wikipedia.org/wiki/Ethan_Allen",
+      "gender": "Male"
+    },
+    {
+      "id": "rec3gqnUywofb35nO",
+      "pid": "2DRN-DPR",
+      "name": "Edward Bancroft",
+      "desc": "Edward Bartholomew Bancroft January 20, 1745 – September 7, 1821 was a Massachusetts-born physician and chemist who became a double agent, spying for both the United States and Great Britain while serving as secretary to the American Commission in Paris during the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Bancroft",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/qo45e/thumb200s.jpg"
+    },
+    {
+      "id": "rec4pMVThvw5mk9Fn",
+      "pid": "LJ2G-F1V",
+      "name": "Filippo Mazzei",
+      "desc": "Surgeon, merchant, vintner, and writer Filippo Mazzei influenced American business, politics, and philosophy. Befriending Benjamin Franklin and Thomas Jefferson, Mazzei was a strong liaison for others in Europe. Mazzei was Jefferson’s inspiration for the most famous line in the Declaration of Independence: “All men are created equal.”",
+      "url": "https://en.wikipedia.org/wiki/Filippo_Mazzei",
+      "gender": "Male"
+    },
+    {
+      "id": "rec8aH3cdOPzghru4",
+      "pid": "K4ZT-ZWM",
+      "name": "Caleb Brewster",
+      "desc": "Caleb Brewster September 12, 1747 – February 13, 1827 was a member of the Culper spy ring during the American Revolutionary War, reporting to General George Washington through Major Benjamin Tallmadge. He carried messages across Long Island Sound between Major Tallmadge and the ring's main spies on Long Island, New York, and in New York City. He also made direct reports to Washington concerning naval activities in the New York City area.",
+      "url": "https://en.wikipedia.org/wiki/Caleb_Brewster",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/w3boi/thumb200s.jpg"
+    },
+    {
+      "id": "rec9UrWpxPjnyvPaQ",
+      "pid": "LHGJ-3MT",
+      "name": "Sarah Townsend (spy)",
+      "desc": "Sarah \"Sally\" Townsend c.1760–1842 was thought to be an informant for George Washington's Culper Ring, a spy ring founded in the summer of 1778. Townsend lived in Oyster Bay and passed information to her brother, Robert Townsend, a main member of the ring. She died in December 1842 and is buried at the Townsend Cemetery.",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Townsend_(spy)",
+      "gender": "Female"
+    },
+    {
+      "id": "recasNp86kFSdNCtr",
+      "pid": "K4YJ-WTM",
+      "name": "John Brown",
+      "desc": "John Brown October 19, 1744 – October 19, 1780 of Pittsfield, Massachusetts, was a Revolutionary War officer, a state legislator, and a Berkshire County judge. He played key roles in the conquest of Fort Ticonderoga at the start of the war, during the American invasion of Canada in 1775-1776, and once again in 1777 during Lieutenant General John Burgoyne's invasion of the United States by way of Lake Champlain and the Hudson River.",
+      "url": "https://en.wikipedia.org/wiki/John_Brown_of_Pittsfield",
+      "gender": "Male"
+    },
+    {
+      "id": "recaCUzV8qs9CKDX7",
+      "pid": "K4R2-XNH",
+      "name": "Hannah Mather Crocker",
+      "desc": "Hannah Crocker June 27, 1752 – July 11, 1829 was an American essayist and one of the first advocates of women's rights in America, as well as a pioneer for women's participation in Freemasonry. Her Observations on the Real Rights of Women 1818 was the first book on the rights of women by an American.",
+      "url": "https://en.wikipedia.org/wiki/Hannah_Mather_Crocker",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/d2qx3/thumb200s.jpg"
+    },
+    {
+      "id": "reccF2JzrADmV3moH",
+      "pid": "L6QQ-8TQ",
+      "name": "Nathan Hale",
+      "desc": "Nathan Hale June 6, 1755 – September 22, 1776 was an American Patriot, soldier and spy for the Continental Army during the American Revolutionary War. He volunteered for an intelligence-gathering mission in New York City but was captured by the British and executed. Hale is considered an American hero and in 1985 was officially designated the state hero of Connecticut.",
+      "url": "https://en.wikipedia.org/wiki/Nathan_Hale",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/znozj/thumb200s.jpg"
+    },
+    {
+      "id": "recc4tp1gyb2NORtO",
+      "pid": "LW42-FW9",
+      "name": "Benjamin Tallmadge",
+      "desc": "Benjamin Tallmadge February 25, 1754 – March 7, 1835 was an American military officer, spymaster, and politician. He is best known for his service as an officer in the Continental Army during the American Revolutionary War. He acted as leader of the Culper Ring during the war, a celebrated network of spies in New York where major British forces were based. He also led a successful raid across Long Island that culminated in the Battle of Fort St. George. After the war, Tallmadge was elected to the US House of Representatives as a member of the Federalist Party.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Tallmadge",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/z2a5j/thumb200s.jpg"
+    },
+    {
+      "id": "recfmfAAk1bxXsYOn",
+      "pid": "LKKM-79D",
+      "name": "John Honeyman",
+      "desc": "John Honeyman 1729—August 18, 1822 was an American spy and British informant for George Washington, primarily responsible for spreading disinformation and gathering the intelligence crucial to Washington's victory in the Battle of Trenton.",
+      "url": "https://en.wikipedia.org/wiki/John_Honeyman",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kdbag/thumb200s.jpg"
+    },
+    {
+      "id": "recjgijjEMayovNNt",
+      "pid": "KZHZ-BP8",
+      "name": "Pierre Douville",
+      "desc": "Pierre Douville August 7, 1745 – July 17, 1794 was a French-Canadian naval captain and lieutenant who served in the American Revolution and French Revolution. Born on present day Prince Edward Island, Douville survived the 1758 Acadian deportation to France. He joined the French Navy and lived in Rhode Island during the American Revolution. During the American Revolution, he served as a French military intelligence officer who provided General George Washington with British ship and troop movements. Douville also took part in a smuggling mission in 1775, when he brought weapons and gunpowder from the French West Indies to the United States. Douville was one of the original members of the Society of the Cincinnati. Douville died in 1794 fighting for the French during the Glorious First of June.",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Douville",
+      "gender": "Male"
+    },
+    {
+      "id": "recnU47rBV653TM19",
+      "pid": "GQ9J-2Q4",
+      "name": "James Rivington",
+      "desc": "James Rivington 1724 – July 4, 1802 was an English-born American journalist who published a Loyalist newspaper in the American colonies called Rivington's Gazette. He was driven out of New York by the Sons of Liberty, but was very likely a member of the American Culper Spy Ring, which provided the Continental Army with military intelligence from British-occupied New York.",
+      "url": "https://en.wikipedia.org/wiki/James_Rivington",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/r8cja/thumb200s.jpg"
+    },
+    {
+      "id": "recocVsluEMN6HvSv",
+      "pid": "LHPJ-66W",
+      "name": "Elias Dayton",
+      "desc": "Elias Dayton May 1, 1737 – October 22, 1807 was an American merchant and military officer who served as captain and colonel of the local militia and in 1783 rose to become a brigadier general during the American Revolutionary War. Afterward, he became the Mayor of Elizabethtown, New Jersey as well as served in the New Jersey General Assembly. He was the father of U.S. Constitution signer Jonathan Dayton.",
+      "url": "https://en.wikipedia.org/wiki/Elias_Dayton",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cc1cj/thumb200s.jpg"
+    },
+    {
+      "id": "recX1ixtwyY83ShSd",
+      "pid": "LZVJ-NSM",
+      "name": "Paul Revere",
+      "desc": "Paul Revere /rɪˈvɪər/; December 21, 1734 O.S. January 1, 1735 N.S. – May 10, 1818 was an American silversmith, engraver, early industrialist, Sons of Liberty member, and Patriot. He is best known for his midnight ride to alert the colonial militia in April 1775 to the approach of British forces before the battles of Lexington and Concord, as dramatized in Henry Wadsworth Longfellow's 1861 poem, \"Paul Revere's Ride\".",
+      "url": "https://en.m.wikipedia.org/wiki/Paul_Revere",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/vj8jj/thumb200s.jpg"
+    },
+    {
+      "id": "recHY23fZzJrodeJO",
+      "pid": "KZWW-YXT",
+      "name": "Lydia Darragh",
+      "desc": "Lydia Darragh 1729 – December 28, 1789 was an Irish woman said to have crossed British lines during the British occupation of Philadelphia, Pennsylvania during the American Revolutionary War, delivering information to George Washington and the Continental Army that warned them of a pending British attack.",
+      "url": "https://en.m.wikipedia.org/wiki/Lydia_Darragh",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k3913/thumb200s.jpg"
+    },
+    {
+      "id": "recEPebpKRGE47DLw",
+      "pid": "LHVG-VCP",
+      "name": "Benjamin Edes  ",
+      "desc": "Benjamin Edes October 15, 1732 – December 11, 1803 was an early American printer, publisher, newspaper journalist and a revolutionary advocate before and during the American Revolution. He is best known, along with John Gill, as the publisher of the Boston Gazette, a colonial newspaper which sparked and financed the Boston Tea Party and was influential during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Edes",
+      "gender": "Male"
+    }
+  ]
+}

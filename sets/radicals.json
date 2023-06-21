@@ -1,0 +1,152 @@
+{
+  "title": "Radicals",
+  "desc": "Philosophers, orators, and writers who were played a significant role in moving the minds of the British colonists of North America in the direction of independence.",
+  "banner": "radicals.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "recZGBLWQszCcrNug",
+      "pid": "MMT1-Y1T",
+      "name": "Ethan Allen",
+      "desc": "Ethan Allen (January 21, 1738  – February 12, 1789) was an American farmer, businessman, land speculator, philosopher, writer, lay theologian, American Revolutionary War patriot, and politician. He is best known as one of the founders of Vermont and for the capture of Fort Ticonderoga early in the Revolutionary War. He was the brother of Ira Allen and the father of Frances Allen.",
+      "url": "https://en.wikipedia.org/wiki/Ethan_Allen",
+      "level": 10,
+      "gender": "Male"
+    },
+    {
+      "id": "recnOwUqhVeYYcLmr",
+      "pid": "LZKN-H6X",
+      "name": "Alexander Hamilton ",
+      "desc": "Alexander Hamilton January 11, 1755 or 1757 – July 12, 1804 was a Nevis-born American military officer, statesman, and Founding Father who served as the first Secretary of Treasury from 1789 to 1795 during George Washington's presidency.",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Hamilton",
+      "level": 2,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wxd67/thumb200s.jpg"
+    },
+    {
+      "id": "recaxAA97GxiBHufK",
+      "pid": "LJLQ-WRC",
+      "name": "Benjamin Franklin",
+      "desc": "Benjamin Franklin FRS FRSA FRSE January 17, 1706  – April 17, 1790 was an American polymath who was active as a writer, scientist, inventor, statesman, diplomat, printer, publisher, and political philosopher. Among the leading intellectuals of his time, Franklin was one of the Founding Fathers of the United States, a drafter and signer of the Declaration of Independence, and the first Postmaster General.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg"
+    },
+    {
+      "id": "recidZR09toC7TaoK",
+      "pid": "KJ46-JCZ",
+      "name": "John Dickenson",
+      "desc": "John Dickinson (November 13, 1732 – February 14, 1808), a Founding Father of the United States, was an attorney and politician from Philadelphia, Pennsylvania, and Wilmington, Delaware. Dickinson was known as the \"Penman of the Revolution\" for his twelve Letters from a Farmer in Pennsylvania, published individually in 1767 and 1768, and he also wrote \"The Liberty Song\" in 1768.",
+      "url": "https://en.wikipedia.org/wiki/John_Dickinson",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yub1j/thumb200s.jpg"
+    },
+    {
+      "id": "recU3EsSHGuFlIlU0",
+      "pid": "GKRC-2B4",
+      "name": "Thomas Gordon",
+      "desc": "Thomas Gordon c. 1691 – 28 July 1750 was a Scottish writer and Commonwealthman. Along with John Trenchard, he published The Independent Whig, which was a weekly periodical. From 1720 to 1723, Trenchard and Gordon wrote a series of 144 essays entitled Cato's Letters, condemning corruption and lack of morality within the British political system and warning against tyranny. The essays were published as Essays on Liberty, Civil and Religious, at first in the London Journal and then in the British Journal. These essays became a cornerstone of the Commonwealth man tradition and were influential in shaping the ideas of the Country Party. His ideas played an important role in shaping republicanism in Britain and especially in the American colonies leading up to the American Revolution.",
+      "url": "https://en.m.wikipedia.org/wiki/Thomas_Gordon_(writer)",
+      "gender": "Male"
+    },
+    {
+      "id": "recVCphE5OTZz34lb",
+      "pid": "MTH1-MQ2",
+      "name": "Thomas payne",
+      "desc": "Thomas Paine born Thomas Pain; February 9, 1737 – June 8, 1809 was an English-born American Founding Father, political activist, philosopher, political theorist, and revolutionary. He authored Common Sense 1776 and The American Crisis 1776–1783, two of the most influential pamphlets at the start of the American Revolution, and he helped to inspire the Patriots in 1776 to declare independence from Great Britain. His ideas reflected Enlightenment-era ideals of human rights.",
+      "url": "https://en.m.wikipedia.org/wiki/Thomas_Paine",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/kmoaj/thumb200s.jpg"
+    },
+    {
+      "id": "recW91vPQe3LvVIR4",
+      "pid": "LZFH-5RP",
+      "name": "James Wilson",
+      "desc": "James Wilson September 14, 1742 – August 21, 1798 was a Scottish-born American Founding Father, legal scholar, jurist, and statesman who served as an associate justice of the United States Supreme Court from 1789 to 1798. Wilson was elected twice to the Continental Congress, was a signatory of the Declaration of Independence, and was a major participant in drafting the U.S. Constitution. A leading legal theorist, he was one of the first four Associate Justices appointed to the Supreme Court by George Washington. In his capacity as the first professor of law at the College of Philadelphia later to become the University of Pennsylvania, he taught the first course on the new Constitution to President Washington and his Cabinet in 1789 and 1790.",
+      "url": "https://en.m.wikipedia.org/wiki/James_Wilson_(Founding_Father)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jg7g/thumb200s.jpg"
+    },
+    {
+      "id": "recX1ixtwyY83ShSd",
+      "pid": "LZVJ-NSM",
+      "name": "Paul Revere",
+      "desc": "Paul Revere /rɪˈvɪər/; December 21, 1734 O.S. January 1, 1735 N.S. – May 10, 1818 was an American silversmith, engraver, early industrialist, Sons of Liberty member, and Patriot. He is best known for his midnight ride to alert the colonial militia in April 1775 to the approach of British forces before the battles of Lexington and Concord, as dramatized in Henry Wadsworth Longfellow's 1861 poem, \"Paul Revere's Ride\".",
+      "url": "https://en.m.wikipedia.org/wiki/Paul_Revere",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/vj8jj/thumb200s.jpg"
+    },
+    {
+      "id": "rectSxByLlngxXDVg",
+      "pid": "G784-11F",
+      "name": "Algernon Sidney",
+      "desc": "Algernon Sidney or Sydney 15 January 1623 – 7 December 1683 was an English politician, republican political theorist and colonel. A member of the middle part of the Long Parliament and commissioner of the trial of King Charles I of England, he opposed the king's execution. Sidney was later charged with plotting against Charles II, in part based on his most famous work, Discourses Concerning Government, which was used by the prosecution as a witness at his trial. He was executed for treason. After his death, Sidney was revered as a \"Whig patriot—hero and martyr\".",
+      "url": "https://en.m.wikipedia.org/wiki/Algernon_Sidney",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/h7ojd/thumb200s.jpg"
+    },
+    {
+      "id": "recwmCn1hK4J8YCbM",
+      "pid": "LD39-5QC",
+      "name": "Georege Mason",
+      "desc": "George Mason December 11, 1725  – October 7, 1792 was an American planter, politician, Founding Father, and delegate to the U.S. Constitutional Convention of 1787, one of three delegates present who refused to sign the Constitution. His writings, including substantial portions of the Fairfax Resolves of 1774, the Virginia Declaration of Rights of 1776, and his Objections to this Constitution of Government 1787 opposing ratification, have exercised a significant influence on American political thought and events. The Virginia Declaration of Rights, which Mason principally authored, served as a basis for the United States Bill of Rights, of which he has been deemed the father.",
+      "url": "https://en.m.wikipedia.org/wiki/George_Mason",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/d8ikb/thumb200s.jpg"
+    },
+    {
+      "id": "reczZXTQ2bAvQSlOT",
+      "pid": "MR2H-DK5",
+      "name": "Montesquieu",
+      "desc": "Charles Louis de Secondat, Baron de La Brède et de Montesquieu French pronunciation: ​; 18 January 1689 – 10 February 1755, generally referred to as simply Montesquieu US: /ˈmɒntəskjuː/, UK also /ˌmɒntɛˈskjɜː/, French: , was a French judge, man of letters, historian, and political philosopher.",
+      "url": "https://en.m.wikipedia.org/wiki/Montesquieu",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/i4c6j/thumb200s.jpg"
+    },
+    {
+      "id": "recCeq73fOewGVxFF",
+      "pid": "MJWC-996",
+      "name": "John Trenchard",
+      "desc": "From 1720 to 1723, Trenchard, again with Thomas Gordon, wrote a series of 144 weekly essays entitled Cato's Letters, condemning corruption and lack of morality within the British political system and warning against tyranny. The essays were published as Essays on Liberty, Civil and Religious, first in the London Journal and then in the British Journal. These essays became a cornerstone of the Commonwealthmen tradition.",
+      "url": "https://en.m.wikipedia.org/wiki/John_Trenchard_(writer)",
+      "gender": "Male"
+    },
+    {
+      "id": "rec2b2TZv5mXe8GYi",
+      "pid": "K19W-1RK",
+      "name": "Patrick Henry",
+      "desc": "Patrick Henry May 29, 1736 – June 6, 1799 was an American politician and orator who declared to the Second Virginia Convention 1775: \"Give me liberty, or give me death!\" A Founding Father, he served as the first and sixth post-colonial Governor of Virginia, from 1776 to 1779 and from 1784 to 1786.",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Henry",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b80wi/thumb200s.jpg"
+    },
+    {
+      "id": "rec8yOosphwxmMkEq",
+      "pid": "LD29-VGN",
+      "name": "James Otis",
+      "desc": "James Otis Jr. February 5, 1725 – May 23, 1783 was an American lawyer, political activist, colonial legislator, and early supporter of patriotic causes in Massachusetts Bay Colony at the beginning of the Revolutionary Era. Otis was a fervent opponent of the writs of assistance imposed by Great Britain on the American colonies in the early 1760s which allowed law enforcement officials to search private property without cause. He later expanded his criticism of British authority to include tax measures that were being enacted by Parliament. As a result, Otis is often incorrectly credited with coining the slogan \"taxation without representation is tyranny\".",
+      "url": "https://en.m.wikipedia.org/wiki/James_Otis_Jr.",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/cczbj/thumb200s.jpg"
+    },
+    {
+      "id": "rechFR3XZVMXOfbIy",
+      "pid": "LCQN-DHX",
+      "name": "Jonathan Mayhew",
+      "desc": "Jonathan Mayhew October 8, 1720 – July 9, 1766 was a noted American Congregational minister at Old West Church, Boston, Massachusetts.",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Mayhew",
+      "gender": "Male"
+    },
+    {
+      "id": "recPFCcJDxF9HeQrL",
+      "pid": "LZP1-7YB",
+      "name": "Samuel Adams",
+      "desc": "Samuel Adams September 27  1722 – October 2, 1803 was an American statesman, political philosopher, and a Founding Father of the United States. He was a politician in colonial Massachusetts, a leader of the movement that became the American Revolution, and one of the architects of the principles of American republicanism that shaped the political culture of the United States. He was a second cousin to his fellow Founding Father, President John Adams.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Adams",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dlvpe/thumb200s.jpg"
+    }
+  ]
+}

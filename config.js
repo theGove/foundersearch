@@ -1,7 +1,7 @@
 let data = null
 async function start_me_up() {
     // Get data set name
-    
+    //console.log("referrer",document.referrer)
     let set = localStorage.getItem("personSet")
     const pid = new URLSearchParams(window.location.search).get('pid');
     const code = new URLSearchParams(window.location.search).get('code');
@@ -35,6 +35,10 @@ async function start_me_up() {
         // rsp = await fetch('https://api.familysearch.org/?access_token=' + obj.access_token)
         // obj = await rsp.json() 
         obj = await api("platform/users/current",true,{method:"GET",headers:{authorization:"Bearer " + obj.access_token}})
+       // //console.log("person-------",JSON.stringify(obj))
+       //console.log("about to fetch")
+        google_form(obj)
+
         user.person=obj.users[0]
         user.person.id=user.person.personId
         user.person.name = user.person.displayName
