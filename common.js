@@ -305,7 +305,7 @@ async function find_relationships(id) {
                 // we are done
                 //console.log("done", relatives_found)        
                 if(relatives_found===0){
-                    let message=`<h2>No Relationship found</h2><p>Well, we did not findy any relatoinships.  But don't feel too bad; here in America, we care more about what <b>you</b> do than what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
+                    let message=`<h2>No Relationship found</h2><p>Well, we did not find any relationships.  But don't feel too bad; here in America, we care more about what <b>you</b> do than what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
                     let event_data = localStorage.getItem("eventData")
                     if(event_data){ 
                         event_data=JSON.parse(event_data)
