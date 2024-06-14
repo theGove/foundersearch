@@ -286,7 +286,7 @@ async function find_relationships(id) {
 
         let path=null
         if(localStorage.getItem("searchMethod")==="myself"){
-            path = 'platform/tree/my-relationships?pid=' + key.pid
+            path = 'platform/tree/persons/CURRENT/relationships/' + key.pid
         }else{
             path = 'platform/tree/persons/' + id + '/relationships/' + key.pid
         }
