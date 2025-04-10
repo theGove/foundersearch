@@ -1,0 +1,488 @@
+{
+  "title": "Signers of the Articles of Association",
+  "desc": "Representatives of the Thirteen Colonies who signed a document setting forth policies by which the colonists would endure the scarcity of goods and signed Continental army and American naval officers who fought for American independence during the Revolutionary War.",
+  "banner": "army-navy.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "rec",
+      "pid": "LC8Z-JZJ",
+      "name": "Peyton Randolph",
+      "desc": "Peyton Randolph (September 10, 1721 – October 22, 1775) American politician and planter born into Virginia's wealthiest and most powerful family, Randolph served as speaker of Virginia's House of Burgesses, president of the first two Virginia Conventions, and president of the First Continental Congress.[1][2] He also served briefly as president of the Second Continental Congress.",
+      "url": "https://en.m.wikipedia.org/wiki/Peyton_Randolph",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recP1sPH3MSMfAWh6",
+      "pid": "MXJX-T65",
+      "name": "John Sullivan",
+      "desc": "John Sullivan (February 17, 1740 – January 23, 1795) was an American general in the Revolutionary War winning several key battles most notably the Delaware crossing. He was a delegate in the Continental Congress where he signed the Continental Association, the third governor of New Hampshire, and a United States district judge of the United States District Court for the District of New Hampshire.",
+      "url": "https://en.wikipedia.org/wiki/John_Sullivan_(general)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/g90z1/thumb200s.jpg"
+    },
+    {
+      "id": "rec7aMf7BNbhobkRJ",
+      "pid": "KT3V-ZQ1",
+      "name": "Nathaniel Folsom",
+      "desc": "Nathaniel Folsom (September 28, 1726 – May 26, 1790) was an American merchant and statesman. He was a delegate for New Hampshire in the Continental Congress in 1774 and 1777 to 1780, signing the Continental Association. He served as major general of the New Hampshire Militia during the American Revolutionary War.",
+      "url": "https://en.wikipedia.org/wiki/Nathaniel_Folsom",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dso4b/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "L4QW-D38",
+      "name": "Thomas Cushing",
+      "desc": "Thomas Cushing III (March 24, 1725 – February 28, 1788) American lawyer, merchant, and statesman from Boston, Massachusetts. Active in Boston politics, he represented the city in the provincial assembly from 1761 to its dissolution in 1774, serving as the lower house's speaker for most of those years. Because of his role as speaker, his signature was affixed to many documents protesting British policies, leading officials in London to consider him a dangerous radical. He engaged in extended communications with Benjamin Franklin who at times lobbied on behalf of the legislature's interests in London, seeking ways to reduce the rising tensions of the American Revolution.",
+      "url": "https://en.m.wikipedia.org/wiki/Thomas_Cushing",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recPFCcJDxF9HeQrL",
+      "pid": "LZP1-7YB",
+      "name": "Samuel Adams",
+      "desc": "Samuel Adams September 27  1722 – October 2, 1803 was an American statesman, political philosopher, and a Founding Father of the United States. He was a politician in colonial Massachusetts, a leader of the movement that became the American Revolution, and one of the architects of the principles of American republicanism that shaped the political culture of the United States. He was a second cousin to his fellow Founding Father, President John Adams.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Adams",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dlvpe/thumb200s.jpg"
+    },
+    {
+      "id": "recxMXi3SDZWYquzW",
+      "pid": "MKNQ-TSF",
+      "name": "John Adams",
+      "desc": "John Adams October 30, 1735 – July 4, 1826 was an American statesman, attorney, diplomat, writer, and Founding Father who served as the second president of the United States from 1797 to 1801.",
+      "url": "https://en.wikipedia.org/wiki/John_Adams",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uan/thumb200s.jpg"
+    },
+    {
+      "id": "recS9V42kSgk8n3Bj",
+      "pid": "LHVX-16Z",
+      "name": "Robert Treat Paine",
+      "desc": "Robert Treat Paine (March 11, 1731 – May 11, 1814) was a lawyer, politician and Founding Father of the United States who signed the Continental Association and Declaration of Independence as a representative of Massachusetts. He served as the state's first attorney general and as an associate justice of the Massachusetts Supreme Judicial Court, the state's highest court.  He was one of the prosecutors in the Boston Massacre Trials",
+      "url": "https://en.wikipedia.org/wiki/Robert_Treat_Paine",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/xhih7/thumb200s.jpg"
+    },
+    {
+      "id": "rec8C6Jp0ehZWbDYy",
+      "pid": "L13C-CMX",
+      "name": "Stephen Hopkins",
+      "desc": "Stephen Hopkins March 7, 1707 – July 13, 1785 was a Founding Father of the United States, a governor of the Colony of Rhode Island and Providence Plantations, a chief justice of the Rhode Island Supreme Court, and a signer of the Continental Association and Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Hopkins_(politician)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/oc8g/thumb200s.jpg"
+    },
+    {
+      "id": "rec9WTee3eF4uKxPa",
+      "pid": "LZK3-LYW",
+      "name": "Samuel Ward",
+      "desc": "Samuel Ward May 25, 1725 – March 26, 1776 was an American farmer, politician, Rhode Island Supreme Court justice, governor of the Colony of Rhode Island and Providence Plantations, and delegate to the Continental Congress where he signed the Continental Association.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Ward_(Rhode_Island_politician)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/s8fc/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LQ5D-PC4",
+      "name": "Eliphalet Dyer",
+      "desc": "Eliphalet Dyer (September 14, 1721 – May 13, 1807) American lawyer, jurist, and statesman from Windham, Connecticut. He was a delegate for Connecticut to many sessions of the Continental Congress, where he signed the 1774 Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/Eliphalet_Dyer",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recdm8TmJO2Mfamtb",
+      "pid": "LZXD-7S2",
+      "name": "Roger Sherman",
+      "desc": "Roger Sherman April 19, 1721 – July 23, 1793 was an American statesman, lawyer, and a Founding Father of the United States. He is the only person to sign four of the great state papers of the United States related to the founding: the Continental Association, Declaration of Independence, Articles of Confederation, and U.S. Constitution. He also signed the 1774 Petition to the King and 1775 Olive Branch Petition.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Sherman",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqh9/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "2NWM-MHY",
+      "name": "Silas Deane",
+      "desc": "Silas Deane (January 4, 1738 [O.S. December 24, 1737] – September 23, 1789) American merchant, politician, and diplomat, and a supporter of American independence. Deane served as a delegate to the Continental Congress, where he signed the Continental Association, and then became the first foreign diplomat from the United States to France, where he helped negotiate the 1778 Treaty of Alliance that allied France with the United States during the American Revolutionary War.",
+      "url": "https://en.m.wikipedia.org/wiki/Silas_Deane",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "LJTB-R7X",
+      "name": "Isaac Low",
+      "desc": "Isaac Low (April 13, 1735 – July 25, 1791) American merchant in New York City who served as a member of the Continental Congress, where he signed the Continental Association. He later served as a delegate to the New York Provincial Congress. Though originally a Patriot, he later joined the Loyalist cause in the American Revolution.",
+      "url": "https://en.m.wikipedia.org/wiki/Isaac_Low",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "LBFQ-BP8",
+      "name": "John Alsop",
+      "desc": "John Alsop Jr. (1724 – November 22, 1794) was an American merchant and politician from New York City. As a delegate for New York to the Continental Congress from 1774 to 1776, he signed the 1774 Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/John_Alsop",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "KLW7-RL4",
+      "name": "John Jay",
+      "desc": "John Jay (December 23 [O.S. December 12], 1745 – May 17, 1829) was an American statesman, diplomat, signatory of the Treaty of Paris, and a Founding Father of the United States. He served from 1789 to 1795 as the first chief justice of the United States and from 1795 to 1801 as the second governor of New York. Jay directed U.S. foreign policy for much of the 1780s and was an important leader of the Federalist Party after the ratification of the United States Constitution in 1788.",
+      "url": "https://en.m.wikipedia.org/wiki/John_Jay",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "LCRV-LL7",
+      "name": "James Duane",
+      "desc": "James Duane (February 6, 1733 – February 1, 1797) was an American Founding Father, attorney, jurist, and American Revolutionary leader from New York. He served as a delegate to the First Continental Congress, the Second Continental Congress and the Congress of the Confederation, a New York state senator, the 44th Mayor of New York City, the 1st post-colonial Mayor of New York City and a United States district judge of the United States District Court for the District of New York. Duane was a signatory of the Continental Association and the Articles of Confederation.",
+      "url": "https://en.m.wikipedia.org/wiki/James_Duane",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recwWsuomihfznIUp",
+      "pid": "L4WJ-NPW",
+      "name": "Philip Livingston",
+      "desc": "Philip Livingston January 15, 1716 – June 12, 1778 was an American merchant, politician and slave trader from New York City. He represented New York at the October 1774 First Continental Congress, where he favored imposing economic sanctions upon Great Britain as a way of pressuring the British Parliament to repeal the Intolerable Acts. Livingston was also a delegate to the Second Continental Congress from 1775 to 1778, and signed the Declaration of Independence, thus becoming one of the Founding Fathers of the United States.",
+      "url": "https://en.wikipedia.org/wiki/Philip_Livingston",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/nv8g/thumb200s.jpg"
+    },
+    {
+      "id": "recKa3c2gKRuNF0pX",
+      "pid": "LHK4-VDH",
+      "name": "William Floyd",
+      "desc": "William Floyd December 17, 1734 – August 4, 1821 was an American Founding Father, wealthy farmer, and political leader from New York. Floyd served as a delegate to the Continental Congress and was a signer of the Continental Association and Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Floyd",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/109g/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "9NYM-JJZ",
+      "name": "Henry Wisner",
+      "desc": "Henry Wisner (c. 1720 – March 4, 1790) was a miller from Goshen, New York. He was a Patriot leader during the American Revolution who, as a member of the Second Continental Congress, voted for Independence on July 4, 1776, at the creation of the Declaration of Independence. As a member of the First Continental Congress, Wisner signed the 1774 Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/Henry_Wisner",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "L4NT-6X6",
+      "name": "Simon Boerum",
+      "desc": "Simon Boerum (February 29, 1724 – July 11, 1775) was a farmer, miller, and political leader from Brooklyn, New York. He represented New York in the Continental Congress in 1774 and 1775. He signed the Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/Simon_Boerum",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "L13L-N5B",
+      "name": "James Kinsey",
+      "desc": "James Kinsey (March 22, 1731 – January 4, 1802) American lawyer from Burlington, New Jersey.",
+      "url": "https://en.m.wikipedia.org/wiki/James_Kinsey",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recLE5LCV6Xmud16t",
+      "pid": "LH1R-45B",
+      "name": "William Livingston  ",
+      "desc": "William Livingston November 30, 1723 – July 25, 1790 was an American politician and lawyer who served as the first governor of New Jersey 1776–1790 during the American Revolutionary War. As a New Jersey representative in the Continental Congress, he signed the Continental Association and the United States Constitution.",
+      "url": "https://en.wikipedia.org/wiki/William_Livingston",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/5ida5/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "27C3-QYD",
+      "name": "Stephen Crane",
+      "desc": "Stephen Crane (1709 – July 1, 1780) was an American politician from Elizabethtown (present-day Elizabeth, New Jersey) who was a delegate to the Continental Congress from 1774 to 1776 and signed the Continental Association. He also served in the Provincial Congress of New Jersey, New Jersey General Assembly and New Jersey Legislative Council. Stephen did not attend the next Congress in Philadelphia as he needed to attend to divisions in his own state between East Jersey and West Jersey. He felt deeply about the taxes that Britain had imposed upon the Colonies and had made sure of his protest upon his journey to England with Matthias Hatfield.",
+      "url": "https://en.m.wikipedia.org/wiki/Stephen_Crane_(Continental_Congress)",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "LZ61-BG4",
+      "name": "Richard Smith",
+      "desc": "Richard Smith (March 22, 1735 – September 17, 1803) A lawyer and politician who served in the Continental Congress and signed the Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/Richard_Smith_(Continental_Congress)",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "LHZD-14V",
+      "name": "John De Hart",
+      "desc": "John De Hart (July 25, 1727 – June 1, 1795) American lawyer, jurist, and politician from Elizabeth, New Jersey. He represented New Jersey as a delegate to the Continental Congress in 1774 and 1775 and signed the Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/John_De_Hart",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "L7FN-1PF",
+      "name": "Joseph Galloway",
+      "desc": "Joseph Galloway (1731—August 29, 1803[1]) was an American attorney and a leading political figure in the events immediately preceding the founding of the United States in the late 18th-century. As a staunch opponent of American independence, he would become one of the most prominent Loyalists in North America during the early part of the Revolutionary War.",
+      "url": "https://en.m.wikipedia.org/wiki/Joseph_Galloway",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recasyEZvqfa61og8",
+      "pid": "KJ46-JCZ",
+      "name": "John Dickinson ",
+      "desc": "John Dickinson November 13 1732 – February 14, 1808, a Founding Father of the United States, was an attorney and politician from Philadelphia, Pennsylvania, and Wilmington, Delaware. Dickinson was known as the \"Penman of the Revolution\" for his twelve Letters from a Farmer in Pennsylvania, published individually in 1767 and 1768, and he also wrote \"The Liberty Song\" in 1768.",
+      "url": "https://en.wikipedia.org/wiki/John_Dickinson_(delegate)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yub1j/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "MTSF-VY8",
+      "name": "Charles Humphreys",
+      "desc": "Charles Humphreys (September 19, 1714 – March 11, 1786) was a signatory to the Continental Association while representing the Province of Pennsylvania in the First Continental Congress. A miller and fuller, he benefitted from the system of chattel slavery that existed in the province during that time by using enslaved laborers to operate his businesses.",
+      "url": "https://en.m.wikipedia.org/wiki/Charles_Humphreys",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recmOVksulFDWIidz",
+      "pid": "G8PL-4YQ",
+      "name": "Thomas Mifflin",
+      "desc": "Thomas Mifflin (January 10, 1744 – January 20, 1800) was an American merchant, soldier, and politician from Pennsylvania, who is regarded as a Founding Father of the United States for his roles during and after the American Revolution. Mifflin signed the United States Constitution, was the first governor of Pennsylvania, serving from 1790 to 1799, and was also the state's last president, succeeding Benjamin Franklin in 1788.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Mifflin",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/62twg/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LQRY-8JT",
+      "name": "Edward Biddle",
+      "desc": "Edward Biddle (1738 – 5 September 1779) was an American soldier, lawyer, and statesman from Pennsylvania. He was a delegate to the Continental Congress in 1774 and 1775 and a signatory to the Continental Association, which was drafted and adopted by that Congress.",
+      "url": "https://en.m.wikipedia.org/wiki/Edward_Biddle",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "receSSHJuYktIczei",
+      "pid": "LTM4-KSJ",
+      "name": "John Morton",
+      "desc": "John Morton 1725 – April 1, 1777 was an American farmer, surveyor, and jurist from the Province of Pennsylvania and a Founding Father of the United States. As a delegate to the Continental Congress during the American Revolution, he was a signatory to the Continental Association and Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/John_Morton_(American_politician)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/829g/thumb200s.jpg"
+    },
+    {
+      "id": "recWTi7cJNFqeC14B",
+      "pid": "LKTZ-T5H",
+      "name": "George Ross",
+      "desc": "George Ross Jr May 10, 1730 – July 14, 1779 was a Founding Father of the United States who signed the Continental Association and the United States Declaration of Independence as a representative of Pennsylvania. He was also the uncle of the man who married Betsy Griscom in 1773, more famous under her married name, Betsy Ross. In 1952, Ross, George Washington, and Robert Morris appeared on a three-cent stamp commemorating Betsy Ross.",
+      "url": "https://en.wikipedia.org/wiki/George_Ross_(delegate)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/x18g/thumb200s.jpg"
+    },
+    {
+      "id": "recGcc0wxR9lc3UFo",
+      "pid": "KP4N-DZV",
+      "name": "Caesar Rodney",
+      "desc": "Caesar Rodney October 7, 1728 – June 26, 1784 was an American Founding Father, lawyer, and politician from St. Jones Neck in Dover Hundred, Kent County, Delaware. He was an officer of the Delaware militia during the French and Indian War and the American Revolutionary War, a Continental Congressman from Delaware, a signer of the Continental Association and Declaration of Independence, and president of Delaware during most of the American Revolution.",
+      "url": "https://en.wikipedia.org/wiki/Caesar_Rodney",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/eo7wh/thumb200s.jpg"
+    },
+    {
+      "id": "recGYODdyGn1rWll4",
+      "pid": "LZSS-X3Y",
+      "name": "Thomas McKean",
+      "desc": "Thomas McKean pronounced mc-Kane March 19, 1734 – June 24, 1817 was an American lawyer, politician, and Founding Father. During the American Revolution, he was a Delaware delegate to the Continental Congress in Philadelphia, where he signed the Continental Association, the Declaration of Independence, and the Articles of Confederation. McKean served as a President of Congress.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_McKean",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/woc1/thumb200s.jpg"
+    },
+    {
+      "id": "recT8NpDa9s9at38G",
+      "pid": "97H5-JS5",
+      "name": "George Read",
+      "desc": "George Read September 18, 1733 – September 21, 1798 was an American politician from New Castle in New Castle County, Delaware. He was a Continental Congressman from Delaware, a delegate to the U.S. Constitutional Convention of 1787, president of Delaware, and a member of the Federalist Party. In addition, Read served as U.S. Senator from Delaware and chief justice of Delaware.",
+      "url": "https://en.wikipedia.org/wiki/George_Read_(signer)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9rcvh/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LKMC-KKL",
+      "name": "Matthew Tilghman",
+      "desc": "Matthew Tilghman (February 17, 1718 – May 4, 1790) was an American planter, and Revolutionary leader from Maryland. He served as a delegate to the Continental Congress from 1774 to 1776, where he signed the 1774 Continental Association.",
+      "url": "https://en.m.wikipedia.org/wiki/Matthew_Tilghman",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec",
+      "pid": "L75M-G9L",
+      "name": "Thomas Johnson",
+      "desc": "Thomas Johnson (November 4, 1732 – October 26, 1819) was an 18th-century American lawyer, politician, and patriot.[2] He was a delegate to the First Continental Congress in 1774, where he signed the Continental Association; commander of the Maryland militia in 1776; and elected first (non-Colonial) governor of Maryland in 1777. Throughout his career, Johnson maintained a personal and political friendship with George Washington,[2] who gave him a recess appointment as an associate justice of the Supreme Court in August 1791.",
+      "url": "https://en.m.wikipedia.org/wiki/Thomas_Johnson_(judge)",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recDoS7QCaDbSKEq2",
+      "pid": "LWJT-H92",
+      "name": "William Paca",
+      "desc": "William Paca October 31, 1740 – October 13, 1799 was a Founding Father of the United States who was a signatory to the Continental Association and the United States Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Paca",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/939g/thumb200s.jpg"
+    },
+    {
+      "id": "recCkyokPQu8uuHpK",
+      "pid": "2YGW-2F4",
+      "name": "Samuel Chase",
+      "desc": "Samuel Chase April 17, 1741 – June 19, 1811 was a Founding Father of the United States, signer of the Continental Association and United States Declaration of Independence as a representative of Maryland, and Associate Justice of the United States Supreme Court. Chase was impeached by the House of Representatives on grounds of letting his partisan leanings affect his court decisions but was acquitted by the Senate and remained in office.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Chase",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/sb8g/thumb200s.jpg"
+    },
+    {
+      "id": "recNNIviTNj9fbBuF",
+      "pid": "LD8H-15M",
+      "name": "Richard Henry Lee",
+      "desc": "Richard Henry Lee January 20, 1732 – June 19, 1794 was an American statesman and Founding Father from Virginia, best known for the June 1776 Lee Resolution, the motion in the Second Continental Congress calling for the colonies' independence from Great Britain leading to the United States Declaration of Independence, which he signed.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Henry_Lee",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/wm8g/thumb200s.jpg"
+    },
+    {
+      "id": "rec4A3YM5RCl0TRZA",
+      "pid": "KNDX-MKG",
+      "name": "George Washington ",
+      "desc": "George Washington February 22, 1732 – December 14, 1799 was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.",
+      "url": "https://en.wikipedia.org/wiki/George_Washington",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg"
+    },
+    {
+      "id": "rec2b2TZv5mXe8GYi",
+      "pid": "K19W-1RK",
+      "name": "Patrick Henry",
+      "desc": "Patrick Henry May 29, 1736 – June 6, 1799 was an American politician and orator who declared to the Second Virginia Convention 1775: \"Give me liberty, or give me death!\" A Founding Father, he served as the first and sixth post-colonial Governor of Virginia, from 1776 to 1779 and from 1784 to 1786.",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Henry",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b80wi/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LTLC-W7T",
+      "name": "Richard Bland",
+      "desc": "Richard Bland (May 6, 1710 – October 26, 1776), sometimes referred to as Richard Bland II or Richard Bland of Jordan's Point[1][nb 1], was an American Founding Father, planter, lawyer and politician from Virginia. A cousin and early mentor of Thomas Jefferson, Bland served 34 years in the Virginia General Assembly, and with John Robinson and this man's cousin Peyton Randolph as one of the most influential and productive burgesses during the last quarter century of the colonial period.",
+      "url": "https://en.m.wikipedia.org/wiki/Richard_Bland",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recYqztJUIdmleO4j",
+      "pid": "LTNY-8PT",
+      "name": "Benjamin Harrison",
+      "desc": "Benjamin Harrison V April 5, 1726 – April 24, 1791 was an American planter, merchant, and politician who served as a legislator in colonial Virginia, following his namesakes' tradition of public service. He was a signer of the Continental Association, as well as the United States Declaration of Independence, and was one of the nation's Founding Fathers. He served as Virginia's governor from 1781 to 1784.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Harrison_V",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/brt4/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LZN8-JFP",
+      "name": "Edmund Pendleton",
+      "desc": "Edmund Pendleton (September 9, 1721 – October 23, 1803) was an American planter, politician, lawyer, and judge. He served in the Virginia legislature before and during the American Revolutionary War, becoming the first speaker of the Virginia House of Delegates (which succeeded the House of Burgesses terminated by Virginia's last colonial Governor, Lord Dunmore). Pendleton attended the First Continental Congress as one of Virginia's delegates alongside George Washington and Patrick Henry, signed the Continental Association, and led the conventions both wherein Virginia declared independence (1776) and adopted the United States Constitution (1788).",
+      "url": "https://en.m.wikipedia.org/wiki/Edmund_Pendleton",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "rec9YmGN5GLglG1gY",
+      "pid": "L6D8-6XZ",
+      "name": "William Hooper",
+      "desc": "William Hooper June 28, 1742 – October 14, 1790 was an American Founding Father, lawyer, and politician. As a member of the Continental Congress representing North Carolina, Hooper signed the Continental Association and the Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/William_Hooper",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/68b37/thumb200s.jpg"
+    },
+    {
+      "id": "recSZ93nhGgD5dLFX",
+      "pid": "LCYM-ZXW",
+      "name": "Joseph Hewes",
+      "desc": "Joseph Hewes July 9, 1730– November 10, 1779 was an American Founding Father and a signer of the Continental Association and U.S. Declaration of Independence. Hewes was a native of Princeton, New Jersey, where he was born in 1730. His parents were members of the Society of Friends, commonly known as Quakers.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Hewes",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lgs6/thumb200s.jpg"
+    },
+    {
+      "id": "recDxhlSLVAUFIP0q",
+      "pid": "M9MN-J59",
+      "name": "Richard Caswell",
+      "desc": "Richard Caswell (August 3, 1729 – November 10, 1789) was an American politician and lawyer who served as the first and fifth governor of the U.S. state of North Carolina from 1776 to 1780 and from 1785 to 1787. He also served as a senior officer of militia in the Southern theater of the American Revolutionary War. As a delegate to the First Continental Congress, he was a signatory of the 1774 Continental Association.",
+      "url": "https://en.wikipedia.org/wiki/Richard_Caswell",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/3x6z9/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "L2BL-YSC",
+      "name": "Henry Middleton",
+      "desc": "Henry Middleton (1717 – June 13, 1784) was an American politician and planter from South Carolina. A member of the colonial legislature, during the American Revolution he attended the First Continental Congress and served as that body's president for four days in 1774 after the passage of the Continental Association, which he signed. He left the Second Continental Congress before it declared independence. Back in South Carolina, he served as president of the provincial congress and senator in the newly created state government. After his capture by the British in 1780, he accepted defeat and returned to the status of a British subject until the end of the war.",
+      "url": "https://en.m.wikipedia.org/wiki/Henry_Middleton",
+      "gender": "Male",
+      "imageURL": "url from right click on FS portrait"
+    },
+    {
+      "id": "recgTo0iQQxR6iU6T",
+      "pid": "L44Q-GW7",
+      "name": "Thomas Lynch Jr.",
+      "desc": "Thomas Lynch Jr. August 5, 1749 – December 17, 1779 was a signer of the United States Declaration of Independence as a representative of South Carolina and a Founding Father of the United States. His father was a member of the Continental Congress who had signed the 1774 Continental Association, and when he stepped down because of illness Lynch Jr. was selected to fill his post.",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Lynch,_Jr.",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/7w8g/thumb200s.jpg"
+    },
+    {
+      "id": "recjN1WUJpApjiCgu",
+      "pid": "LZNZ-QFL",
+      "name": "Christopher Gadsden",
+      "desc": "Christopher Gadsden (February 16, 1724 – August 28, 1805) was an American politician who was the principal leader of the South Carolina Patriot movement during the American Revolution. He was a delegate to the Continental Congress, a brigadier general in the Continental Army during the American Revolutionary War, Lieutenant Governor of South Carolina, a merchant, and the designer of the Gadsden flag. He is a signatory to the Continental Association.",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Gadsden",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/jac0k/thumb200s.jpg"
+    },
+    {
+      "id": "recsc4LaKdysvJtI8",
+      "pid": "MNGY-CL4",
+      "name": "John Rutledge ",
+      "desc": "John Rutledge September 17, 1739 – June 21, 1800 was an American Founding Father, politician, and jurist who served as one of the original associate justices of the Supreme Court and the second chief justice of the United States. Additionally, he served as the first president of South Carolina and later as its first governor after the Declaration of Independence was signed.",
+      "url": "https://en.wikipedia.org/wiki/John_Rutledge",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/72g6/thumb200s.jpg"
+    },
+    {
+      "id": "recrwyh5TAXEppuOJ",
+      "pid": "MZT8-Q72",
+      "name": "Edward Rutledge",
+      "desc": "Edward Rutledge November 23, 1749 – January 23, 1800 was an American Founding Father and politician who signed the Continental Association and was the youngest signatory of the Declaration of Independence. He later served as the 39th governor of South Carolina.",
+      "url": "https://en.wikipedia.org/wiki/Edward_Rutledge",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/9z7g/thumb200s.jpg"
+    }
+      ]
+}

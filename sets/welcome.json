@@ -1,0 +1,95 @@
+{
+  "title": "Welcome to Liberty Village",
+  "desc": "Short list of colonials with name recognition. Use to introduce visitors to using the QR codes and enter their grandparent so they are ready.",
+  "banner": "welcometolibertyvillage.png",
+  "backgroundColor": "#fff",
+  "textColor": "#000",
+  "people": [
+    {
+      "id": "rec4A3YM5RCl0TRZA",
+      "pid": "KNDX-MKG",
+      "name": "George Washington ",
+      "desc": "Led the continental army and served as the first president of the United States.",
+      "url": "https://en.wikipedia.org/wiki/George_Washington",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "KNZC-6QV",
+      "name": "Martha Washington",
+      "desc": "Defined the role of the president's wife, setting many precedents for future first ladies.",
+      "url": "https://en.wikipedia.org/wiki/Martha_Washington",
+      "level": 1,
+      "gender": "Female",
+      "imageURL": "Right click on image in FamilySearch to get url"
+    },
+    {
+      "id": "recxMXi3SDZWYquzW",
+      "pid": "MKNQ-TSF",
+      "name": "John Adams",
+      "desc": "Statesman, diplomat, writer. Served as second president of the United States.",
+      "url": "https://en.wikipedia.org/wiki/John_Adams",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uan/thumb200s.jpg"
+    },
+    {
+      "id": "recwh11gSS6MBzhRQ",
+      "pid": "M5BC-QBT",
+      "name": "Betsy Ross",
+      "desc": "A seamstress that legend says helped create the first American flag.",
+      "url": "https://en.m.wikipedia.org/wiki/Betsy_Ross",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/lnsbj/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "MVPS-Q4H",
+      "name": "Abigail Adams",
+      "desc": "Wife and closest advisor of John Adams, as well as the mother of John Quincy Adams.",
+      "url": "https://en.wikipedia.org/wiki/Abigail_Adams",
+      "level": 1,
+      "gender": "Female",
+      "imageURL": "Right click on image in FamilySearch to get url"
+    },
+    {
+      "id": "recIDQMN3z16QwxUw",
+      "pid": "LVN9-NPL",
+      "name": "John Hancock",
+      "desc": "Remembered for his large and stylish signature on the Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/John_Hancock",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ij841/thumb200s.jpg"
+    },
+    {
+      "id": "recaxAA97GxiBHufK",
+      "pid": "LJLQ-WRC",
+      "name": "Benjamin Franklin",
+      "desc": "Statesman, scientist, inventor. Drafter and signer of the Declaration of Independence.",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/dfi1/thumb200s.jpg"
+    },
+    {
+      "id": "rec2b2TZv5mXe8GYi",
+      "pid": "K19W-1RK",
+      "name": "Patrick Henry",
+      "desc": "“Give me liberty, or give me death” speech.",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Henry",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b80wi/thumb200s.jpg"
+    },
+    {
+      "id": "rec6ZLQGhxf6GUsjK",
+      "pid": "LH71-XLT",
+      "name": "Deborah Sampson",
+      "desc": "Disguised herself as a man, and served in the Continental Army under the name Robert Shirtliff.",
+      "url": "https://en.m.wikipedia.org/wiki/Deborah_Sampson",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/k10jo/thumb200s.jpg"
+    }
+      ]
+}
