@@ -44,15 +44,6 @@
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b80wi/thumb200s.jpg"
     },
     {
-      "id": "rec6U2cU34LqFPPLH",
-      "pid": "LYBV-Q75",
-      "name": "Josiah Harmar",
-      "desc": "Josiah Harmar (November 10, 1753 – August 20, 1813) was an officer in the United States Army during the American Revolutionary War and the Northwest Indian War. He was the senior officer in the Army for six years and seven months (August 1784 to March 1791).",
-      "url": "https://en.wikipedia.org/wiki/Josiah_Harmar#:~:text=Josiah%20Harmar%20(November%2010%2C%201753,August%201784%20to%20March%201791).",
-      "gender": "Male",
-      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwsb5/thumb200s.jpg"
-    },
-    {
       "id": "recxMXi3SDZWYquzW",
       "pid": "MKNQ-TSF",
       "name": "John Adams",
@@ -61,6 +52,142 @@
       "level": 1,
       "gender": "Male",
       "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uan/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "KGP1-RG9",
+      "name": "Joseph Plumn Martin",
+      "desc": "Joseph Plumb Martin (November 21, 1760 - May 2, 1850) was a soldier in the Connecticut Militia and Continental Army during the American Revolutionary War, and was mustered out as a 23-year-old Sergeant in a Sapper company. His published narrative of his experiences, re-discovered in the 1950s, has become a valuable resource for historians in understanding the conditions of a common soldier of that era, as well as the battles in which Martin participated.",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Plumb_Martin",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/laesh/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LHG7-HT5",
+      "name": "Elizabeth Freeman",
+      "desc": "Elizabeth Freeman (c. 1744 - December 28, 1829), also known as Mumbet, was one of the first enslaved African Americans to file and win a freedom suit in Massachusetts.",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Freeman",
+      "gender": "female",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Mumbett70.jpg/330px-Mumbett70.jpg"
+    },
+    {
+      "id": "recIDQMN3z16QwxUw",
+      "pid": "LVN9-NPL",
+      "name": "John Hancock",
+      "desc": "John Hancock January 23, 1737 – October 8, 1793 was an American Founding Father, merchant, statesman, and prominent Patriot of the American Revolution. He served as president of the Second Continental Congress and was the first and third Governor of the Commonwealth of Massachusetts. He is remembered for his large and stylish signature on the United States Declaration of Independence, so much so that the term John Hancock or Hancock has become a nickname in the United States for one's signature.",
+      "url": "https://en.wikipedia.org/wiki/John_Hancock",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/ij841/thumb200s.jpg"
+    }},
+    {
+      "id": "reci0Tz8CDs4pBtI1",
+      "pid": "LC9N-15S",
+      "name": "Mercy Otis Warren",
+      "desc": "Mercy Otis Warren September 25, 1728 – October 19, 1814 was an American activist poet, playwright, and pamphleteer during the American Revolution. During the years before the Revolution, she had published poems and plays that attacked royal authority in Massachusetts and urged colonists to resist British infringements on colonial rights and liberties. She was married to James Warren, who was likewise heavily active in the independence movement.",
+      "url": "https://en.m.wikipedia.org/wiki/Mercy_Otis_Warren",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/hvkbk/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "G31S-G8R",
+      "name": "Penelope Barker",
+      "desc": "Penelope Barker (June 17, 1728 - 1796), was a Colonial American activist who, in the lead-up to the American Revolution, organized a boycott of British goods in 1774 orchestrated by a group of women known as the Edenton Tea Party. It was the first recorded women's political demonstration in America.",
+      "url": "https://en.wikipedia.org/wiki/Penelope_Barker",
+      "gender": "female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/shlnm/thumb200s.jpg"
+    },
+    {
+      "id": "recXkH3DPG95FLHap",
+      "pid": "LJYV-FLC",
+      "name": "Robert Morris",
+      "desc": "Robert Morris Jr. January 20, 1734 – May 8, 1806 was an English-born merchant and a Founding Father of the United States. He served as a member of the Pennsylvania legislature, the Second Continental Congress, and the United States Senate, and he was a signer of the Declaration of Independence, the Articles of Confederation, and the United States Constitution.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Morris_(financier)",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/449g/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "LTHD-6BZ",
+      "name": "Daniel Shays",
+      "desc": "Daniel Shays (August 1747 - September 29, 1825) was an American soldier, revolutionary and farmer famous for allegedly leading Shays' Rebellion, a populist uprising against controversial debt collection and tax policies that took place in Massachusetts between 1786 and 1787. The actual role played by Shays in the rebellion is disputed by scholars.",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Shays",
+      "gender": "Male",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Daniel_Shays_%28Shays%27_Rebellion%29.jpg/330px-Daniel_Shays_%28Shays%27_Rebellion%29.jpg"
+    },
+    {
+      "id": "recbLiAFR2PoHxUGh",
+      "pid": "2MGY-4V5",
+      "name": "Mary Katherine Goddard  ",
+      "desc": "Mary Katharine Goddard June 16, 1738 – August 12, 1816 was an early American publisher, and the postmaster of the Baltimore Post Office from 1775 to 1789. She was the older sister of William Goddard, also a publisher and printer. She was the second printer to print the Declaration of Independence. Her copy, the Goddard Broadside, was commissioned by Congress in 1777, and was the first to include the names of the signatories. In 1998, Goddard was inducted into the Maryland Women's Hall of Fame.",
+      "url": "https://en.wikipedia.org/wiki/Mary_Katherine_Goddard",
+      "gender": "Female",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwxmh/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "",
+      "name": "William Flora",
+      "desc": "William \"Billy\" Flora (fl. 1775–1820) was a free-born African American from Virginia who served as a soldier on the Patriot side in the American Revolutionary War. He fought under Colonel William Woodford in the Battle of Great Bridge in December 1775, where he is widely acknowledged as the hero of the battle. ",
+      "url": "https://en.wikipedia.org/wiki/William_Flora",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/mwsb5/thumb200s.jpg"
+    },
+    {
+      "id": "rec2b2TZv5mXe8GYi",
+      "pid": "K19W-1RK",
+      "name": "Patrick Henry",
+      "desc": "Patrick Henry May 29, 1736 – June 6, 1799 was an American politician and orator who declared to the Second Virginia Convention 1775: \"Give me liberty, or give me death!\" A Founding Father, he served as the first and sixth post-colonial Governor of Virginia, from 1776 to 1779 and from 1784 to 1786.",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Henry",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/b80wi/thumb200s.jpg"
+    },
+    {
+      "id": "recdm8TmJO2Mfamtb",
+      "pid": "LZXD-7S2",
+      "name": "Roger Sherman",
+      "desc": "Roger Sherman April 19, 1721 – July 23, 1793 was an American statesman, lawyer, and a Founding Father of the United States. He is the only person to sign four of the great state papers of the United States related to the founding: the Continental Association, Declaration of Independence, Articles of Confederation, and U.S. Constitution. He also signed the 1774 Petition to the King and 1775 Olive Branch Petition.",
+      "url": "https://en.wikipedia.org/wiki/Roger_Sherman",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/uqh9/thumb200s.jpg"
+    },{
+      "id": "rec4A3YM5RCl0TRZA",
+      "pid": "KNDX-MKG",
+      "name": "George Washington ",
+      "desc": "George Washington February 22, 1732 – December 14, 1799 was an American military officer, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.",
+      "url": "https://en.wikipedia.org/wiki/George_Washington",
+      "level": 1,
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/odof/thumb200s.jpg"
+    },
+    {
+      "id": "rec",
+      "pid": "KNZC-6QV",
+      "name": "Martha Washington",
+      "desc": "Defined the role of the president's wife, setting many precedents for future first ladies.",
+      "url": "https://en.wikipedia.org/wiki/Martha_Washington",
+      "level": 1,
+      "gender": "Female",
+      "imageURL": "Right click on image in FamilySearch to get url"
+    },
+    {
+      "id": "recidZR09toC7TaoK",
+      "pid": "KJ46-JCZ",
+      "name": "John Dickenson",
+      "desc": "John Dickinson (November 13, 1732 – February 14, 1808), a Founding Father of the United States, was an attorney and politician from Philadelphia, Pennsylvania, and Wilmington, Delaware. Dickinson was known as the \"Penman of the Revolution\" for his twelve Letters from a Farmer in Pennsylvania, published individually in 1767 and 1768, and he also wrote \"The Liberty Song\" in 1768.",
+      "url": "https://en.wikipedia.org/wiki/John_Dickinson",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/yub1j/thumb200s.jpg"
+    },
+    {
+      "id": "recomOQHimhESkii3",
+      "pid": "L844-DTF",
+      "name": "Gilbert du Motier, Marquis de Lafayette",
+      "desc": "Marie-Joseph Paul Yves Roch Gilbert du Motier de La Fayette, Marquis de La Fayette (6 September 1757 – 20 May 1834), known in the United States as Lafayette (/ˌlɑːfiːˈɛt, ˌlæf-/, French: ), was a French aristocrat, freemason, and military officer who fought in the American Revolutionary War, commanding American troops in several battles, including the siege of Yorktown. After returning to France, he was a key figure in the French Revolution of 1789 and the July Revolution of 1830. He has been considered a national hero in both countries.",
+      "url": "https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette",
+      "gender": "Male",
+      "imageURL": "https://tree-portraits-pgp.familysearchcdn.org/sr5aj/thumb200s.jpg"
     }
   ]
 }
