@@ -1,0 +1,30 @@
+ Volume in drive F is Volitile
+ Volume Serial Number is E03F-97C9
+
+ Directory of F:\code\chf\foundersearch\sets
+
+05/05/2025  10:13 AM    <DIR>          .
+05/05/2025  10:13 AM    <DIR>          ..
+07/16/2024  07:03 AM            54,704 army-navy.json
+07/16/2024  07:03 AM            13,618 awakening.json
+07/16/2024  07:03 AM               586 baker.json
+07/16/2024  07:03 AM            36,258 british.json
+07/16/2024  07:03 AM            25,561 constitution.json
+07/16/2024  07:03 AM            36,690 declaration.json
+07/16/2024  07:03 AM             3,954 festival.json
+05/05/2025  10:13 AM                 0 files.txt
+07/16/2024  07:03 AM            17,316 foreign.json
+07/16/2024  07:03 AM           142,115 governors.json
+07/16/2024  07:03 AM             7,374 massacre.json
+07/16/2024  07:03 AM            20,940 mayflower.json
+07/16/2024  07:03 AM            31,250 militia.json
+07/16/2024  07:03 AM            25,304 ministers.json
+07/16/2024  07:03 AM            31,210 printers.json
+07/16/2024  07:03 AM            12,157 radicals.json
+07/16/2024  07:03 AM            43,624 salem.json
+07/16/2024  07:03 AM            22,019 spies1.json
+09/21/2024  06:29 AM             8,516 spies2.json
+07/16/2024  07:03 AM            68,115 teaparty.json
+07/16/2024  07:34 AM            12,175 women.json
+              21 File(s)        613,486 bytes
+               2 Dir(s)  1,974,451,765,248 bytes free
