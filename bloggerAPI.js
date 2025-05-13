@@ -141,15 +141,274 @@ function getSetNameFromSearch(){
 
 function tag(id){return document.getElementById(id)}
 function nam(id){return document.getElementsByName(id)[0]}
+function hide(elem){show(elem,"none")}
+function show(elem_or_query_selector, display=""){
+    // takes an element or tag array or querySelector string and shows or hides all matching
+    let elems=elem_or_query_selector
+    if(typeof elems === 'string'){
+        elems=document.querySelectorAll(elem_or_query_selector)
+    }
+    if(elems.length){
+        for(const elem of elems){
+            elem.style.display=display
+        }
+    }else{
+       elems.style.display=display
+    }
+}
+async function searchAncestor() {
+    console.log("searching for ancestors", nam('given'))
 
-function searchAncestor(){
-  console.log("searching for ancestors", nam('given'))
+
+   hide(".invalid-feedback")
+
+   const ancestors=get_remembered_ancestors()
+
+//    //if form is empty and we have a remembered ancestor, then search
+//    if(
+//                     nam('given').value === ""  &&
+//        nam('birthLikeDateBegin').value === ""  &&
+//            nam('birthLikePlace').value === ""  &&
+//        nam('deathLikeDateBegin').value === ""  &&
+//            nam('deathLikePlace').value === ""  &&
+//                   nam('surname').value === ""  &&
+//        ancestors &&
+//        Object.keys(ancestors).length>0
+   
+//    ){
+//        location.href="/relatives.html"
+//    }
+
+
+   //validate
+   let invalid_count=0
+   if( nam('surname').value === "" ){
+       show(tag("surname-missing"))
+       invalid_count++
+   }
+   if(isNaN(nam('birthLikeDateBegin').value)){
+       show(tag("birth-year-invalid"))
+       invalid_count++
+   }
+   if(isNaN(nam('deathLikeDateBegin').value)){
+       show(tag("death-year-invalid"))
+       invalid_count++
+   }
+
+   if(invalid_count>0){
+       return
+   }
+
+//    $('.results, .related').empty();
+//    $('.result-list').empty();
+//    $('').show();
+//    $('.ancestor-list').html("Select your ancestor below");
+
+   URL = "q.surname=" + nam('surname').value
+   if (nam('given'             ).value !== "") URL += '&q.givenName='      + nam('given'             ).value
+   if (nam('birthLikeDateBegin').value !== "") URL += "&q.birthLikeDate="  + nam('birthLikeDateBegin').value
+   if (nam('birthLikePlace'    ).value !== "") URL += "&q.birthLikePlace=" + nam('birthLikePlace'    ).value
+   if (nam('deathLikeDateBegin').value !== "") URL += "&q.deathLikeDate="  + nam('deathLikeDateBegin').value
+   if (nam('deathLikePlace'    ).value !== "") URL += "&q.deathLikePlace=" + nam('deathLikePlace'    ).value
+
+
+   let  authenticated=false
+   if(await logged_in()){
+       authenticated = localStorage.getItem("authenticatedToken")
+   }
+
+   const search=await api('platform/tree/search?' + URL + "&count=20",authenticated, {headers:{Accept: "application/json"}})
+   //console.log("search", search)
+   for (let i = 0; i < search.entries.length; i++) {
+       p = search.entries[i].content.gedcomx.persons[0].display;
+       p.id = search.entries[i].content.gedcomx.persons[0].id;
+       place_ancestor(p, ancestors, authenticated)
+      
+   }
 }
 
 
+function get_remembered_ancestors(){
+  ancestors=localStorage.getItem("ancestors")||"{}"
+  return JSON.parse(ancestors)
+}
 
+async function api(path, authenticated="either", options={method:"GET"}){
+    // path is the part of the URL that goes after familysearch.org/
+    console.log("at api",path, authenticated, options)
+    const url="https://api.familysearch.org/" + path
+    if(!options.headers){
+        options.headers={}
+    }
+    if(!options.headers.authorization){// only set the authoriation if an authroization header is not passed in
+        let access_token = await get_access_token(authenticated)
+        //console.log("get_access_token",get_access_token)
+        options.headers.authorization = 'Bearer ' + access_token
+    }
+    //console.log(url,options)
+    const  rsp = await fetch(url,options)
+    //console.log("response.status",rsp.status)
+    if(rsp.status!=200){return{status:rsp.status}}
+    const data = await rsp.json() 
+    data.status=200
+    //console.log("data", data)
+    return await data
+    
+  }
+  
+  async function get_access_token( authenticated="either"){
+    //console.log("authenticated",authenticated)
+    let token = null
+    
+    if(authenticated===true){
+        if(await logged_in()){
+            token = localStorage.getItem("authenticatedToken")  
+        }else{
+            return false
+        }
+    }else if(authenticated==="either"){
+        if(await logged_in()){
+            token = localStorage.getItem("authenticatedToken")  
+        }else{
+            token =await get_unauthenticated_token()
+        }
+    }else if(authenticated){
+        token = authenticated
+    }else if(authenticated===false){
+        token =await get_unauthenticated_token()
+    }
+    return token
+  }
+  
+  async function get_unauthenticated_token(){
+    let token = localStorage.getItem("unauthenticatedToken") 
+    if(unauthenticated_token_is_valid()){
+        return token
+    }
+    await set_unauthenticated_token()
+    
+    return localStorage.getItem("unauthenticatedToken") 
+  
+  }
+  
+  async function set_unauthenticated_token(){
+  
+    const rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: `grant_type=unauthenticated_session&ip_address=${window.location.host}&client_id=` + atob('YTAyajAwMDAwMEtUUmpwQUFI')
+    })
+    obj=await  rsp.json()
+  
+    localStorage.setItem("unauthenticatedToken", obj.token)
+    localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+  }
+  
+  
+  
+  async function refresh_unauthenticated_token(){
+    if(!await unauthenticated_token_is_valid()){
+        await set_unauthenticated_token()
+    }
+  }
+  
+  
+  
+  async function unauthenticated_token_is_valid(){
+    debugger
+    const access_token = localStorage.getItem("unauthenticatedToken")
+    if(!access_token){
+        //console.log ("Not Valid: No Access Token")
+        return false
+    }
+    
+    //check the age of the token
+    if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36000000){
+        // it's been less than an hour since checking
+        //console.log("less than an hour")
+        return true
+    }
+  
+    // its been more than an hour since we last checked  
+    const user = JSON.parse(localStorage.getItem("user"))
+    const url="https://api.familysearch.org/platform/tree/persons/KWHM-PDN"// + user.person.id
+    const options={
+        method:"head",
+        headers:{
+            authorization:'Bearer ' + access_token
+        }
+    }
+    const rsp = await fetch(url,options)
+    //console.log("rsp",rsp)
+    
+    if(rsp.status===200){
+        localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
+        return true
+    }else{
+        localStorage.setItem("unauthenticatedTokenTime", 0)
+        localStorage.setItem("unauthenticatedToken", null)
+        return false
+    }
+    
+  
+  }
 
+  async function place_ancestor(p, ancestors, authenticated){
+    const access_token = await get_access_token()
+    
+    //console.log("at place ancestors")
+    if (p.birthPlace == undefined) p.birthPlace = "";
+    
+    let birthYear = (p.birthDate) ? new Date(p.birthDate).getUTCFullYear() : "";
+    let deathYear = (p.deathDate) ? new Date(p.deathDate).getUTCFullYear() : "";
+    let age = (birthYear && deathYear) ? "(Age " + Math.abs(deathYear - birthYear) + ")" : "";
+    
+    // Check for NaN (Safari won't parse dates like "October 1893")
+    if (isNaN(birthYear)) birthYear = p.birthDate;
+    if (isNaN(deathYear)) deathYear = p.deathDate;
+    
+    // Get gender portrait
+    let portrait = "/images/male.svg";
+    if (p.gender == "Female") portrait = "/images/female.svg";
 
+    const{li,div,img,span,br}=van.tags()
+    
+    let image_clause = null
+    if(authenticated===true){
+       image_clause = img({class:"portrait", src:`https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${access_token}`})
+    }else if(authenticated){
+        image_clause = img({class:"portrait", src:`https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${authenticated}`})
+    }else{
+        image_clause = img({ class:`"portrait" src:"${portrait}"`,onerror:"this.onerror = null; this.src = 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*2B0CcKDE1hAm7cJErdp5XA.png"})
+    }
+    
+
+    tag("results").appendChild(
+        li({class:"result", "data-record":btoa(JSON.stringify(p)), "data-id":p.id},
+            div({class:"person"},
+                div(image_clause),
+                div(
+                    div({class:"name"},`${p.name} ${age}`),
+                    div(span({style:"text-decoration:underline"},"Born:"),`${p.birthDate||""}${p.birthPlace?", ":""}`),
+                    div(span({style:"text-decoration:underline"},"Died:"),`${p.deathDate||""}${p.deathPlace?", ":""}`),
+                )
+            )
+        )
+    )
+    
+    
+    // " ${ancestors[p.id]?' style="background-color:#eee;padding:5px 10px;"':''}>
+    // <div class="person">${image_clause}
+    // <div><span class="name">${p.name} ${age}</span>
+    // <br /><span class="lifespan"><u>Born:</u> ${p.birthDate||""}${p.birthPlace?", ":""}${p.birthPlace||""}</span>
+    // <br /><span class="lifespan"><u>Died:</u> ${p.deathDate||""}${p.deathPlace?", ":""}${p.deathPlace||""}</span>
+    // <br /><br /><span  class="msg"${ancestors[p.id]?"":' style="display:none"'}>This ancestor has been remembered (<span style="text-decoration: underline;color:blue;" onclick="forget(event)" >forget</style>)</span>
+    // </div></div>
+    // </li>`)
+    }
+    
 
     ///////////////////////////////////////////////////////////////////////
    //                                                                   //
@@ -157,19 +416,12 @@ function searchAncestor(){
  //                                                                   //
 ///////////////////////////////////////////////////////////////////////
 
-function get_remembered_ancestors(){
-  ancestors=localStorage.getItem("ancestors")||"{}"
-  return JSON.parse(ancestors)
-}
 
 function remember_ancestors(ancestors){
   localStorage.setItem("ancestors",JSON.stringify(ancestors))
   google_form(ancestors)
 }
 
-function tag(id){
-  return document.getElementById(id)
-}
 
 async function logged_in(){
   // cannot use api function because api calls this
@@ -212,127 +464,6 @@ async function logged_in(){
   
 }
 
-async function api(path, authenticated="either", options={method:"GET"}){
-  // path is the part of the URL that goes after familysearch.org/
-  
-  const url="https://api.familysearch.org/" + path
-  if(!options.headers){
-      options.headers={}
-  }
-  if(!options.headers.authorization){// only set the authoriation if an authroization header is not passed in
-      let access_token = await get_access_token(authenticated)
-      //console.log("get_access_token",get_access_token)
-      options.headers.authorization = 'Bearer ' + access_token
-  }
-  //console.log(url,options)
-  const  rsp = await fetch(url,options)
-  //console.log("response.status",rsp.status)
-  if(rsp.status!=200){return{status:rsp.status}}
-  const data = await rsp.json() 
-  data.status=200
-  //console.log("data", data)
-  return await data
-  
-}
-
-async function get_access_token( authenticated="either"){
-  //console.log("authenticated",authenticated)
-  let token = null
-  
-  if(authenticated===true){
-      if(await logged_in()){
-          token = localStorage.getItem("authenticatedToken")  
-      }else{
-          return false
-      }
-  }else if(authenticated==="either"){
-      if(await logged_in()){
-          token = localStorage.getItem("authenticatedToken")  
-      }else{
-          token =await get_unauthenticated_token()
-      }
-  }else if(authenticated){
-      token = authenticated
-  }else if(authenticated===false){
-      token =await get_unauthenticated_token()
-  }
-  return token
-}
-
-async function get_unauthenticated_token(){
-  let token = localStorage.getItem("unauthenticatedToken") 
-  if(unauthenticated_token_is_valid()){
-      return token
-  }
-  await set_unauthenticated_token()
-  
-  return localStorage.getItem("unauthenticatedToken") 
-
-}
-
-async function set_unauthenticated_token(){
-
-  const rsp = await fetch('https://ident.familysearch.org/cis-web/oauth2/v3/token', {
-      method: "POST",
-      headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-      },
-      body: `grant_type=unauthenticated_session&ip_address=${window.location.host}&client_id=` + atob('YTAyajAwMDAwMEtUUmpwQUFI')
-  })
-  obj=await  rsp.json()
-
-  localStorage.setItem("unauthenticatedToken", obj.token)
-  localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
-}
-
-
-
-async function refresh_unauthenticated_token(){
-  if(!await unauthenticated_token_is_valid()){
-      await set_unauthenticated_token()
-  }
-}
-
-
-
-async function unauthenticated_token_is_valid(){
-  
-  const access_token = localStorage.getItem("unauthenticatedToken")
-  if(!access_token){
-      //console.log ("Not Valid: No Access Token")
-      return false
-  }
-  
-  //check the age of the token
-  if(new Date().valueOf() - localStorage.getItem("unauthenticatedTokenTime") < 36000000){
-      // it's been less than an hour since checking
-      //console.log("less than an hour")
-      return true
-  }
-
-  // its been more than an hour since we last checked  
-  const user = JSON.parse(localStorage.getItem("user"))
-  const url="https://api.familysearch.org/platform/tree/persons/KWHM-PDN"// + user.person.id
-  const options={
-      method:"head",
-      headers:{
-          authorization:'Bearer ' + access_token
-      }
-  }
-  const rsp = await fetch(url,options)
-  //console.log("rsp",rsp)
-  
-  if(rsp.status===200){
-      localStorage.setItem("unauthenticatedTokenTime", new Date().valueOf())
-      return true
-  }else{
-      localStorage.setItem("unauthenticatedTokenTime", 0)
-      localStorage.setItem("unauthenticatedToken", null)
-      return false
-  }
-  
-
-}
 
 function get_path_direct(elem){ 
 
@@ -607,5 +738,150 @@ function get_level(rel_name){
 }
 
 
+
+    ///////////////////////////////////////////////////////////////////////
+   //                                                                   //
+  //             Old config Functions                                  //
+ //                                                                   //
+///////////////////////////////////////////////////////////////////////
+
+
+function show_remembered_ancestors() {
+    const ancestors=get_remembered_ancestors()
+$('.ancestor-list').html("Your remembered ancestors");
+$('.result-list').hide();
+$('.results, .related').empty();
+$('.ancestor-list').show();
+//console.log(ancestors)
+for(const key of Object.keys(ancestors)){
+    //console.log("entry", ancestors[key])
+    place_ancestor(ancestors[key], ancestors)
+}
+}
+
+
+
+function forget(evt){
+evt.stopPropagation()
+let elem = evt.currentTarget
+elem.parentElement.style.display="none"
+while(elem.tagName!=="LI"){
+    //console.log(elem.tagName)
+    elem = elem.parentElement
+}
+elem.style.backgroundColor=""
+elem.style.padding=""
+//console.log("e", elem.dataset.id)
+const ancestors=get_remembered_ancestors()
+delete ancestors[elem.dataset.id]
+remember_ancestors(ancestors)
+if(Object.keys(ancestors).length===0){
+    //tag("show-remembered-ancestors").style.display="none"
+}
+}
+
+
+function go_to_relatives(evt){
+const ancestors=get_remembered_ancestors()
+const li = evt.currentTarget
+let p =  JSON.parse(atob(li.dataset.record))
+ancestors[p.id]=p
+remember_ancestors(ancestors)
+//console.log("ancestore",ancestors)
+location.href="relatives.html"
+}
+
+async function launch_relationships(evt) {
+// show the relationships on the config page.    
+tag("show-remembered-ancestors").style.display=""
+const li = evt.currentTarget
+let p =  JSON.parse(atob(li.dataset.record))
+li.style.padding = "5px 10px"
+li.style.backgroundColor = "#eee"
+li.querySelector(".msg").style.display=""
+$('.relationInfo').show();
+$('.relationInfo').html(`<h3 class="searchInstructions">${p.name} is related to</h3><ul id="${p.id}" class="related"></ul>`);
+$('.noRels').show();
+$('.result-list').show();
+$('.result-list').html(p.name + " " + " is realted to:")
+
+ancestors=get_remembered_ancestors()
+ancestors[p.id]=p
+remember_ancestors(ancestors)
+//console.log("p.id",p.id)
+find_relationships(p.id)
+}
+
+function fill(){
+return
+//console.log("fill")
+document.getElementsByName("given")[0].value="Gary"
+document.getElementsByName("surname")[0].value="Allen"
+document.getElementsByName("birthLikeDateBegin")[0].value="1937"
+document.getElementsByName("deathLikeDateBegin")[0].value="1996"
+}
+
+async function set_search_ancestor(clicked=true){
+//console.log(0)
+
+if(localStorage.getItem("searchMethod")==="ancestor" && 
+   localStorage.getItem("ancestors") && 
+   Object.keys(localStorage.getItem("ancestors")).length>0 &&
+   tag("panel-ancestor").style.display===""
+  ){
+    //console.log(1)
+    if(clicked){
+        //console.log(2)
+        location.href = 'relatives.html'
+    }
+}else{
+    show_panel('panel-ancestor')
+}
+remember_search_method('ancestor')
+}
+
+async function set_search_myself(clicked=true){
+// check to see if see we are logged in
+const access_token = localStorage.getItem("accessToken")
+if(await logged_in()){
+    //console.log("logged in =============================")
+    if(localStorage.getItem("searchMethod")==="myself"){
+        //we are logged in and we are searching as self, just search
+        if(clicked){
+            location.href = 'relatives.html'
+        }
+    }else{
+        show_panel('panel-myself');
+        $("#myself-login").hide()
+        $("#myself-logout").show()
+        $("#myself-search").show()                    
+    }
+}else{
+    //console.log("============================ logged out")
+    show_panel('panel-myself');
+}
+remember_search_method('myself')
+
+}
+
+function show_panel(panel_id){
+$(".panel").hide()
+$("#"+panel_id).show()
+}
+
+function remember_search_method(search_method){
+//console.log("setting search method", search_method)
+localStorage.setItem("searchMethod", search_method)
+}
+
+function logout_from_familysearch(){
+//console.log("logging out")
+api("platform/logout","none",{method:"POST"})
+localStorage.setItem("unauthenticatedToken",localStorage.getItem("authenticatedToken"))
+localStorage.removeItem("authenticatedToken")
+$("#myself-login").show()
+$("#myself-logout").hide()
+$("#myself-search").hide()                    
+}
 
 initialize()
