@@ -8,6 +8,10 @@ let relatives_found = 0
 
 
 async function initialize(){
+ 
+ refresh_unauthenticated_token()
+ 
+ 
  // check to see if we have a localStorage item of  apiCode
  // if so, we are coming in from a authRedirect.  need to get the token
  const apiCode = localStorage.getItem("apiCode")
