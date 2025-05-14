@@ -62,7 +62,10 @@ function fillFromBlogger() {
     })
     .then(function (response) {
       global.group = getPostJson(response);
-      console.log("global.group", global.group);
+      console.log(
+        "+++++++++++++++++++++++++++global.group+++++++++++++++++++++++++++++",
+        global.group
+      );
       tag("group-name").value = global.group.name;
       tag("group-name").dataset.id = "name";
       tag("group-location-label").value = global.group.locationLabel;
@@ -72,6 +75,7 @@ function fillFromBlogger() {
 
       const { option, div } = van.tags;
 
+      bringInGroup();
       // bring in the list of sets
       for (const set of global.group.searchSets) {
         const opt = option({ value: set.set_id }, set.title);
@@ -80,6 +84,13 @@ function fillFromBlogger() {
       // Auto fill Set-Info
       chooseSearchSet();
     });
+}
+
+function bringInGroup() {
+  //we can find the group from the url
+  //pass the group id to the function to get the group data
+  const x = window.location.pathname.split("/");
+  const year_month = `${x[1]}/${x[2]}`;
 }
 
 function chooseSearchSet() {
