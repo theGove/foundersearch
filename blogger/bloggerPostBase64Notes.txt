@@ -9,6 +9,9 @@ be sure the the first line of hte file is something like
 
 curl.exe -L  --data-binary '@bloggerAPI.js' DELOYMENT_URL_FROM_APPS_SCRIPT
 
+######################################
+to run from comandline using script
+######################################
 
 from powershell, enter a bash shell by executing shell
 change directories into the blogger folder
