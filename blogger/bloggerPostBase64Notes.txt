@@ -8,3 +8,8 @@ be sure the the first line of hte file is something like
 //:8123248186365035307:1348435392098232568: this is the blog id and post id
 
 curl.exe -L  --data-binary '@bloggerAPI.js' DELOYMENT_URL_FROM_APPS_SCRIPT
+
+
+from powershell, enter a bash shell by executing shell
+change directories into the blogger folder
+execute: ./publish api.js

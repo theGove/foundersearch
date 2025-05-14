@@ -111,11 +111,18 @@ console.log("data",data)
             tag("center-box").style.display="none"
 
             //decide what to show
-              if(localStorage.getItem('searchMethod')){
+            if(localStorage.getItem('searchMethod')){
                // a search method is already established, show results
+               hide(".pane")
+               show("search-results")
                console.log("trying to show results")  
             }else{
-               tag("search-method").style.display="block"
+               console.log("hiding all panes")
+               hide(".pane")
+               console.log("showing search-method")
+               show("search-method")
+               console.log("done showing search-method")
+               //tag("search-method").style.display="block"
                // no search method established, show person selector
                console.log(data)
                for(const searchMethod of data.searchMethods){
@@ -145,14 +152,16 @@ function getSetNameFromSearch(){
 
 function tag(id){return document.getElementById(id)}
 function nam(id){return document.getElementsByName(id)[0]}
-function hide(elem){show(elem,"none")}
+function hide(elem_or_query_selector){show(elem_or_query_selector,"none")}
 function show(elem_or_query_selector, display=""){
     // takes an element or tag array or querySelector string and shows or hides all matching
     let elems=elem_or_query_selector
     if(typeof elems === 'string'){
         elems=document.querySelectorAll(elem_or_query_selector)
     }
+    console.log("elems.length", elems.length, elems)
     if(elems.length){
+
         for(const elem of elems){
             elem.style.display=display
         }
@@ -222,11 +231,13 @@ async function searchAncestor() {
    }
 
    const search=await api('platform/tree/search?' + URL + "&count=20",authenticated, {headers:{Accept: "application/json"}})
-   //console.log("search", search)
+   console.log("search", search)
    for (let i = 0; i < search.entries.length; i++) {
-       p = search.entries[i].content.gedcomx.persons[0].display;
-       p.id = search.entries[i].content.gedcomx.persons[0].id;
-       place_ancestor(p, ancestors, authenticated)
+      console.log("search.entries[i]",i, search.entries[i])
+      p = search.entries[i].content.gedcomx.persons[0].display;
+      p.id = search.entries[i].content.gedcomx.persons[0].id;
+      tag("results").replaceChildren()
+      place_ancestor(p, ancestors, authenticated)
       
    }
 }
@@ -321,7 +332,7 @@ async function api(path, authenticated="either", options={method:"GET"}){
   
   
   async function unauthenticated_token_is_valid(){
-    debugger
+    //debugger
     const access_token = localStorage.getItem("unauthenticatedToken")
     if(!access_token){
         //console.log ("Not Valid: No Access Token")
@@ -361,9 +372,9 @@ async function api(path, authenticated="either", options={method:"GET"}){
 
   async function place_ancestor(p, ancestors, authenticated){
     const access_token = await get_access_token()
-    
-    //console.log("at place ancestors")
-    if (p.birthPlace == undefined) p.birthPlace = "";
+    //debugger
+    console.log("at place ancestors",p)
+    if (p.birthPlace === undefined) p.birthPlace = "";
     
     let birthYear = (p.birthDate) ? new Date(p.birthDate).getUTCFullYear() : "";
     let deathYear = (p.deathDate) ? new Date(p.deathDate).getUTCFullYear() : "";
@@ -381,22 +392,24 @@ async function api(path, authenticated="either", options={method:"GET"}){
     
     let image_clause = null
     if(authenticated===true){
-       image_clause = img({class:"portrait", src:`https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${access_token}`})
+       image_clause = img({class:"portrait", src:`https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${access_token}`,onerror:logit}) 
     }else if(authenticated){
         image_clause = img({class:"portrait", src:`https://api.familysearch.org/platform/tree/persons/${p.id}/portrait?default=${portrait}&access_token=${authenticated}`})
     }else{
-        image_clause = img({ class:`"portrait" src:"${portrait}"`,onerror:"this.onerror = null; this.src = 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*2B0CcKDE1hAm7cJErdp5XA.png"})
+      const {use,svg} = van.tags("http://www.w3.org/2000/svg")
+        image_clause = svg({height:'30', width:'30'})
+        image_clause.innerHTML=`<use xlink:href="#${p.gender.toLowerCase()}"></use>`
+      
     }
     
-
     tag("results").appendChild(
-        li({class:"result", "data-record":btoa(JSON.stringify(p)), "data-id":p.id},
+        li({onclick:function(){console.log(33)}, class:"result", "data-record":btoa(JSON.stringify(p)), "data-id":p.id},
             div({class:"person"},
-                div(image_clause),
-                div(
+                div({class:"portrait-container"},image_clause),
+                div({class:"details"},
                     div({class:"name"},`${p.name} ${age}`),
-                    div(span({style:"text-decoration:underline"},"Born:"),`${p.birthDate||""}${p.birthPlace?", ":""}`),
-                    div(span({style:"text-decoration:underline"},"Died:"),`${p.deathDate||""}${p.deathPlace?", ":""}`),
+                    div({class:"date-place"},span(span({class:"born"},"Born:")),`${p.birthDate||""} ${p.birthPlace||""}`),
+                    div({class:"date-place"},span({class:"died"},"Died:"),`${p.deathDate||""} ${p.deathPlace||""}`),
                 )
             )
         )
@@ -412,7 +425,21 @@ async function api(path, authenticated="either", options={method:"GET"}){
     // </div></div>
     // </li>`)
     }
-    
+
+    function treeSearch(){
+      
+        console.log("treeSearch called")
+        show_panel('search-results')
+        searchAncestor()
+
+    }
+
+
+
+    function show_panel(panel_id){
+      $(".panel").hide()
+      $("#"+panel_id).show()
+    }    
 
     ///////////////////////////////////////////////////////////////////////
    //                                                                   //
