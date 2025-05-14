@@ -16,3 +16,4 @@ to run from comandline using script
 from powershell, enter a bash shell by executing shell
 change directories into the blogger folder
 execute: ./publish api.js
+//tia test
