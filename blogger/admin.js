@@ -5,10 +5,10 @@ const global = {
   set: null,
   person: null,
   deploymentId:
-    "AKfycbxFOaNeDngQ3HaxGEnjRAuRtlqyQRDZvEfySDWTCHN8cwR7RGDtbe1TPXKlgLXEXoQ",
+    "AKfycbz6V1BZEk7iPDGqlzZl0go8fvbnqWhRv88eC4RzZMzuXxC6fa4snVnENIcIYuPwq8aP",
 };
 
-function ButtonTest(evt) {
+function pubEditToggle(evt) {
   console.log("ButtonTest clicked", evt.target.checked);
 
   if (evt.target.checked) {
@@ -34,11 +34,13 @@ function authInit() {
 function fillFromDynamoDB() {
   const url = `https://script.google.com/macros/s/${global.deploymentId}/exec`;
 
+  //these are hard coded for now, but we will need to collect info form the user
   const body = JSON.stringify({
     // token: tag("auth").value,
-    mode: "getSetData",
-    group: "founderSearch",
-    set: "salem",
+    token: "v5eZobI5vD0NkY7",
+
+    year_month: "1976/07",
+    mode: "buildGroupInfoJson",
   });
 
   fetch(url, { body: body, method: "POST" })
@@ -62,10 +64,7 @@ function fillFromBlogger() {
     })
     .then(function (response) {
       global.group = getPostJson(response);
-      console.log(
-        "+++++++++++++++++++++++++++global.group+++++++++++++++++++++++++++++",
-        global.group
-      );
+      console.log("+++++++++++++global.group+++++++++++++", global.group);
       tag("group-name").value = global.group.name;
       tag("group-name").dataset.id = "name";
       tag("group-location-label").value = global.group.locationLabel;
@@ -75,7 +74,7 @@ function fillFromBlogger() {
 
       const { option, div } = van.tags;
 
-      bringInGroup();
+      //bringInGroup();
       // bring in the list of sets
       for (const set of global.group.searchSets) {
         const opt = option({ value: set.set_id }, set.title);
@@ -87,6 +86,7 @@ function fillFromBlogger() {
 }
 
 function bringInGroup() {
+  console.log("BRING IN GROUP HAS BEEN CALLED");
   //we can find the group from the url
   //pass the group id to the function to get the group data
   const x = window.location.pathname.split("/");
@@ -108,7 +108,7 @@ function chooseSearchSet() {
       return a.text();
     })
     .then(function (response) {
-      console.log(response);
+      //console.log(response); //curently prints the entire html page
       global.set = getPostJson(response);
       console.log("global.set", global.set);
       tag("set-title").value = global.set.title;
