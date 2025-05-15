@@ -5,7 +5,7 @@ const global = {
   set: null,
   person: null,
   deploymentId:
-    "AKfycbz6V1BZEk7iPDGqlzZl0go8fvbnqWhRv88eC4RzZMzuXxC6fa4snVnENIcIYuPwq8aP",
+    "AKfycbwFq0KEKxOBw8DPl_1kGrEop7C1nKIgCkh6d7Z1GUGviEGJ_PcPItZ5Gje0FK1R4seW",
 };
 
 function pubEditToggle(evt) {
@@ -27,19 +27,21 @@ function authInit() {
   if (!auth) {
     return;
   }
-
-  fillFromBlogger();
+  //*but this back in later. it is out so i can see if calling from ddb works
+  //fillFromBlogger();
 }
 
 function fillFromDynamoDB() {
   const url = `https://script.google.com/macros/s/${global.deploymentId}/exec`;
 
+  const current_url_split = window.location.pathname.split("/");
+  const year_month = `${current_url_split[1]}/${current_url_split[2]}`;
+
   //these are hard coded for now, but we will need to collect info form the user
   const body = JSON.stringify({
     // token: tag("auth").value,
     token: "v5eZobI5vD0NkY7",
-
-    year_month: "1976/07",
+    year_month: year_month,
     mode: "buildGroupInfoJson",
   });
 
@@ -49,8 +51,18 @@ function fillFromDynamoDB() {
     })
     .then(function (response) {
       console.log("response---", response);
-      const data = JSON.parse(response);
-      console.log("data", data);
+      const dataX = JSON.parse(response);
+      console.log("data", dataX);
+
+      // global.group = dataX.data.set_info.Items; //keep for now. this is how we access the list of searchSets
+      global.group = dataX.data;
+
+      //*Here is our issue. - TODO - we are remaking the DDB
+      //DDB has labels that does not match blooger so the code to write to html (tag().x) don't work with it.
+      //SOLUTION: take the DDB datablock and push it into a new datablock with consitant keys of blogger.
+      //------- so far we are dealing with this in Google Apps Script, in Code.gs
+      console.log("--------global.group-----------", global.group);
+      fillGroupInformation(global.group);
     });
 }
 
@@ -65,16 +77,10 @@ function fillFromBlogger() {
     .then(function (response) {
       global.group = getPostJson(response);
       console.log("+++++++++++++global.group+++++++++++++", global.group);
-      tag("group-name").value = global.group.name;
-      tag("group-name").dataset.id = "name";
-      tag("group-location-label").value = global.group.locationLabel;
-      tag("group-location-label").dataset.id = "locationLabel";
-      tag("group-location-size").value = global.group.locationSize;
-      tag("group-location-size").dataset.id = "locationSize";
+      fillGroupInformation(global.group);
 
       const { option, div } = van.tags;
 
-      //bringInGroup();
       // bring in the list of sets
       for (const set of global.group.searchSets) {
         const opt = option({ value: set.set_id }, set.title);
@@ -85,13 +91,17 @@ function fillFromBlogger() {
     });
 }
 
-function bringInGroup() {
-  console.log("BRING IN GROUP HAS BEEN CALLED");
-  //we can find the group from the url
-  //pass the group id to the function to get the group data
-  const x = window.location.pathname.split("/");
-  const year_month = `${x[1]}/${x[2]}`;
+function fillGroupInformation(json) {
+  tag("group-name").value = json.name;
+  tag("group-name").dataset.id = "name";
+  tag("group-location-label").value = json.locationLabel;
+  tag("group-location-label").dataset.id = "locationLabel";
+  tag("group-location-size").value = json.locationSize;
+  tag("group-location-size").dataset.id = "locationSize";
 }
+
+function bringInSetDDB() {}
+function bringInPersonDDB() {}
 
 function chooseSearchSet() {
   tag("set-people").replaceChildren();
@@ -148,6 +158,10 @@ function choosePerson() {
   tag("person-desc").dataset.id = "desc";
 }
 
+function chooseSearchBy() {
+  //*THis needs to be made so that the user can filter how they search, Both, Dead, Living
+}
+
 function getPostJson(html) {
   // gove tried to make this work with doc parser, but the json just disappeared.
   return JSON.parse(
@@ -184,6 +198,14 @@ function tag(id) {
 
 authInit();
 
+//
+//
+//
+//
+//
+//
+//
+//
 ///////////////////////////////////////////////////////////////////////
 //                                                                   //
 //   Old Code.  let it age before it gets deleted....                //
