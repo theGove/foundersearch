@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js" integrity="sha512-CSBhVREyzHAjAFfBlIBakjoRUKp5h7VSweP0InR/pAJyptH7peuhCsqAI/snV+TwZmXZqoUklpXp6R6wMnYf5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    <script>
+        async function init(){
+            console.log("init");
+            data = {name:"john"}
+            console.log(jsyaml.dump(data))
+            while(await updateOne()){}
+
+        }
+        async function updateOne(){
+            const deploymentId="AKfycbzrk6z6JPlhVMFaX7uTCA7RWfN_Sddl2waveoL-M202NTWje26S8B2bxPpVB4jvjvbi"
+            const url=`https://script.google.com/macros/s/${deploymentId}/exec`
+            console.log(url)
+            const options = {
+                method: "POST",
+                body: JSON.stringify({ mode: "yaml" })
+            };
+            let response = await fetch(url, options);
+            let task = await response.json();
+            console.log(task)
+
+            if (!task.data.json){
+                return false
+            }
+
+            options.body = JSON.stringify({
+                mode: "yaml",
+                row:task.data.row,
+                yaml:jsyaml.dump(JSON.parse(task.data.json))
+            })
+            response = await fetch(url, options);
+            task = await response.json();
+            console.log(task)
+            return true
+
+        }
+    </script>
+</head>
+<body onload="init()">
+    
+</body>
+</html>

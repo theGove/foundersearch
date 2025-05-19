@@ -1,4 +1,7 @@
 //:8123248186365035307:1348435392098232568: this is the blog id and post id
+let setData=null// the search set object from a differnt post
+const{li,div,img,span,br,ul,a}=van.tags()
+
 const  appKey = atob("YjBLN1JXUVNKVUQ4QQ")
 const redirect = encodeURIComponent(window.location.origin + "/1970/01/auth.html")
 const authUrl = `https://ident.familysearch.org/cis-web/oauth2/v3/authorization?response_type=code&client_id=${appKey}&redirect_uri=${redirect}`
@@ -58,16 +61,6 @@ async function setFsToken(code){
       //console.log("user",user)
       localStorage.setItem("user", JSON.stringify(user))
       localStorage.removeItem("apiCode")
-
-
-
-
-
-
-
-
-
-
  
 }
 
@@ -75,7 +68,7 @@ async function setFsToken(code){
 function showPage(){
  console.log("at showpage") 
   const data = JSON.parse(tag(`post-json`).innerHTML)
-console.log("data",data)
+  console.log("data",data)
   if(!data.searchMethods){data.searchMethods=["living","dead"]}
   tag("location").replaceChildren(data.locationLabel)
   tag("head-location").replaceChildren(data.locationLabel)
@@ -98,29 +91,25 @@ console.log("data",data)
   const pathArray = location.pathname.split("/") 
   pathArray.length=3
   pathArray.push(setName+ ".html")
-  console.log("url-->",pathArray.join("/"))
-  console.log("location.pathname-->",location.pathname)
-  console.log("setName-->",setName)
   fetch(pathArray.join("/")).then(function(response){return response.text()})
         .then(function(html){
               console.log("set---", html)		
             doc = new DOMParser().parseFromString(html,`text/xml`)
-            const setData = JSON.parse(doc.getElementById("post-json").innerHTML)
-            console.log(setData)
+            setData = JSON.parse(doc.getElementById("post-json").innerHTML)
             tag("heading").style.display="block"
             tag("center-box").style.display="none"
 
             //decide what to show
             if(localStorage.getItem('searchMethod')){
-               // a search method is already established, show results
-               hide(".pane")
-               show("search-results")
-               console.log("trying to show results")  
+
+               // a search method is already established, the set and build the results
+                    search()
+               
             }else{
                console.log("hiding all panes")
                hide(".pane")
                console.log("showing search-method")
-               show("search-method")
+               show(tag("search-method"))
                console.log("done showing search-method")
                //tag("search-method").style.display="block"
                // no search method established, show person selector
@@ -137,7 +126,227 @@ console.log("data",data)
 
 }//end of show page
 
-function search(){}
+
+
+
+
+
+async function find_relationships(id) {
+    //console.log("find rels", id)
+    // Iterate person list
+    searches_started=0
+    searches_complete=0
+    relatives_found=0
+    //console.log("start", relatives_found)        
+    
+  
+    let access_token=null
+    if(localStorage.getItem("searchMethod")==="myself"){
+        access_token = await get_access_token(true)
+        if(!access_token){
+            return
+        }
+    }else{
+        
+        access_token = await get_access_token()
+    }
+  
+  
+    setData.people.forEach(async function(key, idx, array) {
+        if (key.pid == "") return;
+  
+        let path=null
+        if(localStorage.getItem("searchMethod")==="myself"){
+            path = 'platform/tree/persons/CURRENT/relationships/' + key.pid
+        }else{
+            path = 'platform/tree/persons/' + id + '/relationships/' + key.pid
+        }
+  
+  
+  
+        //console.log("key----->", key)
+        // Calculate relationship
+        //console.log("source pid", id, access_token)
+        const options = {headers: {Authorization: 'Bearer ' + access_token}}
+        searches_started++
+        await fetch("https://api.familysearch.org/" + path, options).then(function(rsp) {
+            searches_complete++
+  
+            if(searches_complete===searches_started){
+                // we are done
+                //console.log("done", relatives_found)        
+                if(relatives_found===0){
+                    let message=`<h2>No Relationship found</h2><p>Well, we did not find any relationships.  But don't feel too bad; here in America, we care more about what <b>you</b> do than what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
+                    let event_data = localStorage.getItem("eventData")
+                    if(event_data){ 
+                        event_data=JSON.parse(event_data)
+                        if(event_data.notFound){
+                            message += event_data.notFound 
+                        }
+                    }
+                    //$('.relationInfo').html(message)    
+                    //$('.searchInstructions').hide()    
+                }
+            }
+                // Handle no relationship case
+                if (rsp.status === 204){ 
+                    return {persons: []};
+                }else if(rsp.status === 401){
+                    //console.log("========================unauthorized====================")
+                    if(localStorage.getItem("searchMethod")==="myself"){
+                        localStorage.removeItem("authenticatedToken")
+                        localStorage.removeItem("authenticatedTokenTime")
+                    }else{
+                        localStorage.removeItem("unauthenticatedToken")
+                        localStorage.removeItem("unauthenticatedTokenTime")
+                    }
+                    location.reload()
+                }
+                
+                return rsp.json();
+            })
+            .then(async function(rsp) {
+                //console.log("---------------------------",rsp.persons.length)
+                //console.log(rsp)
+                if (rsp.persons.length === 0) return;
+                relatives_found++
+                //$('.noRels').hide();
+  
+                // Get relationship title
+                let type = rsp.persons[rsp.persons.length - 1].display.relationshipDescription.split("My ")[1];
+  
+                const level=key.level||get_level(type)
+                //console.log("level", level)
+                let portrait = "https://foundersearch.colonialheritage.org/images/male.svg";
+                if (key.gender == "Female") portrait = "https://foundersearch.colonialheritage.org/images/female.svg";
+            
+                const image_clause = img({class:"portrait"})
+  
+                if(await logged_in()){
+                   image_clause.src=`"https://api.familysearch.org/platform/tree/persons/${key.pid}/portrait?default=${portrait}&access_token=${access_token}"`
+                }else{
+                    // here we need to build the link to the local copy of the ancestor picture
+                    if(key.imageURL){
+                        image_clause.src=key.imageURL
+                    }else{
+                        image_clause.src=key.portrait
+                    }
+                    
+                }
+                const image_url = "https://ancestors.familysearch.org/en/" + key.pid
+                const relativeLi=li({id:`rel-${key.pid}`},
+                    div({class:"person"},
+                        div(
+                            a({href:key.url},image_clause)
+                        ), 
+                        div(
+                            a({href:`https://ancestors.familysearch.org/en/${key.pid}`, target:"_blank"},
+                                        span({class:"name"},key.name),
+                            ),
+                            span({onclick:show_path, class:"show-tree"},` (${type})`),
+                        
+                            div({class:"tree", style:"display:none"},get_path(rsp)),
+                            div(
+                                span({class:"cousinDesc"},key.desc)
+                            )
+                        )
+                    )
+                )
+                relativeLi.dataset.id=key.pid
+                relativeLi.dataset.level=level
+                place_relative(id,level,relativeLi)
+            })
+    })
+  }
+  
+
+
+  async function search() {
+    hide(".pane")
+    show(tag("search-results"))
+
+    console.log(" At Search - - - trying to show results", setData)  
+
+
+
+    const searchPersons = JSON.parse(localStorage.getItem("searchPersons"))
+    let token = localStorage.getItem("authenticatedToken")
+    const searchMethod = localStorage.getItem("searchMethod")
+    if(searchMethod==="ancestor"){
+        token = localStorage.getItem("unauthenticatedToken")
+    }
+
+
+
+
+
+
+
+    // Get event info.  Need to reintegrate this
+    //let event = new URLSearchParams(window.location.search).get('event');
+    //google_form()  // need to uncomment this
+    // if(event){
+    //     if(!event.startsWith("http")){event = "events/"+event+".json"}
+    //     fetch(event)
+    //     .then(response => response.json())
+    //     .then(event_data => {
+    //         localStorage.eventData=JSON.stringify(event_data)
+    //     });
+
+    // }    
+
+    refresh_unauthenticated_token()  // not sure we need this here.
+
+    const ancestors=get_remembered_ancestors()
+
+
+
+
+    
+    tag('setTitle').innerHTML = setData.title
+    tag('setDesc').innerHTML = setData.desc
+
+    tag('banner').style.backgroundImage=`url(${setData.banner})`
+
+    // $('body').attr('style', 'background-color: ' + data.backgroundColor + '; color: ' + data.textColor + ';');
+
+
+    // if(localStorage.getItem("searchMethod")==="myself"){
+    //     const user=JSON.parse(localStorage.getItem("user"))
+    //     launch_relationships(user.person)
+    // }else{
+    //     for(const ancestor of Object.values(ancestors) ){
+    //         launch_relationships(ancestor)
+    //     }
+    // }
+
+    // now launch the search for relationships.
+    for(const searchPerson of searchPersons){
+        console.log("searchPerson", searchPerson)
+        //for(const person of setData.people){
+            launch_relationships(searchPerson)
+        //}   
+       
+    } 
+ 
+
+    
+}
+
+function launch_relationships(ancestor){
+    //console.log("clicked", ancestor)
+    tag("setResults").appendChild(
+        div({class:"relative-header"}, ancestor.name + " is related to:")
+    )
+    tag("setResults").appendChild(
+        div({id:"results-"+ancestor.id}, 
+            ul({id:ancestor.id, class:"related"})
+        )
+    )
+
+    find_relationships(ancestor.id)
+}
+
 
 
 
@@ -160,7 +369,7 @@ function show(elem_or_query_selector, display=""){
         elems=document.querySelectorAll(elem_or_query_selector)
     }
     console.log("elems.length", elems.length, elems)
-    if(elems.length){
+    if(elems.length !== undefined){
 
         for(const elem of elems){
             elem.style.display=display
@@ -388,7 +597,6 @@ async function api(path, authenticated="either", options={method:"GET"}){
     let portrait = "/images/male.svg";
     if (p.gender == "Female") portrait = "/images/female.svg";
 
-    const{li,div,img,span,br}=van.tags()
     
     let image_clause = null
     if(authenticated===true){
@@ -403,7 +611,7 @@ async function api(path, authenticated="either", options={method:"GET"}){
     }
     
     tag("results").appendChild(
-        li({onclick:function(){console.log(33)}, class:"result", "data-record":btoa(JSON.stringify(p)), "data-id":p.id},
+        li({onclick:setSearchAncestor, class:"result", "data-record":btoa(JSON.stringify(p)), "data-id":p.id},
             div({class:"person"},
                 div({class:"portrait-container"},image_clause),
                 div({class:"details"},
@@ -426,11 +634,21 @@ async function api(path, authenticated="either", options={method:"GET"}){
     // </li>`)
     }
 
-    function treeSearch(){
+    function setSearchAncestor(evt){
       
-        console.log("treeSearch called")
-        show_panel('search-results')
-        searchAncestor()
+        console.log("treeSearch called",evt.target)
+        let elem=evt.target
+        while(elem.className !== "result"){
+            elem=elem.parentElement
+        }
+        const ancestor = JSON.parse(atob(elem.dataset.record))
+        console.log("elem", ancestor)
+        localStorage.setItem("searchMethod", "ancestor")
+        const searchPersons = localStorage.getItem("searchPersons") || []
+        searchPersons.push({name:ancestor.name,id:ancestor.id})
+        localStorage.setItem("searchPersons", JSON.stringify(searchPersons))
+        search()
+        
 
     }
 
@@ -440,6 +658,87 @@ async function api(path, authenticated="either", options={method:"GET"}){
       $(".panel").hide()
       $("#"+panel_id).show()
     }    
+
+
+    function get_path_direct(elem){ 
+
+        const table=[`<table class="tree" style="margin:1rem 0">`]
+        
+        for(let x=elem.persons.length-1;x>0;x--){
+            const person = elem.persons[x]
+            //console.log("person", person.display.name)
+            table.push(`<tr><td class="${person.gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${person.id}">${person.display.name}</a></td></tr>`)
+            table.push(`<tr><td>|</td></tr>`)
+      
+        }
+        table.pop()
+        table.push("</table>")
+        return table.join("")
+      
+      }
+      
+      function get_path_cousin(elem){ 
+      
+        const rels=elem.relationships
+        const lines=[[],[]]
+        let workingon=0
+        for(let x=0;x<rels.length-1;x++){
+            lines[workingon].push(elem.persons[x])
+            if(rels[x].person1.resourceId===rels[x+1].person1.resourceId){
+                // the common ancestor
+                //console.log(x, rels[x].person1.resourceId, elem.persons[x] )
+                //lines[workingon].push(elem.persons[x+1])
+                workingon=1
+            }
+        }
+        lines[1].push(elem.persons[rels.length-1])
+        lines[1].push(elem.persons[elem.persons.length-1])
+        //console.log(lines)
+        const pappy=lines[1].shift()
+        const table=[`<table class="tree" style="margin:1rem 0"><tr><td class="${pappy.gender.type.endsWith("Female")?"female":"male"}" colspan="3" style="text-align:center"><a target="_blank" href="https://ancestors.familysearch.org/en/${pappy.id}">${pappy.display.name}</a></td></tr>`]
+        for(let x=0;x<lines[0].length;x++){
+            table.push(`<tr><td>|</td><td>&nbsp;</td><td>${x<lines[1].length?"|":""}</td></tr>`)
+            table.push(`<tr><td class="${lines[0][lines[0].length-1-x].gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${lines[0][lines[0].length-1-x].id}">${lines[0][lines[0].length-1-x].display.name}</a></td><td>&nbsp;</td>`)
+            if(x<lines[1].length){
+                table.push(`<td class="${lines[1][x].gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${lines[1][x].id}">${lines[1][x].display.name}</a>`)
+            }else{
+                table.push("<td>")
+            }
+            table.push("</td></tr>")
+      
+        }
+        table.push("</table>")
+        return table.join("")
+      
+      }
+      
+      
+      function get_path(elem){ 
+        const rel_name = elem.persons[elem.persons.length-1].display.relationshipDescription 
+        if(rel_name.endsWith("father") || rel_name.endsWith("mother")){
+            return get_path_direct(elem)
+        }else{
+            return get_path_cousin(elem)
+        }
+      
+      }
+      
+      function show_path(evt){ 
+        let elem=evt.target
+        while(elem.className !== "person"){
+            elem=elem.parentElement
+        }
+        const tree_div=elem.querySelector(".tree")
+        //console.log(tree_div.style.display, tree_div.style.display==="none")
+        if(tree_div.style.display==="none"){
+            //console.log("changing")
+            tree_div.style.display="block"
+        }else{
+            tree_div.style.display="none"
+        }
+        
+      }
+      
 
     ///////////////////////////////////////////////////////////////////////
    //                                                                   //
@@ -496,202 +795,7 @@ async function logged_in(){
 }
 
 
-function get_path_direct(elem){ 
 
-  const table=[`<table class="tree" style="margin:1rem 0">`]
-  
-  for(let x=elem.persons.length-1;x>0;x--){
-      const person = elem.persons[x]
-      //console.log("person", person.display.name)
-      table.push(`<tr><td class="${person.gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${person.id}">${person.display.name}</a></td></tr>`)
-      table.push(`<tr><td>|</td></tr>`)
-
-  }
-  table.pop()
-  table.push("</table>")
-  return table.join("")
-
-}
-
-function get_path_cousin(elem){ 
-
-  const rels=elem.relationships
-  const lines=[[],[]]
-  let workingon=0
-  for(let x=0;x<rels.length-1;x++){
-      lines[workingon].push(elem.persons[x])
-      if(rels[x].person1.resourceId===rels[x+1].person1.resourceId){
-          // the common ancestor
-          //console.log(x, rels[x].person1.resourceId, elem.persons[x] )
-          //lines[workingon].push(elem.persons[x+1])
-          workingon=1
-      }
-  }
-  lines[1].push(elem.persons[rels.length-1])
-  lines[1].push(elem.persons[elem.persons.length-1])
-  //console.log(lines)
-  const pappy=lines[1].shift()
-  const table=[`<table class="tree" style="margin:1rem 0"><tr><td class="${pappy.gender.type.endsWith("Female")?"female":"male"}" colspan="3" style="text-align:center"><a target="_blank" href="https://ancestors.familysearch.org/en/${pappy.id}">${pappy.display.name}</a></td></tr>`]
-  for(let x=0;x<lines[0].length;x++){
-      table.push(`<tr><td>|</td><td>&nbsp;</td><td>${x<lines[1].length?"|":""}</td></tr>`)
-      table.push(`<tr><td class="${lines[0][lines[0].length-1-x].gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${lines[0][lines[0].length-1-x].id}">${lines[0][lines[0].length-1-x].display.name}</a></td><td>&nbsp;</td>`)
-      if(x<lines[1].length){
-          table.push(`<td class="${lines[1][x].gender.type.endsWith("Female")?"female":"male"}"><a target="_blank" href="https://ancestors.familysearch.org/en/${lines[1][x].id}">${lines[1][x].display.name}</a>`)
-      }else{
-          table.push("<td>")
-      }
-      table.push("</td></tr>")
-
-  }
-  table.push("</table>")
-  return table.join("")
-
-}
-
-
-function get_path(elem){ 
-  const rel_name = elem.persons[elem.persons.length-1].display.relationshipDescription 
-  if(rel_name.endsWith("father") || rel_name.endsWith("mother")){
-      return get_path_direct(elem)
-  }else{
-      return get_path_cousin(elem)
-  }
-
-}
-
-function show_path(span){ 
-  let elem=span
-  while(elem.className !== "person"){
-      elem=elem.parentElement
-  }
-  const tree_div=elem.querySelector(".tree")
-  //console.log(tree_div.style.display, tree_div.style.display==="none")
-  if(tree_div.style.display==="none"){
-      //console.log("changing")
-      tree_div.style.display="block"
-  }else{
-      tree_div.style.display="none"
-  }
-  
-}
-
-async function find_relationships(id) {
-  //console.log("find rels", id)
-  // Iterate person list
-  searches_started=0
-  searches_complete=0
-  relatives_found=0
-  //console.log("start", relatives_found)        
-  
-
-  let access_token=null
-  if(localStorage.getItem("searchMethod")==="myself"){
-      access_token = await get_access_token(true)
-      if(!access_token){
-          return
-      }
-  }else{
-      
-      access_token = await get_access_token()
-  }
-
-
-  data.people.forEach(async function(key, idx, array) {
-      if (key.pid == "") return;
-
-      let path=null
-      if(localStorage.getItem("searchMethod")==="myself"){
-          path = 'platform/tree/persons/CURRENT/relationships/' + key.pid
-      }else{
-          path = 'platform/tree/persons/' + id + '/relationships/' + key.pid
-      }
-
-
-
-      //console.log("key----->", key)
-      // Calculate relationship
-      //console.log("source pid", id, access_token)
-      const options = {headers: {Authorization: 'Bearer ' + access_token}}
-      searches_started++
-      await fetch("https://api.familysearch.org/" + path, options).then(function(rsp) {
-          searches_complete++
-
-          if(searches_complete===searches_started){
-              // we are done
-              //console.log("done", relatives_found)        
-              if(relatives_found===0){
-                  let message=`<h2>No Relationship found</h2><p>Well, we did not find any relationships.  But don't feel too bad; here in America, we care more about what <b>you</b> do than what your ancestors have done.</p><p style="font-weight:bold">Be someone great.</p>`
-                  let event_data = localStorage.getItem("eventData")
-                  if(event_data){ 
-                      event_data=JSON.parse(event_data)
-                      if(event_data.notFound){
-                          message += event_data.notFound 
-                      }
-                  }
-                  $('.relationInfo').html(message)    
-                  $('.searchInstructions').hide()    
-              }
-          }
-              // Handle no relationship case
-              if (rsp.status === 204){ 
-                  return {persons: []};
-              }else if(rsp.status === 401){
-                  //console.log("========================unauthorized====================")
-                  if(localStorage.getItem("searchMethod")==="myself"){
-                      localStorage.removeItem("authenticatedToken")
-                      localStorage.removeItem("authenticatedTokenTime")
-                  }else{
-                      localStorage.removeItem("unauthenticatedToken")
-                      localStorage.removeItem("unauthenticatedTokenTime")
-                  }
-                  location.reload()
-              }
-              
-              return rsp.json();
-          })
-          .then(async function(rsp) {
-              //console.log("---------------------------",rsp.persons.length)
-              //console.log(rsp)
-              if (rsp.persons.length === 0) return;
-              relatives_found++
-              $('.noRels').hide();
-
-              // Get relationship title
-              let type = rsp.persons[rsp.persons.length - 1].display.relationshipDescription.split("My ")[1];
-
-              const level=key.level||get_level(type)
-              //console.log("level", level)
-              let portrait = "https://foundersearch.colonialheritage.org/images/male.svg";
-              if (key.gender == "Female") portrait = "https://foundersearch.colonialheritage.org/images/female.svg";
-          
-              let image_clause = null
-
-              if(await logged_in()){
-                 image_clause = `<img class="portrait" src="https://api.familysearch.org/platform/tree/persons/${key.pid}/portrait?default=${portrait}&access_token=${access_token}">`
-              }else{
-                  // here we need to build the link to the local copy of the ancestor picture
-                  if(key.imageURL){
-                      image_clause = `<img class="portrait" src="${key.imageURL}">`
-                  }else{
-                      image_clause = `<img class="portrait" src="${portrait}">`
-                  }
-                  
-              }
-              const image_url = "https://ancestors.familysearch.org/en/" + key.pid
-
-              place_relative(id,level,`<li data-id="${key.pid}" id="rel-${key.pid}" data-level="${level}">
-  <div class="person"><div>
-  <a href="${key.url?key.url:image_url}" target="_blank">
-  ${image_clause}</a><a href="https://ancestors.familysearch.org/en/${key.pid}" target="_blank">
-  </div><div><div><span class="name">${key.name}</span></a>
-  <span onclick="show_path(this)" class="show-tree"> (${type})</span></div>
-  <div class="tree" style="display:none">${get_path(rsp)}</div>
-  <div><span class="cousinDesc">${key.desc}</span></div>
-  </div></div>
-  </li>`)
-          })
-  })
-}
 
 function uuidv4() {
   return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
@@ -725,10 +829,10 @@ function google_form(obj={}){
 
 }
 
-function place_relative(id,level, div_html){
+function place_relative(id,level, div){
 
   //find first id with higher number
-
+  console.log("placing_relative", id, level)
   let elem=null
   let node_count=0
   for(const div of tag(id).childNodes){
@@ -743,10 +847,10 @@ function place_relative(id,level, div_html){
   
   if(elem===null){
       //console.log("appending")
-      $('#'+id).append(div_html)
+      tag(id).appendChild(div)
   }else{
-      //console.log("inserting",elem.dataset.id,$("#" + elem.dataset.id))
-      $("#rel-" + elem.dataset.id).before(div_html)
+      console.log("inserting",elem.dataset.id,tag(elem.dataset.id))
+      tag("rel-" + elem.dataset.id).prepend(div)
   }
 }
 
@@ -822,7 +926,7 @@ remember_ancestors(ancestors)
 location.href="relatives.html"
 }
 
-async function launch_relationships(evt) {
+async function launch_relationships_config(evt) {
 // show the relationships on the config page.    
 tag("show-remembered-ancestors").style.display=""
 const li = evt.currentTarget
